@@ -1,0 +1,81 @@
+{
+  "before": {
+    "accepted_count": 1,
+    "active_count": 1,
+    "audience": "NORMAL",
+    "available_ap": 15,
+    "cards": 10,
+    "clan_id": "C001",
+    "clan_score": 0.0,
+    "extra_ap_used": 0,
+    "gems": 16545,
+    "gold": 16545,
+    "joined_at": 1793202019,
+    "normal_ap": 16,
+    "normal_cap": 24,
+    "pass_level": 0,
+    "pass_xp": 0,
+    "pending_chests": 0,
+    "player_id": "P001",
+    "premium": 0,
+    "queue_capacity": 20,
+    "recovery_at": 1793547619,
+    "reserve_ap": 16,
+    "reserve_cap": 16,
+    "reserved_ap": 1,
+    "reserved_slots": 1,
+    "season_contribution": 0.0,
+    "season_id": "202610",
+    "shop_ap_bought": 0,
+    "tokens": 0.0,
+    "tower_level": 10
+  },
+  "after": {
+    "accepted_count": 0,
+    "active_count": 0,
+    "audience": "NORMAL",
+    "available_ap": 15,
+    "cards": 10,
+    "clan_id": "C001",
+    "clan_score": 10.0,
+    "extra_ap_used": 0,
+    "gems": 16545,
+    "gold": 16645,
+    "joined_at": 1793202019,
+    "normal_ap": 15,
+    "normal_cap": 24,
+    "pass_level": 0,
+    "pass_xp": 1,
+    "pending_chests": 1,
+    "player_id": "P001",
+    "premium": 0,
+    "queue_capacity": 20,
+    "recovery_at": 1793547619,
+    "reserve_ap": 16,
+    "reserve_cap": 16,
+    "reserved_ap": 0,
+    "reserved_slots": 0,
+    "season_contribution": 10.0,
+    "season_id": "202610",
+    "shop_ap_bought": 0,
+    "tokens": 10.0,
+    "tower_level": 10
+  },
+  "result": {
+    "ok": true,
+    "result": {
+      "battle_id": "B1acfd294c2fd417d9e8d97de892be7bb",
+      "completed": [
+        {
+          "ap_spent": 1,
+          "box_id": "BOXab91ea1a70ac46d9b81ce640a3f434e3",
+          "instance_id": "A8cd4eb90e9d14de9a36d0ae38a85c383",
+          "settlement_id": "Rdb824b5b0e704110888ab1f1fa77a65c"
+        }
+      ],
+      "progress": [],
+      "valid": true
+    }
+  },
+  "entry": "Unity EventSystem accept, activate and battle button; admin supplies simulated battle facts"
+}

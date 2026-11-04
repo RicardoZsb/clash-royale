@@ -1,0 +1,17 @@
+{
+    "task_id": "111003",
+    "title": "试用卡组初体验",
+    "brief": "选择试用卡组完成1场",
+    "description": "从提供的3套等级统一试用卡组中选择1套，完成1场有效对局。",
+    "instance_id": "",
+    "status": "available",
+    "condition_json": "{\"trial\":true}",
+    "metric": "matches",
+    "tier": 1,
+    "target_count": 1,
+    "progress": 0,
+    "action_cost": 1,
+    "base_contribution": 10,
+    "max_attempts": 0,
+    "help_requested": false
+}

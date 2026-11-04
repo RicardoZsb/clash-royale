@@ -1,0 +1,28 @@
+{
+  "verified_local_date": "2026-11-02",
+  "backend_tests": {"passed": 25, "report": "Backend/Validation/auto-activation-tests.txt"},
+  "live_unity": {
+    "connected": true,
+    "accepted_tasks_before_and_after": 4,
+    "automatically_active_tasks": 4,
+    "normal_ap": 24,
+    "reserved_ap": 4,
+    "homepage_rule_saved_to_server": true,
+    "restored_rule_after_test": 0,
+    "force_single_task_pointer_event": "passed",
+    "cancel_force_pointer_event": "passed",
+    "remaining_forced_override_after_test": false,
+    "gift_circle_raycast": "passed",
+    "gift_circle_navigation_when_empty": "passed",
+    "pending_rewards_preview_extension_and_dot": true,
+    "empty_queue_extension_and_dot": false,
+    "all_four_tier_colors_visually_reviewed": true,
+    "console_errors": 0,
+    "compilation_failed": false
+  },
+  "tier_colors": {"1": "#D8E6F0", "2": "#DCEBCD", "3": "#E9D8F1", "4": "#F7E3B5"},
+  "ui_implementation": "Existing serialized uGUI components and prefabs; no runtime UI construction.",
+  "save_backup": "DesignReference/Backups/AutoActivation-20261102/clashroyale-before-auto.sqlite3",
+  "screenshots": ["home-empty.png", "home-reward-preview.png", "task-forced.png", "task-tier-colors.png"],
+  "preview_note": "Reward-present screenshot uses the existing indicator's preview method without adding chests to the player's save; color comparison temporarily shows one existing card per tier. Preview state was restored."
+}

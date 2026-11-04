@@ -1,0 +1,80 @@
+{
+  "checkedAtUtc": "2026-10-29T11:11:18.934Z",
+  "backupPath": "DesignReference\\Backups\\Anchors-20261029",
+  "scope": "All prefab, scene and metadata files present in the anchor backup",
+  "pass": true,
+  "counts": {
+    "prefabsChecked": 19,
+    "prefabsChanged": 17,
+    "scenesChecked": 1,
+    "metadataChecked": 21,
+    "metadataChanged": 0,
+    "rectTransformBlocksChanged": 318,
+    "rectTransformPrefabOverrideChanges": 107
+  },
+  "changedFiles": [
+    "ClashRoyaleUI.unity",
+    "Prefabs\\Components\\BottomNavigation.prefab",
+    "Prefabs\\Components\\ChestMergePair.prefab",
+    "Prefabs\\Components\\ClanChatInputField.prefab",
+    "Prefabs\\Components\\PassOverview.prefab",
+    "Prefabs\\Components\\RewardTabBar.prefab",
+    "Prefabs\\Components\\TaskActivationDropdown.prefab",
+    "Prefabs\\Components\\TaskSortDropdown.prefab",
+    "Prefabs\\Screens\\BattleHome.prefab",
+    "Prefabs\\Screens\\BattlePass.prefab",
+    "Prefabs\\Screens\\ChestQueue.prefab",
+    "Prefabs\\Screens\\ChestReveal.prefab",
+    "Prefabs\\Screens\\ClanChat.prefab",
+    "Prefabs\\Screens\\ClanChatInput.prefab",
+    "Prefabs\\Screens\\ClanCompetition.prefab",
+    "Prefabs\\Screens\\ClanHome.prefab",
+    "Prefabs\\Screens\\ClanShop.prefab",
+    "Prefabs\\Screens\\Tasks.prefab"
+  ],
+  "defaultPageChanges": [
+    {
+      "kind": "UIScreenRouter.currentScreen",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "kind": "Tasks.active",
+      "before": "1",
+      "after": "0"
+    },
+    {
+      "kind": "BattleHome.active",
+      "before": "0",
+      "after": "1"
+    }
+  ],
+  "unexpectedChanges": [],
+  "unchangedMetadata": [
+    "Prefabs\\Components\\BottomNavigation.prefab.meta",
+    "Prefabs\\Components\\ChestMergePair.prefab.meta",
+    "Prefabs\\Components\\ClanChatInputField.prefab.meta",
+    "Prefabs\\Components\\ClanMemberRow.prefab.meta",
+    "Prefabs\\Components\\PassOverview.prefab.meta",
+    "Prefabs\\Components\\PassRewardRow.prefab.meta",
+    "Prefabs\\Components\\RewardTabBar.prefab.meta",
+    "Prefabs\\Components\\TaskActivationDropdown.prefab.meta",
+    "Prefabs\\Components\\TaskSortDropdown.prefab.meta",
+    "Prefabs\\Components.meta",
+    "Prefabs\\Screens\\BattleHome.prefab.meta",
+    "Prefabs\\Screens\\BattlePass.prefab.meta",
+    "Prefabs\\Screens\\ChestQueue.prefab.meta",
+    "Prefabs\\Screens\\ChestReveal.prefab.meta",
+    "Prefabs\\Screens\\ClanChat.prefab.meta",
+    "Prefabs\\Screens\\ClanChatInput.prefab.meta",
+    "Prefabs\\Screens\\ClanCompetition.prefab.meta",
+    "Prefabs\\Screens\\ClanHome.prefab.meta",
+    "Prefabs\\Screens\\ClanShop.prefab.meta",
+    "Prefabs\\Screens\\Tasks.prefab.meta",
+    "Prefabs\\Screens.meta"
+  ],
+  "scriptVerification": {
+    "status": "not provable against this backup",
+    "reason": "Anchor backup contains no C# files or pre-change script hashes; no claim of script byte identity is made."
+  }
+}

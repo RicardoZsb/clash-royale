@@ -1,0 +1,3911 @@
+[
+  {
+    "id": "3:2",
+    "name": "02_任务主流程",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "3:8",
+        "text": "从展示区选择任务",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "3:12",
+        "text": "接取任务：\n不消耗行动点\n接取数量不设上限",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "3:52",
+        "text": "edge_0",
+        "from": "3:8",
+        "to": "3:12"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "3:16",
+        "text": "资源支持激活？\n可用行动点足够\n20格宝箱队列有可预留空位",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "3:56",
+        "text": "edge_1",
+        "from": "3:12",
+        "to": "3:16"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "3:20",
+        "text": "激活并预留\n按优先级/接取顺序选择\n预留行动点与空位，不扣点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "3:60",
+        "text": "edge_2",
+        "from": "3:16",
+        "to": "3:20"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "3:24",
+        "text": "进入对局\n锁定激活列表与任务池版本\n仅已激活任务参与本场判定",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "3:64",
+        "text": "edge_3",
+        "from": "3:20",
+        "to": "3:24"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "3:28",
+        "text": "本任务结算结果？\n区分达成、未达成与校验失败",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "3:68",
+        "text": "edge_4",
+        "from": "3:24",
+        "to": "3:28"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "3:32",
+        "text": "任务正式达成，扣除行动点\n首次模板金币（符合条件时）\n部落贡献、战令经验\n宝箱入队，等待玩家开启",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "3:72",
+        "text": "edge_5",
+        "from": "3:28",
+        "to": "3:32"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "3:36",
+        "text": "暂停对应任务激活\n保持已接取状态与已有进度\n可提取储备点或开启宝箱\n资源满足后重新计算激活",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "3:76",
+        "text": "edge_6",
+        "from": "3:16",
+        "to": "3:36"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "3:40",
+        "text": "仍可开始普通对局\n没有激活的任务不参与判定\n无需为了对战先补足行动点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "3:80",
+        "text": "edge_7",
+        "from": "3:36",
+        "to": "3:40"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "3:44",
+        "text": "正常对战继续",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "3:84",
+        "text": "edge_8",
+        "from": "3:40",
+        "to": "3:44"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "3:48",
+        "text": "本场未达成该任务\n有效但条件未满足：保留进度\n无效对局：不推进任务\n释放本场未使用的预留额度",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "3:92",
+        "text": "edge_10",
+        "from": "3:48",
+        "to": "3:16"
+      },
+      {
+        "type": "connector",
+        "id": "3:88",
+        "text": "edge_9",
+        "from": "3:28",
+        "to": "3:48"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "57:2162",
+        "text": "结算失败／待恢复\n不标达成，不扣点发奖\n记录失败原因",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "57:2166",
+        "text": "本任务结算校验失败",
+        "from": "3:28",
+        "to": "57:2162"
+      }
+    ]
+  },
+  {
+    "id": "5:203",
+    "name": "03_任务集合",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "5:233",
+        "text": "示例：一级任务\n预留 1 行动点\n预留 1 个宝箱空位",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:237",
+        "text": "示例：二级任务\n预留 2 行动点\n预留 1 个宝箱空位",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:241",
+        "text": "示例：三级任务\n预留 3 行动点\n预留 1 个宝箱空位",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:245",
+        "text": "示例：特殊任务\n预留 3 行动点\n预留 1 个宝箱空位",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:263",
+        "text": "本场激活数量\n按优先级逐项检查\n累计消耗不超过可用行动点\n每项预留1个宝箱空位\n宝箱队列容量：20个",
+        "from": null,
+        "to": null
+      }
+    ]
+  },
+  {
+    "id": "5:267",
+    "name": "04_任务状态机",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "5:286",
+        "text": "可接取\n在当日任务展示区",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "5:330",
+        "text": "edge_0",
+        "from": "5:283",
+        "to": "5:286"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:290",
+        "text": "已接取·未激活\n保留进度，不参与本场判定",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "5:334",
+        "text": "edge_1",
+        "from": "5:286",
+        "to": "5:290"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:294",
+        "text": "已激活·已预留\n行动点尚未扣除\n宝箱空位已预留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:298",
+        "text": "对局中\n列表与任务池版本已锁定",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "5:360",
+        "text": "edge_4",
+        "from": "5:298",
+        "to": "5:290"
+      },
+      {
+        "type": "connector",
+        "id": "5:356",
+        "text": "edge_3",
+        "from": "5:294",
+        "to": "5:298"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:302",
+        "text": "已达成\n扣除行动点并记录本次奖励\n创建待开启宝箱",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "5:372",
+        "text": "edge_7",
+        "from": "5:298",
+        "to": "5:302"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:306",
+        "text": "本轮接取结束\n取消或到期后结束本轮跟踪",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "5:364",
+        "text": "edge_5",
+        "from": "5:290",
+        "to": "5:306"
+      },
+      {
+        "type": "connector",
+        "id": "5:368",
+        "text": "edge_6",
+        "from": "5:306",
+        "to": "5:310"
+      },
+      {
+        "type": "connector",
+        "id": "5:376",
+        "text": "edge_8",
+        "from": "5:302",
+        "to": "5:313"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:319",
+        "text": "待开启\n已经入队，尚未开箱\n不再消耗行动点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "5:380",
+        "text": "edge_9",
+        "from": "5:316",
+        "to": "5:319"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "5:323",
+        "text": "已开启\n宝箱内容已发放\n释放对应宝箱空位",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "5:384",
+        "text": "edge_10",
+        "from": "5:319",
+        "to": "5:323"
+      },
+      {
+        "type": "connector",
+        "id": "5:388",
+        "text": "edge_11",
+        "from": "5:323",
+        "to": "5:327"
+      },
+      {
+        "type": "connector",
+        "id": "5:344",
+        "text": "edge_2 · 单条原生连接线",
+        "from": "5:290",
+        "to": "5:294"
+      }
+    ]
+  },
+  {
+    "id": "30:1929",
+    "name": "01_系统边界与依赖",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "30:1942",
+        "text": "任务展示区与交互\n展示 / 接取 / 激活状态\n源入口：战斗页＋顶部页签",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "30:1943",
+        "text": "普通对局入口（匹配）\n行动点不足仍可正常对局\n任务只影响附加任务收益",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "30:1944",
+        "text": "任务配置与版本\n一级 / 二级 / 三级 / 特殊分别存储\n标题 / 简述 / 详细描述 / 目标",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "30:1945",
+        "text": "个人任务运行与结算\n候选 / 展示 / 已接 / 激活\n验证条件与结算资格\n一次达成只结算一次",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "30:1946",
+        "text": "edge_1",
+        "from": "30:1944",
+        "to": "30:1945"
+      },
+      {
+        "type": "connector",
+        "id": "30:1947",
+        "text": "edge_0",
+        "from": "30:1942",
+        "to": "30:1945"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "30:1948",
+        "text": "行动点与预留额度\n普通池 / 储备池",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "30:1949",
+        "text": "edge_2",
+        "from": "30:1945",
+        "to": "30:1948"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "30:1950",
+        "text": "待开启宝箱队列\n接收入队结果\n开启是独立的后续操作",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "30:1951",
+        "text": "战令与首次达成奖励\n战令经验按实际扣点增长\n首次奖励另校验模板与赛季\n付费线路不发放行动点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "30:1952",
+        "text": "edge_4",
+        "from": "30:1945",
+        "to": "30:1951"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "30:1953",
+        "text": "部落贡献与赛季系统\n资格、归属、排名分别处理\n竞赛 / 荣誉 / 商店",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "30:1959",
+        "text": "edge_3 · 单条原生连接线",
+        "from": "30:1945",
+        "to": "30:1950"
+      },
+      {
+        "type": "connector",
+        "id": "30:1964",
+        "text": "edge_5 · 单条原生连接线",
+        "from": "30:1945",
+        "to": "30:1953"
+      }
+    ]
+  },
+  {
+    "id": "6:356",
+    "name": "07_结算时序",
+    "texts": [
+      {
+        "type": "connector",
+        "id": "6:398",
+        "text": "line / 1",
+        "from": "6:392",
+        "to": "6:395"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:408",
+        "text": "玩家界面",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:418",
+        "text": "line / 1",
+        "from": "6:412",
+        "to": "6:415"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:422",
+        "text": "任务判定",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:432",
+        "text": "line / 1",
+        "from": "6:426",
+        "to": "6:429"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:436",
+        "text": "结算协调",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:446",
+        "text": "line / 1",
+        "from": "6:440",
+        "to": "6:443"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:450",
+        "text": "资源与奖励记录",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:460",
+        "text": "line / 1",
+        "from": "6:454",
+        "to": "6:457"
+      },
+      {
+        "type": "connector",
+        "id": "6:482",
+        "text": "edge_0",
+        "from": "6:476",
+        "to": "6:479"
+      },
+      {
+        "type": "connector",
+        "id": "6:492",
+        "text": "edge_1",
+        "from": "6:486",
+        "to": "6:489"
+      },
+      {
+        "type": "connector",
+        "id": "6:502",
+        "text": "edge_2",
+        "from": "6:496",
+        "to": "6:499"
+      },
+      {
+        "type": "connector",
+        "id": "6:512",
+        "text": "edge_3",
+        "from": "6:506",
+        "to": "6:509"
+      },
+      {
+        "type": "connector",
+        "id": "6:522",
+        "text": "edge_4",
+        "from": "6:516",
+        "to": "6:519"
+      },
+      {
+        "type": "connector",
+        "id": "6:538",
+        "text": "edge_5 · 单条原生连接线",
+        "from": "6:526",
+        "to": "6:529"
+      },
+      {
+        "type": "connector",
+        "id": "6:556",
+        "text": "edge_6",
+        "from": "6:550",
+        "to": "6:553"
+      },
+      {
+        "type": "connector",
+        "id": "6:566",
+        "text": "edge_7",
+        "from": "6:560",
+        "to": "6:563"
+      },
+      {
+        "type": "connector",
+        "id": "6:576",
+        "text": "edge_8",
+        "from": "6:570",
+        "to": "6:573"
+      },
+      {
+        "type": "connector",
+        "id": "6:592",
+        "text": "edge_9 · 单条原生连接线",
+        "from": "6:580",
+        "to": "6:583"
+      },
+      {
+        "type": "connector",
+        "id": "6:610",
+        "text": "edge_10",
+        "from": "6:604",
+        "to": "6:607"
+      },
+      {
+        "type": "connector",
+        "id": "6:620",
+        "text": "edge_11",
+        "from": "6:614",
+        "to": "6:617"
+      },
+      {
+        "type": "connector",
+        "id": "6:630",
+        "text": "edge_12",
+        "from": "6:624",
+        "to": "6:627"
+      },
+      {
+        "type": "connector",
+        "id": "6:640",
+        "text": "edge_13",
+        "from": "6:634",
+        "to": "6:637"
+      },
+      {
+        "type": "connector",
+        "id": "6:650",
+        "text": "edge_14",
+        "from": "6:644",
+        "to": "6:647"
+      },
+      {
+        "type": "connector",
+        "id": "6:660",
+        "text": "edge_15",
+        "from": "6:654",
+        "to": "6:657"
+      }
+    ]
+  },
+  {
+    "id": "6:664",
+    "name": "08_行动点双池",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "6:687",
+        "text": "自然恢复计时",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "31:2007",
+        "text": "活动奖励行动点\n按活动奖励配置发放",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "31:2074",
+        "text": "行动点道具",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:691",
+        "text": "普通池已满？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:740",
+        "text": "edge_0",
+        "from": "6:687",
+        "to": "6:691"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:695",
+        "text": "行动点普通池\n最多 24 点；未满时每 6 小时恢复 2 点\n任务激活预留和达成扣除均读取此池",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:699",
+        "text": "行动点储备池\n普通池满后：半速，每 6 小时恢复 1 点；上限 16 点\n不直接参与任务预留或扣除；可跨周、跨赛季",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:766",
+        "text": "edge_3",
+        "from": "6:699",
+        "to": "6:695"
+      },
+      {
+        "type": "connector",
+        "id": "6:762",
+        "text": "edge_2",
+        "from": "6:691",
+        "to": "6:699"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:708",
+        "text": "初始\n5 / 0 / 5\n尚未预留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:712",
+        "text": "A、B 激活\n5 / 5 / 0\n仅预留，不扣点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:770",
+        "text": "edge_4",
+        "from": "6:708",
+        "to": "6:712"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:716",
+        "text": "仅 B 达成\n3 / 3 / 0\n扣 B 的 2 点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:774",
+        "text": "edge_5",
+        "from": "6:712",
+        "to": "6:716"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:720",
+        "text": "释放 A 未用额度\n3 / 0 / 3\n余额 3，可用 3",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:778",
+        "text": "edge_6",
+        "from": "6:716",
+        "to": "6:720"
+      },
+      {
+        "type": "connector",
+        "id": "6:750",
+        "text": "普通池未满 → 自然恢复至普通池",
+        "from": "6:691",
+        "to": "6:695"
+      }
+    ]
+  },
+  {
+    "id": "6:782",
+    "name": "09_经济循环",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "6:805",
+        "text": "行动点的外部来源\n自然恢复为主\n活动及其他奖励少量补给\n来源分别记录与限制",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:809",
+        "text": "A  行动点账户\n任务消耗使用普通池\n储备主动提取见图08",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:878",
+        "text": "edge_0",
+        "from": "6:805",
+        "to": "6:809"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:813",
+        "text": "任务达成：行动点消耗\n一级 / 二级 / 三级 / 特殊\n分别扣 1 / 2 / 3 / 3 点\n必须通过任务结算校验",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:882",
+        "text": "edge_1",
+        "from": "6:809",
+        "to": "6:813"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:817",
+        "text": "任务宝箱先入队\n玩家开箱时进行5次升星判定\n每次升星概率30%\n按最终星级发放卡牌、金币等",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:821",
+        "text": "B  战令经验\n增长量 = 实际消耗行动点\n每 5 点升 1 级",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:825",
+        "text": "C  个人部落贡献\n基础值 10 / 25 / 45 / 60\n先校验部落资格与衰减",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:829",
+        "text": "模板首次达成金币\n每模板每赛季首次\n每赛季最多 100 次",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:838",
+        "text": "预算约束\n\n任务、战令、活动与部落奖励需一起核算，测试综合资源产出与对照组差异控制在 ±3%。",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:843",
+        "text": "B 达到等级 → 免费战令等级奖励\n可配置少量行动点\n付费线路不发放行动点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:847",
+        "text": "A  行动点奖励回流\n数量与领取时机由配置限制",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:958",
+        "text": "edge_6",
+        "from": "6:843",
+        "to": "6:847"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:851",
+        "text": "C 计分与资格 → 部落竞赛奖励\n符合领奖资格后，按排名结算\n基础奖励组可配置少量行动点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:855",
+        "text": "A  行动点奖励回流   \n不是成员贡献的无条件返还",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:962",
+        "text": "edge_7",
+        "from": "6:851",
+        "to": "6:855"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:859",
+        "text": "C 个人贡献 → 部落代币\n1 点个人贡献对应 1 代币",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:863",
+        "text": "商店兑换 → A\n100 代币兑换 1 行动点\n每赛季最多购买 10 点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:966",
+        "text": "edge_8",
+        "from": "6:859",
+        "to": "6:863"
+      },
+      {
+        "type": "connector",
+        "id": "6:892",
+        "text": "edge_2 · 单条原生连接线",
+        "from": "6:813",
+        "to": "6:817"
+      },
+      {
+        "type": "connector",
+        "id": "6:910",
+        "text": "edge_3 · 单条原生连接线",
+        "from": "6:813",
+        "to": "6:821"
+      },
+      {
+        "type": "connector",
+        "id": "6:928",
+        "text": "edge_4 · 单条原生连接线",
+        "from": "6:813",
+        "to": "6:825"
+      },
+      {
+        "type": "connector",
+        "id": "6:946",
+        "text": "edge_5 · 单条原生连接线",
+        "from": "6:813",
+        "to": "6:829"
+      }
+    ]
+  },
+  {
+    "id": "6:970",
+    "name": "10_投入产出对比",
+    "texts": [
+      {
+        "type": "connector",
+        "id": "6:1001",
+        "text": "line / 1",
+        "from": "6:995",
+        "to": "6:998"
+      },
+      {
+        "type": "connector",
+        "id": "6:1012",
+        "text": "line / 1",
+        "from": "6:1006",
+        "to": "6:1009"
+      },
+      {
+        "type": "connector",
+        "id": "6:1023",
+        "text": "line / 1",
+        "from": "6:1017",
+        "to": "6:1020"
+      },
+      {
+        "type": "connector",
+        "id": "6:1034",
+        "text": "line / 1",
+        "from": "6:1028",
+        "to": "6:1031"
+      },
+      {
+        "type": "connector",
+        "id": "6:1045",
+        "text": "line / 1",
+        "from": "6:1039",
+        "to": "6:1042"
+      },
+      {
+        "type": "connector",
+        "id": "6:1080",
+        "text": "line / 1",
+        "from": "6:1074",
+        "to": "6:1077"
+      },
+      {
+        "type": "connector",
+        "id": "6:1091",
+        "text": "line / 1",
+        "from": "6:1085",
+        "to": "6:1088"
+      },
+      {
+        "type": "connector",
+        "id": "6:1102",
+        "text": "line / 1",
+        "from": "6:1096",
+        "to": "6:1099"
+      },
+      {
+        "type": "connector",
+        "id": "6:1113",
+        "text": "line / 1",
+        "from": "6:1107",
+        "to": "6:1110"
+      },
+      {
+        "type": "connector",
+        "id": "6:1124",
+        "text": "line / 1",
+        "from": "6:1118",
+        "to": "6:1121"
+      }
+    ]
+  },
+  {
+    "id": "290:5629",
+    "name": "6任务完成过程草图",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "290:5819",
+        "text": "接取任务\n保存接取状态，不扣行动点；数量不限",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:5862",
+        "text": "可用行动点足够？\n宝箱队列有可预留空位？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:6000",
+        "text": "暂不激活\n保留已接任务与进度\n仍可进行普通对局",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "296:4669",
+        "text": "资源满足后重算激活",
+        "from": "290:6000",
+        "to": "290:5862"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:6088",
+        "text": "激活任务\n预留任务行动点及1个箱位，不扣点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "290:6089",
+        "text": "资源满足激活",
+        "from": "290:5862",
+        "to": "290:6088"
+      },
+      {
+        "type": "connector",
+        "id": "290:6168",
+        "text": "接取后检查资源",
+        "from": "290:5819",
+        "to": "290:5862"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:6195",
+        "text": "任务目标已达成？\n结算校验通过？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "290:6196",
+        "text": "对局推进任务",
+        "from": "290:6088",
+        "to": "290:6195"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:6216",
+        "text": "任务完成结算\n实扣行动点；释放对应预留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "290:6217",
+        "text": "任务通过结算",
+        "from": "290:6195",
+        "to": "290:6216"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:6260",
+        "text": "部落贡献\n写入本次贡献",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "290:6291",
+        "text": "结算部落贡献",
+        "from": "290:6216",
+        "to": "290:6260"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:6330",
+        "text": "战令经验\n按实扣行动点增加",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "290:6331",
+        "text": "结算战令经验",
+        "from": "290:6216",
+        "to": "290:6330"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:6373",
+        "text": "获得宝箱，进入待开启队列\n预留箱位转为宝箱实际占用",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "290:6374",
+        "text": "结算创建宝箱",
+        "from": "290:6216",
+        "to": "290:6373"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:6405",
+        "text": "玩家开启队列中的宝箱\n判定次数从0开始",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "290:6406",
+        "text": "玩家操作才开箱",
+        "from": "290:6373",
+        "to": "290:6405"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:6487",
+        "text": "执行1次升星判定\n成功升星，失败保持星级\n累计判定次数＋1",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "290:6488",
+        "text": "开箱开始升星",
+        "from": "290:6405",
+        "to": "290:6487"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "290:6521",
+        "text": "发放宝箱内资源\n标记已开启，释放宝箱队列位置",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "290:6658",
+        "text": "资源不足",
+        "from": "290:5862",
+        "to": "290:6000"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "296:4649",
+        "text": "本场未达成\n保留有效进度\n释放本场未用预留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "296:4677",
+        "text": "下一场重算激活",
+        "from": "296:4649",
+        "to": "290:6000"
+      },
+      {
+        "type": "connector",
+        "id": "296:4673",
+        "text": "未达成保留进度",
+        "from": "290:6195",
+        "to": "296:4649"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "296:4653",
+        "text": "首次任务模板金币奖励\n符合首次奖励条件时发放",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "296:4681",
+        "text": "结算首次奖励",
+        "from": "290:6216",
+        "to": "296:4653"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "296:4658",
+        "text": "已完成5次\n升星判定？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "290:6570",
+        "text": "未满五次继续判定",
+        "from": "296:4658",
+        "to": "290:6487"
+      },
+      {
+        "type": "connector",
+        "id": "290:6553",
+        "text": "检查判定次数",
+        "from": "290:6487",
+        "to": "296:4658"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "296:4662",
+        "text": "确定最终星级\n查询对应的宝箱奖励",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "296:4689",
+        "text": "开箱资源发放",
+        "from": "296:4662",
+        "to": "290:6521"
+      },
+      {
+        "type": "connector",
+        "id": "296:4685",
+        "text": "判定结束确定星级",
+        "from": "296:4658",
+        "to": "296:4662"
+      }
+    ]
+  },
+  {
+    "id": "6:1175",
+    "name": "11_贡献计算",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "6:1203",
+        "text": "任务基础贡献\n一级 / 二级 / 三级 / 特殊\n10 / 25 / 45 / 60",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1207",
+        "text": "按账号赛季阈值分段处理\n阈值内部分 × 100%\n超过阈值的部分 × 50%\n跨阈值的一次任务也应分段计算",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1211",
+        "text": "个人部落贡献\n计入当前部落的个人记录\n账号阈值累计不因转会清零",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1221",
+        "text": "当前部落成员贡献\n按个人部落贡献从高到低排序",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1225",
+        "text": "基准人数 P\nP = max(30, min(N1, N2, N3, N4, N5))\nN：本赛季至少达成1个有效任务的成员数",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1229",
+        "text": "读取成员名次\n名次 ≤ P 或名次 = P + k",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1306",
+        "text": "edge_2",
+        "from": "6:1221",
+        "to": "6:1229"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1233",
+        "text": "成员计入系数\n前 P 名：100%\n第 P+1 名：85%\n第 P+2 名：72.25%\n第 P+k 名：0.85^k",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1243",
+        "text": "当前成员的加权计分",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1247",
+        "text": "已离会成员留在原部落的贡献",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1251",
+        "text": "部落有效贡献值",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1371",
+        "text": "edge_6",
+        "from": "6:1247",
+        "to": "6:1251"
+      },
+      {
+        "type": "connector",
+        "id": "6:1276",
+        "text": "edge_0 · 单条原生连接线",
+        "from": "6:1203",
+        "to": "6:1207"
+      },
+      {
+        "type": "connector",
+        "id": "6:1294",
+        "text": "edge_1 · 单条原生连接线",
+        "from": "6:1207",
+        "to": "6:1211"
+      },
+      {
+        "type": "connector",
+        "id": "6:1316",
+        "text": "edge_3 · 单条原生连接线",
+        "from": "6:1229",
+        "to": "6:1233"
+      },
+      {
+        "type": "connector",
+        "id": "6:1334",
+        "text": "edge_4 · 单条原生连接线",
+        "from": "6:1225",
+        "to": "6:1233"
+      },
+      {
+        "type": "connector",
+        "id": "6:1355",
+        "text": "edge_5 · 单条原生连接线",
+        "from": "6:1211",
+        "to": "6:1221"
+      },
+      {
+        "type": "connector",
+        "id": "6:1384",
+        "text": "edge_7 · 单条原生连接线",
+        "from": "6:1243",
+        "to": "6:1251"
+      }
+    ]
+  },
+  {
+    "id": "6:1400",
+    "name": "12_竞赛资格决策",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "6:1428",
+        "text": "读取赛季结算时的成员记录\n当前部落入会时长 / 个人部落贡献",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1432",
+        "text": "加入当前部落 ≥ 3天\n且个人部落贡献 ≥ 40？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1496",
+        "text": "edge_0",
+        "from": "6:1428",
+        "to": "6:1432"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1436",
+        "text": "具备竞赛领奖资格",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1440",
+        "text": "不发本次竞赛奖励",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1449",
+        "text": "五个部落按有效贡献值排名\n比较对象：部落有效贡献值",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1453",
+        "text": "部落排名倍率\n名次       1        2        3        4        5\n倍率     2.0      1.6      1.4      1.2      1.0",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1460",
+        "text": "赛季基础奖励\n由赛季奖励组配置",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1464",
+        "text": "符合资格成员的竞赛奖励\n赛季基础奖励 × 本部落排名倍率",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1597",
+        "text": "edge_6",
+        "from": "6:1460",
+        "to": "6:1464"
+      },
+      {
+        "type": "connector",
+        "id": "6:1561",
+        "text": "edge_4",
+        "from": "6:1436",
+        "to": "6:1464"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1473",
+        "text": "部落内个人排名前10\n且个人部落贡献 ≥ 200？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1477",
+        "text": "下赛季展示部落荣誉称号\n持续一个赛季",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1601",
+        "text": "edge_7",
+        "from": "6:1473",
+        "to": "6:1477"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1481",
+        "text": "不授予本次称号",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1506",
+        "text": "edge_1 · 单条原生连接线",
+        "from": "6:1432",
+        "to": "6:1436"
+      },
+      {
+        "type": "connector",
+        "id": "6:1527",
+        "text": "edge_2 · 单条原生连接线",
+        "from": "6:1432",
+        "to": "6:1440"
+      },
+      {
+        "type": "connector",
+        "id": "6:1549",
+        "text": "edge_3 · 单条原生连接线",
+        "from": "6:1449",
+        "to": "6:1453"
+      },
+      {
+        "type": "connector",
+        "id": "6:1577",
+        "text": "edge_5 · 单条原生连接线",
+        "from": "6:1453",
+        "to": "6:1464"
+      },
+      {
+        "type": "connector",
+        "id": "6:1611",
+        "text": "edge_8 · 单条原生连接线",
+        "from": "6:1473",
+        "to": "6:1481"
+      }
+    ]
+  },
+  {
+    "id": "6:1623",
+    "name": "13_周刷新与赛季时序",
+    "texts": [
+      {
+        "type": "connector",
+        "id": "6:1657",
+        "text": "line / 1",
+        "from": "6:1651",
+        "to": "6:1654"
+      },
+      {
+        "type": "connector",
+        "id": "6:1674",
+        "text": "line / 1",
+        "from": "6:1668",
+        "to": "6:1671"
+      },
+      {
+        "type": "connector",
+        "id": "6:1690",
+        "text": "line / 1",
+        "from": "6:1684",
+        "to": "6:1687"
+      },
+      {
+        "type": "connector",
+        "id": "6:1701",
+        "text": "line / 1",
+        "from": "6:1695",
+        "to": "6:1698"
+      },
+      {
+        "type": "connector",
+        "id": "6:1712",
+        "text": "line / 1",
+        "from": "6:1706",
+        "to": "6:1709"
+      },
+      {
+        "type": "connector",
+        "id": "6:1723",
+        "text": "line / 1",
+        "from": "6:1717",
+        "to": "6:1720"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1727",
+        "text": "刷新前已经进入对局\n锁定入场时的旧任务池版本",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1731",
+        "text": "按旧版本完成本场结算",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1800",
+        "text": "edge_0",
+        "from": "6:1727",
+        "to": "6:1731"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1735",
+        "text": "旧已接任务 / 已激活任务 / 累计进度\n在途旧对局的记录等待本场结算",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1739",
+        "text": "本场结算结束后清除\n旧任务与未达成任务进度",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1808",
+        "text": "edge_2",
+        "from": "6:1735",
+        "to": "6:1739"
+      },
+      {
+        "type": "connector",
+        "id": "6:1804",
+        "text": "edge_1",
+        "from": "6:1731",
+        "to": "6:1739"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1744",
+        "text": "刷新后开始的对局只使用新任务池\n新任务池版本与新的任务记录",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1748",
+        "text": "已有待开启宝箱 + 行动点储备池余额",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1752",
+        "text": "跨周保留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1812",
+        "text": "edge_3",
+        "from": "6:1748",
+        "to": "6:1752"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1761",
+        "text": "本赛季任务模板首次达成记录",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1765",
+        "text": "新赛季重新记录；每赛季最多领取100次",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1816",
+        "text": "edge_4",
+        "from": "6:1761",
+        "to": "6:1765"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1769",
+        "text": "本赛季未使用的部落代币",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1773",
+        "text": "不可跨赛季继承",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1820",
+        "text": "edge_5",
+        "from": "6:1769",
+        "to": "6:1773"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1777",
+        "text": "本赛季满足条件的部落荣誉资格",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1781",
+        "text": "下赛季展示称号，持续一个赛季",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1824",
+        "text": "edge_6",
+        "from": "6:1777",
+        "to": "6:1781"
+      }
+    ]
+  },
+  {
+    "id": "6:1828",
+    "name": "14_转会归属",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "6:1851",
+        "text": "原部落 A 正常参与\n已结束入会冷却",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1855",
+        "text": "退出原部落 A\n原贡献不转移",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1971",
+        "text": "edge_0",
+        "from": "6:1851",
+        "to": "6:1855"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1859",
+        "text": "加入新部落 B\n开始3天冷却",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1975",
+        "text": "edge_1",
+        "from": "6:1855",
+        "to": "6:1859"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1863",
+        "text": "B 的冷却结束\n新任务贡献归属 B",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1979",
+        "text": "edge_2",
+        "from": "6:1859",
+        "to": "6:1863"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1873",
+        "text": "记录归属\n在 A 的个人贡献累计",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1877",
+        "text": "记录归属\n历史贡献不会带入 B",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1983",
+        "text": "edge_3",
+        "from": "6:1873",
+        "to": "6:1877"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1881",
+        "text": "记录归属\n在 B 从 0 开始\n冷却期不增加",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1987",
+        "text": "edge_4",
+        "from": "6:1877",
+        "to": "6:1881"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1885",
+        "text": "记录归属\n新达成任务产生的贡献\n计入 B 的个人贡献",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1991",
+        "text": "edge_5",
+        "from": "6:1881",
+        "to": "6:1885"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1895",
+        "text": "集体值\n已计入 A 的有效贡献",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1899",
+        "text": "集体值\n留在原部落 A",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1995",
+        "text": "edge_6",
+        "from": "6:1895",
+        "to": "6:1899"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1903",
+        "text": "集体值\n仍留在原部落 A",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:1999",
+        "text": "edge_7",
+        "from": "6:1899",
+        "to": "6:1903"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1907",
+        "text": "集体值\n不转移，也不因离会扣除",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2003",
+        "text": "edge_8",
+        "from": "6:1903",
+        "to": "6:1907"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1917",
+        "text": "账号维度\n账号本赛季累计记录",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1921",
+        "text": "账号维度\n不重置",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2007",
+        "text": "edge_9",
+        "from": "6:1917",
+        "to": "6:1921"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1925",
+        "text": "账号维度\n不重置",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2011",
+        "text": "edge_10",
+        "from": "6:1921",
+        "to": "6:1925"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1929",
+        "text": "账号维度\n仍使用同一赛季累计口径",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2015",
+        "text": "edge_11",
+        "from": "6:1925",
+        "to": "6:1929"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1939",
+        "text": "结算结果\n个人任务奖励正常\n按规则产生贡献与代币",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1943",
+        "text": "结算结果\n个人任务奖励正常\n不产生贡献与新增代币",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2019",
+        "text": "edge_12",
+        "from": "6:1939",
+        "to": "6:1943"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1947",
+        "text": "结算结果\n个人任务奖励正常\n不产生贡献与新增代币",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2023",
+        "text": "edge_13",
+        "from": "6:1943",
+        "to": "6:1947"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:1951",
+        "text": "结算结果\n个人任务奖励正常\n按规则产生贡献与代币",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2027",
+        "text": "edge_14",
+        "from": "6:1947",
+        "to": "6:1951"
+      }
+    ]
+  },
+  {
+    "id": "6:2031",
+    "name": "15_玩家分层与池切换",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "6:2054",
+        "text": "登录后判定玩家阶段\n按资格规则选择任务池",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2063",
+        "text": "新手任务池\n不生成三级和特殊任务\n取消不耗金币；默认自动接取\n部落未解锁：不生成部落任务",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2067",
+        "text": "回流任务池\n连续30天未登录后回归\n该天数可按历史数据调整\n陌生卡组提供等级统一试用\n未入部落：不生成社交重连任务",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2071",
+        "text": "普通任务池\n不处于保护任务池的玩家\n普通池候选、展示、接取规则\n按4.1.2执行",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2080",
+        "text": "回流后的前3天\n不生成三级任务\n不生成特殊任务\n一级 / 二级任务恢复操作",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2084",
+        "text": "第4天起\n每天最多展示1个三级任务\n其余规则保持回流池口径",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2139",
+        "text": "edge_3",
+        "from": "6:2080",
+        "to": "6:2084"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2088",
+        "text": "持续满7天\n或达成12个回流任务？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2097",
+        "text": "保持当前回流阶段\n次日 / 任务达成后再次判断",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2101",
+        "text": "切换普通任务池\n清除已接取任务和累计进度\n已获得任务宝箱保留\n已结算奖励保留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2116",
+        "text": "line / 1",
+        "from": "6:2110",
+        "to": "6:2113"
+      },
+      {
+        "type": "connector",
+        "id": "6:2205",
+        "text": "shared_login_to_split",
+        "from": "6:2054",
+        "to": "6:2121"
+      },
+      {
+        "type": "connector",
+        "id": "6:2135",
+        "text": "edge_2",
+        "from": "6:2121",
+        "to": "6:2071"
+      },
+      {
+        "type": "connector",
+        "id": "6:2131",
+        "text": "edge_1",
+        "from": "6:2121",
+        "to": "6:2067"
+      },
+      {
+        "type": "connector",
+        "id": "6:2127",
+        "text": "edge_0",
+        "from": "6:2121",
+        "to": "6:2063"
+      },
+      {
+        "type": "connector",
+        "id": "6:2209",
+        "text": "shared_merge_to_exit",
+        "from": "6:2124",
+        "to": "6:2088"
+      },
+      {
+        "type": "connector",
+        "id": "6:2165",
+        "text": "edge_6",
+        "from": "6:2084",
+        "to": "6:2124"
+      },
+      {
+        "type": "connector",
+        "id": "6:2161",
+        "text": "edge_5",
+        "from": "6:2080",
+        "to": "6:2124"
+      },
+      {
+        "type": "connector",
+        "id": "6:2149",
+        "text": "edge_4 · 单条原生连接线",
+        "from": "6:2067",
+        "to": "6:2080"
+      },
+      {
+        "type": "connector",
+        "id": "6:2175",
+        "text": "edge_7 · 单条原生连接线",
+        "from": "6:2088",
+        "to": "6:2097"
+      },
+      {
+        "type": "connector",
+        "id": "6:2193",
+        "text": "edge_8 · 单条原生连接线",
+        "from": "6:2088",
+        "to": "6:2101"
+      }
+    ]
+  },
+  {
+    "id": "6:2348",
+    "name": "17_配置数据关系",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "6:2376",
+        "text": "四张任务配置表\n一级 / 二级 / 三级 / 特殊\n字段结构相同，任务ID关联接取记录",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2380",
+        "text": "任务直接配置成本与收益\naction_cost / chest_id\nbase_contribution / first_reward_id\n战令和奖励按各自配置结算",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2448",
+        "text": "edge_0",
+        "from": "6:2376",
+        "to": "6:2380"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2384",
+        "text": "任务池生成规则\n玩家阶段 / 已有卡牌 / 卡组\n候选、展示与替换规则",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2394",
+        "text": "玩家任务实例 / 周池展示记录\n玩家ID / 周池版本 / 模板版本\n展示状态 / 接取状态 / 累计进度\n展示、已接、已激活不强制拆三张表",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2452",
+        "text": "edge_1",
+        "from": "6:2376",
+        "to": "6:2394"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2398",
+        "text": "本场激活快照条目\n对局ID + 玩家任务实例引用\n锁定本场任务版本与激活清单\n关联行动点与宝箱空位预留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2488",
+        "text": "edge_3",
+        "from": "6:2394",
+        "to": "6:2398"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2402",
+        "text": "任务结算流水\n唯一流水号 / 对局 / 任务实例\n校验结果 / 扣除 / 发放关联\n合法达成只落一份有效结算",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2492",
+        "text": "edge_4",
+        "from": "6:2398",
+        "to": "6:2402"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2406",
+        "text": "任务宝箱实例 / 队列记录\n归属玩家 / 来源流水\n待开启 → 已开启\n开启结果仍能追溯到任务结算",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2410",
+        "text": "奖励发放记录\n同一流水关联多类奖励结果\n个人奖励 / 经验 / 贡献 / 宝箱\n逐类记录发放及重试结果",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2500",
+        "text": "edge_6",
+        "from": "6:2410",
+        "to": "6:2406"
+      },
+      {
+        "type": "connector",
+        "id": "6:2496",
+        "text": "edge_5",
+        "from": "6:2402",
+        "to": "6:2410"
+      },
+      {
+        "type": "connector",
+        "id": "6:2468",
+        "text": "edge_2 · 单条原生连接线",
+        "from": "6:2384",
+        "to": "6:2394"
+      },
+      {
+        "type": "connector",
+        "id": "6:2516",
+        "text": "edge_7 · 单条原生连接线",
+        "from": "6:2380",
+        "to": "6:2410"
+      }
+    ]
+  },
+  {
+    "id": "6:2536",
+    "name": "18_埋点与指标",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "6:2559",
+        "text": "展示\n任务实际呈现",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2563",
+        "text": "接取\n手动 / 自动",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2619",
+        "text": "edge_0",
+        "from": "6:2559",
+        "to": "6:2563"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2567",
+        "text": "激活\n进入本场名单",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2623",
+        "text": "edge_1",
+        "from": "6:2563",
+        "to": "6:2567"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2571",
+        "text": "达成\n通过结算校验",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2627",
+        "text": "edge_2",
+        "from": "6:2567",
+        "to": "6:2571"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2575",
+        "text": "宝箱入队\n奖励暂存成功",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2631",
+        "text": "edge_3",
+        "from": "6:2571",
+        "to": "6:2575"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2579",
+        "text": "宝箱开启\n单个 / 批量",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2635",
+        "text": "edge_4",
+        "from": "6:2575",
+        "to": "6:2579"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2584",
+        "text": "建议的关联键（埋点实现建议）\n玩家 ID / 任务实例 ID / 模板版本 / 对局 ID / 结算流水号 / 宝箱实例 ID / 事件时间\n同一结算流水只计一次；批量开箱需要关联每个宝箱。事件总次数不可直接替代独立玩家数。",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2588",
+        "text": "每周有效任务参与率\n本周至少达成 1 个任务的玩家数\n÷ 符合条件的周活跃玩家数\n不是“激活人数 ÷ 接取人数”",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2592",
+        "text": "有效社交转化率\n查看分享后 24 小时内\n达成对应任务的玩家数\n÷ 查看分享内容的独立玩家数",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2657",
+        "text": "edge_6",
+        "from": "6:2584",
+        "to": "6:2592"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2596",
+        "text": "资源与容量状态\n暂停率：曾因点数不足暂停激活\n满载率：队列曾达到容量上限\n各自除以任务参与玩家数",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2645",
+        "text": "edge_5 · 单条原生连接线",
+        "from": "6:2584",
+        "to": "6:2588"
+      },
+      {
+        "type": "connector",
+        "id": "6:2667",
+        "text": "edge_7 · 单条原生连接线",
+        "from": "6:2584",
+        "to": "6:2596"
+      }
+    ]
+  },
+  {
+    "id": "6:2679",
+    "name": "19_灰度阶段",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "6:2702",
+        "text": "个人任务闭环\n5% 符合条件玩家 · 14 天\n每周有效任务参与率相对提升\n资源产出差异在 ±3% 内\nD7下降 / 投降率上升\n各不超过 0.5 个百分点",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2706",
+        "text": "阶段条件\n全部满足？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2769",
+        "text": "edge_0",
+        "from": "6:2702",
+        "to": "6:2706"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2710",
+        "text": "留在本阶段\n调整、复测，不扩量",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2773",
+        "text": "edge_1",
+        "from": "6:2706",
+        "to": "6:2710"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2714",
+        "text": "社交转化\n10% 部落 · 14 天\n分享、求助与转化改善\n刷屏、屏蔽、退出不恶化\n按部落随机\n暂不开放排名倍率",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2718",
+        "text": "阶段条件\n全部满足？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2777",
+        "text": "edge_2",
+        "from": "6:2714",
+        "to": "6:2718"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2722",
+        "text": "留在本阶段\n调整、复测，不扩量",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2781",
+        "text": "edge_3",
+        "from": "6:2718",
+        "to": "6:2722"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2726",
+        "text": "跨系统耦合\n30% 部落 · 完整赛季\nD30、部落留存不劣于对照\n付费与资源护栏通过\n活动配置效率改善\n开放竞赛与赛季结算",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2730",
+        "text": "阶段条件\n全部满足？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2785",
+        "text": "edge_4",
+        "from": "6:2726",
+        "to": "6:2730"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2734",
+        "text": "留在本阶段\n调整、复测，不扩量",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2789",
+        "text": "edge_5",
+        "from": "6:2730",
+        "to": "6:2734"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2738",
+        "text": "扩大灰度\n50% 符合条件部落\n覆盖一个完整赛季\n按部落整体随机\n新手、回流、杯段、付费层\n均通过护栏",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2742",
+        "text": "阶段条件\n全部满足？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2793",
+        "text": "edge_6",
+        "from": "6:2738",
+        "to": "6:2742"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2746",
+        "text": "留在本阶段\n调整、复测，不扩量",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2797",
+        "text": "edge_7",
+        "from": "6:2742",
+        "to": "6:2746"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "6:2750",
+        "text": "允许全量开放\n旧系统替换另经完整赛季评审",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "6:2807",
+        "text": "edge_8 · 单条原生连接线",
+        "from": "6:2706",
+        "to": "6:2714"
+      },
+      {
+        "type": "connector",
+        "id": "6:2825",
+        "text": "edge_9 · 单条原生连接线",
+        "from": "6:2718",
+        "to": "6:2726"
+      },
+      {
+        "type": "connector",
+        "id": "6:2843",
+        "text": "edge_10 · 单条原生连接线",
+        "from": "6:2730",
+        "to": "6:2738"
+      },
+      {
+        "type": "connector",
+        "id": "6:2861",
+        "text": "edge_11 · 单条原生连接线",
+        "from": "6:2742",
+        "to": "6:2750"
+      }
+    ]
+  },
+  {
+    "id": "36:1939",
+    "name": "21 配置读取与任务生成",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "34:1865",
+        "text": "ReleaseRule 发布入口",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1868",
+        "text": "配置包 C001",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2021",
+        "text": "选择",
+        "from": "34:1865",
+        "to": "34:1868"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1871",
+        "text": "Season 赛季规则",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2025",
+        "text": "读取赛季",
+        "from": "34:1868",
+        "to": "34:1871"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1874",
+        "text": "PoolRule 任务池规则",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2029",
+        "text": "选择人群池",
+        "from": "34:1868",
+        "to": "34:1874"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1877",
+        "text": "PoolQuota 分档配额",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2033",
+        "text": "pool_id",
+        "from": "34:1874",
+        "to": "34:1877"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1880",
+        "text": "PoolEntry 候选任务",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2037",
+        "text": "pool_id",
+        "from": "34:1874",
+        "to": "34:1880"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1883",
+        "text": "四张难度任务表\n结构相同\n按task_id查对应表",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2041",
+        "text": "task_id",
+        "from": "34:1880",
+        "to": "34:1883"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1886",
+        "text": "一级任务表\n目标、成本与收益",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1889",
+        "text": "二级任务表\n112001 法术卡组取胜",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1892",
+        "text": "三级任务表\n目标、成本与收益",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1895",
+        "text": "特殊任务表\n目标、成本与收益",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1898",
+        "text": "DeckCheck.check(...)\n只保留卡组判定接口\n返回passed",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2061",
+        "text": "deck_check_hook",
+        "from": "34:1883",
+        "to": "34:1898"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1901",
+        "text": "筛选并生成个人任务池",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2065",
+        "text": "数量约束",
+        "from": "34:1877",
+        "to": "34:1901"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1904",
+        "text": "已接取任务\naccepted_task_id=A001\ntask_id=112001",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2073",
+        "text": "点击接取后写入",
+        "from": "34:1901",
+        "to": "34:1904"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "34:1907",
+        "text": "模板ID、配置包、任务池版本",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2077",
+        "text": "保存",
+        "from": "34:1904",
+        "to": "34:1907"
+      }
+    ]
+  },
+  {
+    "id": "38:2081",
+    "name": "22 任务激活预留与统一结算",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "37:1940",
+        "text": "已接取任务 A001\n玩家激活优先级",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1943",
+        "text": "可用行动点和空位足够",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1946",
+        "text": "ActionPointWallet 普通池余额减有效预留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1949",
+        "text": "20－待开启数量－有效预留箱位",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1952",
+        "text": "本场不激活，已有累计进度保留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2094",
+        "text": "不足",
+        "from": "37:1943",
+        "to": "37:1952"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1955",
+        "text": "激活记录 ACT001\n预留2点行动点\n预留1个宝箱空位",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2098",
+        "text": "足够",
+        "from": "37:1943",
+        "to": "37:1955"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1958",
+        "text": "ACT001引用A001\n锁定对局B001\n及本场任务版本",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1961",
+        "text": "对局是否有效？\n任务条件是否满足？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1964",
+        "text": "本场不推进，结束后释放预留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2110",
+        "text": "无效对局",
+        "from": "37:1961",
+        "to": "37:1964"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1967",
+        "text": "按任务规则更新进度，释放未用预留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2114",
+        "text": "有效但未达成",
+        "from": "37:1961",
+        "to": "37:1967"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1970",
+        "text": "任务结算 R001\n已有成功结果？",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2118",
+        "text": "有效且条件满足",
+        "from": "37:1961",
+        "to": "37:1970"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1973",
+        "text": "同一身份统一提交一次\n核销预留并实际扣点\n任务正式达成\n写入全部合法结算结果",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1976",
+        "text": "ChestInstance BOX001\n待开启宝箱入队",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2126",
+        "text": "提交结果",
+        "from": "37:1973",
+        "to": "37:1976"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1979",
+        "text": "读取 Season 经验换算规则\n写 PlayerSeasonProgress\n更新战令经验与等级",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2130",
+        "text": "提交结果",
+        "from": "37:1973",
+        "to": "37:1979"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1982",
+        "text": "模板首次且赛季未达100次\n发放首次模板金币并保存记录\n不符合时仍结算其他收益",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2134",
+        "text": "提交结果",
+        "from": "37:1973",
+        "to": "37:1982"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1985",
+        "text": "读取 ClanRule 校验成员资格\n计算并保存贡献与代币结果\n无资格时该项为0",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2138",
+        "text": "提交结果",
+        "from": "37:1973",
+        "to": "37:1985"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "37:1988",
+        "text": "已成功：返回保存的原结果\n不重复扣点或发奖",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "38:2142",
+        "text": "已成功",
+        "from": "37:1970",
+        "to": "37:1988"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "57:2147",
+        "text": "结算复核通过？\n余额 / 槽位 / 预留\n及权威结果证据",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "57:2153",
+        "text": "未成功",
+        "from": "37:1970",
+        "to": "57:2147"
+      },
+      {
+        "type": "connector",
+        "id": "38:2122",
+        "text": "通过",
+        "from": "57:2147",
+        "to": "37:1973"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "57:2150",
+        "text": "记录失败／待恢复（复用同一身份）\n不标达成，不扣点、不发奖",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "57:2157",
+        "text": "未通过",
+        "from": "57:2147",
+        "to": "57:2150"
+      }
+    ]
+  },
+  {
+    "id": "40:2084",
+    "name": "23 宝箱开启与奖励资源到账",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "39:2022",
+        "text": "宝箱实例 BOX001\n来源结算R001",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2025",
+        "text": "宝箱配置600002\n初始2星",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2028",
+        "text": "玩家开箱时\n进行5次升星判定\n每次成功率30%",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "40:2089",
+        "text": "开启规则",
+        "from": "39:2025",
+        "to": "39:2028"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2031",
+        "text": "本例5次均未升星\n最终2星",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2034",
+        "text": "宝箱表星级奖励\nfinal_reward_id=700002",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "40:2101",
+        "text": "最终星级",
+        "from": "39:2031",
+        "to": "39:2034"
+      },
+      {
+        "type": "connector",
+        "id": "40:2097",
+        "text": "星级奖励配置",
+        "from": "39:2025",
+        "to": "39:2034"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2037",
+        "text": "奖励700002\n金币100、卡牌资源5",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "40:2105",
+        "text": "final_reward_id=700002",
+        "from": "39:2034",
+        "to": "39:2037"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2040",
+        "text": "玩家资源账户P001",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2043",
+        "text": "开箱记录OPEN001\n保存唯一开奖结果",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2046",
+        "text": "金币1100→1200\n卡牌资源10→15",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2049",
+        "text": "BOX001已开启\n待开启数量3→2",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2052",
+        "text": "是否已有开奖结果",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "40:2085",
+        "text": "无：读取锁定配置",
+        "from": "39:2052",
+        "to": "39:2025"
+      },
+      {
+        "type": "connector",
+        "id": "40:2125",
+        "text": "玩家点击开启／重试",
+        "from": "39:2022",
+        "to": "39:2052"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "39:2055",
+        "text": "复用结果并补齐未完成入账",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "40:2129",
+        "text": "有：复用原结果",
+        "from": "39:2052",
+        "to": "39:2055"
+      }
+    ]
+  },
+  {
+    "id": "40:2218",
+    "name": "24 贡献代币与部落收益分流",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "41:2085",
+        "text": "任务表\nbase_contribution\n本例112001：25",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2088",
+        "text": "已入部落且结束冷却",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2091",
+        "text": "仅结算符合条件的个人奖励",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "40:2223",
+        "text": "否",
+        "from": "41:2088",
+        "to": "41:2091"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2094",
+        "text": "ClanRule 资格与贡献衰减",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "40:2227",
+        "text": "是",
+        "from": "41:2088",
+        "to": "41:2094"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2097",
+        "text": "更新个人部落贡献及账号赛季累计",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2100",
+        "text": "按成员排名加权汇总\n得到部落有效贡献值",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2103",
+        "text": "读取 ClanRank\n按部落最终名次\n查基础奖励组与倍率",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2106",
+        "text": "RewardGroup 基础内容 × 排名倍率\n仅合格成员发放一次\n记录 ClanAwardRecord 与资源流水",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2109",
+        "text": "ClanHonor 荣誉资格",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2112",
+        "text": "部落代币增量\n本例+25",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2115",
+        "text": "部落代币余额",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2118",
+        "text": "读取 ClanShop\n商品价格与限购",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2121",
+        "text": "读取 RewardGroup\n商品内容与资源数量",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "40:2263",
+        "text": "读取内容",
+        "from": "41:2118",
+        "to": "41:2121"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2124",
+        "text": "含行动点：读取 ActionPointSource\n来源限额与 Season 额外总预算\n非行动点商品不适用此项",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "40:2267",
+        "text": "适用预算",
+        "from": "41:2121",
+        "to": "41:2124"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "41:2127",
+        "text": "任务求助：仅预留接口\n已接取任务保存 help_hook\nTaskHelp.open(A001)",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "59:2156",
+        "text": "赛季结算：同组五部落排名\n按有效贡献值比较\n冻结 ClanSeasonSnapshot",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "59:2165",
+        "text": "最终名次",
+        "from": "59:2156",
+        "to": "41:2103"
+      },
+      {
+        "type": "connector",
+        "id": "40:2239",
+        "text": "赛季排名",
+        "from": "41:2100",
+        "to": "59:2156"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "59:2159",
+        "text": "竞赛领奖资格？\n当前部落满3天\n且个人贡献≥40",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "59:2169",
+        "text": "通过",
+        "from": "59:2159",
+        "to": "41:2106"
+      },
+      {
+        "type": "connector",
+        "id": "40:2243",
+        "text": "领奖校验",
+        "from": "41:2103",
+        "to": "59:2159"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "59:2162",
+        "text": "资格不满足\n不发本次竞赛奖励",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "59:2173",
+        "text": "不通过",
+        "from": "59:2159",
+        "to": "59:2162"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "59:2177",
+        "text": "购买校验均通过？\n余额 / 限购 / 容量\n适用来源与赛季预算",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "59:2186",
+        "text": "校验输入",
+        "from": "41:2124",
+        "to": "59:2177"
+      },
+      {
+        "type": "connector",
+        "id": "40:2259",
+        "text": "余额",
+        "from": "41:2115",
+        "to": "59:2177"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "59:2180",
+        "text": "ShopPurchase / ResourceTransaction\n同一购买事务扣代币并发商品\n记录限购与来源（重试去重）\n行动点商品更新 ActionPointWallet",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "59:2190",
+        "text": "通过",
+        "from": "59:2177",
+        "to": "59:2180"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "59:2183",
+        "text": "校验失败：不扣款、不发货\n已有事务异常按原身份恢复",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "59:2194",
+        "text": "不通过",
+        "from": "59:2177",
+        "to": "59:2183"
+      }
+    ]
+  },
+  {
+    "id": "43:2225",
+    "name": "25 版本切换与回滚数据边界",
+    "texts": [
+      {
+        "type": "shape-with-text",
+        "id": "42:2164",
+        "text": "ReleaseRule 切换或关闭入口",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2167",
+        "text": "新生成与新激活按新发布策略",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2170",
+        "text": "是否为已开局的在途对局",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2173",
+        "text": "读取开局锁定的配置包和任务池版本",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "43:2234",
+        "text": "是",
+        "from": "42:2170",
+        "to": "42:2173"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2176",
+        "text": "查询／复用唯一结算身份\n尚未成功则继续校验",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2179",
+        "text": "核销已用预留，释放确认未用预留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2182",
+        "text": "未开局任务按迁移策略处理",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "43:2246",
+        "text": "否",
+        "from": "42:2170",
+        "to": "42:2182"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2188",
+        "text": "已合法结算的奖励保留",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2191",
+        "text": "重复发奖按原流水核查与定向回收",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2194",
+        "text": "是否跨赛季",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "43:2262",
+        "text": "未成功",
+        "from": "42:2176",
+        "to": "42:2194"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2197",
+        "text": "确定记账季后方可提交",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "43:2266",
+        "text": "是",
+        "from": "42:2194",
+        "to": "42:2197"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "42:2200",
+        "text": "非跨季：确定记账季\n同一流水合法提交",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "43:2242",
+        "text": "提交成功",
+        "from": "42:2200",
+        "to": "42:2179"
+      },
+      {
+        "type": "connector",
+        "id": "43:2270",
+        "text": "否",
+        "from": "42:2194",
+        "to": "42:2200"
+      },
+      {
+        "type": "shape-with-text",
+        "id": "89:1693",
+        "text": "已成功：返回原结果\n不重复扣点或发奖",
+        "from": null,
+        "to": null
+      },
+      {
+        "type": "connector",
+        "id": "89:1696",
+        "text": "已成功",
+        "from": "42:2176",
+        "to": "89:1693"
+      }
+    ]
+  },
+  {
+    "id": "70:1790",
+    "name": "文档原图｜核心闭环与设计价值",
+    "texts": []
+  },
+  {
+    "id": "290:4056",
+    "name": "26核心配表",
+    "texts": [
+      {
+        "type": "connector",
+        "id": "297:4785",
+        "text": "Q32 按同部落、同赛季查询全部成员",
+        "from": "293:6969",
+        "to": "293:6893"
+      },
+      {
+        "type": "connector",
+        "id": "297:4789",
+        "text": "Q33 统计有效参与人数，计算人数基准",
+        "from": "293:6969",
+        "to": "293:6893"
+      },
+      {
+        "type": "connector",
+        "id": "297:4793",
+        "text": "Q34 按个人贡献名次确定人数权重",
+        "from": "293:6969",
+        "to": "293:6893"
+      },
+      {
+        "type": "connector",
+        "id": "297:4797",
+        "text": "Q35 读取个人累计值计算加权积分",
+        "from": "293:6969",
+        "to": "293:6893"
+      },
+      {
+        "type": "connector",
+        "id": "297:4801",
+        "text": "W20 个人贡献更新后触发全员重排与重算",
+        "from": "293:6893",
+        "to": "293:6969"
+      },
+      {
+        "type": "connector",
+        "id": "297:4805",
+        "text": "W21 保存重算积分，覆盖旧快照",
+        "from": "293:6969",
+        "to": "293:6969"
+      },
+      {
+        "type": "connector",
+        "id": "297:4757",
+        "text": "Q29 按玩家、部落、赛季查个人账户",
+        "from": "290:6835",
+        "to": "293:6893"
+      },
+      {
+        "type": "connector",
+        "id": "297:4761",
+        "text": "Q30 查询账号赛季累计用于贡献衰减",
+        "from": "290:6835",
+        "to": "293:6893"
+      },
+      {
+        "type": "connector",
+        "id": "297:4765",
+        "text": "Q31 按贡献事件主键查增量并防重",
+        "from": "293:6893",
+        "to": "290:6835"
+      },
+      {
+        "type": "connector",
+        "id": "297:4769",
+        "text": "W16 本次有效贡献加入个人累计",
+        "from": "290:6835",
+        "to": "293:6893"
+      },
+      {
+        "type": "connector",
+        "id": "297:4773",
+        "text": "W17 同步增加账号赛季累计",
+        "from": "290:6835",
+        "to": "293:6893"
+      },
+      {
+        "type": "connector",
+        "id": "297:4777",
+        "text": "W18 独立增加可消费部落代币",
+        "from": "290:6835",
+        "to": "293:6893"
+      },
+      {
+        "type": "connector",
+        "id": "297:4781",
+        "text": "W19 任务成功后更新有效任务计数",
+        "from": "290:5408",
+        "to": "293:6893"
+      },
+      {
+        "type": "connector",
+        "id": "293:6889",
+        "text": "Q27 用来源结算ID追溯任务",
+        "from": "290:6835",
+        "to": "290:5408"
+      },
+      {
+        "type": "connector",
+        "id": "293:6949",
+        "text": "Q28 查询任务基础部落贡献",
+        "from": "290:6835",
+        "to": "290:4992"
+      },
+      {
+        "type": "connector",
+        "id": "297:4753",
+        "text": "W15 任务成功结算生成贡献事件",
+        "from": "290:5408",
+        "to": "290:6835"
+      },
+      {
+        "type": "connector",
+        "id": "290:6831",
+        "text": "W13 按实扣行动点写入战令经验",
+        "from": "290:5408",
+        "to": "290:6711"
+      },
+      {
+        "type": "connector",
+        "id": "290:6827",
+        "text": "Q22 按战令账户归属定位玩家战令",
+        "from": "290:5408",
+        "to": "290:6711"
+      },
+      {
+        "type": "connector",
+        "id": "290:6817",
+        "text": "Q23 按赛季与等级查战令奖励配置",
+        "from": "290:6711",
+        "to": "290:6786"
+      },
+      {
+        "type": "connector",
+        "id": "297:4737",
+        "text": "Q24 用当前等级校验目标奖励等级",
+        "from": "290:6711",
+        "to": "290:6786"
+      },
+      {
+        "type": "connector",
+        "id": "297:4741",
+        "text": "Q25 已开通付费战令时读取付费奖励",
+        "from": "290:6711",
+        "to": "290:6786"
+      },
+      {
+        "type": "connector",
+        "id": "297:4745",
+        "text": "Q26 读取已解锁等级的免费奖励",
+        "from": "290:6711",
+        "to": "290:6786"
+      },
+      {
+        "type": "connector",
+        "id": "297:4749",
+        "text": "W14 玩家领取已解锁战令奖励后更新资源",
+        "from": "290:6711",
+        "to": "290:5408"
+      },
+      {
+        "type": "connector",
+        "id": "290:6707",
+        "text": "W12 开箱完成后释放实际箱位",
+        "from": "290:5557",
+        "to": "290:5205"
+      },
+      {
+        "type": "connector",
+        "id": "290:6703",
+        "text": "Q21 开箱完成升星后，按最终星级查奖励",
+        "from": "290:5557",
+        "to": "290:6678"
+      },
+      {
+        "type": "connector",
+        "id": "290:6665",
+        "text": "Q18 用宝箱检索键定位宝箱配置",
+        "from": "290:4992",
+        "to": "290:5557"
+      },
+      {
+        "type": "connector",
+        "id": "290:5625",
+        "text": "Q19 按来源结算ID追溯任务结算",
+        "from": "290:5557",
+        "to": "290:5408"
+      },
+      {
+        "type": "connector",
+        "id": "297:4721",
+        "text": "W09 创建玩家宝箱并入队；此时不开箱",
+        "from": "290:5408",
+        "to": "290:5557"
+      },
+      {
+        "type": "connector",
+        "id": "297:4729",
+        "text": "Q20 查询宝箱队列占用",
+        "from": "290:5557",
+        "to": "290:5205"
+      },
+      {
+        "type": "connector",
+        "id": "297:4733",
+        "text": "W11 玩家开箱后资源到账；不是任务结算发奖",
+        "from": "290:5557",
+        "to": "290:5408"
+      },
+      {
+        "type": "connector",
+        "id": "290:5553",
+        "text": "W07 结算后释放对应行动点预留",
+        "from": "290:5408",
+        "to": "290:5205"
+      },
+      {
+        "type": "connector",
+        "id": "290:5549",
+        "text": "W06 任务结算实扣行动点",
+        "from": "290:5408",
+        "to": "290:5066"
+      },
+      {
+        "type": "connector",
+        "id": "290:5545",
+        "text": "Q12 激活前校验可用宝箱空位",
+        "from": "290:5278",
+        "to": "290:5205"
+      },
+      {
+        "type": "connector",
+        "id": "290:5537",
+        "text": "Q16 查询模板本季首次奖励",
+        "from": "290:5408",
+        "to": "290:4992"
+      },
+      {
+        "type": "connector",
+        "id": "290:5533",
+        "text": "Q17 查询本任务应生成的宝箱",
+        "from": "290:5408",
+        "to": "290:4992"
+      },
+      {
+        "type": "connector",
+        "id": "290:5529",
+        "text": "W05 任务完成后写入结算记录",
+        "from": "290:5278",
+        "to": "290:5408"
+      },
+      {
+        "type": "connector",
+        "id": "290:5515",
+        "text": "Q11 激活前校验可用行动点",
+        "from": "290:5278",
+        "to": "290:5205"
+      },
+      {
+        "type": "connector",
+        "id": "297:4709",
+        "text": "Q14 校验完成任务对应的激活记录",
+        "from": "290:5408",
+        "to": "290:5278"
+      },
+      {
+        "type": "connector",
+        "id": "297:4713",
+        "text": "Q15 查询实际扣点数",
+        "from": "290:5408",
+        "to": "290:4992"
+      },
+      {
+        "type": "connector",
+        "id": "297:4717",
+        "text": "W08 符合首次奖励条件时金币入账",
+        "from": "290:5408",
+        "to": "290:5408"
+      },
+      {
+        "type": "connector",
+        "id": "297:4725",
+        "text": "W10 预留箱位转实际占用，总占用不变",
+        "from": "290:5408",
+        "to": "290:5205"
+      },
+      {
+        "type": "connector",
+        "id": "290:5404",
+        "text": "Q03 按任务主键查询任务配置",
+        "from": "290:5278",
+        "to": "290:4992"
+      },
+      {
+        "type": "connector",
+        "id": "290:5340",
+        "text": "W01 为已接任务创建本场激活记录",
+        "from": "290:5134",
+        "to": "290:5278"
+      },
+      {
+        "type": "connector",
+        "id": "297:4669",
+        "text": "Q02 按接取实例主键查询已接任务",
+        "from": "290:5278",
+        "to": "290:5134"
+      },
+      {
+        "type": "connector",
+        "id": "297:4673",
+        "text": "Q04 读取已接任务所属玩家",
+        "from": "290:5278",
+        "to": "290:5134"
+      },
+      {
+        "type": "connector",
+        "id": "297:4677",
+        "text": "Q05 调用已有卡组判定接口",
+        "from": "290:5278",
+        "to": "290:4992"
+      },
+      {
+        "type": "connector",
+        "id": "297:4681",
+        "text": "Q06 用本场有效进度校验任务目标",
+        "from": "290:5278",
+        "to": "290:4992"
+      },
+      {
+        "type": "connector",
+        "id": "297:4685",
+        "text": "Q07 按玩家身份查资源占用",
+        "from": "290:5278",
+        "to": "290:5205"
+      },
+      {
+        "type": "connector",
+        "id": "297:4693",
+        "text": "Q13 读取本任务的行动点消耗",
+        "from": "290:5278",
+        "to": "290:4992"
+      },
+      {
+        "type": "connector",
+        "id": "297:4697",
+        "text": "W02 激活时预留行动点",
+        "from": "290:5278",
+        "to": "290:5205"
+      },
+      {
+        "type": "connector",
+        "id": "297:4701",
+        "text": "W03 激活时预留1个宝箱位置",
+        "from": "290:5278",
+        "to": "290:5205"
+      },
+      {
+        "type": "connector",
+        "id": "297:4705",
+        "text": "W04 有效对局后更新已有进度与状态",
+        "from": "290:5278",
+        "to": "290:4992"
+      },
+      {
+        "type": "connector",
+        "id": "290:5274",
+        "text": "Q09 读取普通池账面余额",
+        "from": "290:5205",
+        "to": "290:5066"
+      },
+      {
+        "type": "connector",
+        "id": "290:5256",
+        "text": "Q01 按任务主键查对应难度的任务",
+        "from": "290:5134",
+        "to": "290:4992"
+      },
+      {
+        "type": "connector",
+        "id": "290:5511",
+        "text": "Q10 汇总已接任务数量；不设接取上限",
+        "from": "290:5205",
+        "to": "290:5134"
+      },
+      {
+        "type": "connector",
+        "id": "297:4689",
+        "text": "Q08 按玩家ID查行动点账户",
+        "from": "290:5205",
+        "to": "290:5066"
+      },
+      {
+        "type": "connector",
+        "id": "301:4768",
+        "text": "Q36 按激活记录主键回查本场激活记录",
+        "from": "290:5134",
+        "to": "290:5278"
+      }
+    ]
+  }
+]

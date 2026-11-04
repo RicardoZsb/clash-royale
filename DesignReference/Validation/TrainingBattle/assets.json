@@ -1,0 +1,18 @@
+{
+  "playing": false,
+  "screen": "BattleHome",
+  "scene": "Assets/Scenes/ClashRoyaleUI.unity",
+  "dirty": false,
+  "size": "UnityEditor.GameViewSize",
+  "backend": "http://127.0.0.1:18765",
+  "missing": 0,
+  "cards": 8,
+  "towers": 6,
+  "units": 64,
+  "projectiles": 32,
+  "nestedUnits": 64,
+  "brokenReferences": 0,
+  "clips": 57,
+  "emptyClips": 0,
+  "controllers": 11
+}

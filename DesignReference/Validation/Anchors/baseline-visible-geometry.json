@@ -1,0 +1,76 @@
+{
+  "compared": 519,
+  "maxError": 24.495697000000007,
+  "differences": [
+    {
+      "screen": "BattleHome",
+      "path": "/Header/通知图标 [16:48]",
+      "error": 7.637304400000001
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 1 · 已完成·金 [59:101]",
+      "error": 24.495697000000007
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 1 · 已完成·金 [59:101]/Border",
+      "error": 24.495697000000007
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 2 · 已完成·金 [59:104]",
+      "error": 24.49566900000002
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 2 · 已完成·金 [59:104]/Border",
+      "error": 24.49566900000002
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 3 · 已完成·金 [59:107]",
+      "error": 24.49566900000002
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 3 · 已完成·金 [59:107]/Border",
+      "error": 24.49566900000002
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 4 · 未完成·灰 [59:110]",
+      "error": 24.495666999999997
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 4 · 未完成·灰 [59:110]/Border",
+      "error": 24.495666999999997
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 5 · 未完成·灰 [59:113]",
+      "error": 24.495666999999997
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 5 · 未完成·灰 [59:113]/Border",
+      "error": 24.495666999999997
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/Rectangle 30 [59:119]",
+      "error": 24.495697000000007
+    },
+    {
+      "screen": "BattlePass",
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/Rectangle 30 [59:119]/Border",
+      "error": 24.495697000000007
+    },
+    {
+      "screen": "Tasks",
+      "path": "/TaskScrollView/Viewport/Content/Polygon 1 [130:13]",
+      "error": 0.07131900000001679
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "overtime-first-tower",
+    "title": "胜利",
+    "score": "1  :  0",
+    "error": null
+  },
+  {
+    "scenario": "tower-health-tiebreak",
+    "title": "胜利",
+    "score": "0  :  0",
+    "error": null
+  },
+  {
+    "scenario": "draw",
+    "title": "平局",
+    "score": "0  :  0",
+    "error": null
+  },
+  {
+    "scenario": "king-tower",
+    "title": "胜利",
+    "score": "3  :  0",
+    "error": null
+  },
+  {
+    "enemySideRejected": true,
+    "giantPlayed": true,
+    "insufficientRejected": true,
+    "elixir": 0.0
+  },
+  {
+    "scenario": "deployment-and-cost",
+    "title": "胜利",
+    "score": "3  :  0",
+    "error": null
+  }
+]

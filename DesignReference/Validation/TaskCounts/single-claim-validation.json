@@ -1,0 +1,19 @@
+{
+  "single_claims": [
+    [
+      2,
+      "FREE",
+      1
+    ],
+    [
+      2,
+      "PREMIUM",
+      1
+    ]
+  ],
+  "gem_grant": 10,
+  "rare_grant": 25,
+  "tap_dismiss": true,
+  "duplicate_click_ignored": true,
+  "production_backend_ready": true
+}

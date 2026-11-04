@@ -1,0 +1,428 @@
+{
+  "date": "2026-10-26",
+  "sourceFigma": "Nbp7FeVnTaPPgSxHbdgL8e",
+  "sourceFigJam": "9nTVfktj7MUHDJW9ioE667",
+  "sourceScreens": 10,
+  "sourceNodes": 473,
+  "screenPrefabs": 10,
+  "componentPrefabs": 7,
+  "authoredRectTransforms": 675,
+  "buttons": 54,
+  "navigation": [
+    {
+      "source": "BattleHome",
+      "destination": "ChestQueue",
+      "id": "16:44",
+      "x": 342,
+      "y": 611,
+      "passed": true,
+      "observed": "ChestQueue"
+    },
+    {
+      "source": "BattleHome",
+      "destination": "Tasks",
+      "id": "7:19",
+      "x": 316,
+      "y": 686,
+      "passed": true,
+      "observed": "Tasks"
+    },
+    {
+      "source": "BattleHome",
+      "destination": "BattlePass",
+      "id": "7:23",
+      "x": 316,
+      "y": 757,
+      "passed": true,
+      "observed": "BattlePass"
+    },
+    {
+      "source": "BattleHome",
+      "destination": "ClanHome",
+      "id": "1:8",
+      "x": 296,
+      "y": 34,
+      "passed": true,
+      "observed": "ClanHome"
+    },
+    {
+      "source": "BattleHome",
+      "destination": "BattleHome",
+      "id": "1:14",
+      "x": 201,
+      "y": 35,
+      "passed": true,
+      "observed": "BattleHome"
+    },
+    {
+      "source": "BattlePass",
+      "destination": "BattlePass",
+      "id": "70:154",
+      "x": 203.5,
+      "y": 813,
+      "passed": true,
+      "observed": "BattlePass"
+    },
+    {
+      "source": "BattlePass",
+      "destination": "Tasks",
+      "id": "70:156",
+      "x": 75.5,
+      "y": 813,
+      "passed": true,
+      "observed": "Tasks"
+    },
+    {
+      "source": "BattlePass",
+      "destination": "ChestQueue",
+      "id": "70:158",
+      "x": 330.5,
+      "y": 813,
+      "passed": true,
+      "observed": "ChestQueue"
+    },
+    {
+      "source": "BattlePass",
+      "destination": "ClanHome",
+      "id": "40:95",
+      "x": 296,
+      "y": 34,
+      "passed": true,
+      "observed": "ClanHome"
+    },
+    {
+      "source": "BattlePass",
+      "destination": "BattleHome",
+      "id": "40:97",
+      "x": 201,
+      "y": 35,
+      "passed": true,
+      "observed": "BattleHome"
+    },
+    {
+      "source": "ChestQueue",
+      "destination": "BattlePass",
+      "id": "70:180",
+      "x": 203.5,
+      "y": 813,
+      "passed": true,
+      "observed": "BattlePass"
+    },
+    {
+      "source": "ChestQueue",
+      "destination": "Tasks",
+      "id": "70:181",
+      "x": 75.5,
+      "y": 813,
+      "passed": true,
+      "observed": "Tasks"
+    },
+    {
+      "source": "ChestQueue",
+      "destination": "ChestQueue",
+      "id": "70:182",
+      "x": 330.5,
+      "y": 813,
+      "passed": true,
+      "observed": "ChestQueue"
+    },
+    {
+      "source": "ChestQueue",
+      "destination": "BattleHome",
+      "id": "69:148",
+      "x": 177,
+      "y": 35,
+      "passed": true,
+      "observed": "BattleHome"
+    },
+    {
+      "source": "ChestQueue",
+      "destination": "ClanHome",
+      "id": "69:150",
+      "x": 272,
+      "y": 35,
+      "passed": true,
+      "observed": "ClanHome"
+    },
+    {
+      "source": "ClanChat",
+      "destination": "ClanShop",
+      "id": "76:229",
+      "x": 356,
+      "y": 828,
+      "passed": true,
+      "observed": "ClanShop"
+    },
+    {
+      "source": "ClanChat",
+      "destination": "ClanCompetition",
+      "id": "76:230",
+      "x": 46,
+      "y": 828,
+      "passed": true,
+      "observed": "ClanCompetition"
+    },
+    {
+      "source": "ClanChat",
+      "destination": "BattleHome",
+      "id": "38:28",
+      "x": 177,
+      "y": 35,
+      "passed": true,
+      "observed": "BattleHome"
+    },
+    {
+      "source": "ClanChat",
+      "destination": "ClanHome",
+      "id": "38:30",
+      "x": 272,
+      "y": 35,
+      "passed": true,
+      "observed": "ClanHome"
+    },
+    {
+      "source": "ClanChatInput",
+      "destination": "ClanShop",
+      "id": "76:261",
+      "x": 356,
+      "y": 828,
+      "passed": true,
+      "observed": "ClanShop"
+    },
+    {
+      "source": "ClanChatInput",
+      "destination": "ClanCompetition",
+      "id": "76:263",
+      "x": 46,
+      "y": 828,
+      "passed": true,
+      "observed": "ClanCompetition"
+    },
+    {
+      "source": "ClanChatInput",
+      "destination": "BattleHome",
+      "id": "76:254",
+      "x": 177,
+      "y": 35,
+      "passed": true,
+      "observed": "BattleHome"
+    },
+    {
+      "source": "ClanChatInput",
+      "destination": "ClanHome",
+      "id": "76:256",
+      "x": 272,
+      "y": 35,
+      "passed": true,
+      "observed": "ClanHome"
+    },
+    {
+      "source": "ClanCompetition",
+      "destination": "ClanChat",
+      "id": "76:279",
+      "x": 356,
+      "y": 828,
+      "passed": true,
+      "observed": "ClanChat"
+    },
+    {
+      "source": "ClanCompetition",
+      "destination": "ClanShop",
+      "id": "76:281",
+      "x": 46,
+      "y": 828,
+      "passed": true,
+      "observed": "ClanShop"
+    },
+    {
+      "source": "ClanCompetition",
+      "destination": "BattleHome",
+      "id": "40:83",
+      "x": 177,
+      "y": 35,
+      "passed": true,
+      "observed": "BattleHome"
+    },
+    {
+      "source": "ClanCompetition",
+      "destination": "ClanHome",
+      "id": "40:85",
+      "x": 272,
+      "y": 35,
+      "passed": true,
+      "observed": "ClanHome"
+    },
+    {
+      "source": "ClanHome",
+      "destination": "ClanChat",
+      "id": "30:96",
+      "x": 325.5,
+      "y": 708.5,
+      "passed": true,
+      "observed": "ClanChat"
+    },
+    {
+      "source": "ClanHome",
+      "destination": "ClanCompetition",
+      "id": "30:104",
+      "x": 201.5,
+      "y": 708.5,
+      "passed": true,
+      "observed": "ClanCompetition"
+    },
+    {
+      "source": "ClanHome",
+      "destination": "ClanShop",
+      "id": "30:105",
+      "x": 77.5,
+      "y": 708.5,
+      "passed": true,
+      "observed": "ClanShop"
+    },
+    {
+      "source": "ClanHome",
+      "destination": "BattleHome",
+      "id": "30:88",
+      "x": 177,
+      "y": 35,
+      "passed": true,
+      "observed": "BattleHome"
+    },
+    {
+      "source": "ClanHome",
+      "destination": "ClanHome",
+      "id": "30:90",
+      "x": 272,
+      "y": 35,
+      "passed": true,
+      "observed": "ClanHome"
+    },
+    {
+      "source": "ClanShop",
+      "destination": "ClanCompetition",
+      "id": "76:271",
+      "x": 356,
+      "y": 828,
+      "passed": true,
+      "observed": "ClanCompetition"
+    },
+    {
+      "source": "ClanShop",
+      "destination": "ClanChat",
+      "id": "76:273",
+      "x": 46,
+      "y": 828,
+      "passed": true,
+      "observed": "ClanChat"
+    },
+    {
+      "source": "ClanShop",
+      "destination": "BattleHome",
+      "id": "40:47",
+      "x": 177,
+      "y": 35,
+      "passed": true,
+      "observed": "BattleHome"
+    },
+    {
+      "source": "ClanShop",
+      "destination": "ClanHome",
+      "id": "40:49",
+      "x": 272,
+      "y": 35,
+      "passed": true,
+      "observed": "ClanHome"
+    },
+    {
+      "source": "Tasks",
+      "destination": "BattlePass",
+      "id": "70:173",
+      "x": 201.5,
+      "y": 813,
+      "passed": true,
+      "observed": "BattlePass"
+    },
+    {
+      "source": "Tasks",
+      "destination": "Tasks",
+      "id": "70:174",
+      "x": 71.5,
+      "y": 813,
+      "passed": true,
+      "observed": "Tasks"
+    },
+    {
+      "source": "Tasks",
+      "destination": "ChestQueue",
+      "id": "70:175",
+      "x": 330.5,
+      "y": 813,
+      "passed": true,
+      "observed": "ChestQueue"
+    },
+    {
+      "source": "Tasks",
+      "destination": "ClanHome",
+      "id": "40:70",
+      "x": 296,
+      "y": 34,
+      "passed": true,
+      "observed": "ClanHome"
+    },
+    {
+      "source": "Tasks",
+      "destination": "BattleHome",
+      "id": "40:72",
+      "x": 201,
+      "y": 35,
+      "passed": true,
+      "observed": "BattleHome"
+    }
+  ],
+  "interactions": [
+    {
+      "test": "claim_free_rewards",
+      "result": {
+        "claimed": true,
+        "label": "已领取",
+        "markersHidden": true
+      }
+    },
+    {
+      "test": "pass_preview_unlock",
+      "result": {
+        "unlocked": true,
+        "completedLocksHidden": true
+      }
+    },
+    {
+      "test": "local_chat_send",
+      "result": {
+        "screen": "ClanChat",
+        "message": "界面输入检查",
+        "bubble": true,
+        "inputCleared": true
+      }
+    },
+    {
+      "test": "merge_pair_and_reveal",
+      "result": {
+        "screen": "ChestReveal",
+        "remaining": 2,
+        "pairConsumed": true,
+        "fourStar": true
+      }
+    },
+    {
+      "test": "single_chest_reveal",
+      "result": {
+        "screen": "ChestReveal",
+        "remaining": 1,
+        "singleConsumed": true,
+        "twoStar": true
+      }
+    }
+  ],
+  "runtimeUIScriptsCreateObjects": false,
+  "verification": "Unity Play Mode native Input System pointer events. Screenshots captured using ScreenCapture because the Pipeline capture target did not preserve stencil masks."
+}

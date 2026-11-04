@@ -1,0 +1,10 @@
+{
+  "scene": "Assets/Scenes/ClashRoyaleUI.unity",
+  "dirty": false,
+  "sceneRaycast": true,
+  "prefabRaycast": true,
+  "sceneListeners": 1,
+  "prefabListeners": 1,
+  "backend": "http://127.0.0.1:18765",
+  "otherMissingHitAreas": []
+}

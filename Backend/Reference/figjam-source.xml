@@ -1,0 +1,1743 @@
+<canvas id="0:1" name="Page 1" x="0" y="0" width="0" height="0">
+  <section id="3:2" name="02_任务主流程" x="3900" y="1100" width="3090.5" height="1828">
+    <shape-with-text id="3:4" x="64" y="64" width="2962.5" height="1700" name="SQUARE"></shape-with-text>
+    <shape-with-text id="3:8" x="1314" y="124" width="365" height="107.5" name="ROUNDED_RECTANGLE">从展示区选择任务</shape-with-text>
+    <shape-with-text id="3:12" x="1266.5" y="298" width="460" height="147" name="SQUARE">接取任务：
+不消耗行动点
+接取数量不设上限</shape-with-text>
+    <connector id="3:52" x="1434.1875" y="236" connectorStart="3:8" connectorStartCap="NONE" connectorEnd="3:12" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="3:16" x="1067.4832763671875" y="503.5" width="855.5333251953125" height="246" name="DIAMOND">资源支持激活？
+可用行动点足够
+20格宝箱队列有可预留空位</shape-with-text>
+    <connector id="3:56" x="1382.5625" y="449.4990234375" connectorStart="3:12" connectorStartCap="NONE" connectorEnd="3:16" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <shape-with-text id="3:20" x="1266.5" y="808" width="460" height="147" name="SQUARE">激活并预留
+按优先级/接取顺序选择
+预留行动点与空位，不扣点</shape-with-text>
+    <connector id="3:60" x="1472.5625" y="753.9990234375" connectorStart="3:16" connectorStartCap="NONE" connectorEnd="3:20" connectorEndCap="ARROW_LINES">edge_2</connector>
+    <shape-with-text id="3:24" x="1266.5" y="1018" width="460" height="147" name="SQUARE">进入对局
+锁定激活列表与任务池版本
+仅已激活任务参与本场判定</shape-with-text>
+    <connector id="3:64" x="1434.1875" y="959.5" connectorStart="3:20" connectorStartCap="NONE" connectorEnd="3:24" connectorEndCap="ARROW_LINES">edge_3</connector>
+    <shape-with-text id="3:28" x="1061.8653564453125" y="1247.75" width="866.7692260742188" height="180" name="DIAMOND">本任务结算结果？
+区分达成、未达成与校验失败</shape-with-text>
+    <connector id="3:68" x="1356.5625" y="1169.49951171875" connectorStart="3:24" connectorStartCap="NONE" connectorEnd="3:28" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <shape-with-text id="3:32" x="1266.5" y="1519" width="460" height="200" name="SQUARE">任务正式达成，扣除行动点
+首次模板金币（符合条件时）
+部落贡献、战令经验
+宝箱入队，等待玩家开启</shape-with-text>
+    <connector id="3:72" x="1459.5625" y="1432.24951171875" connectorStart="3:28" connectorStartCap="NONE" connectorEnd="3:32" connectorEndCap="ARROW_LINES">edge_5</connector>
+    <shape-with-text id="3:36" x="2194" y="519" width="555" height="215" name="SQUARE">暂停对应任务激活
+保持已接取状态与已有进度
+可提取储备点或开启宝箱
+资源满足后重新计算激活</shape-with-text>
+    <connector id="3:76" x="1927.5166015625" y="602.5" connectorStart="3:16" connectorStartCap="NONE" connectorEnd="3:36" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <shape-with-text id="3:40" x="2194" y="851.5" width="555" height="157.5" name="SQUARE">仍可开始普通对局
+没有激活的任务不参与判定
+无需为了对战先补足行动点</shape-with-text>
+    <connector id="3:80" x="2471.5" y="738.5" connectorStart="3:36" connectorStartCap="NONE" connectorEnd="3:40" connectorEndCap="ARROW_LINES">edge_7</connector>
+    <shape-with-text id="3:44" x="2319" y="1131.5" width="307.5" height="125" name="ROUNDED_RECTANGLE">正常对战继续</shape-with-text>
+    <connector id="3:84" x="2471.5458984375" y="1013.499755859375" connectorStart="3:40" connectorStartCap="NONE" connectorEnd="3:44" connectorEndCap="ARROW_LINES">edge_8</connector>
+    <shape-with-text id="3:48" x="206.5" y="1241.5" width="550" height="192.5" name="SQUARE">本场未达成该任务
+有效但条件未满足：保留进度
+无效对局：不推进任务
+释放本场未使用的预留额度</shape-with-text>
+    <connector id="3:92" x="355.1875" y="626.5" connectorStart="3:48" connectorStartCap="NONE" connectorEnd="3:16" connectorEndCap="ARROW_LINES">edge_10</connector>
+    <connector id="3:88" x="761" y="1313.75" connectorStart="3:28" connectorStartCap="NONE" connectorEnd="3:48" connectorEndCap="ARROW_LINES">edge_9</connector>
+    <shape-with-text id="57:2162" x="2194" y="1430" width="555" height="215" name="SQUARE">结算失败／待恢复
+不标达成，不扣点发奖
+记录失败原因</shape-with-text>
+    <connector id="57:2166" x="1933.13427734375" y="1337.75" connectorStart="3:28" connectorStartCap="NONE" connectorEnd="57:2162" connectorEndCap="ARROW_LINES">本任务结算校验失败</connector>
+  </section>
+  <section id="5:203" name="03_任务集合" x="7700" y="1100" width="2378" height="2015.5">
+    <shape-with-text id="5:205" x="64" y="64" width="2250" height="1887.5" name="SQUARE"></shape-with-text>
+    <shape-with-text id="5:209" x="114" y="95.25" width="2150" height="1518.75" name="SQUARE"></shape-with-text>
+    <text id="5:213" name="每周任务候选集合 W：62 条" x="129" y="119" width="314" height="31" />
+    <text id="5:214" name="一级 25 条 ＋ 二级 20 条 ＋ 三级 16 条 ＋ 特殊 1 条；每周生成并绑定任务池版本。" x="245.25" y="195.25" width="829" height="29" />
+    <shape-with-text id="5:215" x="145.25" y="276.5" width="1650" height="165" name="SQUARE"></shape-with-text>
+    <text id="5:219" name="当日展示集合 D：20 条" x="166.5" y="301.5" width="259" height="31" />
+    <text id="5:220" name="一级 8 条 ＋ 二级 6 条 ＋ 三级 5 条 ＋ 特殊 1 条；特殊任务持续展示。" x="307.75" y="380.25" width="699" height="29" />
+    <shape-with-text id="5:221" x="176.5" y="457.75" width="1587.5" height="1087.5" name="SQUARE"></shape-with-text>
+    <text id="5:225" name="已接任务集合 A：接取数量不设上限" x="201.5" y="484" width="750" height="31" />
+    <text id="5:226" name="任务接取后保存状态与进度；后台记录已接任务。" x="289" y="562.75" width="484" height="28" />
+    <shape-with-text id="5:227" x="207.75" y="632.75" width="1243.75" height="875" name="SQUARE"></shape-with-text>
+    <text id="5:231" name="本场已激活集合 X：属于已接任务集合 A" x="232.75" y="661.5" width="444" height="31" />
+    <text id="5:232" name="激活数量由可用行动点与宝箱空位共同决定" x="401.5" y="740.25" width="437" height="29" />
+    <shape-with-text id="5:233" x="264" y="807.75" width="506.25" height="225" name="SQUARE">示例：一级任务
+预留 1 行动点
+预留 1 个宝箱空位</shape-with-text>
+    <shape-with-text id="5:237" x="864" y="807.75" width="506.25" height="225" name="SQUARE">示例：二级任务
+预留 2 行动点
+预留 1 个宝箱空位</shape-with-text>
+    <shape-with-text id="5:241" x="264" y="1095.25" width="506.25" height="225" name="SQUARE">示例：三级任务
+预留 3 行动点
+预留 1 个宝箱空位</shape-with-text>
+    <shape-with-text id="5:245" x="864" y="1095.25" width="506.25" height="225" name="SQUARE">示例：特殊任务
+预留 3 行动点
+预留 1 个宝箱空位</shape-with-text>
+    <text id="5:249" name="四例若同时激活：共预留 9 行动点、4 个宝箱空位。" x="566" y="1375.25" width="526" height="29" />
+    <text id="5:250" name="宝箱队列容量20；可用空位＝20－待开启数量－有效预留箱位。" x="380" y="1431.5" width="1000" height="28" />
+    <text id="5:251" name="已接、未激活" x="1535.75" y="844" width="144" height="30" />
+    <text id="5:252" name="保留接取状态" x="1538.75" y="907.75" width="138" height="29" />
+    <text id="5:253" name="不参与本场判定" x="1527.25" y="971.5" width="161" height="29" />
+    <text id="5:254" name="已有进度保留" x="1538.75" y="1035.25" width="138" height="29" />
+    <text id="5:255" name="候选中暂未展示的任务" x="1911.5" y="685.25" width="230" height="29" />
+    <text id="5:256" name="等待后续每日轮换" x="1934.5" y="742.75" width="184" height="29" />
+    <text id="5:257" name="每日只替换未接取项" x="1923" y="800.25" width="207" height="29" />
+    <text id="5:258" name="已接任务保留状态与进度" x="1900" y="857.75" width="300" height="29" />
+    <shape-with-text id="5:263" x="1820.25" y="1051.5" width="418.75" height="356.25" name="SQUARE">本场激活数量
+按优先级逐项检查
+累计消耗不超过可用行动点
+每项预留1个宝箱空位
+宝箱队列容量：20个</shape-with-text>
+  </section>
+  <section id="5:267" name="04_任务状态机" x="10320" y="1156" width="3513" height="1903">
+    <shape-with-text id="5:269" x="64" y="64" width="3385" height="1775" name="SQUARE"></shape-with-text>
+    <shape-with-text id="5:273" x="159" y="134" width="1910" height="1640" name="SQUARE"></shape-with-text>
+    <shape-with-text id="5:277" x="2141.5" y="134" width="1140" height="1640" name="SQUARE"></shape-with-text>
+    <text id="5:281" name="对象一：某次接取的任务实例" x="206.5" y="176.5" width="364" height="35" />
+    <text id="5:282" name="对象二：已获得的任务宝箱" x="2201.5" y="176.5" width="336" height="35" />
+    <shape-with-text id="5:283" x="511.5" y="252.75" width="62.5" height="62.5" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="5:286" x="346.5" y="421.5" width="395" height="155" name="SQUARE">可接取
+在当日任务展示区</shape-with-text>
+    <connector id="5:330" x="542.802734375" y="319.749755859375" connectorStart="5:283" connectorStartCap="NONE" connectorEnd="5:286" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="5:290" x="275.25" y="761.5" width="537.5" height="155" name="SQUARE">已接取·未激活
+保留进度，不参与本场判定</shape-with-text>
+    <connector id="5:334" x="366.5625" y="581" connectorStart="5:286" connectorStartCap="NONE" connectorEnd="5:290" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <shape-with-text id="5:294" x="1434" y="421.5" width="537.5" height="155" name="SQUARE">已激活·已预留
+行动点尚未扣除
+宝箱空位已预留</shape-with-text>
+    <shape-with-text id="5:298" x="1434" y="814" width="537.5" height="155" name="SQUARE">对局中
+列表与任务池版本已锁定</shape-with-text>
+    <connector id="5:360" x="812.75" y="851" connectorStart="5:298" connectorStartCap="NONE" connectorEnd="5:290" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <connector id="5:356" x="1566.8125" y="581" connectorStart="5:294" connectorStartCap="NONE" connectorEnd="5:298" connectorEndCap="ARROW_LINES">edge_3</connector>
+    <shape-with-text id="5:302" x="1434" y="1104" width="537.5" height="152.5" name="SQUARE">已达成
+扣除行动点并记录本次奖励
+创建待开启宝箱</shape-with-text>
+    <connector id="5:372" x="1537.9375" y="973.5" connectorStart="5:298" connectorStartCap="NONE" connectorEnd="5:302" connectorEndCap="ARROW_LINES">edge_7</connector>
+    <shape-with-text id="5:306" x="275.25" y="1104" width="537.5" height="152.5" name="SQUARE">本轮接取结束
+取消或到期后结束本轮跟踪</shape-with-text>
+    <connector id="5:364" x="379.1875" y="921" connectorStart="5:290" connectorStartCap="NONE" connectorEnd="5:306" connectorEndCap="ARROW_LINES">edge_5</connector>
+    <shape-with-text id="5:310" x="511.5" y="1572.75" width="62.5" height="62.5" name="ELLIPSE"></shape-with-text>
+    <connector id="5:368" x="542.767578125" y="1261" connectorStart="5:306" connectorStartCap="NONE" connectorEnd="5:310" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <shape-with-text id="5:313" x="1671.5" y="1545.25" width="62.5" height="62.5" name="ELLIPSE"></shape-with-text>
+    <connector id="5:376" x="1702.75" y="1261" connectorStart="5:302" connectorStartCap="NONE" connectorEnd="5:313" connectorEndCap="ARROW_LINES">edge_8</connector>
+    <shape-with-text id="5:316" x="2661.5" y="252.75" width="62.5" height="62.5" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="5:319" x="2424" y="561.5" width="537.5" height="155" name="SQUARE">待开启
+已经入队，尚未开箱
+不再消耗行动点</shape-with-text>
+    <connector id="5:380" x="2529.3125" y="319.75" connectorStart="5:316" connectorStartCap="NONE" connectorEnd="5:319" connectorEndCap="ARROW_LINES">edge_9</connector>
+    <shape-with-text id="5:323" x="2424" y="1014" width="537.5" height="152.5" name="SQUARE">已开启
+宝箱内容已发放
+释放对应宝箱空位</shape-with-text>
+    <connector id="5:384" x="2579.8125" y="721" connectorStart="5:319" connectorStartCap="NONE" connectorEnd="5:323" connectorEndCap="ARROW_LINES">edge_10</connector>
+    <shape-with-text id="5:327" x="2661.5" y="1545.25" width="62.5" height="62.5" name="ELLIPSE"></shape-with-text>
+    <connector id="5:388" x="2692.75" y="1171" connectorStart="5:323" connectorStartCap="NONE" connectorEnd="5:327" connectorEndCap="ARROW_LINES">edge_11</connector>
+    <connector id="5:344" x="817.25" y="499" connectorStart="5:290" connectorStartCap="NONE" connectorEnd="5:294" connectorEndCap="ARROW_LINES">edge_2 · 单条原生连接线</connector>
+  </section>
+  <section id="30:1929" name="01_系统边界与依赖" x="800" y="1244" width="2378" height="1540.5">
+    <shape-with-text id="30:1930" x="64" y="64" width="2250" height="1412.5" name="SQUARE"></shape-with-text>
+    <text id="30:1931" name="01" x="119" y="107.75" width="31" height="33" />
+    <text id="30:1932" name="系统边界与依赖" x="196.5" y="102.75" width="238" height="43" />
+    <shape-with-text id="30:1933" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="30:1934" x="2251" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="30:1936" x="114" y="270.25" width="462.5" height="975" name="SQUARE"></shape-with-text>
+    <text id="30:1937" name="玩家接触面" x="136.5" y="287.75" width="110" height="28" />
+    <shape-with-text id="30:1938" x="689" y="270.25" width="812.5" height="975" name="SQUARE"></shape-with-text>
+    <text id="30:1939" name="本方案核心" x="711.5" y="287.75" width="110" height="28" />
+    <shape-with-text id="30:1940" x="1614" y="270.25" width="650" height="975" name="SQUARE"></shape-with-text>
+    <text id="30:1941" name="相连的成长与社交系统" x="1636.5" y="287.75" width="220" height="28" />
+    <shape-with-text id="30:1942" x="145.25" y="589" width="400" height="187.5" name="SQUARE">任务展示区与交互
+展示 / 接取 / 激活状态
+源入口：战斗页＋顶部页签</shape-with-text>
+    <shape-with-text id="30:1943" x="145.25" y="1007.75" width="400" height="168.75" name="SQUARE">普通对局入口（匹配）
+行动点不足仍可正常对局
+任务只影响附加任务收益</shape-with-text>
+    <shape-with-text id="30:1944" x="851.5" y="320.25" width="487.5" height="168.75" name="SQUARE">任务配置与版本
+一级 / 二级 / 三级 / 特殊分别存储
+标题 / 简述 / 详细描述 / 目标</shape-with-text>
+    <shape-with-text id="30:1945" x="851.5" y="589" width="487.5" height="187.5" name="SQUARE">个人任务运行与结算
+候选 / 展示 / 已接 / 激活
+验证条件与结算资格
+一次达成只结算一次</shape-with-text>
+    <connector id="30:1946" x="1052.0625" y="493.5" connectorStart="30:1944" connectorStartCap="NONE" connectorEnd="30:1945" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <connector id="30:1947" x="549.75" y="663.75" connectorStart="30:1942" connectorStartCap="NONE" connectorEnd="30:1945" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="30:1948" x="851.5" y="1007.75" width="487.5" height="168.75" name="SQUARE">行动点与预留额度
+普通池 / 储备池</shape-with-text>
+    <connector id="30:1949" x="1016.5625" y="781" connectorStart="30:1945" connectorStartCap="NONE" connectorEnd="30:1948" connectorEndCap="ARROW_LINES">edge_2</connector>
+    <shape-with-text id="30:1950" x="1689" y="332.75" width="500" height="168.75" name="SQUARE">待开启宝箱队列
+接收入队结果
+开启是独立的后续操作</shape-with-text>
+    <shape-with-text id="30:1951" x="1689" y="589" width="500" height="187.5" name="SQUARE">战令与首次达成奖励
+战令经验按实际扣点增长
+首次奖励另校验模板与赛季
+付费线路不发放行动点</shape-with-text>
+    <connector id="30:1952" x="1343.5" y="663.75" connectorStart="30:1945" connectorStartCap="NONE" connectorEnd="30:1951" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <shape-with-text id="30:1953" x="1689" y="1007.75" width="500" height="168.75" name="SQUARE">部落贡献与赛季系统
+资格、归属、排名分别处理
+竞赛 / 荣誉 / 商店</shape-with-text>
+    <shape-with-text id="30:1955" x="111" y="1408.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="30:1956" x="2251" y="1408.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="30:1959" x="1343.5" y="417.125" connectorStart="30:1945" connectorStartCap="NONE" connectorEnd="30:1950" connectorEndCap="ARROW_LINES">edge_3 · 单条原生连接线</connector>
+    <connector id="30:1964" x="1343.5" y="682.75" connectorStart="30:1945" connectorStartCap="NONE" connectorEnd="30:1953" connectorEndCap="ARROW_LINES">edge_5 · 单条原生连接线</connector>
+  </section>
+  <section id="6:356" name="07_结算时序" x="3900" y="4100" width="2628" height="2440.5">
+    <shape-with-text id="6:358" x="64" y="64" width="2500" height="2312.5" name="SQUARE"></shape-with-text>
+    <text id="6:366" name="07" x="119" y="107.75" width="31" height="33" />
+    <text id="6:367" name="结算时序" x="196.5" y="102.75" width="136" height="43" />
+    <shape-with-text id="6:369" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:372" x="2501" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:379" x="132.75" y="445.25" width="2362.5" height="668.75" name="SQUARE"></shape-with-text>
+    <shape-with-text id="6:383" x="132.75" y="1126.5" width="2362.5" height="912.5" name="SQUARE"></shape-with-text>
+    <shape-with-text id="6:387" x="132.75" y="1126.5" width="325" height="55" name="SQUARE"></shape-with-text>
+    <text id="6:391" name="alt  本场任务结算" x="152.75" y="1139" width="164" height="27" />
+    <shape-with-text id="6:392" x="124.75" y="1368.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:395" x="2487.25" y="1368.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:398" x="132.75" y="1376.5" connectorStart="6:392" connectorStartCap="NONE" connectorEnd="6:395" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:402" name="[无效对局或任务条件未满足]" x="157.75" y="1189" width="256" height="25" />
+    <text id="6:403" name="[有效且任务条件满足]" x="157.75" y="1406.5" width="196" height="25" />
+    <shape-with-text id="6:404" x="132.75" y="2064" width="2362.5" height="168.75" name="SQUARE"></shape-with-text>
+    <shape-with-text id="6:408" x="132.75" y="295.25" width="337.5" height="106.25" name="SQUARE">玩家界面</shape-with-text>
+    <shape-with-text id="6:412" x="293.5" y="393.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:415" x="293.5" y="2243.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:418" x="301.5" y="401.5" connectorStart="6:412" connectorStartCap="NONE" connectorEnd="6:415" connectorEndCap="NONE">line / 1</connector>
+    <shape-with-text id="6:422" x="720.25" y="295.25" width="337.5" height="106.25" name="SQUARE">任务判定</shape-with-text>
+    <shape-with-text id="6:426" x="881" y="393.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:429" x="881" y="2243.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:432" x="889" y="401.5" connectorStart="6:426" connectorStartCap="NONE" connectorEnd="6:429" connectorEndCap="NONE">line / 1</connector>
+    <shape-with-text id="6:436" x="1370.25" y="295.25" width="337.5" height="106.25" name="SQUARE">结算协调</shape-with-text>
+    <shape-with-text id="6:440" x="1531" y="393.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:443" x="1531" y="2243.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:446" x="1539" y="401.5" connectorStart="6:440" connectorStartCap="NONE" connectorEnd="6:443" connectorEndCap="NONE">line / 1</connector>
+    <shape-with-text id="6:450" x="2045.25" y="295.25" width="337.5" height="106.25" name="SQUARE">资源与奖励记录</shape-with-text>
+    <shape-with-text id="6:454" x="2206" y="393.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:457" x="2206" y="2243.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:460" x="2214" y="401.5" connectorStart="6:454" connectorStartCap="NONE" connectorEnd="6:457" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:464" name="奖励资格：部落贡献需满足入部落条件；首次达成奖励需检查模板记录与赛季 100 次上限。" x="145.25" y="2270.25" width="2250" height="24" />
+    <shape-with-text id="6:465" x="111" y="2308.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:468" x="2501" y="2308.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:476" x="293.5" y="496" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:479" x="881" y="496" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:482" x="301.5" y="485" connectorStart="6:476" connectorStartCap="NONE" connectorEnd="6:479" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="6:486" x="881" y="606" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:489" x="1531" y="606" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:492" x="889" y="595" connectorStart="6:486" connectorStartCap="NONE" connectorEnd="6:489" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <shape-with-text id="6:496" x="1531" y="681" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:499" x="881" y="681" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:502" x="889" y="670" connectorStart="6:496" connectorStartCap="NONE" connectorEnd="6:499" connectorEndCap="ARROW_LINES">edge_2</connector>
+    <shape-with-text id="6:506" x="881" y="774.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:509" x="293.5" y="774.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:512" x="301.5" y="763.75" connectorStart="6:506" connectorStartCap="NONE" connectorEnd="6:509" connectorEndCap="ARROW_LINES">edge_3</connector>
+    <shape-with-text id="6:516" x="293.5" y="868.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:519" x="881" y="868.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:522" x="301.5" y="857.5" connectorStart="6:516" connectorStartCap="NONE" connectorEnd="6:519" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <shape-with-text id="6:526" x="881" y="931" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:529" x="881" y="999.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:538" x="900.5" y="939" connectorStart="6:526" connectorStartCap="NONE" connectorEnd="6:529" connectorEndCap="ARROW_LINES">edge_5 · 单条原生连接线</connector>
+    <shape-with-text id="6:550" x="293.5" y="1074.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:553" x="881" y="1074.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:556" x="301.5" y="1063.75" connectorStart="6:550" connectorStartCap="NONE" connectorEnd="6:553" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <shape-with-text id="6:560" x="881" y="1293.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:563" x="293.5" y="1293.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:566" x="301.5" y="1271" connectorStart="6:560" connectorStartCap="NONE" connectorEnd="6:563" connectorEndCap="ARROW_LINES">edge_7</connector>
+    <shape-with-text id="6:570" x="881" y="1481" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:573" x="1531" y="1481" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:576" x="889" y="1470" connectorStart="6:570" connectorStartCap="NONE" connectorEnd="6:573" connectorEndCap="ARROW_LINES">edge_8</connector>
+    <shape-with-text id="6:580" x="1531" y="1537.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:583" x="1531" y="1593.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:592" x="1550.5" y="1545.25" connectorStart="6:580" connectorStartCap="NONE" connectorEnd="6:583" connectorEndCap="ARROW_LINES">edge_9 · 单条原生连接线</connector>
+    <shape-with-text id="6:604" x="1531" y="1712.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:607" x="2206" y="1712.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:610" x="1539" y="1678.25" connectorStart="6:604" connectorStartCap="NONE" connectorEnd="6:607" connectorEndCap="ARROW_LINES">edge_10</connector>
+    <shape-with-text id="6:614" x="2206" y="1774.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:617" x="1531" y="1774.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:620" x="1539" y="1763.75" connectorStart="6:614" connectorStartCap="NONE" connectorEnd="6:617" connectorEndCap="ARROW_LINES">edge_11</connector>
+    <shape-with-text id="6:624" x="1531" y="1887.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:627" x="881" y="1887.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:630" x="889" y="1864.75" connectorStart="6:624" connectorStartCap="NONE" connectorEnd="6:627" connectorEndCap="ARROW_LINES">edge_12</connector>
+    <shape-with-text id="6:634" x="881" y="1987.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:637" x="293.5" y="1987.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:640" x="301.5" y="1976.25" connectorStart="6:634" connectorStartCap="NONE" connectorEnd="6:637" connectorEndCap="ARROW_LINES">edge_13</connector>
+    <shape-with-text id="6:644" x="881" y="2118.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:647" x="1531" y="2118.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:650" x="889" y="2107.5" connectorStart="6:644" connectorStartCap="NONE" connectorEnd="6:647" connectorEndCap="ARROW_LINES">edge_14</connector>
+    <shape-with-text id="6:654" x="1531" y="2199.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:657" x="881" y="2199.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:660" x="889" y="2188.75" connectorStart="6:654" connectorStartCap="NONE" connectorEnd="6:657" connectorEndCap="ARROW_LINES">edge_15</connector>
+    <text id="16:1903" name="edge_5 label / 锁定激活列表与任务池版本" x="1120.25" y="946.5" width="216" height="22" />
+    <text id="16:1904" name="edge_9 label / 唯一标识检查" x="1695.25" y="1527.75" width="198" height="44" />
+  </section>
+  <section id="6:664" name="08_行动点双池" x="7700" y="4100" width="2203" height="1708">
+    <shape-with-text id="6:666" x="64" y="64" width="2075" height="1562.5" name="SQUARE"></shape-with-text>
+    <text id="6:674" name="08" x="119" y="107.75" width="31" height="33" />
+    <text id="6:675" name="行动点双池与预留账本" x="196.5" y="102.75" width="340" height="43" />
+    <shape-with-text id="6:677" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:680" x="2076" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:687" x="145" y="420" width="325" height="143.75" name="SQUARE">自然恢复计时</shape-with-text>
+    <shape-with-text id="31:2007" x="150" y="203" width="325" height="143.75" name="SQUARE">活动奖励行动点
+按活动奖励配置发放</shape-with-text>
+    <shape-with-text id="31:2074" x="892" y="203" width="325" height="143.75" name="SQUARE">行动点道具</shape-with-text>
+    <connector id="31:2091" x="482" y="274.875" connectorStart="31:2007" connectorStartCap="NONE" connectorEnd="31:2074" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="6:691" x="892" y="383" width="350" height="218.75" name="DIAMOND">普通池已满？</shape-with-text>
+    <connector id="6:740" x="474.5" y="492.375" connectorStart="6:687" connectorStartCap="NONE" connectorEnd="6:691" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="6:695" x="1533" y="403" width="542.5" height="177.5" name="SQUARE">行动点普通池
+最多 24 点；未满时每 6 小时恢复 2 点
+任务激活预留和达成扣除均读取此池</shape-with-text>
+    <connector id="31:2102" x="1224" y="274.875" connectorStart="31:2074" connectorStartCap="NONE" connectorEnd="6:695" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="6:699" x="1533" y="668" width="542.5" height="177.5" name="SQUARE">行动点储备池
+普通池满后：半速，每 6 小时恢复 1 点；上限 16 点
+不直接参与任务预留或扣除；可跨周、跨赛季</shape-with-text>
+    <connector id="6:766" x="1743.0625" y="585" connectorStart="6:699" connectorStartCap="NONE" connectorEnd="6:695" connectorEndCap="ARROW_LINES">edge_3</connector>
+    <connector id="6:762" x="1067" y="606.25" connectorStart="6:691" connectorStartCap="NONE" connectorEnd="6:699" connectorEndCap="ARROW_LINES">edge_2</connector>
+    <text id="6:703" name="两个池都满时" x="150" y="619.2999877929688" width="138" height="29" />
+    <text id="6:704" name="新增自然恢复无法储存。" x="150" y="668.0999755859375" width="231" height="27" />
+    <shape-with-text id="6:708" x="139" y="1005.25" width="425" height="188.75" name="SQUARE">初始
+5 / 0 / 5
+尚未预留</shape-with-text>
+    <shape-with-text id="6:712" x="639" y="1005.25" width="425" height="188.75" name="SQUARE">A、B 激活
+5 / 5 / 0
+仅预留，不扣点</shape-with-text>
+    <connector id="6:770" x="568.5" y="1099.625" connectorStart="6:708" connectorStartCap="NONE" connectorEnd="6:712" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <shape-with-text id="6:716" x="1139" y="1005.25" width="425" height="188.75" name="SQUARE">仅 B 达成
+3 / 3 / 0
+扣 B 的 2 点</shape-with-text>
+    <connector id="6:774" x="1068.5" y="1099.625" connectorStart="6:712" connectorStartCap="NONE" connectorEnd="6:716" connectorEndCap="ARROW_LINES">edge_5</connector>
+    <shape-with-text id="6:720" x="1639" y="1005.25" width="425" height="188.75" name="SQUARE">释放 A 未用额度
+3 / 0 / 3
+余额 3，可用 3</shape-with-text>
+    <connector id="6:778" x="1568.5" y="1099.625" connectorStart="6:716" connectorStartCap="NONE" connectorEnd="6:720" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <text id="6:724" name="演算前提：普通池可用5点；队列容量20，待开启18，未预留，可用空位2个。 A/B/C成本为3/2/1点，按顺序激活A、B。数字为余额/预留/可用；B入队1箱，A释放1个箱位。" x="127" y="900" width="1950" height="62" />
+    <shape-with-text id="6:729" x="111" y="1558.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:732" x="2076" y="1558.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:750" x="1246.5" y="472.75" connectorStart="6:691" connectorStartCap="NONE" connectorEnd="6:695" connectorEndCap="ARROW_LINES">普通池未满 → 自然恢复至普通池</connector>
+  </section>
+  <section id="6:782" name="09_经济循环" x="100" y="7100" width="2503" height="2103">
+    <shape-with-text id="6:784" x="64" y="68" width="2375" height="1975" name="SQUARE"></shape-with-text>
+    <text id="6:792" name="09" x="119" y="107.75" width="31" height="33" />
+    <text id="6:793" name="经济循环：产出、消耗、回流与上限" x="196.5" y="102.75" width="544" height="43" />
+    <shape-with-text id="6:795" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:798" x="2376" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:805" x="127" y="315" width="387.5" height="191.25" name="SQUARE">行动点的外部来源
+自然恢复为主
+活动及其他奖励少量补给
+来源分别记录与限制</shape-with-text>
+    <shape-with-text id="6:809" x="689" y="314" width="443.75" height="191.25" name="SQUARE">A  行动点账户
+任务消耗使用普通池
+储备主动提取见图08</shape-with-text>
+    <connector id="6:878" x="518.9999389648438" y="391.125" connectorStart="6:805" connectorStartCap="NONE" connectorEnd="6:809" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="6:813" x="1314" y="314" width="431.25" height="191.25" name="SQUARE">任务达成：行动点消耗
+一级 / 二级 / 三级 / 特殊
+分别扣 1 / 2 / 3 / 3 点
+必须通过任务结算校验</shape-with-text>
+    <connector id="6:882" x="1137.25" y="390.625" connectorStart="6:809" connectorStartCap="NONE" connectorEnd="6:813" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <shape-with-text id="6:817" x="1939" y="276.5" width="431.25" height="190" name="SQUARE">任务宝箱先入队
+玩家开箱时进行5次升星判定
+每次升星概率30%
+按最终星级发放卡牌、金币等</shape-with-text>
+    <shape-with-text id="6:821" x="1939" y="524" width="431.25" height="168.75" name="SQUARE">B  战令经验
+增长量 = 实际消耗行动点
+每 5 点升 1 级</shape-with-text>
+    <shape-with-text id="6:825" x="1939" y="771.5" width="431.25" height="168.75" name="SQUARE">C  个人部落贡献
+基础值 10 / 25 / 45 / 60
+先校验部落资格与衰减</shape-with-text>
+    <shape-with-text id="6:829" x="1939" y="1019" width="431.25" height="168.75" name="SQUARE">模板首次达成金币
+每模板每赛季首次
+每赛季最多 100 次</shape-with-text>
+    <text id="6:833" name="资源与计数必须分开" x="126.5" y="615.25" width="234" height="33" />
+    <text id="6:834" name="行动点、部落代币：可消费资源。" x="126.5" y="676.5" width="345" height="29" />
+    <text id="6:835" name="战令经验、个人部落贡献：进度或资格计数。" x="126.5" y="726.5" width="460" height="29" />
+    <text id="6:836" name="部落有效贡献值：竞赛排名依据，不是货币。" x="126.5" y="776.5" width="460" height="29" />
+    <text id="6:837" name="排名奖励倍率乘基础奖励，不乘个人贡献。" x="126.5" y="826.5" width="437" height="29" />
+    <shape-with-text id="6:838" x="126.5" y="960.25" width="1261.5" height="168.75" name="SQUARE">预算约束
+
+任务、战令、活动与部落奖励需一起核算，测试综合资源产出与对照组差异控制在 ±3%。</shape-with-text>
+    <shape-with-text id="6:843" x="151.5" y="1290.25" width="862.5" height="171.25" name="SQUARE">B 达到等级 → 免费战令等级奖励
+可配置少量行动点
+付费线路不发放行动点</shape-with-text>
+    <shape-with-text id="6:847" x="1339" y="1290.25" width="1000" height="171.25" name="SQUARE">A  行动点奖励回流
+数量与领取时机由配置限制</shape-with-text>
+    <connector id="6:958" x="1018.5" y="1356.875" connectorStart="6:843" connectorStartCap="NONE" connectorEnd="6:847" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <shape-with-text id="6:851" x="151.5" y="1509" width="862.5" height="171.25" name="SQUARE">C 计分与资格 → 部落竞赛奖励
+符合领奖资格后，按排名结算
+基础奖励组可配置少量行动点</shape-with-text>
+    <shape-with-text id="6:855" x="1339" y="1509" width="1000" height="171.25" name="SQUARE">A  行动点奖励回流   
+不是成员贡献的无条件返还</shape-with-text>
+    <connector id="6:962" x="1018.5" y="1575.625" connectorStart="6:851" connectorStartCap="NONE" connectorEnd="6:855" connectorEndCap="ARROW_LINES">edge_7</connector>
+    <shape-with-text id="6:859" x="151.5" y="1727.75" width="862.5" height="171.25" name="SQUARE">C 个人贡献 → 部落代币
+1 点个人贡献对应 1 代币</shape-with-text>
+    <shape-with-text id="6:863" x="1339" y="1727.75" width="1000" height="171.25" name="SQUARE">商店兑换 → A
+100 代币兑换 1 行动点
+每赛季最多购买 10 点</shape-with-text>
+    <connector id="6:966" x="1018.5" y="1794.375" connectorStart="6:859" connectorStartCap="NONE" connectorEnd="6:863" connectorEndCap="ARROW_LINES">edge_8</connector>
+    <shape-with-text id="6:867" x="111" y="1971" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:870" x="2376" y="1971" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:892" x="1749.75" y="371.5" connectorStart="6:813" connectorStartCap="NONE" connectorEnd="6:817" connectorEndCap="ARROW_LINES">edge_2 · 单条原生连接线</connector>
+    <connector id="6:910" x="1749.75" y="409.625" connectorStart="6:813" connectorStartCap="NONE" connectorEnd="6:821" connectorEndCap="ARROW_LINES">edge_3 · 单条原生连接线</connector>
+    <connector id="6:928" x="1749.75" y="409.625" connectorStart="6:813" connectorStartCap="NONE" connectorEnd="6:825" connectorEndCap="ARROW_LINES">edge_4 · 单条原生连接线</connector>
+    <connector id="6:946" x="1749.75" y="409.625" connectorStart="6:813" connectorStartCap="NONE" connectorEnd="6:829" connectorEndCap="ARROW_LINES">edge_5 · 单条原生连接线</connector>
+  </section>
+  <section id="6:970" name="10_投入产出对比" x="3900" y="7100" width="2353" height="1553">
+    <shape-with-text id="6:972" x="64" y="64" width="2225" height="1425" name="SQUARE"></shape-with-text>
+    <text id="6:980" name="10" x="119" y="107.75" width="31" height="33" />
+    <text id="6:981" name="任务投入产出：" x="196.5" y="102.75" width="238" height="43" />
+    <shape-with-text id="6:983" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:986" x="2226" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <text id="6:993" name="每消耗 1 点行动点，基础部落贡献" x="151.5" y="282.75" width="392" height="33" />
+    <text id="6:994" name="每消耗 1 点行动点，战令经验" x="1276.5" y="282.75" width="340" height="33" />
+    <shape-with-text id="6:995" x="162.25" y="881" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:998" x="962.25" y="881" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1001" x="170.25" y="889" connectorStart="6:995" connectorStartCap="NONE" connectorEnd="6:998" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1005" name="0" x="142.75" y="877.75" width="10" height="22" />
+    <shape-with-text id="6:1006" x="162.25" y="762.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1009" x="962.25" y="762.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1012" x="170.25" y="770.25" connectorStart="6:1006" connectorStartCap="NONE" connectorEnd="6:1009" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1016" name="5" x="142.75" y="759" width="10" height="22" />
+    <shape-with-text id="6:1017" x="162.25" y="643.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1020" x="962.25" y="643.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1023" x="170.25" y="651.5" connectorStart="6:1017" connectorStartCap="NONE" connectorEnd="6:1020" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1027" name="10" x="133.75" y="640.25" width="19" height="22" />
+    <shape-with-text id="6:1028" x="162.25" y="524.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1031" x="962.25" y="524.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1034" x="170.25" y="532.75" connectorStart="6:1028" connectorStartCap="NONE" connectorEnd="6:1031" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1038" name="15" x="133.75" y="521.5" width="19" height="22" />
+    <shape-with-text id="6:1039" x="162.25" y="406" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1042" x="962.25" y="406" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1045" x="170.25" y="414" connectorStart="6:1039" connectorStartCap="NONE" connectorEnd="6:1042" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1049" name="20" x="133.75" y="402.75" width="19" height="22" />
+    <shape-with-text id="6:1050" x="201.5" y="651.5" width="130" height="237.5" name="SQUARE"></shape-with-text>
+    <text id="6:1054" name="10" x="251.5" y="609" width="30" height="31" />
+    <text id="6:1055" name="一级" x="243.5" y="916.5" width="46" height="29" />
+    <shape-with-text id="6:1056" x="401.5" y="592.125" width="130" height="296.875" name="SQUARE"></shape-with-text>
+    <text id="6:1060" name="12.5" x="440" y="549.625" width="53" height="31" />
+    <text id="6:1061" name="二级" x="443.5" y="916.5" width="46" height="29" />
+    <shape-with-text id="6:1062" x="601.5" y="532.75" width="130" height="356.25" name="SQUARE"></shape-with-text>
+    <text id="6:1066" name="15" x="651.5" y="490.25" width="30" height="31" />
+    <text id="6:1067" name="三级" x="643.5" y="916.5" width="46" height="29" />
+    <shape-with-text id="6:1068" x="801.5" y="414" width="130" height="475" name="SQUARE"></shape-with-text>
+    <text id="6:1072" name="20" x="851.5" y="371.5" width="30" height="31" />
+    <text id="6:1073" name="特殊" x="843.5" y="916.5" width="46" height="29" />
+    <shape-with-text id="6:1074" x="1293.5" y="881" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1077" x="2093.5" y="881" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1080" x="1301.5" y="889" connectorStart="6:1074" connectorStartCap="NONE" connectorEnd="6:1077" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1084" name="0" x="1274" y="877.75" width="10" height="22" />
+    <shape-with-text id="6:1085" x="1293.5" y="762.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1088" x="2093.5" y="762.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1091" x="1301.5" y="770.25" connectorStart="6:1085" connectorStartCap="NONE" connectorEnd="6:1088" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1095" name="0.25" x="1250" y="759" width="34" height="22" />
+    <shape-with-text id="6:1096" x="1293.5" y="643.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1099" x="2093.5" y="643.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1102" x="1301.5" y="651.5" connectorStart="6:1096" connectorStartCap="NONE" connectorEnd="6:1099" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1106" name="0.5" x="1260" y="640.25" width="24" height="22" />
+    <shape-with-text id="6:1107" x="1293.5" y="524.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1110" x="2093.5" y="524.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1113" x="1301.5" y="532.75" connectorStart="6:1107" connectorStartCap="NONE" connectorEnd="6:1110" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1117" name="0.75" x="1250" y="521.5" width="34" height="22" />
+    <shape-with-text id="6:1118" x="1293.5" y="406" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1121" x="2093.5" y="406" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1124" x="1301.5" y="414" connectorStart="6:1118" connectorStartCap="NONE" connectorEnd="6:1121" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1128" name="1" x="1274" y="402.75" width="10" height="22" />
+    <shape-with-text id="6:1129" x="1332.75" y="414" width="130" height="475" name="SQUARE"></shape-with-text>
+    <text id="6:1133" name="1" x="1390.25" y="371.5" width="15" height="31" />
+    <text id="6:1134" name="一级" x="1374.75" y="916.5" width="46" height="29" />
+    <shape-with-text id="6:1135" x="1532.75" y="414" width="130" height="475" name="SQUARE"></shape-with-text>
+    <text id="6:1139" name="1" x="1590.25" y="371.5" width="15" height="31" />
+    <text id="6:1140" name="二级" x="1574.75" y="916.5" width="46" height="29" />
+    <shape-with-text id="6:1141" x="1732.75" y="414" width="130" height="475" name="SQUARE"></shape-with-text>
+    <text id="6:1145" name="1" x="1790.25" y="371.5" width="15" height="31" />
+    <text id="6:1146" name="三级" x="1774.75" y="916.5" width="46" height="29" />
+    <shape-with-text id="6:1147" x="1932.75" y="414" width="130" height="475" name="SQUARE"></shape-with-text>
+    <text id="6:1151" name="1" x="1990.25" y="371.5" width="15" height="31" />
+    <text id="6:1152" name="特殊" x="1974.75" y="916.5" width="46" height="29" />
+    <text id="6:1153" name="基础贡献 ÷ 行动点消耗：10、12.5、15、20" x="151.5" y="980.25" width="462" height="29" />
+    <text id="6:1154" name="各档战令效率相同：1 经验 / 行动点" x="1276.5" y="980.25" width="361" height="29" />
+    <shape-with-text id="6:1164" x="111" y="1421" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1167" x="2226" y="1421" width="16" height="16" name="ELLIPSE"></shape-with-text>
+  </section>
+  <section id="290:5629" name="6任务完成过程草图" x="-560" y="4576" width="3744" height="1840">
+    <text id="290:5660" name="6 任务完成结算与宝箱开启" x="80" y="50" width="473" height="48" />
+    <shape-with-text id="290:5819" x="760" y="155" width="700" height="118" name="SQUARE">接取任务
+保存接取状态，不扣行动点；数量不限</shape-with-text>
+    <shape-with-text id="290:5862" x="780" y="360" width="660" height="270" name="DIAMOND">可用行动点足够？
+宝箱队列有可预留空位？</shape-with-text>
+    <shape-with-text id="290:6000" x="100" y="400" width="420" height="200" name="ROUNDED_RECTANGLE">暂不激活
+保留已接任务与进度
+仍可进行普通对局</shape-with-text>
+    <connector id="296:4669" x="310" y="326.52880859375" connectorStart="290:6000" connectorStartCap="NONE" connectorEnd="290:5862" connectorEndCap="ARROW_LINES">资源满足后重算激活</connector>
+    <shape-with-text id="290:6088" x="760" y="680" width="700" height="149" name="SQUARE">激活任务
+预留任务行动点及1个箱位，不扣点</shape-with-text>
+    <connector id="290:6089" x="1094.25" y="634.75" connectorStart="290:5862" connectorStartCap="NONE" connectorEnd="290:6088" connectorEndCap="ARROW_LINES">资源满足激活</connector>
+    <connector id="290:6168" x="1110" y="277.75" connectorStart="290:5819" connectorStartCap="NONE" connectorEnd="290:5862" connectorEndCap="ARROW_LINES">接取后检查资源</connector>
+    <shape-with-text id="290:6195" x="780" y="880" width="660" height="220" name="DIAMOND">任务目标已达成？
+结算校验通过？</shape-with-text>
+    <connector id="290:6196" x="1014.75" y="833.75" connectorStart="290:6088" connectorStartCap="NONE" connectorEnd="290:6195" connectorEndCap="ARROW_LINES">对局推进任务</connector>
+    <shape-with-text id="290:6216" x="760" y="1150" width="700" height="118" name="SQUARE">任务完成结算
+实扣行动点；释放对应预留</shape-with-text>
+    <connector id="290:6217" x="1094.25" y="1104.75" connectorStart="290:6195" connectorStartCap="NONE" connectorEnd="290:6216" connectorEndCap="ARROW_LINES">任务通过结算</connector>
+    <shape-with-text id="290:6260" x="650" y="1410" width="420" height="118" name="SQUARE">部落贡献
+写入本次贡献</shape-with-text>
+    <connector id="290:6291" x="920.0230712890625" y="1271.423828125" connectorStart="290:6216" connectorStartCap="NONE" connectorEnd="290:6260" connectorEndCap="ARROW_LINES">结算部落贡献</connector>
+    <shape-with-text id="290:6330" x="1160" y="1410" width="420" height="118" name="SQUARE">战令经验
+按实扣行动点增加</shape-with-text>
+    <connector id="290:6331" x="1172.3587646484375" y="1271.35888671875" connectorStart="290:6216" connectorStartCap="NONE" connectorEnd="290:6330" connectorEndCap="ARROW_LINES">结算战令经验</connector>
+    <shape-with-text id="290:6373" x="1680" y="1410" width="520" height="118" name="SQUARE">获得宝箱，进入待开启队列
+预留箱位转为宝箱实际占用</shape-with-text>
+    <connector id="290:6374" x="1302.87890625" y="1269.419921875" connectorStart="290:6216" connectorStartCap="NONE" connectorEnd="290:6373" connectorEndCap="ARROW_LINES">结算创建宝箱</connector>
+    <shape-with-text id="290:6405" x="2440" y="300" width="600" height="138" name="SQUARE">玩家开启队列中的宝箱
+判定次数从0开始</shape-with-text>
+    <connector id="290:6406" x="2204.75" y="369" connectorStart="290:6373" connectorStartCap="NONE" connectorEnd="290:6405" connectorEndCap="ARROW_LINES">玩家操作才开箱</connector>
+    <shape-with-text id="290:6487" x="2440" y="600" width="600" height="180" name="SQUARE">执行1次升星判定
+成功升星，失败保持星级
+累计判定次数＋1</shape-with-text>
+    <connector id="290:6488" x="2740" y="442.75" connectorStart="290:6405" connectorStartCap="NONE" connectorEnd="290:6487" connectorEndCap="ARROW_LINES">开箱开始升星</connector>
+    <shape-with-text id="290:6521" x="2440" y="1470" width="600" height="118" name="SQUARE">发放宝箱内资源
+标记已开启，释放宝箱队列位置</shape-with-text>
+    <connector id="290:6658" x="524.75" y="477.75" connectorStart="290:5862" connectorStartCap="NONE" connectorEnd="290:6000" connectorEndCap="ARROW_LINES">资源不足</connector>
+    <shape-with-text id="296:4649" x="100" y="900" width="420" height="200" name="SQUARE">本场未达成
+保留有效进度
+释放本场未用预留</shape-with-text>
+    <connector id="296:4677" x="246.75" y="604.75" connectorStart="296:4649" connectorStartCap="NONE" connectorEnd="290:6000" connectorEndCap="ARROW_LINES">下一场重算激活</connector>
+    <connector id="296:4673" x="524.75" y="975.25" connectorStart="290:6195" connectorStartCap="NONE" connectorEnd="296:4649" connectorEndCap="ARROW_LINES">未达成保留进度</connector>
+    <shape-with-text id="296:4653" x="100" y="1410" width="460" height="118" name="SQUARE">首次任务模板金币奖励
+符合首次奖励条件时发放</shape-with-text>
+    <connector id="296:4681" x="511.5062255859375" y="1269.50244140625" connectorStart="290:6216" connectorStartCap="NONE" connectorEnd="296:4653" connectorEndCap="ARROW_LINES">结算首次奖励</connector>
+    <shape-with-text id="296:4658" x="2490" y="900" width="500" height="242" name="DIAMOND">已完成5次
+升星判定？</shape-with-text>
+    <connector id="290:6570" x="2994.75" y="690" connectorStart="296:4658" connectorStartCap="NONE" connectorEnd="290:6487" connectorEndCap="ARROW_LINES">未满五次继续判定</connector>
+    <connector id="290:6553" x="2740" y="784.75" connectorStart="290:6487" connectorStartCap="NONE" connectorEnd="296:4658" connectorEndCap="ARROW_LINES">检查判定次数</connector>
+    <shape-with-text id="296:4662" x="2440" y="1180" width="600" height="118" name="SQUARE">确定最终星级
+查询对应的宝箱奖励</shape-with-text>
+    <connector id="296:4689" x="2740" y="1302.75" connectorStart="296:4662" connectorStartCap="NONE" connectorEnd="290:6521" connectorEndCap="ARROW_LINES">开箱资源发放</connector>
+    <connector id="296:4685" x="2724.25" y="1141.25" connectorStart="296:4658" connectorStartCap="NONE" connectorEnd="296:4662" connectorEndCap="ARROW_LINES">判定结束确定星级</connector>
+    <text id="296:4666" name="开箱流程标题" x="2440" y="150" width="900" height="44" />
+    <text id="296:4667" name="任务结算产出说明" x="100" y="1290" width="1800" height="36" />
+    <text id="296:4668" name="开箱独立说明" x="2440" y="1680" width="1050" height="31" />
+    <text id="301:4774" name="激活资源计算" x="100" y="1650" width="2050" height="62" />
+  </section>
+  <section id="6:1175" name="11_贡献计算" x="7700" y="7100" width="2378" height="1903">
+    <shape-with-text id="6:1177" x="64" y="64" width="2250" height="1775" name="SQUARE"></shape-with-text>
+    <text id="6:1185" name="11" x="119" y="107.75" width="31" height="33" />
+    <text id="6:1186" name="贡献计算" x="196.5" y="102.75" width="136" height="43" />
+    <text id="6:1187" name="Text" x="119" y="174" width="0" height="50" />
+    <shape-with-text id="6:1188" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1191" x="2251" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1198" x="139" y="264" width="2100" height="350" name="SQUARE"></shape-with-text>
+    <text id="6:1202" name="① 先计算本次可获得的个人部落贡献" x="161.5" y="281.5" width="357" height="28" />
+    <shape-with-text id="6:1203" x="189" y="364" width="412.5" height="137.5" name="SQUARE">任务基础贡献
+一级 / 二级 / 三级 / 特殊
+10 / 25 / 45 / 60</shape-with-text>
+    <shape-with-text id="6:1207" x="739" y="332.75" width="762.5" height="200" name="SQUARE">按账号赛季阈值分段处理
+阈值内部分 × 100%
+超过阈值的部分 × 50%
+跨阈值的一次任务也应分段计算</shape-with-text>
+    <shape-with-text id="6:1211" x="1639" y="364" width="500" height="137.5" name="SQUARE">个人部落贡献
+计入当前部落的个人记录
+账号阈值累计不因转会清零</shape-with-text>
+    <text id="6:1215" name="前提：已加入部落且结束入部落冷却期；无资格时仍正常结算个人任务奖励。" x="189" y="551.5" width="714" height="27" />
+    <shape-with-text id="6:1216" x="139" y="676.5" width="2100" height="550" name="SQUARE"></shape-with-text>
+    <text id="6:1220" name="② 再确定成员贡献计入部落有效贡献值的比例" x="600" y="694" width="445" height="28" />
+    <shape-with-text id="6:1221" x="189" y="801.5" width="450" height="137.5" name="SQUARE">当前部落成员贡献
+按个人部落贡献从高到低排序</shape-with-text>
+    <shape-with-text id="6:1225" x="189" y="1007.75" width="637.5" height="162.5" name="SQUARE">基准人数 P
+P = max(30, min(N1, N2, N3, N4, N5))
+N：本赛季至少达成1个有效任务的成员数</shape-with-text>
+    <shape-with-text id="6:1229" x="964" y="801.5" width="475" height="137.5" name="SQUARE">读取成员名次
+名次 ≤ P 或名次 = P + k</shape-with-text>
+    <connector id="6:1306" x="643.5" y="870.25" connectorStart="6:1221" connectorStartCap="NONE" connectorEnd="6:1229" connectorEndCap="ARROW_LINES">edge_2</connector>
+    <shape-with-text id="6:1233" x="1639" y="802" width="475" height="262.5" name="SQUARE">成员计入系数
+前 P 名：100%
+第 P+1 名：85%
+第 P+2 名：72.25%
+第 P+k 名：0.85^k</shape-with-text>
+    <text id="6:1237" name="个人贡献不变；本层只改变集体计分权重。" x="964" y="1132.75" width="418" height="28" />
+    <shape-with-text id="6:1238" x="139" y="1282.75" width="2100" height="262.5" name="SQUARE"></shape-with-text>
+    <text id="6:1242" name="③ 集体计分还必须容纳转会留存记录" x="161.5" y="1300.25" width="357" height="28" />
+    <shape-with-text id="6:1243" x="189" y="1376.5" width="587.5" height="118.75" name="SQUARE">当前成员的加权计分</shape-with-text>
+    <shape-with-text id="6:1247" x="889" y="1376.5" width="587.5" height="118.75" name="SQUARE">已离会成员留在原部落的贡献</shape-with-text>
+    <shape-with-text id="6:1251" x="1676.5" y="1376.5" width="462.5" height="118.75" name="SQUARE">部落有效贡献值</shape-with-text>
+    <connector id="6:1371" x="1481" y="1435.875" connectorStart="6:1247" connectorStartCap="NONE" connectorEnd="6:1251" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <shape-with-text id="6:1259" x="111" y="1771" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1262" x="2251" y="1771" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1276" x="606" y="432.75" connectorStart="6:1203" connectorStartCap="NONE" connectorEnd="6:1207" connectorEndCap="ARROW_LINES">edge_0 · 单条原生连接线</connector>
+    <connector id="6:1294" x="1506" y="432.75" connectorStart="6:1207" connectorStartCap="NONE" connectorEnd="6:1211" connectorEndCap="ARROW_LINES">edge_1 · 单条原生连接线</connector>
+    <connector id="6:1316" x="1443.5" y="870.25" connectorStart="6:1229" connectorStartCap="NONE" connectorEnd="6:1233" connectorEndCap="ARROW_LINES">edge_3 · 单条原生连接线</connector>
+    <connector id="6:1334" x="831" y="1008.25" connectorStart="6:1225" connectorStartCap="NONE" connectorEnd="6:1233" connectorEndCap="ARROW_LINES">edge_4 · 单条原生连接线</connector>
+    <connector id="6:1355" x="414" y="506" connectorStart="6:1211" connectorStartCap="NONE" connectorEnd="6:1221" connectorEndCap="ARROW_LINES">edge_5 · 单条原生连接线</connector>
+    <connector id="6:1384" x="482.75" y="1328.5" connectorStart="6:1243" connectorStartCap="NONE" connectorEnd="6:1251" connectorEndCap="ARROW_LINES">edge_7 · 单条原生连接线</connector>
+  </section>
+  <section id="6:1400" name="12_竞赛资格决策" x="11500" y="7100" width="2378" height="2090.5">
+    <shape-with-text id="6:1402" x="64" y="64" width="2250" height="1962.5" name="SQUARE"></shape-with-text>
+    <text id="6:1410" name="12" x="119" y="107.75" width="31" height="33" />
+    <text id="6:1411" name="赛季结算：领奖资格、部落倍率与个人荣誉" x="196.5" y="102.75" width="646" height="43" />
+    <shape-with-text id="6:1413" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1416" x="2251" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1423" x="139" y="276.5" width="900" height="875" name="SQUARE"></shape-with-text>
+    <text id="6:1427" name="A 个人领奖资格" x="161.5" y="294" width="152" height="28" />
+    <shape-with-text id="6:1428" x="314" y="351.5" width="525" height="125" name="SQUARE">读取赛季结算时的成员记录
+当前部落入会时长 / 个人部落贡献</shape-with-text>
+    <shape-with-text id="6:1432" x="345.25" y="551.5" width="462.5" height="250" name="DIAMOND">加入当前部落 ≥ 3天
+且个人部落贡献 ≥ 40？</shape-with-text>
+    <connector id="6:1496" x="576.5" y="481" connectorStart="6:1428" connectorStartCap="NONE" connectorEnd="6:1432" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="6:1436" x="389" y="932.75" width="450" height="125" name="SQUARE">具备竞赛领奖资格</shape-with-text>
+    <shape-with-text id="6:1440" x="214" y="789" width="275" height="106.25" name="SQUARE">不发本次竞赛奖励</shape-with-text>
+    <shape-with-text id="6:1444" x="1114" y="276.5" width="1125" height="875" name="SQUARE"></shape-with-text>
+    <text id="6:1448" name="B 由部落竞赛名次查表" x="1136.5" y="294" width="218" height="28" />
+    <shape-with-text id="6:1449" x="1351.5" y="351.5" width="650" height="125" name="SQUARE">五个部落按有效贡献值排名
+比较对象：部落有效贡献值</shape-with-text>
+    <shape-with-text id="6:1453" x="1276.5" y="601.5" width="812.5" height="193.75" name="SQUARE">部落排名倍率
+名次       1        2        3        4        5
+倍率     2.0      1.6      1.4      1.2      1.0</shape-with-text>
+    <text id="6:1457" name="并列示例：第1、1、3、4、5名。" x="1214" y="851.5" width="311" height="27" />
+    <text id="6:1458" name="相同有效贡献值使用较高名次，后续名次占位。" x="1214" y="894" width="441" height="27" />
+    <text id="6:1459" name="有效贡献值为0的部落均按第5名结算。" x="1214" y="936.5" width="360" height="27" />
+    <shape-with-text id="6:1460" x="1376.5" y="1195.25" width="712.5" height="131.25" name="SQUARE">赛季基础奖励
+由赛季奖励组配置</shape-with-text>
+    <shape-with-text id="6:1464" x="776.5" y="1451.5" width="912.5" height="156.25" name="SQUARE">符合资格成员的竞赛奖励
+赛季基础奖励 × 本部落排名倍率</shape-with-text>
+    <connector id="6:1597" x="1189.5625" y="1260.875" connectorStart="6:1460" connectorStartCap="NONE" connectorEnd="6:1464" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <connector id="6:1561" x="570.8125" y="1062.25" connectorStart="6:1436" connectorStartCap="NONE" connectorEnd="6:1464" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <shape-with-text id="6:1468" x="139" y="1664" width="2100" height="268.75" name="SQUARE"></shape-with-text>
+    <text id="6:1472" name="C 个人荣誉独立判断，不改变上方竞赛奖励" x="161.5" y="1681.5" width="416" height="28" />
+    <shape-with-text id="6:1473" x="253.875" y="1716.03125" width="470.25" height="195.9375" name="DIAMOND">部落内个人排名前10
+且个人部落贡献 ≥ 200？</shape-with-text>
+    <shape-with-text id="6:1477" x="1014" y="1751.5" width="562.5" height="125" name="SQUARE">下赛季展示部落荣誉称号
+持续一个赛季</shape-with-text>
+    <connector id="6:1601" x="728.625" y="1795" connectorStart="6:1473" connectorStartCap="NONE" connectorEnd="6:1477" connectorEndCap="ARROW_LINES">edge_7</connector>
+    <shape-with-text id="6:1481" x="1676.5" y="1751.5" width="437.5" height="125" name="SQUARE">不授予本次称号</shape-with-text>
+    <shape-with-text id="6:1485" x="111" y="1958.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1488" x="2251" y="1958.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1506" x="576.5" y="806" connectorStart="6:1432" connectorStartCap="NONE" connectorEnd="6:1436" connectorEndCap="ARROW_LINES">edge_1 · 单条原生连接线</connector>
+    <connector id="6:1527" x="334.0625" y="676.5" connectorStart="6:1432" connectorStartCap="NONE" connectorEnd="6:1440" connectorEndCap="ARROW_LINES">edge_2 · 单条原生连接线</connector>
+    <connector id="6:1549" x="1676.5" y="481" connectorStart="6:1449" connectorStartCap="NONE" connectorEnd="6:1453" connectorEndCap="ARROW_LINES">edge_3 · 单条原生连接线</connector>
+    <connector id="6:1577" x="1693.5" y="698.375" connectorStart="6:1453" connectorStartCap="NONE" connectorEnd="6:1464" connectorEndCap="ARROW_LINES">edge_5 · 单条原生连接线</connector>
+    <connector id="6:1611" x="489" y="1881" connectorStart="6:1473" connectorStartCap="NONE" connectorEnd="6:1481" connectorEndCap="ARROW_LINES">edge_8 · 单条原生连接线</connector>
+    <text id="16:1905" name="edge_1 label / 是：两项均满足" x="632.75" y="844" width="126" height="22" />
+  </section>
+  <section id="6:1623" name="13_周刷新与赛季时序" x="100" y="10100" width="2378" height="2178">
+    <shape-with-text id="6:1625" x="64" y="64" width="2250" height="2050" name="SQUARE"></shape-with-text>
+    <text id="6:1633" name="13" x="119" y="107.75" width="31" height="33" />
+    <text id="6:1634" name="周刷新与赛季边界" x="196.5" y="102.75" width="272" height="43" />
+    <shape-with-text id="6:1636" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1639" x="2251" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1646" x="139" y="270.25" width="2100" height="1037.5" name="SQUARE"></shape-with-text>
+    <text id="6:1650" name="A 周刷新：按“进入对局的时点”决定任务池版本" x="161.5" y="287.75" width="482" height="28" />
+    <shape-with-text id="6:1651" x="456" y="362.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1654" x="2156" y="362.25" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1657" x="464" y="370.25" connectorStart="6:1651" connectorStartCap="NONE" connectorEnd="6:1654" connectorEndCap="NONE">line / 1</connector>
+    <shape-with-text id="6:1661" x="2164" y="364.2571716308594" width="16" height="16" name="TRIANGLE_UP"></shape-with-text>
+    <text id="6:1666" name="刷新前" x="489" y="320.25" width="63" height="27" />
+    <text id="6:1667" name="刷新后" x="1239" y="320.25" width="63" height="27" />
+    <shape-with-text id="6:1668" x="1118.5" y="349.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1671" x="1118.5" y="1268.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1674" x="1126.5" y="357.75" connectorStart="6:1668" connectorStartCap="NONE" connectorEnd="6:1671" connectorEndCap="NONE">line / 1</connector>
+    <shape-with-text id="6:1678" x="1026.5" y="381.5" width="143.75" height="40" name="ROUNDED_RECTANGLE"></shape-with-text>
+    <text id="6:1682" name="周刷新时点" x="1032.75" y="386.5" width="105" height="27" />
+    <text id="6:1683" name="旧版本对局" x="176.5" y="495.25" width="110" height="28" />
+    <shape-with-text id="6:1684" x="431" y="599.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1687" x="2156" y="599.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1690" x="439" y="607.75" connectorStart="6:1684" connectorStartCap="NONE" connectorEnd="6:1687" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1694" name="旧任务与进度" x="176.5" y="720.25" width="132" height="28" />
+    <shape-with-text id="6:1695" x="431" y="824.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1698" x="2156" y="824.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1701" x="439" y="832.75" connectorStart="6:1695" connectorStartCap="NONE" connectorEnd="6:1698" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1705" name="新版本对局" x="176.5" y="945.25" width="110" height="28" />
+    <shape-with-text id="6:1706" x="431" y="1049.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1709" x="2156" y="1049.75" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1712" x="439" y="1057.75" connectorStart="6:1706" connectorStartCap="NONE" connectorEnd="6:1709" connectorEndCap="NONE">line / 1</connector>
+    <text id="6:1716" name="奖励与储备" x="176.5" y="1164" width="110" height="28" />
+    <shape-with-text id="6:1717" x="431" y="1268.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1720" x="2156" y="1268.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:1723" x="439" y="1276.5" connectorStart="6:1717" connectorStartCap="NONE" connectorEnd="6:1720" connectorEndCap="NONE">line / 1</connector>
+    <shape-with-text id="6:1727" x="514" y="464" width="862.5" height="125" name="SQUARE">刷新前已经进入对局
+锁定入场时的旧任务池版本</shape-with-text>
+    <shape-with-text id="6:1731" x="1514" y="464" width="612.5" height="125" name="SQUARE">按旧版本完成本场结算</shape-with-text>
+    <connector id="6:1800" x="1381" y="526.5" connectorStart="6:1727" connectorStartCap="NONE" connectorEnd="6:1731" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="6:1735" x="514" y="689" width="787.5" height="125" name="SQUARE">旧已接任务 / 已激活任务 / 累计进度
+在途旧对局的记录等待本场结算</shape-with-text>
+    <shape-with-text id="6:1739" x="1514" y="689" width="612.5" height="125" name="SQUARE">本场结算结束后清除
+旧任务与未达成任务进度</shape-with-text>
+    <connector id="6:1808" x="1306" y="751.5" connectorStart="6:1735" connectorStartCap="NONE" connectorEnd="6:1739" connectorEndCap="ARROW_LINES">edge_2</connector>
+    <connector id="6:1804" x="1750.5625" y="593.5" connectorStart="6:1731" connectorStartCap="NONE" connectorEnd="6:1739" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <text id="6:1743" name="无在途旧对局时：周刷新直接清除旧任务与累计进度。" x="514" y="851.5" width="480" height="25" />
+    <shape-with-text id="6:1744" x="1239" y="914" width="887.5" height="125" name="SQUARE">刷新后开始的对局只使用新任务池
+新任务池版本与新的任务记录</shape-with-text>
+    <shape-with-text id="6:1748" x="514" y="1132.75" width="787.5" height="118.75" name="SQUARE">已有待开启宝箱 + 行动点储备池余额</shape-with-text>
+    <shape-with-text id="6:1752" x="1514" y="1132.75" width="612.5" height="118.75" name="SQUARE">跨周保留</shape-with-text>
+    <connector id="6:1812" x="1306" y="1173.125" connectorStart="6:1748" connectorStartCap="NONE" connectorEnd="6:1752" connectorEndCap="ARROW_LINES">edge_3</connector>
+    <shape-with-text id="6:1756" x="139" y="1364" width="2100" height="500" name="SQUARE"></shape-with-text>
+    <text id="6:1760" name="B 赛季边界：仅列出正文已经明确的记录规则" x="161.5" y="1381.5" width="438" height="28" />
+    <shape-with-text id="6:1761" x="214" y="1451.5" width="837.5" height="93.75" name="SQUARE">本赛季任务模板首次达成记录</shape-with-text>
+    <shape-with-text id="6:1765" x="1314" y="1451.5" width="837.5" height="93.75" name="SQUARE">新赛季重新记录；每赛季最多领取100次</shape-with-text>
+    <connector id="6:1816" x="1056" y="1479.375" connectorStart="6:1761" connectorStartCap="NONE" connectorEnd="6:1765" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <shape-with-text id="6:1769" x="214" y="1576.5" width="837.5" height="93.75" name="SQUARE">本赛季未使用的部落代币</shape-with-text>
+    <shape-with-text id="6:1773" x="1314" y="1576.5" width="837.5" height="93.75" name="SQUARE">不可跨赛季继承</shape-with-text>
+    <connector id="6:1820" x="1056" y="1604.375" connectorStart="6:1769" connectorStartCap="NONE" connectorEnd="6:1773" connectorEndCap="ARROW_LINES">edge_5</connector>
+    <shape-with-text id="6:1777" x="214" y="1701.5" width="837.5" height="93.75" name="SQUARE">本赛季满足条件的部落荣誉资格</shape-with-text>
+    <shape-with-text id="6:1781" x="1314" y="1701.5" width="837.5" height="93.75" name="SQUARE">下赛季展示称号，持续一个赛季</shape-with-text>
+    <connector id="6:1824" x="1056" y="1729.375" connectorStart="6:1777" connectorStartCap="NONE" connectorEnd="6:1781" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <shape-with-text id="6:1789" x="111" y="2046" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1792" x="2251" y="2046" width="16" height="16" name="ELLIPSE"></shape-with-text>
+  </section>
+  <section id="6:1828" name="14_转会归属" x="3900" y="10100" width="2553" height="1978">
+    <shape-with-text id="6:1830" x="64" y="64" width="2425" height="1850" name="SQUARE"></shape-with-text>
+    <text id="6:1838" name="14" x="119" y="107.75" width="31" height="33" />
+    <text id="6:1839" name="转会归属：" x="196.5" y="102.75" width="170" height="43" />
+    <shape-with-text id="6:1841" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1844" x="2426" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1851" x="351.5" y="307.75" width="437.5" height="143.75" name="SQUARE">原部落 A 正常参与
+已结束入会冷却</shape-with-text>
+    <shape-with-text id="6:1855" x="876.5" y="307.75" width="437.5" height="143.75" name="SQUARE">退出原部落 A
+原贡献不转移</shape-with-text>
+    <connector id="6:1971" x="793.5" y="379.625" connectorStart="6:1851" connectorStartCap="NONE" connectorEnd="6:1855" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="6:1859" x="1401.5" y="307.75" width="437.5" height="143.75" name="SQUARE">加入新部落 B
+开始3天冷却</shape-with-text>
+    <connector id="6:1975" x="1318.5" y="379.625" connectorStart="6:1855" connectorStartCap="NONE" connectorEnd="6:1859" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <shape-with-text id="6:1863" x="1926.5" y="307.75" width="437.5" height="143.75" name="SQUARE">B 的冷却结束
+新任务贡献归属 B</shape-with-text>
+    <connector id="6:1979" x="1843.5" y="379.625" connectorStart="6:1859" connectorStartCap="NONE" connectorEnd="6:1863" connectorEndCap="ARROW_LINES">edge_2</connector>
+    <shape-with-text id="6:1867" x="139" y="507.75" width="2275" height="218.75" name="ROUNDED_RECTANGLE"></shape-with-text>
+    <text id="6:1871" name="当前部落" x="170.25" y="576.5" width="92" height="29" />
+    <text id="6:1872" name="个人贡献" x="170.25" y="617.75" width="92" height="29" />
+    <shape-with-text id="6:1873" x="351.5" y="539" width="437.5" height="156.25" name="SQUARE">记录归属
+在 A 的个人贡献累计</shape-with-text>
+    <shape-with-text id="6:1877" x="876.5" y="539" width="437.5" height="156.25" name="SQUARE">记录归属
+历史贡献不会带入 B</shape-with-text>
+    <connector id="6:1983" x="793.5" y="617.125" connectorStart="6:1873" connectorStartCap="NONE" connectorEnd="6:1877" connectorEndCap="ARROW_LINES">edge_3</connector>
+    <shape-with-text id="6:1881" x="1401.5" y="539" width="437.5" height="156.25" name="SQUARE">记录归属
+在 B 从 0 开始
+冷却期不增加</shape-with-text>
+    <connector id="6:1987" x="1318.5" y="617.125" connectorStart="6:1877" connectorStartCap="NONE" connectorEnd="6:1881" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <shape-with-text id="6:1885" x="1926.5" y="539" width="437.5" height="156.25" name="SQUARE">记录归属
+新达成任务产生的贡献
+计入 B 的个人贡献</shape-with-text>
+    <connector id="6:1991" x="1843.5" y="617.125" connectorStart="6:1881" connectorStartCap="NONE" connectorEnd="6:1885" connectorEndCap="ARROW_LINES">edge_5</connector>
+    <shape-with-text id="6:1889" x="139" y="776.5" width="2275" height="218.75" name="ROUNDED_RECTANGLE"></shape-with-text>
+    <text id="6:1893" name="原部落" x="170.25" y="845.25" width="69" height="29" />
+    <text id="6:1894" name="集体计分" x="170.25" y="886.5" width="92" height="29" />
+    <shape-with-text id="6:1895" x="351.5" y="807.75" width="437.5" height="156.25" name="SQUARE">集体值
+已计入 A 的有效贡献</shape-with-text>
+    <shape-with-text id="6:1899" x="876.5" y="807.75" width="437.5" height="156.25" name="SQUARE">集体值
+留在原部落 A</shape-with-text>
+    <connector id="6:1995" x="793.5" y="885.875" connectorStart="6:1895" connectorStartCap="NONE" connectorEnd="6:1899" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <shape-with-text id="6:1903" x="1401.5" y="807.75" width="437.5" height="156.25" name="SQUARE">集体值
+仍留在原部落 A</shape-with-text>
+    <connector id="6:1999" x="1318.5" y="885.875" connectorStart="6:1899" connectorStartCap="NONE" connectorEnd="6:1903" connectorEndCap="ARROW_LINES">edge_7</connector>
+    <shape-with-text id="6:1907" x="1926.5" y="807.75" width="437.5" height="156.25" name="SQUARE">集体值
+不转移，也不因离会扣除</shape-with-text>
+    <connector id="6:2003" x="1843.5" y="885.875" connectorStart="6:1903" connectorStartCap="NONE" connectorEnd="6:1907" connectorEndCap="ARROW_LINES">edge_8</connector>
+    <shape-with-text id="6:1911" x="139" y="1045.25" width="2275" height="218.75" name="ROUNDED_RECTANGLE"></shape-with-text>
+    <text id="6:1915" name="账号赛季" x="170.25" y="1114" width="92" height="29" />
+    <text id="6:1916" name="阈值累计" x="170.25" y="1155.25" width="92" height="29" />
+    <shape-with-text id="6:1917" x="351.5" y="1076.5" width="437.5" height="156.25" name="SQUARE">账号维度
+账号本赛季累计记录</shape-with-text>
+    <shape-with-text id="6:1921" x="876.5" y="1076.5" width="437.5" height="156.25" name="SQUARE">账号维度
+不重置</shape-with-text>
+    <connector id="6:2007" x="793.5" y="1154.625" connectorStart="6:1917" connectorStartCap="NONE" connectorEnd="6:1921" connectorEndCap="ARROW_LINES">edge_9</connector>
+    <shape-with-text id="6:1925" x="1401.5" y="1076.5" width="437.5" height="156.25" name="SQUARE">账号维度
+不重置</shape-with-text>
+    <connector id="6:2011" x="1318.5" y="1154.625" connectorStart="6:1921" connectorStartCap="NONE" connectorEnd="6:1925" connectorEndCap="ARROW_LINES">edge_10</connector>
+    <shape-with-text id="6:1929" x="1926.5" y="1076.5" width="437.5" height="156.25" name="SQUARE">账号维度
+仍使用同一赛季累计口径</shape-with-text>
+    <connector id="6:2015" x="1843.5" y="1154.625" connectorStart="6:1925" connectorStartCap="NONE" connectorEnd="6:1929" connectorEndCap="ARROW_LINES">edge_11</connector>
+    <shape-with-text id="6:1933" x="139" y="1314" width="2275" height="218.75" name="ROUNDED_RECTANGLE"></shape-with-text>
+    <text id="6:1937" name="任务奖励与" x="170.25" y="1382.75" width="115" height="29" />
+    <text id="6:1938" name="代币增量" x="170.25" y="1424" width="92" height="29" />
+    <shape-with-text id="6:1939" x="351.5" y="1345.25" width="437.5" height="156.25" name="SQUARE">结算结果
+个人任务奖励正常
+按规则产生贡献与代币</shape-with-text>
+    <shape-with-text id="6:1943" x="876.5" y="1345.25" width="437.5" height="156.25" name="SQUARE">结算结果
+个人任务奖励正常
+不产生贡献与新增代币</shape-with-text>
+    <connector id="6:2019" x="793.5" y="1423.375" connectorStart="6:1939" connectorStartCap="NONE" connectorEnd="6:1943" connectorEndCap="ARROW_LINES">edge_12</connector>
+    <shape-with-text id="6:1947" x="1401.5" y="1345.25" width="437.5" height="156.25" name="SQUARE">结算结果
+个人任务奖励正常
+不产生贡献与新增代币</shape-with-text>
+    <connector id="6:2023" x="1318.5" y="1423.375" connectorStart="6:1943" connectorStartCap="NONE" connectorEnd="6:1947" connectorEndCap="ARROW_LINES">edge_13</connector>
+    <shape-with-text id="6:1951" x="1926.5" y="1345.25" width="437.5" height="156.25" name="SQUARE">结算结果
+个人任务奖励正常
+按规则产生贡献与代币</shape-with-text>
+    <connector id="6:2027" x="1843.5" y="1423.375" connectorStart="6:1947" connectorStartCap="NONE" connectorEnd="6:1951" connectorEndCap="ARROW_LINES">edge_14</connector>
+    <shape-with-text id="6:1960" x="111" y="1846" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:1963" x="2426" y="1846" width="16" height="16" name="ELLIPSE"></shape-with-text>
+  </section>
+  <section id="6:2031" name="15_玩家分层与池切换" x="7700" y="10100" width="2378" height="2178">
+    <shape-with-text id="6:2033" x="64" y="64" width="2250" height="2050" name="SQUARE"></shape-with-text>
+    <text id="6:2041" name="15" x="119" y="107.75" width="31" height="33" />
+    <text id="6:2042" name="分层任务池：" x="196.5" y="102.75" width="204" height="43" />
+    <shape-with-text id="6:2044" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2047" x="2251" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2054" x="914" y="289" width="550" height="125" name="SQUARE">登录后判定玩家阶段
+按资格规则选择任务池</shape-with-text>
+    <shape-with-text id="6:2058" x="1382.75" y="450.25" width="273.75" height="37.5" name="ROUNDED_RECTANGLE"></shape-with-text>
+    <shape-with-text id="6:2063" x="151.5" y="576.5" width="625" height="275" name="SQUARE">新手任务池
+不生成三级和特殊任务
+取消不耗金币；默认自动接取
+部落未解锁：不生成部落任务</shape-with-text>
+    <shape-with-text id="6:2067" x="876.5" y="576.5" width="625" height="275" name="SQUARE">回流任务池
+连续30天未登录后回归
+该天数可按历史数据调整
+陌生卡组提供等级统一试用
+未入部落：不生成社交重连任务</shape-with-text>
+    <shape-with-text id="6:2071" x="1601.5" y="576.5" width="625" height="275" name="SQUARE">普通任务池
+不处于保护任务池的玩家
+普通池候选、展示、接取规则
+按4.1.2执行</shape-with-text>
+    <shape-with-text id="6:2075" x="139" y="957.75" width="2100" height="943.75" name="SQUARE"></shape-with-text>
+    <text id="6:2079" name="回流池内部：阶段规则与退出条件同时生效" x="161.5" y="914.75" width="418" height="28" />
+    <shape-with-text id="6:2080" x="251.5" y="1070.25" width="575" height="212.5" name="SQUARE">回流后的前3天
+不生成三级任务
+不生成特殊任务
+一级 / 二级任务恢复操作</shape-with-text>
+    <shape-with-text id="6:2084" x="1376.5" y="1070.25" width="637.5" height="212.5" name="SQUARE">第4天起
+每天最多展示1个三级任务
+其余规则保持回流池口径</shape-with-text>
+    <connector id="6:2139" x="831" y="1157.5" connectorStart="6:2080" connectorStartCap="NONE" connectorEnd="6:2084" connectorEndCap="ARROW_LINES">edge_3</connector>
+    <shape-with-text id="6:2088" x="926.5" y="1439" width="500" height="262.5" name="DIAMOND">持续满7天
+或达成12个回流任务？</shape-with-text>
+    <shape-with-text id="6:2092" x="806.5" y="1315.25" width="321.25" height="37.5" name="ROUNDED_RECTANGLE"></shape-with-text>
+    <text id="6:2096" name="两个阶段均持续检查退出条件" x="812.75" y="1320.25" width="247" height="24" />
+    <shape-with-text id="6:2097" x="201.5" y="1526.5" width="537.5" height="125" name="SQUARE">保持当前回流阶段
+次日 / 任务达成后再次判断</shape-with-text>
+    <shape-with-text id="6:2101" x="1589" y="1464" width="587.5" height="250" name="SQUARE">切换普通任务池
+清除已接取任务和累计进度
+已获得任务宝箱保留
+已结算奖励保留</shape-with-text>
+    <shape-with-text id="6:2110" x="111" y="2046" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2113" x="2251" y="2046" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:2116" x="119" y="2054" connectorStart="6:2110" connectorStartCap="NONE" connectorEnd="6:2113" connectorEndCap="NONE">line / 1</connector>
+    <shape-with-text id="6:2121" x="1181" y="493.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:2205" x="1189" y="418.5" connectorStart="6:2054" connectorStartCap="NONE" connectorEnd="6:2121" connectorEndCap="NONE">shared_login_to_split</connector>
+    <connector id="6:2135" x="1200.5" y="501.5" connectorStart="6:2121" connectorStartCap="NONE" connectorEnd="6:2071" connectorEndCap="ARROW_LINES">edge_2</connector>
+    <connector id="6:2131" x="1189" y="513" connectorStart="6:2121" connectorStartCap="NONE" connectorEnd="6:2067" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <connector id="6:2127" x="464" y="501.5" connectorStart="6:2121" connectorStartCap="NONE" connectorEnd="6:2063" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="6:2124" x="1168.5" y="1356" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:2209" x="1176.5" y="1375.5" connectorStart="6:2124" connectorStartCap="NONE" connectorEnd="6:2088" connectorEndCap="ARROW_LINES">shared_merge_to_exit</connector>
+    <connector id="6:2165" x="1188" y="1287.25" connectorStart="6:2084" connectorStartCap="NONE" connectorEnd="6:2124" connectorEndCap="NONE">edge_6</connector>
+    <connector id="6:2161" x="539" y="1287.25" connectorStart="6:2080" connectorStartCap="NONE" connectorEnd="6:2124" connectorEndCap="NONE">edge_5</connector>
+    <connector id="6:2149" x="539" y="856" connectorStart="6:2067" connectorStartCap="NONE" connectorEnd="6:2080" connectorEndCap="ARROW_LINES">edge_4 · 单条原生连接线</connector>
+    <connector id="6:2175" x="743.5" y="1560.625" connectorStart="6:2088" connectorStartCap="NONE" connectorEnd="6:2097" connectorEndCap="ARROW_LINES">edge_7 · 单条原生连接线</connector>
+    <connector id="6:2193" x="1431" y="1570.25" connectorStart="6:2088" connectorStartCap="NONE" connectorEnd="6:2101" connectorEndCap="ARROW_LINES">edge_8 · 单条原生连接线</connector>
+    <text id="10:1905" name="支路条件 · 是：任一满足" x="1431.5" y="1516.5" width="108" height="22" />
+  </section>
+  <section id="6:2348" name="17_配置数据关系" x="100" y="13100" width="2628" height="2078">
+    <shape-with-text id="6:2350" x="64" y="64" width="2500" height="1950" name="SQUARE"></shape-with-text>
+    <text id="6:2358" name="17" x="119" y="107.75" width="31" height="33" />
+    <text id="6:2359" name="配置与运行数据：" x="196.5" y="102.75" width="272" height="43" />
+    <shape-with-text id="6:2361" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2364" x="2501" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2371" x="114" y="264" width="2400" height="306.25" name="SQUARE"></shape-with-text>
+    <text id="6:2375" name="配置域：可版本化的策划输入" x="136.5" y="281.5" width="286" height="28" />
+    <shape-with-text id="6:2376" x="176.5" y="345.25" width="600" height="168.75" name="SQUARE">四张任务配置表
+一级 / 二级 / 三级 / 特殊
+字段结构相同，任务ID关联接取记录</shape-with-text>
+    <shape-with-text id="6:2380" x="1014" y="345.25" width="600" height="168.75" name="SQUARE">任务直接配置成本与收益
+action_cost / chest_id
+base_contribution / first_reward_id
+战令和奖励按各自配置结算</shape-with-text>
+    <connector id="6:2448" x="781" y="410.625" connectorStart="6:2376" connectorStartCap="NONE" connectorEnd="6:2380" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="6:2384" x="1851.5" y="345.25" width="600" height="168.75" name="SQUARE">任务池生成规则
+玩家阶段 / 已有卡牌 / 卡组
+候选、展示与替换规则</shape-with-text>
+    <shape-with-text id="6:2388" x="114" y="590" width="2400" height="792.75" name="SQUARE"></shape-with-text>
+    <text id="6:2392" name="运行域" x="136.5" y="607.5" width="66" height="28" />
+    <text id="6:2393" name="以任务、对局和流水关联记录，支持去重及追溯。" x="1014" y="661.5" width="462" height="27" />
+    <shape-with-text id="6:2394" x="176.5" y="751.5" width="600" height="218.75" name="SQUARE">玩家任务实例 / 周池展示记录
+玩家ID / 周池版本 / 模板版本
+展示状态 / 接取状态 / 累计进度
+展示、已接、已激活不强制拆三张表</shape-with-text>
+    <connector id="6:2452" x="422.8125" y="518.5" connectorStart="6:2376" connectorStartCap="NONE" connectorEnd="6:2394" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <shape-with-text id="6:2398" x="1014" y="751.5" width="600" height="218.75" name="SQUARE">本场激活快照条目
+对局ID + 玩家任务实例引用
+锁定本场任务版本与激活清单
+关联行动点与宝箱空位预留</shape-with-text>
+    <connector id="6:2488" x="781" y="841.875" connectorStart="6:2394" connectorStartCap="NONE" connectorEnd="6:2398" connectorEndCap="ARROW_LINES">edge_3</connector>
+    <shape-with-text id="6:2402" x="1851.5" y="751.5" width="600" height="218.75" name="SQUARE">任务结算流水
+唯一流水号 / 对局 / 任务实例
+校验结果 / 扣除 / 发放关联
+合法达成只落一份有效结算</shape-with-text>
+    <connector id="6:2492" x="1618.5" y="841.875" connectorStart="6:2398" connectorStartCap="NONE" connectorEnd="6:2402" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <shape-with-text id="6:2406" x="1014" y="1126.5" width="600" height="193.75" name="SQUARE">任务宝箱实例 / 队列记录
+归属玩家 / 来源流水
+待开启 → 已开启
+开启结果仍能追溯到任务结算</shape-with-text>
+    <shape-with-text id="6:2410" x="1851.5" y="1126.5" width="600" height="193.75" name="SQUARE">奖励发放记录
+同一流水关联多类奖励结果
+个人奖励 / 经验 / 贡献 / 宝箱
+逐类记录发放及重试结果</shape-with-text>
+    <connector id="6:2500" x="1618.5" y="1192.875" connectorStart="6:2410" connectorStartCap="NONE" connectorEnd="6:2406" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <connector id="6:2496" x="2088.8125" y="974.75" connectorStart="6:2402" connectorStartCap="NONE" connectorEnd="6:2410" connectorEndCap="ARROW_LINES">edge_5</connector>
+    <text id="6:2414" name="关系符号" x="176.5" y="1120.25" width="88" height="28" />
+    <text id="6:2415" name="1 : N＝一对多" x="176.5" y="1176.5" width="127" height="27" />
+    <text id="6:2416" name="0..1＝零或一个" x="176.5" y="1215.25" width="140" height="27" />
+    <text id="6:2417" name="实线：对象关联建议" x="176.5" y="1254" width="189" height="27" />
+    <text id="6:2418" name="虚线：配置约束 / 解释" x="176.5" y="1292.75" width="207" height="27" />
+    <shape-with-text id="6:2437" x="111" y="1946" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2440" x="2501" y="1946" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:2468" x="476.5" y="518.5" connectorStart="6:2384" connectorStartCap="NONE" connectorEnd="6:2394" connectorEndCap="ARROW_LINES">edge_2 · 单条原生连接线</connector>
+    <connector id="6:2516" x="1314" y="276.25" connectorStart="6:2380" connectorStartCap="NONE" connectorEnd="6:2410" connectorEndCap="ARROW_LINES">edge_7 · 单条原生连接线</connector>
+  </section>
+  <section id="6:2536" name="18_埋点与指标" x="3900" y="13100" width="2478" height="1665.5">
+    <shape-with-text id="6:2538" x="64" y="64" width="2350" height="1380" name="SQUARE"></shape-with-text>
+    <text id="6:2546" name="18" x="119" y="107.75" width="31" height="33" />
+    <text id="6:2547" name="埋点与指标" x="196.5" y="102.75" width="170" height="43" />
+    <shape-with-text id="6:2549" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2552" x="2351" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2559" x="120.25" y="339" width="318.75" height="145" name="SQUARE">展示
+任务实际呈现</shape-with-text>
+    <shape-with-text id="6:2563" x="501.5" y="339" width="318.75" height="145" name="SQUARE">接取
+手动 / 自动</shape-with-text>
+    <connector id="6:2619" x="443.5" y="411.5" connectorStart="6:2559" connectorStartCap="NONE" connectorEnd="6:2563" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="6:2567" x="882.75" y="339" width="318.75" height="145" name="SQUARE">激活
+进入本场名单</shape-with-text>
+    <connector id="6:2623" x="824.75" y="411.5" connectorStart="6:2563" connectorStartCap="NONE" connectorEnd="6:2567" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <shape-with-text id="6:2571" x="1264" y="339" width="318.75" height="145" name="SQUARE">达成
+通过结算校验</shape-with-text>
+    <connector id="6:2627" x="1206" y="411.5" connectorStart="6:2567" connectorStartCap="NONE" connectorEnd="6:2571" connectorEndCap="ARROW_LINES">edge_2</connector>
+    <shape-with-text id="6:2575" x="1645.25" y="339" width="318.75" height="145" name="SQUARE">宝箱入队
+奖励暂存成功</shape-with-text>
+    <connector id="6:2631" x="1587.25" y="411.5" connectorStart="6:2571" connectorStartCap="NONE" connectorEnd="6:2575" connectorEndCap="ARROW_LINES">edge_3</connector>
+    <shape-with-text id="6:2579" x="2026.5" y="339" width="318.75" height="145" name="SQUARE">宝箱开启
+单个 / 批量</shape-with-text>
+    <connector id="6:2635" x="1968.5" y="411.5" connectorStart="6:2575" connectorStartCap="NONE" connectorEnd="6:2579" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <shape-with-text id="6:2584" x="120.25" y="566.5" width="2225" height="173.75" name="SQUARE">建议的关联键（埋点实现建议）
+玩家 ID / 任务实例 ID / 模板版本 / 对局 ID / 结算流水号 / 宝箱实例 ID / 事件时间
+同一结算流水只计一次；批量开箱需要关联每个宝箱。事件总次数不可直接替代独立玩家数。</shape-with-text>
+    <shape-with-text id="6:2588" x="120.25" y="822.75" width="700" height="218.75" name="SQUARE">每周有效任务参与率
+本周至少达成 1 个任务的玩家数
+÷ 符合条件的周活跃玩家数
+不是“激活人数 ÷ 接取人数”</shape-with-text>
+    <shape-with-text id="6:2592" x="882.75" y="822.75" width="700" height="218.75" name="SQUARE">有效社交转化率
+查看分享后 24 小时内
+达成对应任务的玩家数
+÷ 查看分享内容的独立玩家数</shape-with-text>
+    <connector id="6:2657" x="1232.75" y="744.75" connectorStart="6:2584" connectorStartCap="NONE" connectorEnd="6:2592" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <shape-with-text id="6:2596" x="1645.25" y="822.75" width="700" height="218.75" name="SQUARE">资源与容量状态
+暂停率：曾因点数不足暂停激活
+满载率：队列曾达到容量上限
+各自除以任务参与玩家数</shape-with-text>
+    <shape-with-text id="6:2608" x="111" y="1533.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2611" x="2351" y="1533.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:2645" x="470.25" y="744.75" connectorStart="6:2584" connectorStartCap="NONE" connectorEnd="6:2588" connectorEndCap="ARROW_LINES">edge_5 · 单条原生连接线</connector>
+    <connector id="6:2667" x="1232.75" y="744.75" connectorStart="6:2584" connectorStartCap="NONE" connectorEnd="6:2596" connectorEndCap="ARROW_LINES">edge_7 · 单条原生连接线</connector>
+  </section>
+  <section id="6:2679" name="19_灰度阶段" x="7700" y="13100" width="2690.5" height="1665.5">
+    <shape-with-text id="6:2681" x="64" y="64" width="2562.5" height="1537.5" name="SQUARE"></shape-with-text>
+    <text id="6:2689" name="19" x="119" y="107.75" width="31" height="33" />
+    <text id="6:2690" name="灰度阶段：" x="196.5" y="102.75" width="170" height="43" />
+    <shape-with-text id="6:2692" x="111" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2695" x="2563.5" y="213.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2702" x="126.5" y="301.5" width="462.5" height="298.75" name="SQUARE">个人任务闭环
+5% 符合条件玩家 · 14 天
+每周有效任务参与率相对提升
+资源产出差异在 ±3% 内
+D7下降 / 投降率上升
+各不超过 0.5 个百分点</shape-with-text>
+    <shape-with-text id="6:2706" x="201.5" y="689" width="312.5" height="187.5" name="DIAMOND">阶段条件
+全部满足？</shape-with-text>
+    <connector id="6:2769" x="357.75" y="604.75" connectorStart="6:2702" connectorStartCap="NONE" connectorEnd="6:2706" connectorEndCap="ARROW_LINES">edge_0</connector>
+    <shape-with-text id="6:2710" x="126.5" y="1014" width="462.5" height="130" name="SQUARE">留在本阶段
+调整、复测，不扩量</shape-with-text>
+    <connector id="6:2773" x="341.5625" y="881" connectorStart="6:2706" connectorStartCap="NONE" connectorEnd="6:2710" connectorEndCap="ARROW_LINES">edge_1</connector>
+    <shape-with-text id="6:2714" x="751.5" y="301.5" width="462.5" height="298.75" name="SQUARE">社交转化
+10% 部落 · 14 天
+分享、求助与转化改善
+刷屏、屏蔽、退出不恶化
+按部落随机
+暂不开放排名倍率</shape-with-text>
+    <shape-with-text id="6:2718" x="826.5" y="689" width="312.5" height="187.5" name="DIAMOND">阶段条件
+全部满足？</shape-with-text>
+    <connector id="6:2777" x="982.75" y="604.75" connectorStart="6:2714" connectorStartCap="NONE" connectorEnd="6:2718" connectorEndCap="ARROW_LINES">edge_2</connector>
+    <shape-with-text id="6:2722" x="751.5" y="1014" width="462.5" height="130" name="SQUARE">留在本阶段
+调整、复测，不扩量</shape-with-text>
+    <connector id="6:2781" x="966.5625" y="881" connectorStart="6:2718" connectorStartCap="NONE" connectorEnd="6:2722" connectorEndCap="ARROW_LINES">edge_3</connector>
+    <shape-with-text id="6:2726" x="1376.5" y="301.5" width="462.5" height="298.75" name="SQUARE">跨系统耦合
+30% 部落 · 完整赛季
+D30、部落留存不劣于对照
+付费与资源护栏通过
+活动配置效率改善
+开放竞赛与赛季结算</shape-with-text>
+    <shape-with-text id="6:2730" x="1451.5" y="689" width="312.5" height="187.5" name="DIAMOND">阶段条件
+全部满足？</shape-with-text>
+    <connector id="6:2785" x="1607.75" y="604.75" connectorStart="6:2726" connectorStartCap="NONE" connectorEnd="6:2730" connectorEndCap="ARROW_LINES">edge_4</connector>
+    <shape-with-text id="6:2734" x="1376.5" y="1014" width="462.5" height="130" name="SQUARE">留在本阶段
+调整、复测，不扩量</shape-with-text>
+    <connector id="6:2789" x="1591.5625" y="881" connectorStart="6:2730" connectorStartCap="NONE" connectorEnd="6:2734" connectorEndCap="ARROW_LINES">edge_5</connector>
+    <shape-with-text id="6:2738" x="2001.5" y="301.5" width="462.5" height="298.75" name="SQUARE">扩大灰度
+50% 符合条件部落
+覆盖一个完整赛季
+按部落整体随机
+新手、回流、杯段、付费层
+均通过护栏</shape-with-text>
+    <shape-with-text id="6:2742" x="2076.5" y="689" width="312.5" height="187.5" name="DIAMOND">阶段条件
+全部满足？</shape-with-text>
+    <connector id="6:2793" x="2232.75" y="604.75" connectorStart="6:2738" connectorStartCap="NONE" connectorEnd="6:2742" connectorEndCap="ARROW_LINES">edge_6</connector>
+    <shape-with-text id="6:2746" x="2001.5" y="1014" width="462.5" height="130" name="SQUARE">留在本阶段
+调整、复测，不扩量</shape-with-text>
+    <connector id="6:2797" x="2216.5625" y="881" connectorStart="6:2742" connectorStartCap="NONE" connectorEnd="6:2746" connectorEndCap="ARROW_LINES">edge_7</connector>
+    <shape-with-text id="6:2750" x="2001.5" y="1255.25" width="462.5" height="131.25" name="SQUARE">允许全量开放
+旧系统替换另经完整赛季评审</shape-with-text>
+    <shape-with-text id="6:2758" x="111" y="1533.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <shape-with-text id="6:2761" x="2563.5" y="1533.5" width="16" height="16" name="ELLIPSE"></shape-with-text>
+    <connector id="6:2807" x="518.5" y="450.875" connectorStart="6:2706" connectorStartCap="NONE" connectorEnd="6:2714" connectorEndCap="ARROW_LINES">edge_8 · 单条原生连接线</connector>
+    <connector id="6:2825" x="1143.5" y="450.875" connectorStart="6:2718" connectorStartCap="NONE" connectorEnd="6:2726" connectorEndCap="ARROW_LINES">edge_9 · 单条原生连接线</connector>
+    <connector id="6:2843" x="1768.5" y="450.875" connectorStart="6:2730" connectorStartCap="NONE" connectorEnd="6:2738" connectorEndCap="ARROW_LINES">edge_10 · 单条原生连接线</connector>
+    <connector id="6:2861" x="2393.5" y="782.75" connectorStart="6:2742" connectorStartCap="NONE" connectorEnd="6:2750" connectorEndCap="ARROW_LINES">edge_11 · 单条原生连接线</connector>
+  </section>
+  <section id="36:1939" name="21 配置读取与任务生成" x="100" y="16600" width="3744" height="1500.5">
+    <shape-with-text id="34:1865" x="80" y="377.83331298828125" width="224" height="128" name="SQUARE">ReleaseRule 发布入口</shape-with-text>
+    <shape-with-text id="34:1868" x="560" y="377.83331298828125" width="224" height="128" name="SQUARE">配置包 C001</shape-with-text>
+    <connector id="38:2021" x="309.5" y="422.333984375" connectorStart="34:1865" connectorStartCap="NONE" connectorEnd="34:1868" connectorEndCap="ARROW_LINES">选择</connector>
+    <shape-with-text id="34:1871" x="1040" y="265.8333435058594" width="224" height="128" name="SQUARE">Season 赛季规则</shape-with-text>
+    <connector id="38:2025" x="789.5" y="329.833984375" connectorStart="34:1868" connectorStartCap="NONE" connectorEnd="34:1871" connectorEndCap="ARROW_LINES">读取赛季</connector>
+    <shape-with-text id="34:1874" x="1040" y="489.83331298828125" width="224" height="128" name="SQUARE">PoolRule 任务池规则</shape-with-text>
+    <connector id="38:2029" x="789.5" y="441.833984375" connectorStart="34:1868" connectorStartCap="NONE" connectorEnd="34:1874" connectorEndCap="ARROW_LINES">选择人群池</connector>
+    <shape-with-text id="34:1877" x="1520" y="260" width="224" height="128" name="SQUARE">PoolQuota 分档配额</shape-with-text>
+    <connector id="38:2033" x="1269.5" y="324" connectorStart="34:1874" connectorStartCap="NONE" connectorEnd="34:1877" connectorEndCap="ARROW_LINES">pool_id</connector>
+    <shape-with-text id="34:1880" x="1520" y="724.5" width="224" height="128" name="SQUARE">PoolEntry 候选任务</shape-with-text>
+    <connector id="38:2037" x="1269.5" y="553.833984375" connectorStart="34:1874" connectorStartCap="NONE" connectorEnd="34:1880" connectorEndCap="ARROW_LINES">pool_id</connector>
+    <shape-with-text id="34:1883" x="2000" y="724.5" width="224" height="128" name="SQUARE">四张难度任务表
+结构相同
+按task_id查对应表</shape-with-text>
+    <connector id="38:2041" x="1749.5" y="769" connectorStart="34:1880" connectorStartCap="NONE" connectorEnd="34:1883" connectorEndCap="ARROW_LINES">task_id</connector>
+    <shape-with-text id="34:1886" x="2480" y="500.5" width="224" height="128" name="SQUARE">一级任务表
+目标、成本与收益</shape-with-text>
+    <connector id="38:2045" x="2229.5" y="564.5" connectorStart="34:1883" connectorStartCap="NONE" connectorEnd="34:1886" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="34:1889" x="2480" y="724.5" width="224" height="128" name="SQUARE">二级任务表
+112001 法术卡组取胜</shape-with-text>
+    <connector id="38:2049" x="2229.5" y="788.5" connectorStart="34:1883" connectorStartCap="NONE" connectorEnd="34:1889" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="34:1892" x="2480" y="948.5" width="224" height="128" name="SQUARE">三级任务表
+目标、成本与收益</shape-with-text>
+    <connector id="38:2053" x="2229.5" y="788.5" connectorStart="34:1883" connectorStartCap="NONE" connectorEnd="34:1892" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="34:1895" x="2480" y="1172.5" width="224" height="128" name="SQUARE">特殊任务表
+目标、成本与收益</shape-with-text>
+    <connector id="38:2057" x="2229.5" y="788.5" connectorStart="34:1883" connectorStartCap="NONE" connectorEnd="34:1895" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="34:1898" x="2000" y="1172.5" width="224" height="128" name="SQUARE">DeckCheck.check(...)
+只保留卡组判定接口
+返回passed</shape-with-text>
+    <connector id="38:2061" x="2038" y="858" connectorStart="34:1883" connectorStartCap="NONE" connectorEnd="34:1898" connectorEndCap="ARROW_LINES">deck_check_hook</connector>
+    <shape-with-text id="34:1901" x="2480" y="276.5" width="224" height="128" name="SQUARE">筛选并生成个人任务池</shape-with-text>
+    <connector id="38:2069" x="2229.5" y="340.5" connectorStart="34:1883" connectorStartCap="NONE" connectorEnd="34:1901" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="38:2065" x="1749.5" y="312.75" connectorStart="34:1877" connectorStartCap="NONE" connectorEnd="34:1901" connectorEndCap="ARROW_LINES">数量约束</connector>
+    <shape-with-text id="34:1904" x="2960" y="276.5" width="224" height="128" name="SQUARE">已接取任务
+accepted_task_id=A001
+task_id=112001</shape-with-text>
+    <connector id="38:2073" x="2709.5" y="321" connectorStart="34:1901" connectorStartCap="NONE" connectorEnd="34:1904" connectorEndCap="ARROW_LINES">点击接取后写入</connector>
+    <shape-with-text id="34:1907" x="3440" y="276.5" width="224" height="128" name="SQUARE">模板ID、配置包、任务池版本</shape-with-text>
+    <connector id="38:2077" x="3189.5" y="321" connectorStart="34:1904" connectorStartCap="NONE" connectorEnd="34:1907" connectorEndCap="ARROW_LINES">保存</connector>
+    <text id="36:1940" name="21 配置读取与任务生成" x="80" y="50" width="417" height="48" />
+    <text id="62:1790" name="连接标签 / 规则引用" x="2480" y="246.5" width="64" height="19" />
+    <text id="62:1791" name="task_id" x="2480" y="470.5" width="55" height="19" />
+    <text id="62:1792" name="task_id" x="2480" y="694.5" width="55" height="19" />
+    <text id="62:1793" name="task_id" x="2480" y="918.5" width="55" height="19" />
+    <text id="62:1794" name="task_id" x="2480" y="1142.5" width="55" height="19" />
+  </section>
+  <section id="38:2081" name="22 任务激活预留与统一结算" x="4300" y="16600" width="3940" height="1800">
+    <shape-with-text id="37:1940" x="80" y="260" width="224" height="128" name="SQUARE">已接取任务 A001
+玩家激活优先级</shape-with-text>
+    <shape-with-text id="37:1943" x="432" y="535" width="200" height="200" name="DIAMOND">可用行动点和空位足够</shape-with-text>
+    <connector id="38:2082" x="309.5" y="324" connectorStart="37:1940" connectorStartCap="NONE" connectorEnd="37:1943" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="37:1946" x="80" y="484" width="224" height="128" name="SQUARE">ActionPointWallet 普通池余额减有效预留</shape-with-text>
+    <connector id="38:2086" x="309.5" y="548" connectorStart="37:1946" connectorStartCap="NONE" connectorEnd="37:1943" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="37:1949" x="80" y="708" width="224" height="128" name="SQUARE">20－待开启数量－有效预留箱位</shape-with-text>
+    <connector id="38:2090" x="309.5" y="635" connectorStart="37:1949" connectorStartCap="NONE" connectorEnd="37:1943" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="37:1952" x="888" y="459" width="224" height="128" name="SQUARE">本场不激活，已有累计进度保留</shape-with-text>
+    <connector id="38:2094" x="637.5" y="523" connectorStart="37:1943" connectorStartCap="NONE" connectorEnd="37:1952" connectorEndCap="ARROW_LINES">不足</connector>
+    <shape-with-text id="37:1955" x="888" y="683" width="224" height="128" name="SQUARE">激活记录 ACT001
+预留2点行动点
+预留1个宝箱空位</shape-with-text>
+    <connector id="38:2098" x="637.5" y="635" connectorStart="37:1943" connectorStartCap="NONE" connectorEnd="37:1955" connectorEndCap="ARROW_LINES">足够</connector>
+    <shape-with-text id="37:1958" x="1240" y="683" width="224" height="128" name="SQUARE">ACT001引用A001
+锁定对局B001
+及本场任务版本</shape-with-text>
+    <connector id="38:2102" x="1117.5" y="747" connectorStart="37:1955" connectorStartCap="NONE" connectorEnd="37:1958" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="37:1961" x="1592" y="627" width="300" height="240" name="DIAMOND">对局是否有效？
+任务条件是否满足？</shape-with-text>
+    <connector id="38:2106" x="1469.5" y="747" connectorStart="37:1958" connectorStartCap="NONE" connectorEnd="37:1961" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="37:1964" x="2048" y="546" width="224" height="128" name="SQUARE">本场不推进，结束后释放预留</shape-with-text>
+    <connector id="38:2110" x="1897.5" y="610" connectorStart="37:1961" connectorStartCap="NONE" connectorEnd="37:1964" connectorEndCap="ARROW_LINES">无效对局</connector>
+    <shape-with-text id="37:1967" x="2048" y="770" width="224" height="128" name="SQUARE">按任务规则更新进度，释放未用预留</shape-with-text>
+    <connector id="38:2114" x="1897.5" y="747" connectorStart="37:1961" connectorStartCap="NONE" connectorEnd="37:1967" connectorEndCap="ARROW_LINES">有效但未达成</connector>
+    <shape-with-text id="37:1970" x="2048" y="994" width="320" height="240" name="DIAMOND">任务结算 R001
+已有成功结果？</shape-with-text>
+    <connector id="38:2118" x="1897.5" y="747" connectorStart="37:1961" connectorStartCap="NONE" connectorEnd="37:1970" connectorEndCap="ARROW_LINES">有效且条件满足</connector>
+    <shape-with-text id="37:1973" x="3020" y="1024" width="340" height="180" name="SQUARE">同一身份统一提交一次
+核销预留并实际扣点
+任务正式达成
+写入全部合法结算结果</shape-with-text>
+    <shape-with-text id="37:1976" x="3520" y="650" width="340" height="160" name="SQUARE">ChestInstance BOX001
+待开启宝箱入队</shape-with-text>
+    <connector id="38:2126" x="3365.5" y="730" connectorStart="37:1973" connectorStartCap="NONE" connectorEnd="37:1976" connectorEndCap="ARROW_LINES">提交结果</connector>
+    <shape-with-text id="37:1979" x="3520" y="900" width="340" height="160" name="SQUARE">读取 Season 经验换算规则
+写 PlayerSeasonProgress
+更新战令经验与等级</shape-with-text>
+    <connector id="38:2130" x="3365.5" y="980" connectorStart="37:1973" connectorStartCap="NONE" connectorEnd="37:1979" connectorEndCap="ARROW_LINES">提交结果</connector>
+    <shape-with-text id="37:1982" x="3520" y="1150" width="340" height="160" name="SQUARE">模板首次且赛季未达100次
+发放首次模板金币并保存记录
+不符合时仍结算其他收益</shape-with-text>
+    <connector id="38:2134" x="3365.5" y="1114" connectorStart="37:1973" connectorStartCap="NONE" connectorEnd="37:1982" connectorEndCap="ARROW_LINES">提交结果</connector>
+    <shape-with-text id="37:1985" x="3520" y="1400" width="340" height="160" name="SQUARE">读取 ClanRule 校验成员资格
+计算并保存贡献与代币结果
+无资格时该项为0</shape-with-text>
+    <connector id="38:2138" x="3365.5" y="1114" connectorStart="37:1973" connectorStartCap="NONE" connectorEnd="37:1985" connectorEndCap="ARROW_LINES">提交结果</connector>
+    <shape-with-text id="37:1988" x="2048" y="1400" width="320" height="128" name="SQUARE">已成功：返回保存的原结果
+不重复扣点或发奖</shape-with-text>
+    <connector id="38:2142" x="2176.5" y="1239.5" connectorStart="37:1970" connectorStartCap="NONE" connectorEnd="37:1988" connectorEndCap="ARROW_LINES">已成功</connector>
+    <text id="38:2146" name="22 任务激活预留与统一结算" x="80" y="50" width="497" height="48" />
+    <shape-with-text id="57:2147" x="2520" y="994" width="360" height="240" name="DIAMOND">结算复核通过？
+余额 / 槽位 / 预留
+及权威结果证据</shape-with-text>
+    <connector id="57:2153" x="2373.5" y="1094.5" connectorStart="37:1970" connectorStartCap="NONE" connectorEnd="57:2147" connectorEndCap="ARROW_LINES">未成功</connector>
+    <connector id="38:2122" x="2885.5" y="1094.5" connectorStart="57:2147" connectorStartCap="NONE" connectorEnd="37:1973" connectorEndCap="ARROW_LINES">通过</connector>
+    <shape-with-text id="57:2150" x="2440" y="1400" width="520" height="180" name="SQUARE">记录失败／待恢复（复用同一身份）
+不标达成，不扣点、不发奖</shape-with-text>
+    <connector id="57:2157" x="2668.5" y="1239.5" connectorStart="57:2147" connectorStartCap="NONE" connectorEnd="57:2150" connectorEndCap="ARROW_LINES">未通过</connector>
+  </section>
+  <section id="40:2084" name="23 宝箱开启与奖励资源到账" x="100" y="19000" width="4136" height="954.8333740234375">
+    <shape-with-text id="39:2022" x="80" y="453.5" width="224" height="128" name="SQUARE">宝箱实例 BOX001
+来源结算R001</shape-with-text>
+    <shape-with-text id="39:2025" x="560" y="341.5" width="224" height="128" name="SQUARE">宝箱配置600002
+初始2星</shape-with-text>
+    <shape-with-text id="39:2028" x="1240" y="260" width="224" height="128" name="SQUARE">玩家开箱时
+进行5次升星判定
+每次成功率30%</shape-with-text>
+    <connector id="40:2089" x="789.5" y="324" connectorStart="39:2025" connectorStartCap="NONE" connectorEnd="39:2028" connectorEndCap="ARROW_LINES">开启规则</connector>
+    <shape-with-text id="39:2031" x="1592" y="260" width="224" height="128" name="SQUARE">本例5次均未升星
+最终2星</shape-with-text>
+    <connector id="40:2093" x="1469.5" y="324" connectorStart="39:2028" connectorStartCap="NONE" connectorEnd="39:2031" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="39:2034" x="1944" y="341.5" width="224" height="128" name="SQUARE">宝箱表星级奖励
+final_reward_id=700002</shape-with-text>
+    <connector id="40:2101" x="1821.5" y="324" connectorStart="39:2031" connectorStartCap="NONE" connectorEnd="39:2034" connectorEndCap="ARROW_LINES">最终星级</connector>
+    <connector id="40:2097" x="789.5" y="386" connectorStart="39:2025" connectorStartCap="NONE" connectorEnd="39:2034" connectorEndCap="ARROW_LINES">星级奖励配置</connector>
+    <shape-with-text id="39:2037" x="2424" y="341.5" width="224" height="128" name="SQUARE">奖励700002
+金币100、卡牌资源5</shape-with-text>
+    <connector id="40:2105" x="2173.5" y="386" connectorStart="39:2034" connectorStartCap="NONE" connectorEnd="39:2037" connectorEndCap="ARROW_LINES">final_reward_id=700002</connector>
+    <shape-with-text id="39:2040" x="2776" y="341.5" width="224" height="128" name="SQUARE">玩家资源账户P001</shape-with-text>
+    <connector id="40:2109" x="2653.5" y="405.5" connectorStart="39:2037" connectorStartCap="NONE" connectorEnd="39:2040" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="39:2043" x="3128" y="341.5" width="224" height="128" name="SQUARE">开箱记录OPEN001
+保存唯一开奖结果</shape-with-text>
+    <connector id="40:2113" x="3005.5" y="405.5" connectorStart="39:2040" connectorStartCap="NONE" connectorEnd="39:2043" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="39:2046" x="3480" y="453.5" width="224" height="128" name="SQUARE">金币1100→1200
+卡牌资源10→15</shape-with-text>
+    <connector id="40:2117" x="3357.5" y="405.5" connectorStart="39:2043" connectorStartCap="NONE" connectorEnd="39:2046" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="39:2049" x="3832" y="453.5" width="224" height="128" name="SQUARE">BOX001已开启
+待开启数量3→2</shape-with-text>
+    <connector id="40:2121" x="3709.5" y="517.5" connectorStart="39:2046" connectorStartCap="NONE" connectorEnd="39:2049" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="39:2052" x="912" y="554.8333740234375" width="200" height="200" name="DIAMOND">是否已有开奖结果</shape-with-text>
+    <connector id="40:2085" x="672" y="475" connectorStart="39:2052" connectorStartCap="NONE" connectorEnd="39:2025" connectorEndCap="ARROW_LINES">无：读取锁定配置</connector>
+    <connector id="40:2125" x="309.5" y="517.5" connectorStart="39:2022" connectorStartCap="NONE" connectorEnd="39:2052" connectorEndCap="ARROW_LINES">玩家点击开启／重试</connector>
+    <shape-with-text id="39:2055" x="1944" y="590.8333740234375" width="224" height="128" name="SQUARE">复用结果并补齐未完成入账</shape-with-text>
+    <connector id="40:2133" x="2173.5" y="517.5" connectorStart="39:2055" connectorStartCap="NONE" connectorEnd="39:2046" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="40:2129" x="1117.5" y="635.333984375" connectorStart="39:2052" connectorStartCap="NONE" connectorEnd="39:2055" connectorEndCap="ARROW_LINES">有：复用原结果</connector>
+    <text id="40:2137" name="23 宝箱开启与奖励资源到账" x="80" y="50" width="497" height="48" />
+  </section>
+  <section id="40:2218" name="24 贡献代币与部落收益分流" x="4700" y="19000" width="4800" height="1420">
+    <shape-with-text id="41:2085" x="80" y="382.666015625" width="224" height="128" name="SQUARE">任务表
+base_contribution
+本例112001：25</shape-with-text>
+    <shape-with-text id="41:2088" x="448" y="346.666015625" width="200" height="200" name="DIAMOND">已入部落且结束冷却</shape-with-text>
+    <connector id="40:2219" x="309.5" y="446.666015625" connectorStart="41:2085" connectorStartCap="NONE" connectorEnd="41:2088" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="41:2091" x="1136" y="270.666015625" width="224" height="128" name="SQUARE">仅结算符合条件的个人奖励</shape-with-text>
+    <connector id="40:2223" x="653.5" y="334.666015625" connectorStart="41:2088" connectorStartCap="NONE" connectorEnd="41:2091" connectorEndCap="ARROW_LINES">否</connector>
+    <shape-with-text id="41:2094" x="1136" y="494.666015625" width="224" height="128" name="SQUARE">ClanRule 资格与贡献衰减</shape-with-text>
+    <connector id="40:2227" x="653.5" y="446.666015625" connectorStart="41:2088" connectorStartCap="NONE" connectorEnd="41:2094" connectorEndCap="ARROW_LINES">是</connector>
+    <shape-with-text id="41:2097" x="1488" y="372" width="224" height="128" name="SQUARE">更新个人部落贡献及账号赛季累计</shape-with-text>
+    <connector id="40:2231" x="1365.5" y="436" connectorStart="41:2094" connectorStartCap="NONE" connectorEnd="41:2097" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="41:2100" x="1840" y="260" width="280" height="128" name="SQUARE">按成员排名加权汇总
+得到部落有效贡献值</shape-with-text>
+    <connector id="40:2235" x="1717.5" y="324" connectorStart="41:2097" connectorStartCap="NONE" connectorEnd="41:2100" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="41:2103" x="2640" y="260" width="280" height="128" name="SQUARE">读取 ClanRank
+按部落最终名次
+查基础奖励组与倍率</shape-with-text>
+    <shape-with-text id="41:2106" x="3560" y="224" width="400" height="200" name="SQUARE">RewardGroup 基础内容 × 排名倍率
+仅合格成员发放一次
+记录 ClanAwardRecord 与资源流水</shape-with-text>
+    <shape-with-text id="41:2109" x="1840" y="484" width="224" height="128" name="SQUARE">ClanHonor 荣誉资格</shape-with-text>
+    <connector id="40:2247" x="1717.5" y="436" connectorStart="41:2097" connectorStartCap="NONE" connectorEnd="41:2109" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="41:2112" x="1488" y="800" width="280" height="128" name="SQUARE">部落代币增量
+本例+25</shape-with-text>
+    <connector id="40:2251" x="1365.5" y="558.666015625" connectorStart="41:2094" connectorStartCap="NONE" connectorEnd="41:2112" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="41:2115" x="1840" y="800" width="280" height="128" name="SQUARE">部落代币余额</shape-with-text>
+    <connector id="40:2255" x="1773.5" y="864" connectorStart="41:2112" connectorStartCap="NONE" connectorEnd="41:2115" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="41:2118" x="2240" y="800" width="300" height="128" name="SQUARE">读取 ClanShop
+商品价格与限购</shape-with-text>
+    <shape-with-text id="41:2121" x="2640" y="800" width="300" height="128" name="SQUARE">读取 RewardGroup
+商品内容与资源数量</shape-with-text>
+    <connector id="40:2263" x="2545.5" y="844.5" connectorStart="41:2118" connectorStartCap="NONE" connectorEnd="41:2121" connectorEndCap="ARROW_LINES">读取内容</connector>
+    <shape-with-text id="41:2124" x="3040" y="800" width="400" height="160" name="SQUARE">含行动点：读取 ActionPointSource
+来源限额与 Season 额外总预算
+非行动点商品不适用此项</shape-with-text>
+    <connector id="40:2267" x="2945.5" y="852.5" connectorStart="41:2121" connectorStartCap="NONE" connectorEnd="41:2124" connectorEndCap="ARROW_LINES">适用预算</connector>
+    <shape-with-text id="41:2127" x="80" y="690" width="450" height="144" name="SQUARE">任务求助：仅预留接口
+已接取任务保存 help_hook
+TaskHelp.open(A001)</shape-with-text>
+    <text id="40:2279" name="24 贡献代币与部落收益分流" x="80" y="50" width="497" height="48" />
+    <shape-with-text id="59:2156" x="2240" y="260" width="300" height="128" name="SQUARE">赛季结算：同组五部落排名
+按有效贡献值比较
+冻结 ClanSeasonSnapshot</shape-with-text>
+    <connector id="59:2165" x="2545.5" y="304.5" connectorStart="59:2156" connectorStartCap="NONE" connectorEnd="41:2103" connectorEndCap="ARROW_LINES">最终名次</connector>
+    <connector id="40:2239" x="2125.5" y="304.5" connectorStart="41:2100" connectorStartCap="NONE" connectorEnd="59:2156" connectorEndCap="ARROW_LINES">赛季排名</connector>
+    <shape-with-text id="59:2159" x="3040" y="204" width="360" height="240" name="DIAMOND">竞赛领奖资格？
+当前部落满3天
+且个人贡献≥40</shape-with-text>
+    <connector id="59:2169" x="3405.5" y="304.5" connectorStart="59:2159" connectorStartCap="NONE" connectorEnd="41:2106" connectorEndCap="ARROW_LINES">通过</connector>
+    <connector id="40:2243" x="2925.5" y="304.5" connectorStart="41:2103" connectorStartCap="NONE" connectorEnd="59:2159" connectorEndCap="ARROW_LINES">领奖校验</connector>
+    <shape-with-text id="59:2162" x="3560" y="520" width="400" height="128" name="SQUARE">资格不满足
+不发本次竞赛奖励</shape-with-text>
+    <connector id="59:2173" x="3220" y="449.5" connectorStart="59:2159" connectorStartCap="NONE" connectorEnd="59:2162" connectorEndCap="ARROW_LINES">不通过</connector>
+    <shape-with-text id="59:2177" x="3600" y="760" width="360" height="240" name="DIAMOND">购买校验均通过？
+余额 / 限购 / 容量
+适用来源与赛季预算</shape-with-text>
+    <connector id="59:2186" x="3445.5" y="860.5" connectorStart="41:2124" connectorStartCap="NONE" connectorEnd="59:2177" connectorEndCap="ARROW_LINES">校验输入</connector>
+    <connector id="40:2259" x="1980" y="933.5" connectorStart="41:2115" connectorStartCap="NONE" connectorEnd="59:2177" connectorEndCap="ARROW_LINES">余额</connector>
+    <shape-with-text id="59:2180" x="4180" y="720" width="460" height="200" name="SQUARE">ShopPurchase / ResourceTransaction
+同一购买事务扣代币并发商品
+记录限购与来源（重试去重）
+行动点商品更新 ActionPointWallet</shape-with-text>
+    <connector id="59:2190" x="3965.5" y="820" connectorStart="59:2177" connectorStartCap="NONE" connectorEnd="59:2180" connectorEndCap="ARROW_LINES">通过</connector>
+    <shape-with-text id="59:2183" x="4180" y="1050" width="460" height="128" name="SQUARE">校验失败：不扣款、不发货
+已有事务异常按原身份恢复</shape-with-text>
+    <connector id="59:2194" x="3965.5" y="880" connectorStart="59:2177" connectorStartCap="NONE" connectorEnd="59:2183" connectorEndCap="ARROW_LINES">不通过</connector>
+  </section>
+  <section id="43:2225" name="25 版本切换与回滚数据边界" x="130" y="21102" width="2820" height="1180">
+    <shape-with-text id="42:2164" x="50" y="648" width="224" height="128" name="SQUARE">ReleaseRule 切换或关闭入口</shape-with-text>
+    <shape-with-text id="42:2167" x="402" y="258" width="224" height="128" name="SQUARE">新生成与新激活按新发布策略</shape-with-text>
+    <connector id="43:2226" x="279.5" y="322" connectorStart="42:2164" connectorStartCap="NONE" connectorEnd="42:2167" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="42:2170" x="418" y="482" width="200" height="200" name="DIAMOND">是否为已开局的在途对局</shape-with-text>
+    <connector id="43:2230" x="279.5" y="582" connectorStart="42:2164" connectorStartCap="NONE" connectorEnd="42:2170" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="42:2173" x="882" y="406" width="224" height="128" name="SQUARE">读取开局锁定的配置包和任务池版本</shape-with-text>
+    <connector id="43:2234" x="623.5" y="470" connectorStart="42:2170" connectorStartCap="NONE" connectorEnd="42:2173" connectorEndCap="ARROW_LINES">是</connector>
+    <shape-with-text id="42:2176" x="1234" y="406" width="224" height="128" name="SQUARE">查询／复用唯一结算身份
+尚未成功则继续校验</shape-with-text>
+    <connector id="43:2238" x="1111.5" y="470" connectorStart="42:2173" connectorStartCap="NONE" connectorEnd="42:2176" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="42:2179" x="2450" y="648" width="320" height="160" name="SQUARE">核销已用预留，释放确认未用预留</shape-with-text>
+    <shape-with-text id="42:2182" x="882" y="630" width="224" height="128" name="SQUARE">未开局任务按迁移策略处理</shape-with-text>
+    <connector id="43:2246" x="623.5" y="582" connectorStart="42:2170" connectorStartCap="NONE" connectorEnd="42:2182" connectorEndCap="ARROW_LINES">否</connector>
+    <shape-with-text id="42:2188" x="402" y="778" width="224" height="128" name="SQUARE">已合法结算的奖励保留</shape-with-text>
+    <connector id="43:2254" x="279.5" y="712" connectorStart="42:2164" connectorStartCap="NONE" connectorEnd="42:2188" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="42:2191" x="402" y="1002" width="224" height="128" name="SQUARE">重复发奖按原流水核查与定向回收</shape-with-text>
+    <connector id="43:2258" x="279.5" y="712" connectorStart="42:2164" connectorStartCap="NONE" connectorEnd="42:2191" connectorEndCap="ARROW_LINES"></connector>
+    <shape-with-text id="42:2194" x="1602" y="500" width="200" height="200" name="DIAMOND">是否跨赛季</shape-with-text>
+    <connector id="43:2262" x="1463.5" y="470" connectorStart="42:2176" connectorStartCap="NONE" connectorEnd="42:2194" connectorEndCap="ARROW_LINES">未成功</connector>
+    <shape-with-text id="42:2197" x="2066" y="424" width="224" height="128" name="SQUARE">确定记账季后方可提交</shape-with-text>
+    <connector id="43:2266" x="1807.5" y="488" connectorStart="42:2194" connectorStartCap="NONE" connectorEnd="42:2197" connectorEndCap="ARROW_LINES">是</connector>
+    <shape-with-text id="42:2200" x="2066" y="648" width="224" height="128" name="SQUARE">非跨季：确定记账季
+同一流水合法提交</shape-with-text>
+    <connector id="43:2242" x="2295.5" y="700.5" connectorStart="42:2200" connectorStartCap="NONE" connectorEnd="42:2179" connectorEndCap="ARROW_LINES">提交成功</connector>
+    <connector id="43:2270" x="1807.5" y="600" connectorStart="42:2194" connectorStartCap="NONE" connectorEnd="42:2200" connectorEndCap="ARROW_LINES">否</connector>
+    <text id="43:2274" name="25 版本切换与回滚数据边界" x="50" y="48" width="497" height="48" />
+    <shape-with-text id="89:1693" x="1602" y="258" width="270" height="128" name="SQUARE">已成功：返回原结果
+不重复扣点或发奖</shape-with-text>
+    <connector id="89:1696" x="1346" y="302.5" connectorStart="42:2176" connectorStartCap="NONE" connectorEnd="89:1693" connectorEndCap="ARROW_LINES">已成功</connector>
+  </section>
+  <section id="70:1790" name="文档原图｜核心闭环与设计价值" x="-3008" y="13100" width="2700" height="1880">
+    <text id="70:1791" name="文档原图分区标题" x="64" y="48" width="2572" height="58" />
+    <text id="70:1792" name="原图保留说明" x="64" y="130" width="2572" height="34" />
+    <text id="70:1793" name="原图A标题" x="64" y="230" width="1282" height="38" />
+    <text id="70:1794" name="原图B标题" x="1500" y="230" width="1090" height="38" />
+    <frame id="69:1791" name="核心系统闭环_用词修订.png" x="64" y="368" width="1282" height="1227" />
+    <frame id="69:1790" name="价值链_用词修订.png" x="1500" y="320" width="1090" height="1443" />
+    <text id="71:1814" name="原图A用途与正文位置" x="64" y="280" width="1282" height="22" />
+    <text id="71:1815" name="原图B用途与正文位置" x="1500" y="280" width="1090" height="22" />
+  </section>
+  <text id="71:1790" name="图01用途与正文位置" x="820" y="1174" width="2338" height="22" />
+  <text id="71:1791" name="图02用途与正文位置" x="3920" y="1030" width="3050.5" height="22" />
+  <text id="71:1792" name="图03用途与正文位置" x="7720" y="1030" width="2338" height="22" />
+  <text id="71:1793" name="图04用途与正文位置" x="10340" y="1086" width="3473" height="22" />
+  <text id="71:1795" name="图07用途与正文位置" x="3920" y="4030" width="2588" height="22" />
+  <text id="71:1796" name="图08用途与正文位置" x="7720" y="4030" width="2163" height="22" />
+  <text id="71:1797" name="图09用途与正文位置" x="120" y="7030" width="2463" height="22" />
+  <text id="71:1798" name="图10用途与正文位置" x="3920" y="7030" width="2313" height="22" />
+  <text id="71:1799" name="图11用途与正文位置" x="7720" y="7030" width="2338" height="22" />
+  <text id="71:1800" name="图12用途与正文位置" x="11520" y="7030" width="2338" height="22" />
+  <text id="71:1801" name="图13用途与正文位置" x="120" y="10030" width="2338" height="22" />
+  <text id="71:1802" name="图14用途与正文位置" x="3920" y="10030" width="2513" height="22" />
+  <text id="71:1803" name="图15用途与正文位置" x="7720" y="10030" width="2338" height="22" />
+  <text id="71:1804" name="图17用途与正文位置" x="120" y="13030" width="2588" height="22" />
+  <text id="71:1805" name="图18用途与正文位置" x="3920" y="13030" width="2438" height="22" />
+  <text id="71:1806" name="图19用途与正文位置" x="7720" y="13030" width="2650.5" height="22" />
+  <text id="71:1808" name="图21用途与正文位置" x="120" y="16530" width="3704" height="22" />
+  <text id="71:1809" name="图22用途与正文位置" x="4320" y="16530" width="3900" height="22" />
+  <text id="71:1810" name="图23用途与正文位置" x="120" y="18930" width="4096" height="22" />
+  <text id="71:1811" name="图24用途与正文位置" x="4720" y="18930" width="4760" height="22" />
+  <text id="71:1812" name="图25用途与正文位置" x="120" y="21030" width="2840" height="22" />
+  <section id="290:4056" name="26核心配表" x="-2384" y="23760" width="6900" height="8500">
+    <connector id="297:4785" x="4264" y="4347" connectorStart="293:6969" connectorStartCap="NONE" connectorEnd="293:6893" connectorEndCap="ARROW_LINES">Q32 按同部落、同赛季查询全部成员</connector>
+    <connector id="297:4789" x="4264" y="4481" connectorStart="293:6969" connectorStartCap="NONE" connectorEnd="293:6893" connectorEndCap="ARROW_LINES">Q33 统计有效参与人数，计算人数基准</connector>
+    <connector id="297:4793" x="4264" y="4615" connectorStart="293:6969" connectorStartCap="NONE" connectorEnd="293:6893" connectorEndCap="ARROW_LINES">Q34 按个人贡献名次确定人数权重</connector>
+    <connector id="297:4797" x="4264" y="4749" connectorStart="293:6969" connectorStartCap="NONE" connectorEnd="293:6893" connectorEndCap="ARROW_LINES">Q35 读取个人累计值计算加权积分</connector>
+    <connector id="297:4801" x="4264" y="4883" connectorStart="293:6893" connectorStartCap="NONE" connectorEnd="293:6969" connectorEndCap="ARROW_LINES">W20 个人贡献更新后触发全员重排与重算</connector>
+    <connector id="297:4805" x="5775.5" y="4883" connectorStart="293:6969" connectorStartCap="NONE" connectorEnd="293:6969" connectorEndCap="ARROW_LINES">W21 保存重算积分，覆盖旧快照</connector>
+    <connector id="297:4757" x="2696" y="4696" connectorStart="290:6835" connectorStartCap="NONE" connectorEnd="293:6893" connectorEndCap="ARROW_LINES">Q29 按玩家、部落、赛季查个人账户</connector>
+    <connector id="297:4761" x="2696" y="5078" connectorStart="290:6835" connectorStartCap="NONE" connectorEnd="293:6893" connectorEndCap="ARROW_LINES">Q30 查询账号赛季累计用于贡献衰减</connector>
+    <connector id="297:4765" x="2696" y="4457" connectorStart="293:6893" connectorStartCap="NONE" connectorEnd="290:6835" connectorEndCap="ARROW_LINES">Q31 按贡献事件主键查增量并防重</connector>
+    <connector id="297:4769" x="2696" y="5046" connectorStart="290:6835" connectorStartCap="NONE" connectorEnd="293:6893" connectorEndCap="ARROW_LINES">W16 本次有效贡献加入个人累计</connector>
+    <connector id="297:4773" x="2696" y="5098" connectorStart="290:6835" connectorStartCap="NONE" connectorEnd="293:6893" connectorEndCap="ARROW_LINES">W17 同步增加账号赛季累计</connector>
+    <connector id="297:4777" x="2696" y="5138" connectorStart="290:6835" connectorStartCap="NONE" connectorEnd="293:6893" connectorEndCap="ARROW_LINES">W18 独立增加可消费部落代币</connector>
+    <connector id="297:4781" x="3289" y="2080.435546875" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="293:6893" connectorEndCap="ARROW_LINES">W19 任务成功后更新有效任务计数</connector>
+    <connector id="293:6889" x="2696" y="1959.435546875" connectorStart="290:6835" connectorStartCap="NONE" connectorEnd="290:5408" connectorEndCap="ARROW_LINES">Q27 用来源结算ID追溯任务</connector>
+    <connector id="293:6949" x="1112" y="2184" connectorStart="290:6835" connectorStartCap="NONE" connectorEnd="290:4992" connectorEndCap="ARROW_LINES">Q28 查询任务基础部落贡献</connector>
+    <connector id="297:4753" x="2696" y="2943.435546875" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:6835" connectorEndCap="ARROW_LINES">W15 任务成功结算生成贡献事件</connector>
+    <connector id="290:6831" x="4289" y="2570.435546875" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:6711" connectorEndCap="ARROW_LINES">W13 按实扣行动点写入战令经验</connector>
+    <connector id="290:6827" x="4289" y="2201.435546875" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:6711" connectorEndCap="ARROW_LINES">Q22 按战令账户归属定位玩家战令</connector>
+    <connector id="290:6817" x="5640" y="2567.189453125" connectorStart="290:6711" connectorStartCap="NONE" connectorEnd="290:6786" connectorEndCap="ARROW_LINES">Q23 按赛季与等级查战令奖励配置</connector>
+    <connector id="297:4737" x="5640" y="2661.189453125" connectorStart="290:6711" connectorStartCap="NONE" connectorEnd="290:6786" connectorEndCap="ARROW_LINES">Q24 用当前等级校验目标奖励等级</connector>
+    <connector id="297:4741" x="5640" y="2813.189453125" connectorStart="290:6711" connectorStartCap="NONE" connectorEnd="290:6786" connectorEndCap="ARROW_LINES">Q25 已开通付费战令时读取付费奖励</connector>
+    <connector id="297:4745" x="5640" y="2737.189453125" connectorStart="290:6711" connectorStartCap="NONE" connectorEnd="290:6786" connectorEndCap="ARROW_LINES">Q26 读取已解锁等级的免费奖励</connector>
+    <connector id="297:4749" x="4289" y="3086.435546875" connectorStart="290:6711" connectorStartCap="NONE" connectorEnd="290:5408" connectorEndCap="ARROW_LINES">W14 玩家领取已解锁战令奖励后更新资源</connector>
+    <connector id="290:6707" x="2816" y="2088.025390625" connectorStart="290:5557" connectorStartCap="NONE" connectorEnd="290:5205" connectorEndCap="ARROW_LINES">W12 开箱完成后释放实际箱位</connector>
+    <connector id="290:6703" x="5888" y="622" connectorStart="290:5557" connectorStartCap="NONE" connectorEnd="290:6678" connectorEndCap="ARROW_LINES">Q21 开箱完成升星后，按最终星级查奖励</connector>
+    <connector id="290:6665" x="1112" y="1257.025390625" connectorStart="290:4992" connectorStartCap="NONE" connectorEnd="290:5557" connectorEndCap="ARROW_LINES">Q18 用宝箱检索键定位宝箱配置</connector>
+    <connector id="290:5625" x="4289" y="1594.025390625" connectorStart="290:5557" connectorStartCap="NONE" connectorEnd="290:5408" connectorEndCap="ARROW_LINES">Q19 按来源结算ID追溯任务结算</connector>
+    <connector id="297:4721" x="4289" y="1365.025390625" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:5557" connectorEndCap="ARROW_LINES">W09 创建玩家宝箱并入队；此时不开箱</connector>
+    <connector id="297:4729" x="2816" y="2078.025390625" connectorStart="290:5557" connectorStartCap="NONE" connectorEnd="290:5205" connectorEndCap="ARROW_LINES">Q20 查询宝箱队列占用</connector>
+    <connector id="297:4733" x="4289" y="2212.025390625" connectorStart="290:5557" connectorStartCap="NONE" connectorEnd="290:5408" connectorEndCap="ARROW_LINES">W11 玩家开箱后资源到账；不是任务结算发奖</connector>
+    <connector id="290:5553" x="2816" y="1872" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:5205" connectorEndCap="ARROW_LINES">W07 结算后释放对应行动点预留</connector>
+    <connector id="290:5549" x="1384" y="2488.435546875" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:5066" connectorEndCap="ARROW_LINES">W06 任务结算实扣行动点</connector>
+    <connector id="290:5545" x="2816" y="252" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:5205" connectorEndCap="ARROW_LINES">Q12 激活前校验可用宝箱空位</connector>
+    <connector id="290:5537" x="1112" y="2074" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:4992" connectorEndCap="ARROW_LINES">Q16 查询模板本季首次奖励</connector>
+    <connector id="290:5533" x="1112" y="1966" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:4992" connectorEndCap="ARROW_LINES">Q17 查询本任务应生成的宝箱</connector>
+    <connector id="290:5529" x="3936" y="894" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:5408" connectorEndCap="ARROW_LINES">W05 任务完成后写入结算记录</connector>
+    <connector id="290:5515" x="2816" y="242" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:5205" connectorEndCap="ARROW_LINES">Q11 激活前校验可用行动点</connector>
+    <connector id="297:4709" x="3936" y="272" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:5278" connectorEndCap="ARROW_LINES">Q14 校验完成任务对应的激活记录</connector>
+    <connector id="297:4713" x="1112" y="1868" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:4992" connectorEndCap="ARROW_LINES">Q15 查询实际扣点数</connector>
+    <connector id="297:4717" x="4263" y="2675.435546875" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:5408" connectorEndCap="ARROW_LINES">W08 符合首次奖励条件时金币入账</connector>
+    <connector id="297:4725" x="2816" y="2268" connectorStart="290:5408" connectorStartCap="NONE" connectorEnd="290:5205" connectorEndCap="ARROW_LINES">W10 预留箱位转实际占用，总占用不变</connector>
+    <connector id="290:5404" x="1112" y="460" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:4992" connectorEndCap="ARROW_LINES">Q03 按任务主键查询任务配置</connector>
+    <connector id="290:5340" x="2816" y="282" connectorStart="290:5134" connectorStartCap="NONE" connectorEnd="290:5278" connectorEndCap="ARROW_LINES">W01 为已接任务创建本场激活记录</connector>
+    <connector id="297:4669" x="2816" y="272" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:5134" connectorEndCap="ARROW_LINES">Q02 按接取实例主键查询已接任务</connector>
+    <connector id="297:4673" x="2816" y="488" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:5134" connectorEndCap="ARROW_LINES">Q04 读取已接任务所属玩家</connector>
+    <connector id="297:4677" x="1112" y="678" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:4992" connectorEndCap="ARROW_LINES">Q05 调用已有卡组判定接口</connector>
+    <connector id="297:4681" x="1112" y="786" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:4992" connectorEndCap="ARROW_LINES">Q06 用本场有效进度校验任务目标</connector>
+    <connector id="297:4685" x="2816" y="580" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:5205" connectorEndCap="ARROW_LINES">Q07 按玩家身份查资源占用</connector>
+    <connector id="297:4693" x="1112" y="470" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:4992" connectorEndCap="ARROW_LINES">Q13 读取本任务的行动点消耗</connector>
+    <connector id="297:4697" x="2816" y="262" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:5205" connectorEndCap="ARROW_LINES">W02 激活时预留行动点</connector>
+    <connector id="297:4701" x="2816" y="272" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:5205" connectorEndCap="ARROW_LINES">W03 激活时预留1个宝箱位置</connector>
+    <connector id="297:4705" x="1112" y="796" connectorStart="290:5278" connectorStartCap="NONE" connectorEnd="290:4992" connectorEndCap="ARROW_LINES">W04 有效对局后更新已有进度与状态</connector>
+    <connector id="290:5274" x="1384" y="1730" connectorStart="290:5205" connectorStartCap="NONE" connectorEnd="290:5066" connectorEndCap="ARROW_LINES">Q09 读取普通池账面余额</connector>
+    <connector id="290:5256" x="1112" y="380" connectorStart="290:5134" connectorStartCap="NONE" connectorEnd="290:4992" connectorEndCap="ARROW_LINES">Q01 按任务主键查对应难度的任务</connector>
+    <connector id="290:5511" x="1816" y="596" connectorStart="290:5205" connectorStartCap="NONE" connectorEnd="290:5134" connectorEndCap="ARROW_LINES">Q10 汇总已接任务数量；不设接取上限</connector>
+    <connector id="297:4689" x="1384" y="2522" connectorStart="290:5205" connectorStartCap="NONE" connectorEnd="290:5066" connectorEndCap="ARROW_LINES">Q08 按玩家ID查行动点账户</connector>
+    <text id="290:4057" name="26 核心配置表" x="48" y="35.900390625" width="432" height="106" />
+    <table id="290:4992" x="112" y="1040" tableNumRows="14" tableNumColumns="3" width="1000" height="1548">
+      <table-cell id="T290:4992;92:0;92:9" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="240" height="76">数据命名</table-cell>
+      <table-cell id="T290:4992;92:0;92:10" x="240" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="350" height="76">解释</table-cell>
+      <table-cell id="T290:4992;92:0;92:11" x="590" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="410" height="76">案例</table-cell>
+      <table-cell id="T290:4992;92:1;92:9" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="240" height="112">task_id</table-cell>
+      <table-cell id="T290:4992;92:1;92:10" x="240" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="350" height="112">任务主键；本例存入二级任务表</table-cell>
+      <table-cell id="T290:4992;92:1;92:11" x="590" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="410" height="112">112001</table-cell>
+      <table-cell id="T290:4992;92:2;92:9" x="0" y="188" tableCellRowIndex="2" tableCellColumnIndex="0" width="240" height="108">task_title</table-cell>
+      <table-cell id="T290:4992;92:2;92:10" x="240" y="188" tableCellRowIndex="2" tableCellColumnIndex="1" width="350" height="108">任务标题</table-cell>
+      <table-cell id="T290:4992;92:2;92:11" x="590" y="188" tableCellRowIndex="2" tableCellColumnIndex="2" width="410" height="108">法术卡组取胜</table-cell>
+      <table-cell id="T290:4992;92:3;92:9" x="0" y="388" tableCellRowIndex="4" tableCellColumnIndex="0" width="240" height="108">task_brief</table-cell>
+      <table-cell id="T290:4992;92:3;92:10" x="240" y="388" tableCellRowIndex="4" tableCellColumnIndex="1" width="350" height="108">列表中的简述</table-cell>
+      <table-cell id="T290:4992;92:3;92:11" x="590" y="388" tableCellRowIndex="4" tableCellColumnIndex="2" width="410" height="108">使用法术卡组赢得1场</table-cell>
+      <table-cell id="T290:4992;92:4;92:9" x="0" y="764" tableCellRowIndex="7" tableCellColumnIndex="0" width="240" height="108">action_cost</table-cell>
+      <table-cell id="T290:4992;92:4;92:10" x="240" y="764" tableCellRowIndex="7" tableCellColumnIndex="1" width="350" height="108">正式达成时消耗的行动点</table-cell>
+      <table-cell id="T290:4992;92:4;92:11" x="590" y="764" tableCellRowIndex="7" tableCellColumnIndex="2" width="410" height="108">2点；接取不扣、激活只预留</table-cell>
+      <table-cell id="T290:4992;92:5;92:9" x="0" y="872" tableCellRowIndex="8" tableCellColumnIndex="0" width="240" height="108">chest_id</table-cell>
+      <table-cell id="T290:4992;92:5;92:10" x="240" y="872" tableCellRowIndex="8" tableCellColumnIndex="1" width="350" height="108">达成后创建哪种宝箱</table-cell>
+      <table-cell id="T290:4992;92:5;92:11" x="590" y="872" tableCellRowIndex="8" tableCellColumnIndex="2" width="410" height="108">600002；初始2星</table-cell>
+      <table-cell id="T290:4992;92:6;92:9" x="0" y="980" tableCellRowIndex="9" tableCellColumnIndex="0" width="240" height="108">first_reward_id</table-cell>
+      <table-cell id="T290:4992;92:6;92:10" x="240" y="980" tableCellRowIndex="9" tableCellColumnIndex="1" width="350" height="108">本季模板首次达成奖励</table-cell>
+      <table-cell id="T290:4992;92:6;92:11" x="590" y="980" tableCellRowIndex="9" tableCellColumnIndex="2" width="410" height="108">700001：金币100</table-cell>
+      <table-cell id="T290:4992;92:7;92:9" x="0" y="1088" tableCellRowIndex="10" tableCellColumnIndex="0" width="240" height="112">base_contribution</table-cell>
+      <table-cell id="T290:4992;92:7;92:10" x="240" y="1088" tableCellRowIndex="10" tableCellColumnIndex="1" width="350" height="112">部落贡献（衰减前）</table-cell>
+      <table-cell id="T290:4992;92:7;92:11" x="590" y="1088" tableCellRowIndex="10" tableCellColumnIndex="2" width="410" height="112">25点</table-cell>
+      <table-cell id="T290:4992;92:8;92:9" x="0" y="1312" tableCellRowIndex="12" tableCellColumnIndex="0" width="240" height="124">deck_check_hook</table-cell>
+      <table-cell id="T290:4992;92:8;92:10" x="240" y="1312" tableCellRowIndex="12" tableCellColumnIndex="1" width="350" height="124">卡组判定接口</table-cell>
+      <table-cell id="T290:4992;92:8;92:11" x="590" y="1312" tableCellRowIndex="12" tableCellColumnIndex="2" width="410" height="124">DeckCheck.check(P001,112001,B001) → passed=true</table-cell>
+      <table-cell id="T290:4992;125:0;92:9" x="0" y="496" tableCellRowIndex="5" tableCellColumnIndex="0" width="240" height="160">task_description</table-cell>
+      <table-cell id="T290:4992;125:0;92:10" x="240" y="496" tableCellRowIndex="5" tableCellColumnIndex="1" width="350" height="160">详情中的完整目标</table-cell>
+      <table-cell id="T290:4992;125:0;92:11" x="590" y="496" tableCellRowIndex="5" tableCellColumnIndex="2" width="410" height="160">使用至少含2张法术卡的已保存卡组赢得1场有效对局</table-cell>
+      <table-cell id="T290:4992;125:1;92:9" x="0" y="656" tableCellRowIndex="6" tableCellColumnIndex="0" width="240" height="108">target_count</table-cell>
+      <table-cell id="T290:4992;125:1;92:10" x="240" y="656" tableCellRowIndex="6" tableCellColumnIndex="1" width="350" height="108">完成所需的累计进度</table-cell>
+      <table-cell id="T290:4992;125:1;92:11" x="590" y="656" tableCellRowIndex="6" tableCellColumnIndex="2" width="410" height="108">1</table-cell>
+      <table-cell id="T290:4992;290:17;92:9" x="0" y="296" tableCellRowIndex="3" tableCellColumnIndex="0" width="240" height="92">season_id</table-cell>
+      <table-cell id="T290:4992;290:17;92:10" x="240" y="296" tableCellRowIndex="3" tableCellColumnIndex="1" width="350" height="92">本次任务归属赛季</table-cell>
+      <table-cell id="T290:4992;290:17;92:11" x="590" y="296" tableCellRowIndex="3" tableCellColumnIndex="2" width="410" height="92">202610</table-cell>
+      <table-cell id="T290:4992;290:33;92:9" x="0" y="1200" tableCellRowIndex="11" tableCellColumnIndex="0" width="240" height="112">progress / status</table-cell>
+      <table-cell id="T290:4992;290:33;92:10" x="240" y="1200" tableCellRowIndex="11" tableCellColumnIndex="1" width="350" height="112">保存进度与任务状态</table-cell>
+      <table-cell id="T290:4992;290:33;92:11" x="590" y="1200" tableCellRowIndex="11" tableCellColumnIndex="2" width="410" height="112">0→1→2→3；
+未激活→已接取→已激活→已达成</table-cell>
+      <table-cell id="T290:4992;290:34;92:9" x="0" y="1436" tableCellRowIndex="13" tableCellColumnIndex="0" width="240" height="112">help_hook</table-cell>
+      <table-cell id="T290:4992;290:34;92:10" x="240" y="1436" tableCellRowIndex="13" tableCellColumnIndex="1" width="350" height="112">仅在已接取任务保留求助入口</table-cell>
+      <table-cell id="T290:4992;290:34;92:11" x="590" y="1436" tableCellRowIndex="13" tableCellColumnIndex="2" width="410" height="112">TaskHelp.open(A001)；本例未调用</table-cell>
+    </table>
+    <table id="290:5066" x="384" y="2953.22021484375" tableNumRows="8" tableNumColumns="3" width="1000" height="892">
+      <table-cell id="T290:5066;92:38;92:47" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="240" height="76">数据命名</table-cell>
+      <table-cell id="T290:5066;92:38;92:48" x="240" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="350" height="76">解释</table-cell>
+      <table-cell id="T290:5066;92:38;92:49" x="590" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="410" height="76">案例</table-cell>
+      <table-cell id="T290:5066;92:39;92:47" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="240" height="108">player_id</table-cell>
+      <table-cell id="T290:5066;92:39;92:48" x="240" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="350" height="108">按玩家检索行动点账户</table-cell>
+      <table-cell id="T290:5066;92:39;92:49" x="590" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="410" height="108">P001</table-cell>
+      <table-cell id="T290:5066;92:40;92:47" x="0" y="184" tableCellRowIndex="2" tableCellColumnIndex="0" width="240" height="108">normal_cap</table-cell>
+      <table-cell id="T290:5066;92:40;92:48" x="240" y="184" tableCellRowIndex="2" tableCellColumnIndex="1" width="350" height="108">普通池容量上限</table-cell>
+      <table-cell id="T290:5066;92:40;92:49" x="590" y="184" tableCellRowIndex="2" tableCellColumnIndex="2" width="410" height="108">24点</table-cell>
+      <table-cell id="T290:5066;92:41;92:47" x="0" y="292" tableCellRowIndex="3" tableCellColumnIndex="0" width="240" height="108">normal_balance</table-cell>
+      <table-cell id="T290:5066;92:41;92:48" x="240" y="292" tableCellRowIndex="3" tableCellColumnIndex="1" width="350" height="108">普通池账面余额</table-cell>
+      <table-cell id="T290:5066;92:41;92:49" x="590" y="292" tableCellRowIndex="3" tableCellColumnIndex="2" width="410" height="108">5</table-cell>
+      <table-cell id="T290:5066;92:45;92:47" x="0" y="610" tableCellRowIndex="6" tableCellColumnIndex="0" width="240" height="134">reserve_balance</table-cell>
+      <table-cell id="T290:5066;92:45;92:48" x="240" y="610" tableCellRowIndex="6" tableCellColumnIndex="1" width="350" height="134">储备池余额，手动提取后使用</table-cell>
+      <table-cell id="T290:5066;92:45;92:49" x="590" y="610" tableCellRowIndex="6" tableCellColumnIndex="2" width="410" height="134">8→8；本例未提取</table-cell>
+      <table-cell id="T290:5066;92:46;92:47" x="0" y="744" tableCellRowIndex="7" tableCellColumnIndex="0" width="240" height="148">recovery_rule</table-cell>
+      <table-cell id="T290:5066;92:46;92:48" x="240" y="744" tableCellRowIndex="7" tableCellColumnIndex="1" width="350" height="148">自然恢复速度
+普通池未满时满速
+普通池满，储备池积累时半速</table-cell>
+      <table-cell id="T290:5066;92:46;92:49" x="590" y="744" tableCellRowIndex="7" tableCellColumnIndex="2" width="410" height="148">普通池每6小时+2，上限24；满池时储备每6小时+1，上限16</table-cell>
+      <table-cell id="T290:5066;290:18;92:47" x="0" y="476" tableCellRowIndex="5" tableCellColumnIndex="0" width="240" height="134"></table-cell>
+      <table-cell id="T290:5066;290:18;92:48" x="240" y="476" tableCellRowIndex="5" tableCellColumnIndex="1" width="350" height="134">储备池上限</table-cell>
+      <table-cell id="T290:5066;290:18;92:49" x="590" y="476" tableCellRowIndex="5" tableCellColumnIndex="2" width="410" height="134">16点</table-cell>
+      <table-cell id="T290:5066;290:19;92:47" x="0" y="400" tableCellRowIndex="4" tableCellColumnIndex="0" width="240" height="76"></table-cell>
+      <table-cell id="T290:5066;290:19;92:48" x="240" y="400" tableCellRowIndex="4" tableCellColumnIndex="1" width="350" height="76">普通池是否已满</table-cell>
+      <table-cell id="T290:5066;290:19;92:49" x="590" y="400" tableCellRowIndex="4" tableCellColumnIndex="2" width="410" height="76"></table-cell>
+    </table>
+    <table id="290:5134" x="1816" y="142" tableNumRows="6" tableNumColumns="3" width="1000" height="616">
+      <table-cell id="T290:5134;92:12;92:22" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="240" height="76">数据命名</table-cell>
+      <table-cell id="T290:5134;92:12;92:23" x="240" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="350" height="76">解释</table-cell>
+      <table-cell id="T290:5134;92:12;92:24" x="590" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="410" height="76">案例</table-cell>
+      <table-cell id="T290:5134;92:13;92:22" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="240" height="108">accepted_task_id</table-cell>
+      <table-cell id="T290:5134;92:13;92:23" x="240" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="350" height="108">接取实例主键</table-cell>
+      <table-cell id="T290:5134;92:13;92:24" x="590" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="410" height="108">A001</table-cell>
+      <table-cell id="T290:5134;92:14;92:22" x="0" y="184" tableCellRowIndex="2" tableCellColumnIndex="0" width="240" height="108">task_id</table-cell>
+      <table-cell id="T290:5134;92:14;92:23" x="240" y="184" tableCellRowIndex="2" tableCellColumnIndex="1" width="350" height="108">用此值检索对应难度的任务表</table-cell>
+      <table-cell id="T290:5134;92:14;92:24" x="590" y="184" tableCellRowIndex="2" tableCellColumnIndex="2" width="410" height="108">112001</table-cell>
+      <table-cell id="T290:5134;92:15;92:22" x="0" y="292" tableCellRowIndex="3" tableCellColumnIndex="0" width="240" height="108">player_id</table-cell>
+      <table-cell id="T290:5134;92:15;92:23" x="240" y="292" tableCellRowIndex="3" tableCellColumnIndex="1" width="350" height="108">此实例属于哪个玩家</table-cell>
+      <table-cell id="T290:5134;92:15;92:24" x="590" y="292" tableCellRowIndex="3" tableCellColumnIndex="2" width="410" height="108">P001</table-cell>
+      <table-cell id="T290:5134;92:18;92:22" x="0" y="400" tableCellRowIndex="4" tableCellColumnIndex="0" width="240" height="108">accepted_count</table-cell>
+      <table-cell id="T290:5134;92:18;92:23" x="240" y="400" tableCellRowIndex="4" tableCellColumnIndex="1" width="350" height="108">已接取数量；无接取上限</table-cell>
+      <table-cell id="T290:5134;92:18;92:24" x="590" y="400" tableCellRowIndex="4" tableCellColumnIndex="2" width="410" height="108">2→接取后3→达成后2</table-cell>
+      <table-cell id="T290:5134;92:19;92:22" x="0" y="508" tableCellRowIndex="5" tableCellColumnIndex="0" width="240" height="108">activation_id</table-cell>
+      <table-cell id="T290:5134;92:19;92:23" x="240" y="508" tableCellRowIndex="5" tableCellColumnIndex="1" width="350" height="108">检索本场激活记录</table-cell>
+      <table-cell id="T290:5134;92:19;92:24" x="590" y="508" tableCellRowIndex="5" tableCellColumnIndex="2" width="410" height="108">ACT001</table-cell>
+    </table>
+    <table id="290:5205" x="1664" y="1456" tableNumRows="9" tableNumColumns="3" width="1152" height="1132">
+      <table-cell id="T290:5205;290:24;290:26" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="352" height="76">数据命名</table-cell>
+      <table-cell id="T290:5205;290:24;290:27" x="352" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="448" height="76">解释</table-cell>
+      <table-cell id="T290:5205;290:24;290:28" x="800" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="352" height="76">案例</table-cell>
+      <table-cell id="T290:5205;290:25;290:26" x="0" y="208" tableCellRowIndex="2" tableCellColumnIndex="0" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:25;290:27" x="352" y="208" tableCellRowIndex="2" tableCellColumnIndex="1" width="448" height="132">行动点余额</table-cell>
+      <table-cell id="T290:5205;290:25;290:28" x="800" y="208" tableCellRowIndex="2" tableCellColumnIndex="2" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:29;290:26" x="0" y="340" tableCellRowIndex="3" tableCellColumnIndex="0" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:29;290:27" x="352" y="340" tableCellRowIndex="3" tableCellColumnIndex="1" width="448" height="132">行动点占用</table-cell>
+      <table-cell id="T290:5205;290:29;290:28" x="800" y="340" tableCellRowIndex="3" tableCellColumnIndex="2" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:30;290:26" x="0" y="472" tableCellRowIndex="4" tableCellColumnIndex="0" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:30;290:27" x="352" y="472" tableCellRowIndex="4" tableCellColumnIndex="1" width="448" height="132">行动点可用余额</table-cell>
+      <table-cell id="T290:5205;290:30;290:28" x="800" y="472" tableCellRowIndex="4" tableCellColumnIndex="2" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:31;290:26" x="0" y="604" tableCellRowIndex="5" tableCellColumnIndex="0" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:31;290:27" x="352" y="604" tableCellRowIndex="5" tableCellColumnIndex="1" width="448" height="132">已接取任务数量（无接取上限）</table-cell>
+      <table-cell id="T290:5205;290:31;290:28" x="800" y="604" tableCellRowIndex="5" tableCellColumnIndex="2" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:32;290:26" x="0" y="868" tableCellRowIndex="7" tableCellColumnIndex="0" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:32;290:27" x="352" y="868" tableCellRowIndex="7" tableCellColumnIndex="1" width="448" height="132">宝箱队列余额</table-cell>
+      <table-cell id="T290:5205;290:32;290:28" x="800" y="868" tableCellRowIndex="7" tableCellColumnIndex="2" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:35;290:26" x="0" y="736" tableCellRowIndex="6" tableCellColumnIndex="0" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:35;290:27" x="352" y="736" tableCellRowIndex="6" tableCellColumnIndex="1" width="448" height="132">宝箱队列占用</table-cell>
+      <table-cell id="T290:5205;290:35;290:28" x="800" y="736" tableCellRowIndex="6" tableCellColumnIndex="2" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:37;290:26" x="0" y="1000" tableCellRowIndex="8" tableCellColumnIndex="0" width="352" height="132">player_id</table-cell>
+      <table-cell id="T290:5205;290:37;290:27" x="352" y="1000" tableCellRowIndex="8" tableCellColumnIndex="1" width="448" height="132">玩家ID</table-cell>
+      <table-cell id="T290:5205;290:37;290:28" x="800" y="1000" tableCellRowIndex="8" tableCellColumnIndex="2" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:38;290:26" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="352" height="132"></table-cell>
+      <table-cell id="T290:5205;290:38;290:27" x="352" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="448" height="132">表ID</table-cell>
+      <table-cell id="T290:5205;290:38;290:28" x="800" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="352" height="132"></table-cell>
+    </table>
+    <table id="290:5278" x="3936" y="112" tableNumRows="8" tableNumColumns="3" width="1000" height="836">
+      <table-cell id="T290:5278;92:25;92:35" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="240" height="76">数据命名</table-cell>
+      <table-cell id="T290:5278;92:25;92:36" x="240" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="350" height="76">解释</table-cell>
+      <table-cell id="T290:5278;92:25;92:37" x="590" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="410" height="76">案例</table-cell>
+      <table-cell id="T290:5278;92:26;92:35" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="240" height="108">activation_id</table-cell>
+      <table-cell id="T290:5278;92:26;92:36" x="240" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="350" height="108">激活记录主键</table-cell>
+      <table-cell id="T290:5278;92:26;92:37" x="590" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="410" height="108">ACT001</table-cell>
+      <table-cell id="T290:5278;92:27;92:35" x="0" y="184" tableCellRowIndex="2" tableCellColumnIndex="0" width="240" height="108">accepted_task_id</table-cell>
+      <table-cell id="T290:5278;92:27;92:36" x="240" y="184" tableCellRowIndex="2" tableCellColumnIndex="1" width="350" height="108">用此值检索已接取实例</table-cell>
+      <table-cell id="T290:5278;92:27;92:37" x="590" y="184" tableCellRowIndex="2" tableCellColumnIndex="2" width="410" height="108">A001</table-cell>
+      <table-cell id="T290:5278;92:28;92:35" x="0" y="404" tableCellRowIndex="4" tableCellColumnIndex="0" width="240" height="108">player_id</table-cell>
+      <table-cell id="T290:5278;92:28;92:36" x="240" y="404" tableCellRowIndex="4" tableCellColumnIndex="1" width="350" height="108">从A001读取的玩家身份</table-cell>
+      <table-cell id="T290:5278;92:28;92:37" x="590" y="404" tableCellRowIndex="4" tableCellColumnIndex="2" width="410" height="108">P001；用于查余额和箱位</table-cell>
+      <table-cell id="T290:5278;92:32;92:35" x="0" y="512" tableCellRowIndex="5" tableCellColumnIndex="0" width="240" height="108">deck_check</table-cell>
+      <table-cell id="T290:5278;92:32;92:36" x="240" y="512" tableCellRowIndex="5" tableCellColumnIndex="1" width="350" height="108">调用任务中的预留接口</table-cell>
+      <table-cell id="T290:5278;92:32;92:37" x="590" y="512" tableCellRowIndex="5" tableCellColumnIndex="2" width="410" height="108">passed=true；不展开判定配表</table-cell>
+      <table-cell id="T290:5278;92:33;92:35" x="0" y="620" tableCellRowIndex="6" tableCellColumnIndex="0" width="240" height="108">progress_delta</table-cell>
+      <table-cell id="T290:5278;92:33;92:36" x="240" y="620" tableCellRowIndex="6" tableCellColumnIndex="1" width="350" height="108">本场输入的有效进度</table-cell>
+      <table-cell id="T290:5278;92:33;92:37" x="590" y="620" tableCellRowIndex="6" tableCellColumnIndex="2" width="410" height="108">+1；达到任务目标1</table-cell>
+      <table-cell id="T290:5278;92:34;92:35" x="0" y="728" tableCellRowIndex="7" tableCellColumnIndex="0" width="240" height="108">state</table-cell>
+      <table-cell id="T290:5278;92:34;92:36" x="240" y="728" tableCellRowIndex="7" tableCellColumnIndex="1" width="350" height="108">是否完成</table-cell>
+      <table-cell id="T290:5278;92:34;92:37" x="590" y="728" tableCellRowIndex="7" tableCellColumnIndex="2" width="410" height="108">已预留→对局中→已提交</table-cell>
+      <table-cell id="T290:5278;290:36;92:35" x="0" y="292" tableCellRowIndex="3" tableCellColumnIndex="0" width="240" height="112">task_id</table-cell>
+      <table-cell id="T290:5278;290:36;92:36" x="240" y="292" tableCellRowIndex="3" tableCellColumnIndex="1" width="350" height="112">任务主键；本例存入二级任务表</table-cell>
+      <table-cell id="T290:5278;290:36;92:37" x="590" y="292" tableCellRowIndex="3" tableCellColumnIndex="2" width="410" height="112">112001</table-cell>
+    </table>
+    <connector id="301:4768" x="2816" y="242" connectorStart="290:5134" connectorStartCap="NONE" connectorEnd="290:5278" connectorEndCap="ARROW_LINES">Q36 按激活记录主键回查本场激活记录</connector>
+    <table id="290:5408" x="3289" y="1829.435546875" tableNumRows="11" tableNumColumns="3" width="1000" height="1293">
+      <table-cell id="T290:5408;92:50;92:64" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="240" height="76">数据命名</table-cell>
+      <table-cell id="T290:5408;92:50;92:65" x="240" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="350" height="76">解释</table-cell>
+      <table-cell id="T290:5408;92:50;92:66" x="590" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="410" height="76">案例</table-cell>
+      <table-cell id="T290:5408;92:51;92:64" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="240" height="108">settlement_id</table-cell>
+      <table-cell id="T290:5408;92:51;92:65" x="240" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="350" height="108">结算id</table-cell>
+      <table-cell id="T290:5408;92:51;92:66" x="590" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="410" height="108">R001；A001重复提交返回原结果</table-cell>
+      <table-cell id="T290:5408;92:52;92:64" x="0" y="426" tableCellRowIndex="4" tableCellColumnIndex="0" width="240" height="169">reward_id</table-cell>
+      <table-cell id="T290:5408;92:52;92:65" x="240" y="426" tableCellRowIndex="4" tableCellColumnIndex="1" width="350" height="169">奖励配置的检索键</table-cell>
+      <table-cell id="T290:5408;92:52;92:66" x="590" y="426" tableCellRowIndex="4" tableCellColumnIndex="2" width="410" height="169"></table-cell>
+      <table-cell id="T290:5408;92:55;92:64" x="0" y="318" tableCellRowIndex="3" tableCellColumnIndex="0" width="240" height="108">player_season</table-cell>
+      <table-cell id="T290:5408;92:55;92:65" x="240" y="318" tableCellRowIndex="3" tableCellColumnIndex="1" width="350" height="108">战令ID</table-cell>
+      <table-cell id="T290:5408;92:55;92:66" x="590" y="318" tableCellRowIndex="3" tableCellColumnIndex="2" width="410" height="108">P001 + 202610</table-cell>
+      <table-cell id="T290:5408;92:56;92:64" x="0" y="595" tableCellRowIndex="5" tableCellColumnIndex="0" width="240" height="108">ap_delta</table-cell>
+      <table-cell id="T290:5408;92:56;92:65" x="240" y="595" tableCellRowIndex="5" tableCellColumnIndex="1" width="350" height="108">任务结算实际扣除行动点</table-cell>
+      <table-cell id="T290:5408;92:56;92:66" x="590" y="595" tableCellRowIndex="5" tableCellColumnIndex="2" width="410" height="108">R001：−2；余额5→3</table-cell>
+      <table-cell id="T290:5408;92:57;92:64" x="0" y="703" tableCellRowIndex="6" tableCellColumnIndex="0" width="240" height="76">pass_exp_delta</table-cell>
+      <table-cell id="T290:5408;92:57;92:65" x="240" y="703" tableCellRowIndex="6" tableCellColumnIndex="1" width="350" height="76">按实扣行动点换算战令经验</table-cell>
+      <table-cell id="T290:5408;92:57;92:66" x="590" y="703" tableCellRowIndex="6" tableCellColumnIndex="2" width="410" height="76">R001：+2；经验3→5</table-cell>
+      <table-cell id="T290:5408;92:58;92:64" x="0" y="779" tableCellRowIndex="7" tableCellColumnIndex="0" width="240" height="134">first_reward</table-cell>
+      <table-cell id="T290:5408;92:58;92:65" x="240" y="779" tableCellRowIndex="7" tableCellColumnIndex="1" width="350" height="134">模板本季首次达成金币</table-cell>
+      <table-cell id="T290:5408;92:58;92:66" x="590" y="779" tableCellRowIndex="7" tableCellColumnIndex="2" width="410" height="134">700001：+100；</table-cell>
+      <table-cell id="T290:5408;92:59;92:64" x="0" y="913" tableCellRowIndex="8" tableCellColumnIndex="0" width="240" height="134">chest_created</table-cell>
+      <table-cell id="T290:5408;92:59;92:65" x="240" y="913" tableCellRowIndex="8" tableCellColumnIndex="1" width="350" height="134">任务成功后创建玩家宝箱；预留转为实际占用</table-cell>
+      <table-cell id="T290:5408;92:59;92:66" x="590" y="913" tableCellRowIndex="8" tableCellColumnIndex="2" width="410" height="134"></table-cell>
+      <table-cell id="T290:5408;92:60;92:64" x="0" y="1047" tableCellRowIndex="9" tableCellColumnIndex="0" width="240" height="134">contribution_event</table-cell>
+      <table-cell id="T290:5408;92:60;92:65" x="240" y="1047" tableCellRowIndex="9" tableCellColumnIndex="1" width="350" height="134">任务成功后产生贡献事件</table-cell>
+      <table-cell id="T290:5408;92:60;92:66" x="590" y="1047" tableCellRowIndex="9" tableCellColumnIndex="2" width="410" height="134">本次基础贡献25</table-cell>
+      <table-cell id="T290:5408;92:63;92:64" x="0" y="1181" tableCellRowIndex="10" tableCellColumnIndex="0" width="240" height="112">resource_wallet</table-cell>
+      <table-cell id="T290:5408;92:63;92:65" x="240" y="1181" tableCellRowIndex="10" tableCellColumnIndex="1" width="350" height="112">该案例全部完成后的资源</table-cell>
+      <table-cell id="T290:5408;92:63;92:66" x="590" y="1181" tableCellRowIndex="10" tableCellColumnIndex="2" width="410" height="112">首次任务模板奖励金币（可能有）+部落贡献+宝箱+战令经验</table-cell>
+      <table-cell id="T290:5408;290:39;92:64" x="0" y="184" tableCellRowIndex="2" tableCellColumnIndex="0" width="240" height="134">activation_id</table-cell>
+      <table-cell id="T290:5408;290:39;92:65" x="240" y="184" tableCellRowIndex="2" tableCellColumnIndex="1" width="350" height="134">记录完成的任务</table-cell>
+      <table-cell id="T290:5408;290:39;92:66" x="590" y="184" tableCellRowIndex="2" tableCellColumnIndex="2" width="410" height="134">ACT001</table-cell>
+    </table>
+    <table id="290:5557" x="4992" y="1127.025634765625" tableNumRows="10" tableNumColumns="3" width="1000" height="1152">
+      <table-cell id="T290:5557;92:67;92:78" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="240" height="76">数据命名</table-cell>
+      <table-cell id="T290:5557;92:67;92:79" x="240" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="350" height="76">解释</table-cell>
+      <table-cell id="T290:5557;92:67;92:80" x="590" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="410" height="76">案例</table-cell>
+      <table-cell id="T290:5557;92:68;92:78" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="240" height="108">chest_id</table-cell>
+      <table-cell id="T290:5557;92:68;92:79" x="240" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="350" height="108">宝箱配置的检索键</table-cell>
+      <table-cell id="T290:5557;92:68;92:80" x="590" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="410" height="108">600002；初始2星</table-cell>
+      <table-cell id="T290:5557;92:69;92:78" x="0" y="184" tableCellRowIndex="2" tableCellColumnIndex="0" width="240" height="108">box_id</table-cell>
+      <table-cell id="T290:5557;92:69;92:79" x="240" y="184" tableCellRowIndex="2" tableCellColumnIndex="1" width="350" height="108">玩家获得的这只宝箱</table-cell>
+      <table-cell id="T290:5557;92:69;92:80" x="590" y="184" tableCellRowIndex="2" tableCellColumnIndex="2" width="410" height="108">BOX001</table-cell>
+      <table-cell id="T290:5557;92:70;92:78" x="0" y="292" tableCellRowIndex="3" tableCellColumnIndex="0" width="240" height="108">player_id</table-cell>
+      <table-cell id="T290:5557;92:70;92:79" x="240" y="292" tableCellRowIndex="3" tableCellColumnIndex="1" width="350" height="108">宝箱归属玩家</table-cell>
+      <table-cell id="T290:5557;92:70;92:80" x="590" y="292" tableCellRowIndex="3" tableCellColumnIndex="2" width="410" height="108">P001</table-cell>
+      <table-cell id="T290:5557;92:71;92:78" x="0" y="400" tableCellRowIndex="4" tableCellColumnIndex="0" width="240" height="134">source_settlement_id</table-cell>
+      <table-cell id="T290:5557;92:71;92:79" x="240" y="400" tableCellRowIndex="4" tableCellColumnIndex="1" width="350" height="134">检索宝箱来自哪次结算</table-cell>
+      <table-cell id="T290:5557;92:71;92:80" x="590" y="400" tableCellRowIndex="4" tableCellColumnIndex="2" width="410" height="134">R001</table-cell>
+      <table-cell id="T290:5557;92:72;92:78" x="0" y="534" tableCellRowIndex="5" tableCellColumnIndex="0" width="240" height="134">upgrade_attempts</table-cell>
+      <table-cell id="T290:5557;92:72;92:79" x="240" y="534" tableCellRowIndex="5" tableCellColumnIndex="1" width="350" height="134">开箱时的升星判定次数</table-cell>
+      <table-cell id="T290:5557;92:72;92:80" x="590" y="534" tableCellRowIndex="5" tableCellColumnIndex="2" width="410" height="134">5次；每次成功概率30%</table-cell>
+      <table-cell id="T290:5557;92:73;92:78" x="0" y="668" tableCellRowIndex="6" tableCellColumnIndex="0" width="240" height="108">final_star</table-cell>
+      <table-cell id="T290:5557;92:73;92:79" x="240" y="668" tableCellRowIndex="6" tableCellColumnIndex="1" width="350" height="108">本例开箱时的最终星级</table-cell>
+      <table-cell id="T290:5557;92:73;92:80" x="590" y="668" tableCellRowIndex="6" tableCellColumnIndex="2" width="410" height="108">本例最终2星；五次均未升星</table-cell>
+      <table-cell id="T290:5557;92:74;92:78" x="0" y="776" tableCellRowIndex="7" tableCellColumnIndex="0" width="240" height="108">final_reward_id</table-cell>
+      <table-cell id="T290:5557;92:74;92:79" x="240" y="776" tableCellRowIndex="7" tableCellColumnIndex="1" width="350" height="108">用最终星级确定奖励配置</table-cell>
+      <table-cell id="T290:5557;92:74;92:80" x="590" y="776" tableCellRowIndex="7" tableCellColumnIndex="2" width="410" height="108">700002</table-cell>
+      <table-cell id="T290:5557;92:76;92:78" x="0" y="884" tableCellRowIndex="8" tableCellColumnIndex="0" width="240" height="134">queue_slots</table-cell>
+      <table-cell id="T290:5557;92:76;92:79" x="240" y="884" tableCellRowIndex="8" tableCellColumnIndex="1" width="350" height="134">读取和写入队列占用</table-cell>
+      <table-cell id="T290:5557;92:76;92:80" x="590" y="884" tableCellRowIndex="8" tableCellColumnIndex="2" width="410" height="134">容量8；待开启2→3→2；预留0→1→0</table-cell>
+      <table-cell id="T290:5557;92:77;92:78" x="0" y="1018" tableCellRowIndex="9" tableCellColumnIndex="0" width="240" height="134">status</table-cell>
+      <table-cell id="T290:5557;92:77;92:79" x="240" y="1018" tableCellRowIndex="9" tableCellColumnIndex="1" width="350" height="134">入队与资源到账是两个时点</table-cell>
+      <table-cell id="T290:5557;92:77;92:80" x="590" y="1018" tableCellRowIndex="9" tableCellColumnIndex="2" width="410" height="134">R001后待开启；OPEN001后已开启</table-cell>
+    </table>
+    <table id="290:6678" x="5888" y="508" tableNumRows="3" tableNumColumns="3" width="816" height="228">
+      <table-cell id="T290:6678;290:45;290:47" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="272" height="76">数据命名</table-cell>
+      <table-cell id="T290:6678;290:45;290:48" x="272" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="272" height="76">解释</table-cell>
+      <table-cell id="T290:6678;290:45;290:49" x="544" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="272" height="76">案例</table-cell>
+      <table-cell id="T290:6678;290:46;290:47" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="272" height="76"></table-cell>
+      <table-cell id="T290:6678;290:46;290:48" x="272" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="272" height="76">宝箱星级ID</table-cell>
+      <table-cell id="T290:6678;290:46;290:49" x="544" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="272" height="76"></table-cell>
+      <table-cell id="T290:6678;290:50;290:47" x="0" y="152" tableCellRowIndex="2" tableCellColumnIndex="0" width="272" height="76"></table-cell>
+      <table-cell id="T290:6678;290:50;290:48" x="272" y="152" tableCellRowIndex="2" tableCellColumnIndex="1" width="272" height="76">宝箱奖励</table-cell>
+      <table-cell id="T290:6678;290:50;290:49" x="544" y="152" tableCellRowIndex="2" tableCellColumnIndex="2" width="272" height="76"></table-cell>
+    </table>
+    <table id="290:6711" x="4640" y="2953" tableNumRows="7" tableNumColumns="3" width="1000" height="728">
+      <table-cell id="T290:6711;92:115;92:124" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="240" height="76">数据命名</table-cell>
+      <table-cell id="T290:6711;92:115;92:125" x="240" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="350" height="76">解释</table-cell>
+      <table-cell id="T290:6711;92:115;92:126" x="590" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="410" height="76">案例</table-cell>
+      <table-cell id="T290:6711;92:116;92:124" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="240" height="108">player_season</table-cell>
+      <table-cell id="T290:6711;92:116;92:125" x="240" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="350" height="108">玩家战令账户的复合键</table-cell>
+      <table-cell id="T290:6711;92:116;92:126" x="590" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="410" height="108">P001 + 202610</table-cell>
+      <table-cell id="T290:6711;92:117;92:124" x="0" y="292" tableCellRowIndex="3" tableCellColumnIndex="0" width="240" height="108">pass_id</table-cell>
+      <table-cell id="T290:6711;92:117;92:125" x="240" y="292" tableCellRowIndex="3" tableCellColumnIndex="1" width="350" height="108">赛季与等级定位奖励配置</table-cell>
+      <table-cell id="T290:6711;92:117;92:126" x="590" y="292" tableCellRowIndex="3" tableCellColumnIndex="2" width="410" height="108">202610-1</table-cell>
+      <table-cell id="T290:6711;92:118;92:124" x="0" y="400" tableCellRowIndex="4" tableCellColumnIndex="0" width="240" height="112">pass_exp</table-cell>
+      <table-cell id="T290:6711;92:118;92:125" x="240" y="400" tableCellRowIndex="4" tableCellColumnIndex="1" width="350" height="112">累计经验；实扣1点行动点得1经验</table-cell>
+      <table-cell id="T290:6711;92:118;92:126" x="590" y="400" tableCellRowIndex="4" tableCellColumnIndex="2" width="410" height="112">原3 + R001增加2 = 5</table-cell>
+      <table-cell id="T290:6711;92:119;92:124" x="0" y="512" tableCellRowIndex="5" tableCellColumnIndex="0" width="240" height="108">pass_level</table-cell>
+      <table-cell id="T290:6711;92:119;92:125" x="240" y="512" tableCellRowIndex="5" tableCellColumnIndex="1" width="350" height="108">每5经验1级</table-cell>
+      <table-cell id="T290:6711;92:119;92:126" x="590" y="512" tableCellRowIndex="5" tableCellColumnIndex="2" width="410" height="108">0级→1级</table-cell>
+      <table-cell id="T290:6711;290:51;92:124" x="0" y="184" tableCellRowIndex="2" tableCellColumnIndex="0" width="240" height="108"></table-cell>
+      <table-cell id="T290:6711;290:51;92:125" x="240" y="184" tableCellRowIndex="2" tableCellColumnIndex="1" width="350" height="108">是否开通付费战令</table-cell>
+      <table-cell id="T290:6711;290:51;92:126" x="590" y="184" tableCellRowIndex="2" tableCellColumnIndex="2" width="410" height="108"></table-cell>
+      <table-cell id="T290:6711;290:64;92:124" x="0" y="620" tableCellRowIndex="6" tableCellColumnIndex="0" width="240" height="108"></table-cell>
+      <table-cell id="T290:6711;290:64;92:125" x="240" y="620" tableCellRowIndex="6" tableCellColumnIndex="1" width="350" height="108">现在战令等级</table-cell>
+      <table-cell id="T290:6711;290:64;92:126" x="590" y="620" tableCellRowIndex="6" tableCellColumnIndex="2" width="410" height="108"></table-cell>
+    </table>
+    <table id="290:6786" x="5904" y="2435.189453125" tableNumRows="5" tableNumColumns="3" width="816" height="416">
+      <table-cell id="T290:6786;290:56;290:58" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="272" height="76">数据命名</table-cell>
+      <table-cell id="T290:6786;290:56;290:59" x="272" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="272" height="76">解释</table-cell>
+      <table-cell id="T290:6786;290:56;290:60" x="544" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="272" height="76">案例</table-cell>
+      <table-cell id="T290:6786;290:57;290:58" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="272" height="112">pass_id</table-cell>
+      <table-cell id="T290:6786;290:57;290:59" x="272" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="272" height="112">赛季与等级定位奖励配置</table-cell>
+      <table-cell id="T290:6786;290:57;290:60" x="544" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="272" height="112">202610-1</table-cell>
+      <table-cell id="T290:6786;290:61;290:58" x="0" y="188" tableCellRowIndex="2" tableCellColumnIndex="0" width="272" height="76"></table-cell>
+      <table-cell id="T290:6786;290:61;290:59" x="272" y="188" tableCellRowIndex="2" tableCellColumnIndex="1" width="272" height="76">战令等级</table-cell>
+      <table-cell id="T290:6786;290:61;290:60" x="544" y="188" tableCellRowIndex="2" tableCellColumnIndex="2" width="272" height="76"></table-cell>
+      <table-cell id="T290:6786;290:62;290:58" x="0" y="264" tableCellRowIndex="3" tableCellColumnIndex="0" width="272" height="76"></table-cell>
+      <table-cell id="T290:6786;290:62;290:59" x="272" y="264" tableCellRowIndex="3" tableCellColumnIndex="1" width="272" height="76">此等级下的免费奖励</table-cell>
+      <table-cell id="T290:6786;290:62;290:60" x="544" y="264" tableCellRowIndex="3" tableCellColumnIndex="2" width="272" height="76"></table-cell>
+      <table-cell id="T290:6786;290:63;290:58" x="0" y="340" tableCellRowIndex="4" tableCellColumnIndex="0" width="272" height="76"></table-cell>
+      <table-cell id="T290:6786;290:63;290:59" x="272" y="340" tableCellRowIndex="4" tableCellColumnIndex="1" width="272" height="76">此等级下的付费奖励</table-cell>
+      <table-cell id="T290:6786;290:63;290:60" x="544" y="340" tableCellRowIndex="4" tableCellColumnIndex="2" width="272" height="76"></table-cell>
+    </table>
+    <table id="290:6835" x="1696" y="4304" tableNumRows="8" tableNumColumns="3" width="1000" height="962">
+      <table-cell id="T290:6835;92:81;92:89" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="240" height="76">数据命名</table-cell>
+      <table-cell id="T290:6835;92:81;92:90" x="240" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="350" height="76">解释</table-cell>
+      <table-cell id="T290:6835;92:81;92:91" x="590" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="410" height="76">案例</table-cell>
+      <table-cell id="T290:6835;92:82;92:89" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="240" height="134">contribution_event_id</table-cell>
+      <table-cell id="T290:6835;92:82;92:90" x="240" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="350" height="134">本次贡献事件主键</table-cell>
+      <table-cell id="T290:6835;92:82;92:91" x="590" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="410" height="134">CE001；成功结算R001只产生一次</table-cell>
+      <table-cell id="T290:6835;92:83;92:89" x="0" y="210" tableCellRowIndex="2" tableCellColumnIndex="0" width="240" height="134">source_settlement_id</table-cell>
+      <table-cell id="T290:6835;92:83;92:90" x="240" y="210" tableCellRowIndex="2" tableCellColumnIndex="1" width="350" height="134">用此值追溯任务结算</table-cell>
+      <table-cell id="T290:6835;92:83;92:91" x="590" y="210" tableCellRowIndex="2" tableCellColumnIndex="2" width="410" height="134">R001 → A001 → 任务112001</table-cell>
+      <table-cell id="T290:6835;92:84;92:89" x="0" y="344" tableCellRowIndex="3" tableCellColumnIndex="0" width="240" height="108">clan_rule_id</table-cell>
+      <table-cell id="T290:6835;92:84;92:90" x="240" y="344" tableCellRowIndex="3" tableCellColumnIndex="1" width="350" height="108">本例绑定的贡献规则</table-cell>
+      <table-cell id="T290:6835;92:84;92:91" x="590" y="344" tableCellRowIndex="3" tableCellColumnIndex="2" width="410" height="108">900001；已入会4天≥要求3天</table-cell>
+      <table-cell id="T290:6835;92:85;92:89" x="0" y="452" tableCellRowIndex="4" tableCellColumnIndex="0" width="240" height="134">base_contribution</table-cell>
+      <table-cell id="T290:6835;92:85;92:90" x="240" y="452" tableCellRowIndex="4" tableCellColumnIndex="1" width="350" height="134">读取任务模板中的基础贡献</table-cell>
+      <table-cell id="T290:6835;92:85;92:91" x="590" y="452" tableCellRowIndex="4" tableCellColumnIndex="2" width="410" height="134">任务112001：25点</table-cell>
+      <table-cell id="T290:6835;92:86;92:89" x="0" y="586" tableCellRowIndex="5" tableCellColumnIndex="0" width="240" height="134">member_key</table-cell>
+      <table-cell id="T290:6835;92:86;92:90" x="240" y="586" tableCellRowIndex="5" tableCellColumnIndex="1" width="350" height="134">按玩家、部落、赛季查个人账户</table-cell>
+      <table-cell id="T290:6835;92:86;92:91" x="590" y="586" tableCellRowIndex="5" tableCellColumnIndex="2" width="410" height="134">P001 / C001 / 202610 → PC001</table-cell>
+      <table-cell id="T290:6835;92:87;92:89" x="0" y="720" tableCellRowIndex="6" tableCellColumnIndex="0" width="240" height="108">personal_delta</table-cell>
+      <table-cell id="T290:6835;92:87;92:90" x="240" y="720" tableCellRowIndex="6" tableCellColumnIndex="1" width="350" height="108">资格及衰减处理后的增量</table-cell>
+      <table-cell id="T290:6835;92:87;92:91" x="590" y="720" tableCellRowIndex="6" tableCellColumnIndex="2" width="410" height="108">整笔未进入衰减：+25</table-cell>
+      <table-cell id="T290:6835;92:88;92:89" x="0" y="828" tableCellRowIndex="7" tableCellColumnIndex="0" width="240" height="134">token_delta</table-cell>
+      <table-cell id="T290:6835;92:88;92:90" x="240" y="828" tableCellRowIndex="7" tableCellColumnIndex="1" width="350" height="134">另外增加可消费代币</table-cell>
+      <table-cell id="T290:6835;92:88;92:91" x="590" y="828" tableCellRowIndex="7" tableCellColumnIndex="2" width="410" height="134">+25；余额5→30，和贡献分别记账</table-cell>
+    </table>
+    <table id="293:6893" x="3264" y="4432" tableNumRows="10" tableNumColumns="3" width="1000" height="1094">
+      <table-cell id="T293:6893;92:92;92:101" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="240" height="76">数据命名</table-cell>
+      <table-cell id="T293:6893;92:92;92:102" x="240" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="350" height="76">解释</table-cell>
+      <table-cell id="T293:6893;92:92;92:103" x="590" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="410" height="76">案例</table-cell>
+      <table-cell id="T293:6893;92:93;92:101" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="240" height="134">personal_record_id</table-cell>
+      <table-cell id="T293:6893;92:93;92:102" x="240" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="350" height="134">个人贡献账户主键</table-cell>
+      <table-cell id="T293:6893;92:93;92:103" x="590" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="410" height="134">PC001</table-cell>
+      <table-cell id="T293:6893;92:94;92:101" x="0" y="210" tableCellRowIndex="2" tableCellColumnIndex="0" width="240" height="108">member_key</table-cell>
+      <table-cell id="T293:6893;92:94;92:102" x="240" y="210" tableCellRowIndex="2" tableCellColumnIndex="1" width="350" height="108">账户唯一归属的复合键</table-cell>
+      <table-cell id="T293:6893;92:94;92:103" x="590" y="210" tableCellRowIndex="2" tableCellColumnIndex="2" width="410" height="108">P001 / C001 / 202610</table-cell>
+      <table-cell id="T293:6893;92:95;92:101" x="0" y="318" tableCellRowIndex="3" tableCellColumnIndex="0" width="240" height="108">clan_season</table-cell>
+      <table-cell id="T293:6893;92:95;92:102" x="240" y="318" tableCellRowIndex="3" tableCellColumnIndex="1" width="350" height="108">按部落和赛季查询同组成员</table-cell>
+      <table-cell id="T293:6893;92:95;92:103" x="590" y="318" tableCellRowIndex="3" tableCellColumnIndex="2" width="410" height="108">C001 + 202610</table-cell>
+      <table-cell id="T293:6893;92:96;92:101" x="0" y="426" tableCellRowIndex="4" tableCellColumnIndex="0" width="240" height="134">contribution_event_id</table-cell>
+      <table-cell id="T293:6893;92:96;92:102" x="240" y="426" tableCellRowIndex="4" tableCellColumnIndex="1" width="350" height="134">用此值查本次增量、防止重复</table-cell>
+      <table-cell id="T293:6893;92:96;92:103" x="590" y="426" tableCellRowIndex="4" tableCellColumnIndex="2" width="410" height="134">CE001；同事件仅入账一次</table-cell>
+      <table-cell id="T293:6893;92:97;92:101" x="0" y="560" tableCellRowIndex="5" tableCellColumnIndex="0" width="240" height="108">personal_total</table-cell>
+      <table-cell id="T293:6893;92:97;92:102" x="240" y="560" tableCellRowIndex="5" tableCellColumnIndex="1" width="350" height="108">保存当前部落内个人累计</table-cell>
+      <table-cell id="T293:6893;92:97;92:103" x="590" y="560" tableCellRowIndex="5" tableCellColumnIndex="2" width="410" height="108">15+25=40；人数权重不扣个人值</table-cell>
+      <table-cell id="T293:6893;92:98;92:101" x="0" y="744" tableCellRowIndex="7" tableCellColumnIndex="0" width="240" height="134">account_season_total</table-cell>
+      <table-cell id="T293:6893;92:98;92:102" x="240" y="744" tableCellRowIndex="7" tableCellColumnIndex="1" width="350" height="134">独立的账号赛季累计</table-cell>
+      <table-cell id="T293:6893;92:98;92:103" x="590" y="744" tableCellRowIndex="7" tableCellColumnIndex="2" width="410" height="134">P001/202610：15→40；转会不清零</table-cell>
+      <table-cell id="T293:6893;92:99;92:101" x="0" y="878" tableCellRowIndex="8" tableCellColumnIndex="0" width="240" height="108">member_rank</table-cell>
+      <table-cell id="T293:6893;92:99;92:102" x="240" y="878" tableCellRowIndex="8" tableCellColumnIndex="1" width="350" height="108">按个人贡献降序取得名次</table-cell>
+      <table-cell id="T293:6893;92:99;92:103" x="590" y="878" tableCellRowIndex="8" tableCellColumnIndex="2" width="410" height="108">其他30人各50；本例31名→31名</table-cell>
+      <table-cell id="T293:6893;92:100;92:101" x="0" y="986" tableCellRowIndex="9" tableCellColumnIndex="0" width="240" height="108">completed_tasks</table-cell>
+      <table-cell id="T293:6893;92:100;92:102" x="240" y="986" tableCellRowIndex="9" tableCellColumnIndex="1" width="350" height="108">用于有效参与人数判断</table-cell>
+      <table-cell id="T293:6893;92:100;92:103" x="590" y="986" tableCellRowIndex="9" tableCellColumnIndex="2" width="410" height="108">已达成有效任务1→2</table-cell>
+      <table-cell id="T293:6893;293:65;92:101" x="0" y="668" tableCellRowIndex="6" tableCellColumnIndex="0" width="240" height="76"></table-cell>
+      <table-cell id="T293:6893;293:65;92:102" x="240" y="668" tableCellRowIndex="6" tableCellColumnIndex="1" width="350" height="76">部落代币</table-cell>
+      <table-cell id="T293:6893;293:65;92:103" x="590" y="668" tableCellRowIndex="6" tableCellColumnIndex="2" width="410" height="76"></table-cell>
+    </table>
+    <table id="293:6969" x="4800" y="4096" tableNumRows="8" tableNumColumns="3" width="1000" height="988">
+      <table-cell id="T293:6969;92:104;92:112" x="0" y="0" tableCellRowIndex="0" tableCellColumnIndex="0" width="240" height="76">数据命名</table-cell>
+      <table-cell id="T293:6969;92:104;92:113" x="240" y="0" tableCellRowIndex="0" tableCellColumnIndex="1" width="350" height="76">解释</table-cell>
+      <table-cell id="T293:6969;92:104;92:114" x="590" y="0" tableCellRowIndex="0" tableCellColumnIndex="2" width="410" height="76">案例</table-cell>
+      <table-cell id="T293:6969;92:105;92:112" x="0" y="76" tableCellRowIndex="1" tableCellColumnIndex="0" width="240" height="108">score_key</table-cell>
+      <table-cell id="T293:6969;92:105;92:113" x="240" y="76" tableCellRowIndex="1" tableCellColumnIndex="1" width="350" height="108">该部落该赛季积分归属</table-cell>
+      <table-cell id="T293:6969;92:105;92:114" x="590" y="76" tableCellRowIndex="1" tableCellColumnIndex="2" width="410" height="108">C001 + 202610</table-cell>
+      <table-cell id="T293:6969;92:106;92:112" x="0" y="184" tableCellRowIndex="2" tableCellColumnIndex="0" width="240" height="134">member_query</table-cell>
+      <table-cell id="T293:6969;92:106;92:113" x="240" y="184" tableCellRowIndex="2" tableCellColumnIndex="1" width="350" height="134">按同部落、同赛季查全部成员</table-cell>
+      <table-cell id="T293:6969;92:106;92:114" x="590" y="184" tableCellRowIndex="2" tableCellColumnIndex="2" width="410" height="134">C001/202610 → PC001—PC031</table-cell>
+      <table-cell id="T293:6969;92:107;92:112" x="0" y="318" tableCellRowIndex="3" tableCellColumnIndex="0" width="240" height="134">benchmark_P</table-cell>
+      <table-cell id="T293:6969;92:107;92:113" x="240" y="318" tableCellRowIndex="3" tableCellColumnIndex="1" width="350" height="134">五部落最少人数与30取较大值</table-cell>
+      <table-cell id="T293:6969;92:107;92:114" x="590" y="318" tableCellRowIndex="3" tableCellColumnIndex="2" width="410" height="134">31/32/33/34/30 → P=30</table-cell>
+      <table-cell id="T293:6969;92:108;92:112" x="0" y="452" tableCellRowIndex="4" tableCellColumnIndex="0" width="240" height="134">member_weight</table-cell>
+      <table-cell id="T293:6969;92:108;92:113" x="240" y="452" tableCellRowIndex="4" tableCellColumnIndex="1" width="350" height="134">前P名为1，第P+k名为0.85^k</table-cell>
+      <table-cell id="T293:6969;92:108;92:114" x="590" y="452" tableCellRowIndex="4" tableCellColumnIndex="2" width="410" height="134">P001第31名，权重0.85</table-cell>
+      <table-cell id="T293:6969;92:109;92:112" x="0" y="586" tableCellRowIndex="5" tableCellColumnIndex="0" width="240" height="134">member_score</table-cell>
+      <table-cell id="T293:6969;92:109;92:113" x="240" y="586" tableCellRowIndex="5" tableCellColumnIndex="1" width="350" height="134">以个人累计值乘当前排序权重</table-cell>
+      <table-cell id="T293:6969;92:109;92:114" x="590" y="586" tableCellRowIndex="5" tableCellColumnIndex="2" width="410" height="134">15×0.85=12.75 → 40×0.85=34</table-cell>
+      <table-cell id="T293:6969;92:110;92:112" x="0" y="720" tableCellRowIndex="6" tableCellColumnIndex="0" width="240" height="134">clan_score</table-cell>
+      <table-cell id="T293:6969;92:110;92:113" x="240" y="720" tableCellRowIndex="6" tableCellColumnIndex="1" width="350" height="134">全部成员重新排序、加权求和</table-cell>
+      <table-cell id="T293:6969;92:110;92:114" x="590" y="720" tableCellRowIndex="6" tableCellColumnIndex="2" width="410" height="134">其他30人共1500；1512.75→1534</table-cell>
+      <table-cell id="T293:6969;92:111;92:112" x="0" y="854" tableCellRowIndex="7" tableCellColumnIndex="0" width="240" height="134">score_snapshot_id</table-cell>
+      <table-cell id="T293:6969;92:111;92:113" x="240" y="854" tableCellRowIndex="7" tableCellColumnIndex="1" width="350" height="134">保存本次重算结果，覆盖旧值</table-cell>
+      <table-cell id="T293:6969;92:111;92:114" x="590" y="854" tableCellRowIndex="7" tableCellColumnIndex="2" width="410" height="134">CS001；变化+21.25，重试不重复累加</table-cell>
+    </table>
+    <text id="297:4809" name="26表标题/290:4992" x="112" y="984" width="1000" height="38" />
+    <text id="297:4810" name="26表标题/290:5066" x="384" y="2897.22021484375" width="1000" height="38" />
+    <text id="297:4811" name="26表标题/290:5134" x="1816" y="86" width="1000" height="38" />
+    <text id="297:4812" name="26表标题/290:5205" x="1664" y="1400" width="1152" height="38" />
+    <text id="297:4813" name="26表标题/290:5278" x="3936" y="56" width="1000" height="38" />
+    <text id="297:4814" name="26表标题/290:5408" x="3289" y="1773.435546875" width="1000" height="38" />
+    <text id="297:4815" name="26表标题/290:5557" x="4992" y="1071.025634765625" width="1000" height="38" />
+    <text id="297:4816" name="26表标题/290:6678" x="5888" y="452" width="816" height="38" />
+    <text id="297:4817" name="26表标题/290:6711" x="4640" y="2897" width="1000" height="38" />
+    <text id="297:4818" name="26表标题/290:6786" x="5904" y="2379.189453125" width="816" height="38" />
+    <text id="297:4819" name="26表标题/290:6835" x="1696" y="4248" width="1000" height="38" />
+    <text id="297:4820" name="26表标题/293:6893" x="3264" y="4376" width="1000" height="38" />
+    <text id="297:4821" name="26表标题/293:6969" x="4800" y="4040" width="1000" height="38" />
+    <text id="297:4822" name="26连线图例" x="90" y="5680" width="6500" height="50" />
+    <text id="297:4823" name="26关系说明" x="90" y="5760" width="6500" height="36" />
+    <text id="297:4824" name="26关系说明/Q01" x="90" y="5890" width="2150" height="62" />
+    <text id="297:4825" name="26关系说明/Q02" x="90" y="6002" width="2150" height="62" />
+    <text id="297:4826" name="26关系说明/Q03" x="90" y="6114" width="2150" height="62" />
+    <text id="297:4827" name="26关系说明/Q04" x="90" y="6226" width="2150" height="62" />
+    <text id="297:4828" name="26关系说明/Q05" x="90" y="6338" width="2150" height="62" />
+    <text id="297:4829" name="26关系说明/Q06" x="90" y="6450" width="2150" height="62" />
+    <text id="297:4830" name="26关系说明/Q07" x="90" y="6562" width="2150" height="62" />
+    <text id="297:4831" name="26关系说明/Q08" x="90" y="6674" width="2150" height="62" />
+    <text id="297:4832" name="26关系说明/Q09" x="90" y="6786" width="2150" height="62" />
+    <text id="297:4833" name="26关系说明/Q10" x="90" y="6898" width="2150" height="62" />
+    <text id="297:4834" name="26关系说明/Q11" x="90" y="7010" width="2150" height="62" />
+    <text id="297:4835" name="26关系说明/Q12" x="90" y="7122" width="2150" height="62" />
+    <text id="297:4836" name="26关系说明/Q13" x="90" y="7234" width="2150" height="62" />
+    <text id="297:4837" name="26关系说明/W01" x="90" y="7346" width="2150" height="62" />
+    <text id="297:4838" name="26关系说明/W02" x="90" y="7458" width="2150" height="62" />
+    <text id="297:4839" name="26关系说明/W03" x="90" y="7570" width="2150" height="62" />
+    <text id="297:4840" name="26关系说明/W04" x="90" y="7682" width="2150" height="62" />
+    <text id="297:4841" name="26关系说明/W05" x="90" y="7794" width="2150" height="62" />
+    <text id="297:4842" name="26关系说明/Q14" x="90" y="7906" width="2150" height="62" />
+    <text id="297:4843" name="26关系说明/Q15" x="2330" y="5890" width="2150" height="62" />
+    <text id="297:4844" name="26关系说明/Q16" x="2330" y="6002" width="2150" height="62" />
+    <text id="297:4845" name="26关系说明/Q17" x="2330" y="6114" width="2150" height="62" />
+    <text id="297:4846" name="26关系说明/W06" x="2330" y="6226" width="2150" height="62" />
+    <text id="297:4847" name="26关系说明/W07" x="2330" y="6338" width="2150" height="62" />
+    <text id="297:4848" name="26关系说明/W08" x="2330" y="6450" width="2150" height="62" />
+    <text id="297:4849" name="26关系说明/W09" x="2330" y="6562" width="2150" height="62" />
+    <text id="297:4850" name="26关系说明/Q18" x="2330" y="6674" width="2150" height="62" />
+    <text id="297:4851" name="26关系说明/Q19" x="2330" y="6786" width="2150" height="62" />
+    <text id="297:4852" name="26关系说明/W10" x="2330" y="6898" width="2150" height="62" />
+    <text id="297:4853" name="26关系说明/Q20" x="2330" y="7010" width="2150" height="62" />
+    <text id="297:4854" name="26关系说明/Q21" x="2330" y="7122" width="2150" height="62" />
+    <text id="297:4855" name="26关系说明/W11" x="2330" y="7234" width="2150" height="62" />
+    <text id="297:4856" name="26关系说明/W12" x="2330" y="7346" width="2150" height="62" />
+    <text id="297:4857" name="26关系说明/Q22" x="2330" y="7458" width="2150" height="62" />
+    <text id="297:4858" name="26关系说明/W13" x="2330" y="7570" width="2150" height="62" />
+    <text id="297:4859" name="26关系说明/Q23" x="2330" y="7682" width="2150" height="62" />
+    <text id="297:4860" name="26关系说明/Q24" x="2330" y="7794" width="2150" height="62" />
+    <text id="297:4861" name="26关系说明/Q25" x="2330" y="7906" width="2150" height="62" />
+    <text id="297:4862" name="26关系说明/Q26" x="4570" y="5890" width="2150" height="62" />
+    <text id="297:4863" name="26关系说明/W14" x="4570" y="6002" width="2150" height="62" />
+    <text id="297:4864" name="26关系说明/W15" x="4570" y="6114" width="2150" height="62" />
+    <text id="297:4865" name="26关系说明/Q27" x="4570" y="6226" width="2150" height="62" />
+    <text id="297:4866" name="26关系说明/Q28" x="4570" y="6338" width="2150" height="62" />
+    <text id="297:4867" name="26关系说明/Q29" x="4570" y="6450" width="2150" height="62" />
+    <text id="297:4868" name="26关系说明/Q30" x="4570" y="6562" width="2150" height="62" />
+    <text id="297:4869" name="26关系说明/Q31" x="4570" y="6674" width="2150" height="62" />
+    <text id="297:4870" name="26关系说明/W16" x="4570" y="6786" width="2150" height="62" />
+    <text id="297:4871" name="26关系说明/W17" x="4570" y="6898" width="2150" height="62" />
+    <text id="297:4872" name="26关系说明/W18" x="4570" y="7010" width="2150" height="62" />
+    <text id="297:4873" name="26关系说明/W19" x="4570" y="7122" width="2150" height="62" />
+    <text id="297:4874" name="26关系说明/Q32" x="4570" y="7234" width="2150" height="62" />
+    <text id="297:4875" name="26关系说明/Q33" x="4570" y="7346" width="2150" height="62" />
+    <text id="297:4876" name="26关系说明/Q34" x="4570" y="7458" width="2150" height="62" />
+    <text id="297:4877" name="26关系说明/Q35" x="4570" y="7570" width="2150" height="62" />
+    <text id="297:4878" name="26关系说明/W20" x="4570" y="7682" width="2150" height="62" />
+    <text id="297:4879" name="26关系说明/W21" x="4570" y="7794" width="2150" height="62" />
+    <text id="301:4772" name="26关系说明/Q36" x="4570" y="7906" width="2150" height="62" />
+  </section>
+</canvas>

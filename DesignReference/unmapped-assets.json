@@ -1,0 +1,32 @@
+[
+  {
+    "screen": "BattlePass",
+    "id": "I158:2;157:73",
+    "name": "战令/领取标记/green",
+    "hash": "4eccdd21143f8e34b84b4b9b51a7d83677f8a295"
+  },
+  {
+    "screen": "BattlePass",
+    "id": "I158:7;157:72",
+    "name": "战令/图标/普通卡",
+    "hash": "271ad8600b7c5651142f847defe15a052597d708"
+  },
+  {
+    "screen": "BattlePass",
+    "id": "I158:14;157:73",
+    "name": "战令/领取标记/green",
+    "hash": "4eccdd21143f8e34b84b4b9b51a7d83677f8a295"
+  },
+  {
+    "screen": "BattlePass",
+    "id": "I158:26;157:73",
+    "name": "战令/领取标记/green",
+    "hash": "4eccdd21143f8e34b84b4b9b51a7d83677f8a295"
+  },
+  {
+    "screen": "BattlePass",
+    "id": "167:57",
+    "name": "开通战令 / 图标入口",
+    "hash": "cdcb0554b616c957741c1d1ab6fa50bc0930e670"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-29",
+  "method": "Unity EventSystem raycast and pointerClickHandler dispatch across advancing Play Mode frames",
+  "results": [
+    {
+      "menu": "TaskSortDropdown",
+      "selected": "LevelAscending",
+      "closed": true,
+      "hit": "LevelAscending",
+      "expected": "LevelAscending",
+      "passed": true
+    },
+    {
+      "menu": "TaskSortDropdown",
+      "selected": "LevelDescending",
+      "closed": true,
+      "hit": "LevelDescending",
+      "expected": "LevelDescending",
+      "passed": true
+    },
+    {
+      "menu": "TaskSortDropdown",
+      "selected": "CompletionDescending",
+      "closed": true,
+      "hit": "CompletionDescending",
+      "expected": "CompletionDescending",
+      "passed": true
+    },
+    {
+      "menu": "TaskSortDropdown",
+      "closed": true,
+      "hit": "OutsideClickToClose",
+      "selected": "CompletionDescending",
+      "screen": "Tasks",
+      "check": "outside click",
+      "passed": true
+    },
+    {
+      "menu": "TaskSortDropdown",
+      "passed": true,
+      "check": "close on page exit and retain selection"
+    },
+    {
+      "menu": "TaskActivationDropdown",
+      "selected": "LevelAscending",
+      "closed": true,
+      "hit": "LevelAscending",
+      "expected": "LevelAscending",
+      "passed": true
+    },
+    {
+      "menu": "TaskActivationDropdown",
+      "selected": "LevelDescending",
+      "closed": true,
+      "hit": "LevelDescending",
+      "expected": "LevelDescending",
+      "passed": true
+    },
+    {
+      "menu": "TaskActivationDropdown",
+      "selected": "CompletionDescending",
+      "closed": true,
+      "hit": "CompletionDescending",
+      "expected": "CompletionDescending",
+      "passed": true
+    },
+    {
+      "menu": "TaskActivationDropdown",
+      "closed": true,
+      "hit": "OutsideClickToClose",
+      "selected": "CompletionDescending",
+      "screen": "BattleHome",
+      "check": "outside click",
+      "passed": true
+    },
+    {
+      "menu": "TaskActivationDropdown",
+      "passed": true,
+      "check": "close on page exit and retain selection"
+    }
+  ]
+}

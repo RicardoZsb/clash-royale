@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0860e9245109ac047b8f2421bf32c1de, type: 3}
+  m_Name: TrainingDeck
+  m_EditorClassIdentifier: Assembly-CSharp::ClashRoyaleUI.TrainingDeck
+  cards:
+  - id: knight
+    title: "\u9A91\u58EB"
+    cost: 3
+    count: 1
+    health: 480
+    damage: 70
+    speed: 36
+    range: 22
+    attackInterval: 1
+    radius: 12
+    artSize: 58
+    splash: 0
+    stun: 0
+    flying: 0
+    hitsAir: 0
+    buildingsOnly: 0
+    summons: 0
+    spell: 0
+    portrait: {fileID: 1389877889, guid: 9817eae5147b3954cbff92b78b34b64f, type: 3}
+    animator: {fileID: 9100000, guid: 6a5169ae72485ce4f805f30f32b80b52, type: 2}
+  - id: archer
+    title: "\u5F13\u7BAD\u624B"
+    cost: 3
+    count: 2
+    health: 240
+    damage: 48
+    speed: 38
+    range: 115
+    attackInterval: 1.05
+    radius: 12
+    artSize: 56
+    splash: 0
+    stun: 0
+    flying: 0
+    hitsAir: 1
+    buildingsOnly: 0
+    summons: 0
+    spell: 0
+    portrait: {fileID: -810795913, guid: 4482963910548554592081ba13226387, type: 3}
+    animator: {fileID: 9100000, guid: efbdc6230bbf72e4687ff0b0b9faf5a6, type: 2}
+  - id: giant
+    title: "\u5DE8\u4EBA"
+    cost: 5
+    count: 1
+    health: 1350
+    damage: 105
+    speed: 24
+    range: 30
+    attackInterval: 1.6
+    radius: 19
+    artSize: 78
+    splash: 0
+    stun: 0
+    flying: 0
+    hitsAir: 0
+    buildingsOnly: 1
+    summons: 0
+    spell: 0
+    portrait: {fileID: 760513997, guid: 9bd0c317ef8e3be4eb3a04d7184f5abe, type: 3}
+    animator: {fileID: 9100000, guid: 726164f3660cd744fb6af325555983a2, type: 2}
+  - id: dragon
+    title: "\u98DE\u9F99\u5B9D\u5B9D"
+    cost: 4
+    count: 1
+    health: 650
+    damage: 65
+    speed: 34
+    range: 82
+    attackInterval: 1.3
+    radius: 12
+    artSize: 70
+    splash: 45
+    stun: 0
+    flying: 1
+    hitsAir: 1
+    buildingsOnly: 0
+    summons: 0
+    spell: 0
+    portrait: {fileID: 1980885690, guid: e2ecc3e7ee997f345bfd73e39a88fe0b, type: 3}
+    animator: {fileID: 9100000, guid: 84f7715894b054946bb63e9b31f10d77, type: 2}
+  - id: witch
+    title: "\u5973\u5DEB"
+    cost: 5
+    count: 1
+    health: 400
+    damage: 45
+    speed: 30
+    range: 100
+    attackInterval: 1.3
+    radius: 12
+    artSize: 66
+    splash: 22
+    stun: 0
+    flying: 0
+    hitsAir: 1
+    buildingsOnly: 0
+    summons: 1
+    spell: 0
+    portrait: {fileID: -1639114315, guid: 00626676e8103d1468bcd2e0dd050c7d, type: 3}
+    animator: {fileID: 9100000, guid: 2c3025289c170924c90be261bf497f26, type: 2}
+  - id: fireball
+    title: "\u706B\u7403"
+    cost: 4
+    count: 1
+    health: 0
+    damage: 240
+    speed: 0
+    range: 0
+    attackInterval: 1.1
+    radius: 12
+    artSize: 120
+    splash: 60
+    stun: 0
+    flying: 0
+    hitsAir: 0
+    buildingsOnly: 0
+    summons: 0
+    spell: 1
+    portrait: {fileID: -1068665977, guid: 7afdbba37bea7c344b98cdedf0a2fe0f, type: 3}
+    animator: {fileID: 9100000, guid: 5d56114023cbcc447b5fa162ce99612c, type: 2}
+  - id: arrows
+    title: "\u4E07\u7BAD\u9F50\u53D1"
+    cost: 3
+    count: 1
+    health: 0
+    damage: 110
+    speed: 0
+    range: 0
+    attackInterval: 1.1
+    radius: 12
+    artSize: 150
+    splash: 75
+    stun: 0
+    flying: 0
+    hitsAir: 0
+    buildingsOnly: 0
+    summons: 0
+    spell: 1
+    portrait: {fileID: 434375023, guid: 7afdbba37bea7c344b98cdedf0a2fe0f, type: 3}
+    animator: {fileID: 9100000, guid: 08ef82af5fb894c4ca0affb452ecc960, type: 2}
+  - id: zap
+    title: "\u7535\u51FB\u6CD5\u672F"
+    cost: 2
+    count: 1
+    health: 0
+    damage: 80
+    speed: 0
+    range: 0
+    attackInterval: 1.1
+    radius: 12
+    artSize: 120
+    splash: 60
+    stun: 0.65
+    flying: 0
+    hitsAir: 0
+    buildingsOnly: 0
+    summons: 0
+    spell: 1
+    portrait: {fileID: -259791916, guid: 7afdbba37bea7c344b98cdedf0a2fe0f, type: 3}
+    animator: {fileID: 9100000, guid: 3264aecbd2177904c92b3c1a87331b87, type: 2}
+  skeleton:
+    id: skeleton
+    title: "\u9AB7\u9AC5"
+    cost: 0
+    count: 1
+    health: 85
+    damage: 28
+    speed: 44
+    range: 18
+    attackInterval: 1
+    radius: 8
+    artSize: 42
+    splash: 0
+    stun: 0
+    flying: 0
+    hitsAir: 0
+    buildingsOnly: 0
+    summons: 0
+    spell: 0
+    portrait: {fileID: 1035652004, guid: 735eeb9da5b83e64eb50343a04d457e2, type: 3}
+    animator: {fileID: 9100000, guid: 9aa23f2c3c407fe438032c51a2400398, type: 2}
+  princessAnimator: {fileID: 9100000, guid: b1f55a1d0d45c504e9465952e3655c75, type: 2}
+  kingAnimator: {fileID: 9100000, guid: 892ad551660d4f54280225032dc7c197, type: 2}
+  princessPortrait: {fileID: -710483038, guid: ae3c9e308fe9a70418fe39f1f3621d3a, type: 3}
+  kingPortrait: {fileID: -2019388116, guid: ae3c9e308fe9a70418fe39f1f3621d3a, type: 3}
+  princessHealth: 1450
+  kingHealth: 2400
+  regulationSeconds: 180
+  overtimeSeconds: 60
+  elixirSeconds: 2.8

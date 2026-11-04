@@ -1,0 +1,32 @@
+test_accept_automatically_reserves_without_spending (test_game.Tests.test_accept_automatically_reserves_without_spending) ... ok
+test_activation_capacity_concurrent (test_game.Tests.test_activation_capacity_concurrent) ... ok
+test_activation_order_rebalances_and_persists (test_game.Tests.test_activation_order_rebalances_and_persists) ... ok
+test_all_62_condition_templates_can_complete (test_game.Tests.test_all_62_condition_templates_can_complete) ... ok
+test_automatic_reads_keep_reservation_identity (test_game.Tests.test_automatic_reads_keep_reservation_identity) ... ok
+test_canonical_case_and_idempotency (test_game.Tests.test_canonical_case_and_idempotency) ... ok
+test_completed_or_cancelled_forced_task_clears_override (test_game.Tests.test_completed_or_cancelled_forced_task_clears_override) ... ok
+test_configuration_62 (test_game.Tests.test_configuration_62) ... ok
+test_daily_20_no_refill_and_accept_no_cost (test_game.Tests.test_daily_20_no_refill_and_accept_no_cost) ... ok
+test_deck_order_is_not_new_deck (test_game.Tests.test_deck_order_is_not_new_deck) ... ok
+test_excel_export_import (test_game.Tests.test_excel_export_import) ... ok
+test_force_one_displaces_auto_and_unforce_restores_order (test_game.Tests.test_force_one_displaces_auto_and_unforce_restores_order) ... ok
+test_force_respects_real_ap_queue_and_ownership (test_game.Tests.test_force_respects_real_ap_queue_and_ownership) ... ok
+test_free_cancel_resets_at_shanghai_midnight (test_game.Tests.test_free_cancel_resets_at_shanghai_midnight) ... ok
+test_help_requires_accepted_instance (test_game.Tests.test_help_requires_accepted_instance) ... ok
+02/Nov/2026 01:33:50 "GET /v1/state HTTP/1.1" 200 -
+02/Nov/2026 01:33:50 "POST /admin/battles/x/settle HTTP/1.1" 401 -
+test_http_auth_separates_settlement (test_game.Tests.test_http_auth_separates_settlement) ... ok
+test_invalid_battle_releases_old_reservation_and_replans (test_game.Tests.test_invalid_battle_releases_old_reservation_and_replans) ... ok
+test_locked_config_survives_reimport (test_game.Tests.test_locked_config_survives_reimport) ... ok
+test_recovery_and_opening_box_automatically_fill_capacity (test_game.Tests.test_recovery_and_opening_box_automatically_fill_capacity) ... ok
+test_request_id_conflict (test_game.Tests.test_request_id_conflict) ... ok
+test_running_battle_keeps_locked_tasks_then_replans (test_game.Tests.test_running_battle_keeps_locked_tasks_then_replans) ... ok
+test_threshold_split (test_game.Tests.test_threshold_split) ... ok
+test_transaction_rolls_back_on_late_failure (test_game.Tests.test_transaction_rolls_back_on_late_failure) ... ok
+test_week_change_keeps_running_tasks_and_chests (test_game.Tests.test_week_change_keeps_running_tasks_and_chests) ... ok
+test_withdraw_only_available_space_and_restart (test_game.Tests.test_withdraw_only_available_space_and_restart) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 11.908s
+
+OK

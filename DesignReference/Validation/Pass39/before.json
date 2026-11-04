@@ -1,0 +1,5509 @@
+{
+  "scroll": {
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView",
+    "enabled": true,
+    "horizontal": false,
+    "vertical": true,
+    "movementType": 2,
+    "scrollSensitivity": 22.0,
+    "inertia": true,
+    "viewport": "(x:0.00, y:-626.00, width:361.00, height:626.00)",
+    "content": "(x:0.00, y:0.00, width:361.00, height:0.00)",
+    "contentPos": "(0.00, 0.00)",
+    "children": 5
+  },
+  "rects": [
+    {
+      "path": "",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "RectMask2D",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/页面背景 [59:58]",
+      "id": "59:58",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        1.0,
+        2.0
+      ],
+      "s": [
+        0.0,
+        -71.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/gradient_59_58.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]",
+      "id": "158:73",
+      "min": [
+        0.5,
+        0.0
+      ],
+      "max": [
+        0.5,
+        1.0
+      ],
+      "p": [
+        -190.0,
+        -218.000244
+      ],
+      "s": [
+        380.0,
+        -295.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/奖励列表底板 [59:98]",
+      "id": "59:98",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/gradient_59_98.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/奖励列表底板 [59:98]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_24_24_24_24_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/免费列标题 [158:69]",
+      "id": "158:69",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        24.0,
+        -4.0
+      ],
+      "s": [
+        130.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "免费奖励",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/战令列标题 [158:70]",
+      "id": "158:70",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        210.0,
+        -4.0
+      ],
+      "s": [
+        138.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "战令奖励",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView",
+      "id": null,
+      "min": [
+        0.5,
+        0.0
+      ],
+      "max": [
+        0.5,
+        1.0
+      ],
+      "p": [
+        -181.0,
+        -25.0
+      ],
+      "s": [
+        361.0,
+        -84.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "ScrollRect"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Mask"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": true
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content",
+      "id": null,
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        361.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "VerticalLayoutGroup",
+        "ContentSizeFitter"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]",
+      "id": "158:13",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        0.0,
+        0.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "LayoutElement"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 底板 [59:99]",
+      "id": "59:99",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        175.0,
+        0.0
+      ],
+      "s": [
+        186.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 底板 [59:99]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 底板 [59:100]",
+      "id": "59:100",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        168.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 底板 [59:100]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 金币 ×500 [158:2]",
+      "id": "158:2",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        12.0,
+        -4.0
+      ],
+      "s": [
+        144.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 金币 ×500 [158:2]/图标与标记 [I158:2;157:71]",
+      "id": "I158:2;157:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        72.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 金币 ×500 [158:2]/图标与标记 [I158:2;157:71]/奖励图标 [I158:2;157:72]",
+      "id": "I158:2;157:72",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -8.0
+      ],
+      "s": [
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/31dbd.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 金币 ×500 [158:2]/图标与标记 [I158:2;157:71]/战令·领取标记·green [I158:2;157:73]",
+      "id": "I158:2;157:73",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        56.0,
+        0.0
+      ],
+      "s": [
+        32.0,
+        24.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_52.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 金币 ×500 [158:2]/奖励名称与数量 [I158:2;157:74]",
+      "id": "I158:2;157:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        2.0,
+        -73.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]",
+      "id": "158:7",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        196.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]/图标与标记 [I158:7;157:71]",
+      "id": "I158:7;157:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        72.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]/图标与标记 [I158:7;157:71]/战令·图标·普通卡 [I158:7;157:72]",
+      "id": "I158:7;157:72",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -8.0
+      ],
+      "s": [
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/e33b9.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]/图标与标记 [I158:7;157:71]/领取标记 [I158:7;157:73]",
+      "id": "I158:7;157:73",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        56.0,
+        0.0
+      ],
+      "s": [
+        32.0,
+        24.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_53.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]/图标与标记 [I158:7;157:71]/领取标记 [I158:7;157:73]/锁 [I158:7;157:73;157:64]",
+      "id": "I158:7;157:73;157:64",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        7.0,
+        -1.0
+      ],
+      "s": [
+        18.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/34ef0.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]/奖励名称与数量 [I158:7;157:74]",
+      "id": "I158:7;157:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        2.0,
+        -73.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/奖励数量 · ×500 [167:47]",
+      "id": "167:47",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        14.0,
+        -68.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "×500",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/奖励数量 · ×250 [167:48]",
+      "id": "167:48",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        198.0,
+        -68.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "×250",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]",
+      "id": "158:25",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        0.0,
+        0.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "LayoutElement"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 底板 [59:102]",
+      "id": "59:102",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        175.0,
+        0.0
+      ],
+      "s": [
+        186.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 底板 [59:102]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 底板 [59:103]",
+      "id": "59:103",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        168.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 底板 [59:103]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 钻石 ×10 [158:14]",
+      "id": "158:14",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        12.0,
+        -2.0
+      ],
+      "s": [
+        144.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 钻石 ×10 [158:14]/图标与标记 [I158:14;157:71]",
+      "id": "I158:14;157:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        72.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 钻石 ×10 [158:14]/图标与标记 [I158:14;157:71]/奖励图标 [I158:14;157:72]",
+      "id": "I158:14;157:72",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -8.0
+      ],
+      "s": [
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/01ea2.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 钻石 ×10 [158:14]/图标与标记 [I158:14;157:71]/战令·领取标记·green [I158:14;157:73]",
+      "id": "I158:14;157:73",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        56.0,
+        0.0
+      ],
+      "s": [
+        32.0,
+        24.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_52.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 钻石 ×10 [158:14]/奖励名称与数量 [I158:14;157:74]",
+      "id": "I158:14;157:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        2.0,
+        -73.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]",
+      "id": "158:19",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        198.0,
+        -3.0
+      ],
+      "s": [
+        144.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]/图标与标记 [I158:19;157:71]",
+      "id": "I158:19;157:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        72.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]/图标与标记 [I158:19;157:71]/奖励图标 [I158:19;157:72]",
+      "id": "I158:19;157:72",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -8.0
+      ],
+      "s": [
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/51d7a.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]/图标与标记 [I158:19;157:71]/领取标记 [I158:19;157:73]",
+      "id": "I158:19;157:73",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        56.0,
+        0.0
+      ],
+      "s": [
+        32.0,
+        24.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_53.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]/图标与标记 [I158:19;157:71]/领取标记 [I158:19;157:73]/锁 [I158:19;157:73;157:64]",
+      "id": "I158:19;157:73;157:64",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        7.0,
+        -1.0
+      ],
+      "s": [
+        18.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/34ef0.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]/奖励名称与数量 [I158:19;157:74]",
+      "id": "I158:19;157:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        2.0,
+        -73.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/奖励数量 · ×10 [167:49]",
+      "id": "167:49",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        14.0,
+        -68.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "×10",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/奖励数量 · ×25 [167:50]",
+      "id": "167:50",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        200.0,
+        -68.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "×25",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]",
+      "id": "158:37",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        0.0,
+        0.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "LayoutElement"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 底板 [59:105]",
+      "id": "59:105",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        175.0,
+        0.0
+      ],
+      "s": [
+        186.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 底板 [59:105]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 底板 [59:106]",
+      "id": "59:106",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        168.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 底板 [59:106]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 二星宝箱 ×1 [158:26]",
+      "id": "158:26",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        12.0,
+        -11.0
+      ],
+      "s": [
+        144.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 二星宝箱 ×1 [158:26]/图标与标记 [I158:26;157:71]",
+      "id": "I158:26;157:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        72.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 二星宝箱 ×1 [158:26]/图标与标记 [I158:26;157:71]/奖励图标 [I158:26;157:72]",
+      "id": "I158:26;157:72",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -8.0
+      ],
+      "s": [
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/1c51d.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 二星宝箱 ×1 [158:26]/图标与标记 [I158:26;157:71]/战令·领取标记·green [I158:26;157:73]",
+      "id": "I158:26;157:73",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        56.0,
+        0.0
+      ],
+      "s": [
+        32.0,
+        24.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_52.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 二星宝箱 ×1 [158:26]/奖励名称与数量 [I158:26;157:74]",
+      "id": "I158:26;157:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        2.0,
+        -73.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]",
+      "id": "158:31",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        196.0,
+        -9.0
+      ],
+      "s": [
+        144.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]/图标与标记 [I158:31;157:71]",
+      "id": "I158:31;157:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        72.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]/图标与标记 [I158:31;157:71]/奖励图标 [I158:31;157:72]",
+      "id": "I158:31;157:72",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -8.0
+      ],
+      "s": [
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/78e9c.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]/图标与标记 [I158:31;157:71]/领取标记 [I158:31;157:73]",
+      "id": "I158:31;157:73",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        56.0,
+        0.0
+      ],
+      "s": [
+        32.0,
+        24.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_53.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]/图标与标记 [I158:31;157:71]/领取标记 [I158:31;157:73]/锁 [I158:31;157:73;157:64]",
+      "id": "I158:31;157:73;157:64",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        7.0,
+        -1.0
+      ],
+      "s": [
+        18.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/34ef0.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]/奖励名称与数量 [I158:31;157:74]",
+      "id": "I158:31;157:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        2.0,
+        -73.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]",
+      "id": "158:49",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        0.0,
+        0.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "LayoutElement"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 底板 [59:108]",
+      "id": "59:108",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        175.0,
+        0.0
+      ],
+      "s": [
+        186.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 底板 [59:108]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 底板 [59:109]",
+      "id": "59:109",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        168.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 底板 [59:109]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 史诗卡 ×5 [158:38]",
+      "id": "158:38",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        12.0,
+        0.0
+      ],
+      "s": [
+        144.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 史诗卡 ×5 [158:38]/图标与标记 [I158:38;157:71]",
+      "id": "I158:38;157:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        72.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 史诗卡 ×5 [158:38]/图标与标记 [I158:38;157:71]/奖励图标 [I158:38;157:72]",
+      "id": "I158:38;157:72",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -8.0
+      ],
+      "s": [
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/c5fa6.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 史诗卡 ×5 [158:38]/奖励名称与数量 [I158:38;157:74]",
+      "id": "I158:38;157:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        2.0,
+        -73.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]",
+      "id": "158:43",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        196.0,
+        -2.0
+      ],
+      "s": [
+        144.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]/图标与标记 [I158:43;157:71]",
+      "id": "I158:43;157:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        72.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]/图标与标记 [I158:43;157:71]/奖励图标 [I158:43;157:72]",
+      "id": "I158:43;157:72",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -8.0
+      ],
+      "s": [
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/01ea2.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]/图标与标记 [I158:43;157:71]/领取标记 [I158:43;157:73]",
+      "id": "I158:43;157:73",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        56.0,
+        0.0
+      ],
+      "s": [
+        32.0,
+        24.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_53.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]/图标与标记 [I158:43;157:71]/领取标记 [I158:43;157:73]/锁 [I158:43;157:73;157:64]",
+      "id": "I158:43;157:73;157:64",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        7.0,
+        -1.0
+      ],
+      "s": [
+        18.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/34ef0.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]/奖励名称与数量 [I158:43;157:74]",
+      "id": "I158:43;157:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        2.0,
+        -73.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/奖励数量 · ×5 [167:51]",
+      "id": "167:51",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        14.0,
+        -68.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "×5",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/奖励数量 · ×25 [167:52]",
+      "id": "167:52",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        198.0,
+        -68.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "×25",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]",
+      "id": "158:61",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        0.0,
+        0.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "LayoutElement"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 底板 [59:111]",
+      "id": "59:111",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        175.0,
+        0.0
+      ],
+      "s": [
+        186.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 底板 [59:111]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 底板 [59:112]",
+      "id": "59:112",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        168.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 底板 [59:112]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_13_13_13_13_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 传奇卡 ×1 [158:50]",
+      "id": "158:50",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        12.0,
+        0.0
+      ],
+      "s": [
+        144.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 传奇卡 ×1 [158:50]/图标与标记 [I158:50;157:71]",
+      "id": "I158:50;157:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        72.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 传奇卡 ×1 [158:50]/图标与标记 [I158:50;157:71]/奖励图标 [I158:50;157:72]",
+      "id": "I158:50;157:72",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -8.0
+      ],
+      "s": [
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/b5043.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 传奇卡 ×1 [158:50]/奖励名称与数量 [I158:50;157:74]",
+      "id": "I158:50;157:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        2.0,
+        -73.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]",
+      "id": "158:55",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        196.0,
+        -9.0
+      ],
+      "s": [
+        144.0,
+        92.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]/图标与标记 [I158:55;157:71]",
+      "id": "I158:55;157:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -1.0
+      ],
+      "s": [
+        144.0,
+        72.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]/图标与标记 [I158:55;157:71]/奖励图标 [I158:55;157:72]",
+      "id": "I158:55;157:72",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -8.0
+      ],
+      "s": [
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/bdd8e.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]/图标与标记 [I158:55;157:71]/领取标记 [I158:55;157:73]",
+      "id": "I158:55;157:73",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        56.0,
+        0.0
+      ],
+      "s": [
+        32.0,
+        24.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_53.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]/图标与标记 [I158:55;157:71]/领取标记 [I158:55;157:73]/锁 [I158:55;157:73;157:64]",
+      "id": "I158:55;157:73;157:64",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        7.0,
+        -1.0
+      ],
+      "s": [
+        18.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/34ef0.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]/奖励名称与数量 [I158:55;157:74]",
+      "id": "I158:55;157:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        2.0,
+        -73.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/奖励数量 · ×1 [167:53]",
+      "id": "167:53",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        14.0,
+        -68.0
+      ],
+      "s": [
+        140.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "×1",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]",
+      "id": "158:68",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        26.0,
+        -47.0
+      ],
+      "s": [
+        335.0,
+        444.9914
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 1 · 已完成·金 [59:101]",
+      "id": "59:101",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        129.0,
+        -24.495697
+      ],
+      "s": [
+        34.6421,
+        34.6421
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 45.0000038,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 1 · 已完成·金 [59:101]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 2 · 已完成·金 [59:104]",
+      "id": "59:104",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        129.0,
+        -123.4957
+      ],
+      "s": [
+        34.6421,
+        34.6421
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 45.0000038,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 2 · 已完成·金 [59:104]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 3 · 已完成·金 [59:107]",
+      "id": "59:107",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        129.0,
+        -222.4957
+      ],
+      "s": [
+        34.6421,
+        34.6421
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 45.0000038,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 3 · 已完成·金 [59:107]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 4 · 未完成·灰 [59:110]",
+      "id": "59:110",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        129.0,
+        -321.495728
+      ],
+      "s": [
+        34.6421,
+        34.6421
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 45.0000038,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 4 · 未完成·灰 [59:110]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 5 · 未完成·灰 [59:113]",
+      "id": "59:113",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        129.0,
+        -420.495728
+      ],
+      "s": [
+        34.6421,
+        34.6421
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 45.0000038,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 5 · 未完成·灰 [59:113]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/进度位置 · 金色背景 [59:116]",
+      "id": "59:116",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -269.0
+      ],
+      "s": [
+        335.0,
+        6.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/gradient_59_116.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/当前进度 · 绿色 [59:114]",
+      "id": "59:114",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        126.0,
+        -254.0
+      ],
+      "s": [
+        56.0,
+        31.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_15.5_15.5_15.5_15.5_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/当前进度 · 绿色 [59:114]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_15.5_15.5_15.5_15.5_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级数字 1 [158:62]",
+      "id": "158:62",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        137.0,
+        -11.0
+      ],
+      "s": [
+        34.0,
+        26.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "1",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级数字 2 [158:63]",
+      "id": "158:63",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        137.0,
+        -110.0
+      ],
+      "s": [
+        34.0,
+        26.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "2",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级数字 3 [158:64]",
+      "id": "158:64",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        137.0,
+        -209.0
+      ],
+      "s": [
+        34.0,
+        26.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "3",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级数字 4 [158:65]",
+      "id": "158:65",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        137.0,
+        -308.0
+      ],
+      "s": [
+        34.0,
+        26.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "4",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级数字 5 [158:66]",
+      "id": "158:66",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        137.0,
+        -407.0
+      ],
+      "s": [
+        34.0,
+        26.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "5",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/当前进度值 [158:67]",
+      "id": "158:67",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        130.0,
+        -260.0
+      ],
+      "s": [
+        48.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "4 / 10",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/一键领取 · 已达成的免费奖励 [158:72]",
+      "id": "158:72",
+      "min": [
+        0.5,
+        0.0
+      ],
+      "max": [
+        0.5,
+        0.0
+      ],
+      "p": [
+        -67.0,
+        54.0
+      ],
+      "s": [
+        112.0,
+        47.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/一键领取 · 已达成的免费奖励 [158:72]/一键领取 · 按钮底板 [59:118]",
+      "id": "59:118",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        112.0,
+        47.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "UIAction"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_12_12_12_12_0_False.png",
+      "raycast": true
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/一键领取 · 已达成的免费奖励 [158:72]/一键领取 · 按钮底板 [59:118]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_12_12_12_12_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/一键领取 · 已达成的免费奖励 [158:72]/一键领取 · 文字 [158:71]",
+      "id": "158:71",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        9.0,
+        -13.0
+      ],
+      "s": [
+        94.0,
+        22.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "一键领取",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]",
+      "id": "158:79",
+      "min": [
+        0.5,
+        1.0
+      ],
+      "max": [
+        0.5,
+        1.0
+      ],
+      "p": [
+        -190.0,
+        -58.0
+      ],
+      "s": [
+        380.0,
+        185.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/Rectangle 6 [59:60]",
+      "id": "59:60",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        -42.0
+      ],
+      "s": [
+        380.0,
+        114.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_24_24_24_24_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/Rectangle 6 [59:60]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_24_24_24_24_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/本级进度 · 金色底槽 [59:61]",
+      "id": "59:61",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        55.0,
+        -103.0
+      ],
+      "s": [
+        129.0,
+        17.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_8.5_8.5_8.5_8.5_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/本级进度 · 金色底槽 [59:61]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_8.5_8.5_8.5_8.5_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/战令旗帜 [59:63]",
+      "id": "59:63",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        204.0,
+        0.0
+      ],
+      "s": [
+        153.0,
+        185.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_61.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/开通战令 · 金色底板 [59:95]",
+      "id": "59:95",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        241.5,
+        -99.0
+      ],
+      "s": [
+        86.0,
+        59.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "UIAction"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_62.asset",
+      "raycast": true
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/战令皇冠 [59:59]",
+      "id": "59:59",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        256.0,
+        -48.0
+      ],
+      "s": [
+        58.0,
+        58.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_36.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/战令进度 · 标题 [158:74]",
+      "id": "158:74",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        13.0,
+        -53.0
+      ],
+      "s": [
+        150.0,
+        24.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "战令进度",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/本级进度 · 绿色填充 [158:76]",
+      "id": "158:76",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        57.0,
+        -105.0
+      ],
+      "s": [
+        48.0,
+        13.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_6_6_6_6_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/本级进度 · 数值 [158:77]",
+      "id": "158:77",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        78.0,
+        -124.0
+      ],
+      "s": [
+        80.0,
+        18.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "4 / 10",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/Rectangle 30 [59:119]",
+      "id": "59:119",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        21.0,
+        -103.4957
+      ],
+      "s": [
+        34.6421,
+        34.6421
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 45.0000038,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/Rectangle 30 [59:119]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_0_0_0_0_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/当前等级 · 数字 [158:75]",
+      "id": "158:75",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        29.0,
+        -90.0
+      ],
+      "s": [
+        32.0,
+        26.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ],
+      "text": "3",
+      "sprite": "",
+      "raycast": false
+    },
+    {
+      "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/开通战令 · 图标入口 [167:57]",
+      "id": "167:57",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        262.5,
+        -102.0
+      ],
+      "s": [
+        44.0,
+        44.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/ab4ba.png",
+      "raycast": false
+    },
+    {
+      "path": "/Header",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Header/顶部切换 · 任务·战令·宝箱 [158:80]",
+      "id": "158:80",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        14.0,
+        -39.0
+      ],
+      "s": [
+        -24.0,
+        44.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/Header/顶部切换 · 任务·战令·宝箱 [158:80]/任务 [70:154]",
+      "id": "70:154",
+      "min": [
+        0.5,
+        1.0
+      ],
+      "max": [
+        0.5,
+        1.0
+      ],
+      "p": [
+        -61.0,
+        0.0
+      ],
+      "s": [
+        123.0,
+        44.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "UIAction"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_22_22_22_22_0_False.png",
+      "raycast": true
+    },
+    {
+      "path": "/Header/顶部切换 · 任务·战令·宝箱 [158:80]/任务 [70:154]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_22_22_22_22_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Header/顶部切换 · 任务·战令·宝箱 [158:80]/任务 [70:156]",
+      "id": "70:156",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        123.0,
+        44.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "UIAction"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_22_22_22_22_0_False.png",
+      "raycast": true
+    },
+    {
+      "path": "/Header/顶部切换 · 任务·战令·宝箱 [158:80]/任务 [70:156]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_22_22_22_22_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Header/顶部切换 · 任务·战令·宝箱 [158:80]/任务 [70:158]",
+      "id": "70:158",
+      "min": [
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        -123.0,
+        0.0
+      ],
+      "s": [
+        123.0,
+        44.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "UIAction"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_22_22_22_22_0_False.png",
+      "raycast": true
+    },
+    {
+      "path": "/Header/顶部切换 · 任务·战令·宝箱 [158:80]/任务 [70:158]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_22_22_22_22_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/Header/顶部切换 · 任务·战令·宝箱 [158:80]/任务图标 [70:155]",
+      "id": "70:155",
+      "min": [
+        0.5,
+        1.0
+      ],
+      "max": [
+        0.5,
+        1.0
+      ],
+      "p": [
+        -21.0,
+        -3.0
+      ],
+      "s": [
+        42.0,
+        38.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_36.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Header/顶部切换 · 任务·战令·宝箱 [158:80]/任务图标 [70:157]",
+      "id": "70:157",
+      "min": [
+        0.0,
+        1.0
+      ],
+      "max": [
+        0.0,
+        1.0
+      ],
+      "p": [
+        40.0,
+        -3.0
+      ],
+      "s": [
+        42.0,
+        38.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_44.asset",
+      "raycast": false
+    },
+    {
+      "path": "/Header/顶部切换 · 任务·战令·宝箱 [158:80]/任务图标 [70:159]",
+      "id": "70:159",
+      "min": [
+        1.0,
+        1.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        -83.0,
+        -3.0
+      ],
+      "s": [
+        42.0,
+        38.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_66.asset",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]",
+      "id": "158:81",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        0.0
+      ],
+      "p": [
+        0.0,
+        69.0
+      ],
+      "s": [
+        0.0,
+        70.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer"
+      ],
+      "text": null,
+      "sprite": "",
+      "raycast": null
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/底边栏背景板 [40:90]",
+      "id": "40:90",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        0.0
+      ],
+      "p": [
+        0.0,
+        69.0
+      ],
+      "s": [
+        0.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/gradient_40_90.png",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/商店底板 [40:91]",
+      "id": "40:91",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        0.0,
+        0.0
+      ],
+      "p": [
+        1.0,
+        69.0
+      ],
+      "s": [
+        68.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_14_14_14_14_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/商店底板 [40:91]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_14_14_14_14_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/商店图标 [40:92]",
+      "id": "40:92",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        0.0,
+        0.0
+      ],
+      "p": [
+        1.0,
+        68.0
+      ],
+      "s": [
+        68.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_5.asset",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/卡组底板 [40:93]",
+      "id": "40:93",
+      "min": [
+        0.25,
+        0.0
+      ],
+      "max": [
+        0.25,
+        0.0
+      ],
+      "p": [
+        -28.5,
+        69.0
+      ],
+      "s": [
+        68.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_14_14_14_14_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/卡组底板 [40:93]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_14_14_14_14_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/卡组图标 [40:94]",
+      "id": "40:94",
+      "min": [
+        0.25,
+        0.0
+      ],
+      "max": [
+        0.25,
+        0.0
+      ],
+      "p": [
+        -28.5,
+        69.0
+      ],
+      "s": [
+        68.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_6.asset",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/部落底板 [40:95]",
+      "id": "40:95",
+      "min": [
+        0.75,
+        0.0
+      ],
+      "max": [
+        0.75,
+        0.0
+      ],
+      "p": [
+        -39.5,
+        69.0
+      ],
+      "s": [
+        68.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "UIAction"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_14_14_14_14_0_False.png",
+      "raycast": true
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/部落底板 [40:95]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_14_14_14_14_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/部落图标 [40:96]",
+      "id": "40:96",
+      "min": [
+        0.75,
+        0.0
+      ],
+      "max": [
+        0.75,
+        0.0
+      ],
+      "p": [
+        -39.5,
+        69.0
+      ],
+      "s": [
+        68.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_7.asset",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/主页底板 [40:97]",
+      "id": "40:97",
+      "min": [
+        0.5,
+        0.0
+      ],
+      "max": [
+        0.5,
+        0.0
+      ],
+      "p": [
+        -58.0,
+        70.0
+      ],
+      "s": [
+        116.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "UIAction"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_14_14_14_14_0_False.png",
+      "raycast": true
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/主页底板 [40:97]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_14_14_14_14_1_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/主页图标 [40:98]",
+      "id": "40:98",
+      "min": [
+        0.5,
+        0.0
+      ],
+      "max": [
+        0.5,
+        0.0
+      ],
+      "p": [
+        -58.0,
+        69.0
+      ],
+      "s": [
+        116.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_17.asset",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/锦标赛底板 [40:99]",
+      "id": "40:99",
+      "min": [
+        1.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        0.0
+      ],
+      "p": [
+        -69.0,
+        69.0
+      ],
+      "s": [
+        68.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_14_14_14_14_0_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/锦标赛底板 [40:99]/Border",
+      "id": null,
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "s": [
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Panel_14_14_14_14_2_False.png",
+      "raycast": false
+    },
+    {
+      "path": "/BottomNavigation/底部导航 [158:81]/锦标赛图标 [40:100]",
+      "id": "40:100",
+      "min": [
+        1.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        0.0
+      ],
+      "p": [
+        -69.0,
+        69.0
+      ],
+      "s": [
+        68.0,
+        68.0
+      ],
+      "pivot": [
+        0.0,
+        1.0
+      ],
+      "rotation": 0.0,
+      "components": [
+        "RectTransform",
+        "FigmaLayer",
+        "CanvasRenderer",
+        "Image"
+      ],
+      "text": null,
+      "sprite": "Assets/ClashRoyaleUI/Art/Generated/Crop_18.asset",
+      "raycast": false
+    }
+  ]
+}

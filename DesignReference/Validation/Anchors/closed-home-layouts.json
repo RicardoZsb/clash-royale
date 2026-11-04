@@ -1,0 +1,3082 @@
+[
+  {
+    "resolution": "402x874",
+    "screen": "BattleHome",
+    "screenWidth": 402,
+    "screenHeight": 874,
+    "rootWidth": 402.0,
+    "rootHeight": 874.0,
+    "rects": [
+      {
+        "path": "",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 874.0,
+        "active": true
+      },
+      {
+        "path": "/Content",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 874.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务信息底板 [27:62]",
+        "x": 98.0,
+        "y": 575.0,
+        "w": 199.0,
+        "h": 146.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务信息底板 [27:62]/Border",
+        "x": 98.0,
+        "y": 575.0,
+        "w": 199.0,
+        "h": 146.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务底板 [71:211]",
+        "x": 139.0,
+        "y": 619.0,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务底板 [71:212]",
+        "x": 139.0,
+        "y": 581.0,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/行动点 [70:188]",
+        "x": 147.0,
+        "y": 582.0,
+        "w": 34.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/16·24 [71:208]",
+        "x": 180.0,
+        "y": 585.0,
+        "w": 78.0,
+        "h": 32.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配底板 [27:58]",
+        "x": 122.0,
+        "y": 692.0,
+        "w": 153.0,
+        "h": 89.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配底板 [27:58]/Border",
+        "x": 122.0,
+        "y": 692.0,
+        "w": 153.0,
+        "h": 89.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度条 [27:61]",
+        "x": 163.0,
+        "y": 766.0,
+        "w": 96.0,
+        "h": 9.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度条 [27:61]/Border",
+        "x": 163.0,
+        "y": 766.0,
+        "w": 96.0,
+        "h": 9.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度图标 [27:60]",
+        "x": 128.0,
+        "y": 741.0,
+        "w": 47.0,
+        "h": 47.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配图标 [27:59]",
+        "x": 160.0,
+        "y": 692.0,
+        "w": 76.0,
+        "h": 74.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱待领取底板 [16:44]",
+        "x": 287.0,
+        "y": 231.0,
+        "w": 110.0,
+        "h": 64.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱待领取底板 [16:44]/Border",
+        "x": 287.0,
+        "y": 231.0,
+        "w": 110.0,
+        "h": 64.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱队列图标 [23:55]",
+        "x": 328.0,
+        "y": 226.0,
+        "w": 74.0,
+        "h": 74.0,
+        "active": true
+      },
+      {
+        "path": "/Content/包厢通知红点 [23:56]",
+        "x": 302.0,
+        "y": 252.0,
+        "w": 22.0,
+        "h": 22.0,
+        "active": true
+      },
+      {
+        "path": "/Content/活动底板 [7:25]",
+        "x": 9.0,
+        "y": 232.0,
+        "w": 58.0,
+        "h": 58.0,
+        "active": true
+      },
+      {
+        "path": "/Content/活动图标 [16:43]",
+        "x": 0.0,
+        "y": 223.0,
+        "w": 76.0,
+        "h": 76.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务 [7:19]",
+        "x": 237.0,
+        "y": 157.0,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务 [7:19]/Border",
+        "x": 237.0,
+        "y": 157.0,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务进度 [14:37]",
+        "x": 287.0,
+        "y": 195.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务进度 [14:37]/Border",
+        "x": 287.0,
+        "y": 195.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务图标 [14:33]",
+        "x": 246.0,
+        "y": 157.0,
+        "w": 62.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令 [7:23]",
+        "x": 237.0,
+        "y": 86.0,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令 [7:23]/Border",
+        "x": 237.0,
+        "y": 86.0,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令进度 [14:36]",
+        "x": 287.0,
+        "y": 128.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令进度 [14:36]/Border",
+        "x": 287.0,
+        "y": 128.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令图标 [14:32]",
+        "x": 246.0,
+        "y": 86.0,
+        "w": 62.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场进度条 [27:69]",
+        "x": 104.0,
+        "y": 545.0,
+        "w": 194.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场进度条 [27:69]/Border",
+        "x": 104.0,
+        "y": 545.0,
+        "w": 194.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场 [26:57]",
+        "x": 65.0,
+        "y": 284.0,
+        "w": 271.0,
+        "h": 311.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯竞技场进度图标 [27:68]",
+        "x": 93.0,
+        "y": 540.0,
+        "w": 25.0,
+        "h": 29.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示底板 [27:63]",
+        "x": 9.0,
+        "y": 193.0,
+        "w": 198.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示底板 [27:63]/Border",
+        "x": 9.0,
+        "y": 193.0,
+        "w": 198.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示板 [7:17]",
+        "x": 0.0,
+        "y": 65.0,
+        "w": 220.0,
+        "h": 133.0,
+        "active": true
+      },
+      {
+        "path": "/Content/Mafty [27:64]",
+        "x": 33.0,
+        "y": 195.0,
+        "w": 42.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯框 [27:66]",
+        "x": 129.0,
+        "y": 197.0,
+        "w": 70.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯框 [27:66]/Border",
+        "x": 129.0,
+        "y": 197.0,
+        "w": 70.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯图标 [27:65]",
+        "x": 122.0,
+        "y": 197.0,
+        "w": 18.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/6245 [27:67]",
+        "x": 144.0,
+        "y": 195.0,
+        "w": 39.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/×7 [71:209]",
+        "x": 201.0,
+        "y": 623.0,
+        "w": 64.0,
+        "h": 26.0,
+        "active": true
+      },
+      {
+        "path": "/Content/接取任务图标 [71:210]",
+        "x": 150.0,
+        "y": 623.0,
+        "w": 30.0,
+        "h": 27.0,
+        "active": true
+      },
+      {
+        "path": "/Border",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 874.0,
+        "active": true
+      },
+      {
+        "path": "/Header",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 874.0,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单底板 [6:7]",
+        "x": 351.0,
+        "y": 18.0,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单底板 [6:7]/Border",
+        "x": 351.0,
+        "y": 18.0,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单图标 [16:49]",
+        "x": 349.0,
+        "y": 16.0,
+        "w": 44.0,
+        "h": 45.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知底板 [7:14]",
+        "x": 302.0,
+        "y": 18.0,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知底板 [7:14]/Border",
+        "x": 302.0,
+        "y": 18.0,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知图标 [16:48]",
+        "x": 294.9909,
+        "y": 19.567627,
+        "w": 45.2891,
+        "h": 43.6954,
+        "active": true
+      },
+      {
+        "path": "/Header/金币框 [6:8]",
+        "x": 35.0,
+        "y": 26.0,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币框 [6:8]/Border",
+        "x": 35.0,
+        "y": 26.0,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币 [6:3]",
+        "x": 3.0,
+        "y": 14.0,
+        "w": 48.0,
+        "h": 48.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石框 [6:9]",
+        "x": 180.0,
+        "y": 26.0,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石框 [6:9]/Border",
+        "x": 180.0,
+        "y": 26.0,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石 [6:4]",
+        "x": 149.0,
+        "y": 16.0,
+        "w": 41.0,
+        "h": 43.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币栏加号 [7:15]",
+        "x": 120.0,
+        "y": 26.0,
+        "w": 24.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石栏加号 [7:16]",
+        "x": 265.0,
+        "y": 26.0,
+        "w": 24.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/16545 [16:45]",
+        "x": 58.0,
+        "y": 28.0,
+        "w": 46.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Header/16545 [16:47]",
+        "x": 201.0,
+        "y": 28.0,
+        "w": 46.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 874.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/底边栏背景板 [1:5]",
+        "x": 0.0,
+        "y": 806.0,
+        "w": 402.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店底板 [1:6]",
+        "x": 1.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店底板 [1:6]/Border",
+        "x": 1.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店图标 [16:42]",
+        "x": 1.0,
+        "y": 807.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组底板 [1:7]",
+        "x": 72.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组底板 [1:7]/Border",
+        "x": 72.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组图标 [16:41]",
+        "x": 72.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落底板 [1:8]",
+        "x": 262.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落底板 [1:8]/Border",
+        "x": 262.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落图标 [16:39]",
+        "x": 262.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页底板 [1:14]",
+        "x": 143.0,
+        "y": 805.0,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页底板 [1:14]/Border",
+        "x": 143.0,
+        "y": 805.0,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页图标 [16:38]",
+        "x": 143.0,
+        "y": 806.0,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛底板 [1:13]",
+        "x": 333.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛底板 [1:13]/Border",
+        "x": 333.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛图标 [16:40]",
+        "x": 333.0,
+        "y": 806.0,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 874.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/任务底板 [148:3]",
+        "x": 139.0,
+        "y": 657.0,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/×4 [148:4]",
+        "x": 188.0,
+        "y": 661.0,
+        "w": 43.0,
+        "h": 26.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/激活任务图标 [148:5]",
+        "x": 150.0,
+        "y": 661.0,
+        "w": 30.0,
+        "h": 27.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/ExpandArrow",
+        "x": 234.0,
+        "y": 664.0,
+        "w": 14.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 874.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OutsideClickToClose",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 874.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel",
+        "x": 92.0,
+        "y": 695.0,
+        "w": 164.0,
+        "h": 106.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Border",
+        "x": 92.0,
+        "y": 695.0,
+        "w": 164.0,
+        "h": 106.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options",
+        "x": 97.0,
+        "y": 700.0,
+        "w": 154.0,
+        "h": 96.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelAscending",
+        "x": 97.0,
+        "y": 700.0,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelAscending/Label",
+        "x": 109.0,
+        "y": 700.0,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelDescending",
+        "x": 97.0,
+        "y": 732.0,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelDescending/Label",
+        "x": 109.0,
+        "y": 732.0,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/CompletionDescending",
+        "x": 97.0,
+        "y": 764.0,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/CompletionDescending/Label",
+        "x": 109.0,
+        "y": 764.0,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      }
+    ]
+  },
+  {
+    "resolution": "1080x1920",
+    "screen": "BattleHome",
+    "screenWidth": 1080,
+    "screenHeight": 1920,
+    "rootWidth": 491.624969,
+    "rootHeight": 873.999939,
+    "rects": [
+      {
+        "path": "",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 491.624969,
+        "h": 873.999939,
+        "active": true
+      },
+      {
+        "path": "/Content",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 491.624969,
+        "h": 873.999939,
+        "active": true
+      },
+      {
+        "path": "/Content/任务信息底板 [27:62]",
+        "x": 142.8125,
+        "y": 574.999939,
+        "w": 199.0,
+        "h": 146.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务信息底板 [27:62]/Border",
+        "x": 142.8125,
+        "y": 574.999939,
+        "w": 199.0,
+        "h": 146.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务底板 [71:211]",
+        "x": 183.812485,
+        "y": 618.999939,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务底板 [71:212]",
+        "x": 183.812485,
+        "y": 580.999939,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/行动点 [70:188]",
+        "x": 191.812485,
+        "y": 581.999939,
+        "w": 34.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/16·24 [71:208]",
+        "x": 224.812485,
+        "y": 584.999939,
+        "w": 78.0,
+        "h": 32.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配底板 [27:58]",
+        "x": 166.812469,
+        "y": 691.999939,
+        "w": 153.0,
+        "h": 89.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配底板 [27:58]/Border",
+        "x": 166.812469,
+        "y": 691.999939,
+        "w": 153.0,
+        "h": 89.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度条 [27:61]",
+        "x": 207.812485,
+        "y": 765.999939,
+        "w": 96.0,
+        "h": 9.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度条 [27:61]/Border",
+        "x": 207.812485,
+        "y": 765.999939,
+        "w": 96.0,
+        "h": 9.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度图标 [27:60]",
+        "x": 172.812485,
+        "y": 740.999939,
+        "w": 47.0,
+        "h": 47.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配图标 [27:59]",
+        "x": 204.812485,
+        "y": 691.999939,
+        "w": 76.0,
+        "h": 74.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱待领取底板 [16:44]",
+        "x": 376.624969,
+        "y": 230.999985,
+        "w": 110.0,
+        "h": 64.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱待领取底板 [16:44]/Border",
+        "x": 376.624969,
+        "y": 230.999985,
+        "w": 110.0,
+        "h": 64.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱队列图标 [23:55]",
+        "x": 417.624939,
+        "y": 226.000031,
+        "w": 74.0,
+        "h": 74.0,
+        "active": true
+      },
+      {
+        "path": "/Content/包厢通知红点 [23:56]",
+        "x": 391.624939,
+        "y": 252.000031,
+        "w": 22.0,
+        "h": 22.0,
+        "active": true
+      },
+      {
+        "path": "/Content/活动底板 [7:25]",
+        "x": 9.0,
+        "y": 231.999985,
+        "w": 58.0,
+        "h": 58.0,
+        "active": true
+      },
+      {
+        "path": "/Content/活动图标 [16:43]",
+        "x": 0.0,
+        "y": 223.0,
+        "w": 76.0,
+        "h": 76.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务 [7:19]",
+        "x": 326.624969,
+        "y": 157.000031,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务 [7:19]/Border",
+        "x": 326.624969,
+        "y": 157.000031,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务进度 [14:37]",
+        "x": 376.624969,
+        "y": 194.999969,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务进度 [14:37]/Border",
+        "x": 376.624969,
+        "y": 194.999969,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务图标 [14:33]",
+        "x": 335.624969,
+        "y": 157.000031,
+        "w": 62.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令 [7:23]",
+        "x": 326.624969,
+        "y": 86.00003,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令 [7:23]/Border",
+        "x": 326.624969,
+        "y": 86.00003,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令进度 [14:36]",
+        "x": 376.624969,
+        "y": 128.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令进度 [14:36]/Border",
+        "x": 376.624969,
+        "y": 128.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令图标 [14:32]",
+        "x": 335.624969,
+        "y": 86.00003,
+        "w": 62.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场进度条 [27:69]",
+        "x": 148.8125,
+        "y": 545.0,
+        "w": 194.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场进度条 [27:69]/Border",
+        "x": 148.8125,
+        "y": 545.0,
+        "w": 194.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场 [26:57]",
+        "x": 109.812485,
+        "y": 283.999969,
+        "w": 271.0,
+        "h": 311.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯竞技场进度图标 [27:68]",
+        "x": 137.812485,
+        "y": 540.0,
+        "w": 25.0,
+        "h": 29.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示底板 [27:63]",
+        "x": 9.0,
+        "y": 192.999985,
+        "w": 198.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示底板 [27:63]/Border",
+        "x": 9.0,
+        "y": 192.999985,
+        "w": 198.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示板 [7:17]",
+        "x": 0.0,
+        "y": 65.0,
+        "w": 220.0,
+        "h": 133.0,
+        "active": true
+      },
+      {
+        "path": "/Content/Mafty [27:64]",
+        "x": 33.0,
+        "y": 194.999969,
+        "w": 42.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯框 [27:66]",
+        "x": 129.0,
+        "y": 197.0,
+        "w": 70.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯框 [27:66]/Border",
+        "x": 129.0,
+        "y": 197.0,
+        "w": 70.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯图标 [27:65]",
+        "x": 122.000008,
+        "y": 197.0,
+        "w": 18.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/6245 [27:67]",
+        "x": 144.0,
+        "y": 194.999969,
+        "w": 39.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/×7 [71:209]",
+        "x": 245.812485,
+        "y": 622.999939,
+        "w": 64.0,
+        "h": 26.0,
+        "active": true
+      },
+      {
+        "path": "/Content/接取任务图标 [71:210]",
+        "x": 194.812485,
+        "y": 622.999939,
+        "w": 30.0,
+        "h": 27.0,
+        "active": true
+      },
+      {
+        "path": "/Border",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 491.624969,
+        "h": 873.999939,
+        "active": true
+      },
+      {
+        "path": "/Header",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 491.624969,
+        "h": 873.999939,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单底板 [6:7]",
+        "x": 440.624969,
+        "y": 18.0,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单底板 [6:7]/Border",
+        "x": 440.624969,
+        "y": 18.0,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单图标 [16:49]",
+        "x": 438.624939,
+        "y": 16.00003,
+        "w": 44.0,
+        "h": 45.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知底板 [7:14]",
+        "x": 391.624939,
+        "y": 18.0,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知底板 [7:14]/Border",
+        "x": 391.624939,
+        "y": 18.0,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知图标 [16:48]",
+        "x": 384.615875,
+        "y": 19.567627,
+        "w": 45.2891,
+        "h": 43.6954,
+        "active": true
+      },
+      {
+        "path": "/Header/金币框 [6:8]",
+        "x": 35.0,
+        "y": 26.0,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币框 [6:8]/Border",
+        "x": 35.0,
+        "y": 26.0,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币 [6:3]",
+        "x": 3.0,
+        "y": 14.0,
+        "w": 48.0,
+        "h": 48.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石框 [6:9]",
+        "x": 224.812485,
+        "y": 26.0,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石框 [6:9]/Border",
+        "x": 224.812485,
+        "y": 26.0,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石 [6:4]",
+        "x": 193.8125,
+        "y": 16.00003,
+        "w": 41.0,
+        "h": 43.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币栏加号 [7:15]",
+        "x": 120.0,
+        "y": 26.0,
+        "w": 24.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石栏加号 [7:16]",
+        "x": 309.812469,
+        "y": 26.0,
+        "w": 24.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/16545 [16:45]",
+        "x": 58.0000153,
+        "y": 27.99997,
+        "w": 46.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Header/16545 [16:47]",
+        "x": 245.812485,
+        "y": 27.99997,
+        "w": 46.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 491.624969,
+        "h": 873.999939,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/底边栏背景板 [1:5]",
+        "x": 0.0,
+        "y": 805.9999,
+        "w": 491.624969,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店底板 [1:6]",
+        "x": 1.00001526,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店底板 [1:6]/Border",
+        "x": 1.00001526,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店图标 [16:42]",
+        "x": 1.00001526,
+        "y": 806.999939,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组底板 [1:7]",
+        "x": 94.4062347,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组底板 [1:7]/Border",
+        "x": 94.4062347,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组图标 [16:41]",
+        "x": 94.4062347,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落底板 [1:8]",
+        "x": 329.218719,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落底板 [1:8]/Border",
+        "x": 329.218719,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落图标 [16:39]",
+        "x": 329.218719,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页底板 [1:14]",
+        "x": 187.812485,
+        "y": 804.999939,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页底板 [1:14]/Border",
+        "x": 187.812485,
+        "y": 804.999939,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页图标 [16:38]",
+        "x": 187.812485,
+        "y": 805.9999,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛底板 [1:13]",
+        "x": 422.624939,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛底板 [1:13]/Border",
+        "x": 422.624939,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛图标 [16:40]",
+        "x": 422.624939,
+        "y": 805.9999,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 491.624969,
+        "h": 873.999939,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/任务底板 [148:3]",
+        "x": 183.812485,
+        "y": 656.999939,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/×4 [148:4]",
+        "x": 232.812485,
+        "y": 660.999939,
+        "w": 43.0,
+        "h": 26.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/激活任务图标 [148:5]",
+        "x": 194.812485,
+        "y": 660.999939,
+        "w": 30.0,
+        "h": 27.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/ExpandArrow",
+        "x": 278.8125,
+        "y": 663.999939,
+        "w": 14.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 491.624969,
+        "h": 873.999939,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OutsideClickToClose",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 491.624969,
+        "h": 873.999939,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel",
+        "x": 136.8125,
+        "y": 694.999939,
+        "w": 164.0,
+        "h": 106.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Border",
+        "x": 136.8125,
+        "y": 694.999939,
+        "w": 164.0,
+        "h": 106.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options",
+        "x": 141.812485,
+        "y": 699.999939,
+        "w": 154.0,
+        "h": 96.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelAscending",
+        "x": 141.812485,
+        "y": 699.999939,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelAscending/Label",
+        "x": 153.812485,
+        "y": 699.999939,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelDescending",
+        "x": 141.812485,
+        "y": 731.999939,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelDescending/Label",
+        "x": 153.812485,
+        "y": 731.999939,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/CompletionDescending",
+        "x": 141.812485,
+        "y": 763.999939,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/CompletionDescending/Label",
+        "x": 153.812485,
+        "y": 763.999939,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      }
+    ]
+  },
+  {
+    "resolution": "1080x2400",
+    "screen": "BattleHome",
+    "screenWidth": 1080,
+    "screenHeight": 2400,
+    "rootWidth": 402.0,
+    "rootHeight": 893.3334,
+    "rects": [
+      {
+        "path": "",
+        "x": -1.52587891E-05,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 893.3334,
+        "active": true
+      },
+      {
+        "path": "/Content",
+        "x": -1.52587891E-05,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 893.3334,
+        "active": true
+      },
+      {
+        "path": "/Content/任务信息底板 [27:62]",
+        "x": 98.0,
+        "y": 594.3334,
+        "w": 199.0,
+        "h": 146.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务信息底板 [27:62]/Border",
+        "x": 98.0,
+        "y": 594.3334,
+        "w": 199.0,
+        "h": 146.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务底板 [71:211]",
+        "x": 139.0,
+        "y": 638.3334,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务底板 [71:212]",
+        "x": 139.0,
+        "y": 600.3334,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/行动点 [70:188]",
+        "x": 147.0,
+        "y": 601.3334,
+        "w": 34.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/16·24 [71:208]",
+        "x": 180.0,
+        "y": 604.3334,
+        "w": 78.0,
+        "h": 32.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配底板 [27:58]",
+        "x": 122.0,
+        "y": 711.3334,
+        "w": 153.0,
+        "h": 89.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配底板 [27:58]/Border",
+        "x": 122.0,
+        "y": 711.3334,
+        "w": 153.0,
+        "h": 89.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度条 [27:61]",
+        "x": 163.0,
+        "y": 785.3334,
+        "w": 96.0,
+        "h": 9.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度条 [27:61]/Border",
+        "x": 163.0,
+        "y": 785.3334,
+        "w": 96.0,
+        "h": 9.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度图标 [27:60]",
+        "x": 128.0,
+        "y": 760.3334,
+        "w": 47.0,
+        "h": 47.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配图标 [27:59]",
+        "x": 160.0,
+        "y": 711.3334,
+        "w": 76.0,
+        "h": 74.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱待领取底板 [16:44]",
+        "x": 287.0,
+        "y": 230.999969,
+        "w": 110.0,
+        "h": 64.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱待领取底板 [16:44]/Border",
+        "x": 287.0,
+        "y": 230.999969,
+        "w": 110.0,
+        "h": 64.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱队列图标 [23:55]",
+        "x": 328.0,
+        "y": 225.999969,
+        "w": 74.0,
+        "h": 74.0,
+        "active": true
+      },
+      {
+        "path": "/Content/包厢通知红点 [23:56]",
+        "x": 302.0,
+        "y": 252.0,
+        "w": 22.0,
+        "h": 22.0,
+        "active": true
+      },
+      {
+        "path": "/Content/活动底板 [7:25]",
+        "x": 9.0,
+        "y": 232.0,
+        "w": 58.0,
+        "h": 58.0,
+        "active": true
+      },
+      {
+        "path": "/Content/活动图标 [16:43]",
+        "x": -1.52587891E-05,
+        "y": 223.000015,
+        "w": 76.0,
+        "h": 76.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务 [7:19]",
+        "x": 237.0,
+        "y": 157.0,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务 [7:19]/Border",
+        "x": 237.0,
+        "y": 157.0,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务进度 [14:37]",
+        "x": 287.0,
+        "y": 195.000015,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务进度 [14:37]/Border",
+        "x": 287.0,
+        "y": 195.000015,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务图标 [14:33]",
+        "x": 246.0,
+        "y": 157.0,
+        "w": 62.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令 [7:23]",
+        "x": 237.0,
+        "y": 85.99997,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令 [7:23]/Border",
+        "x": 237.0,
+        "y": 85.99997,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令进度 [14:36]",
+        "x": 287.0,
+        "y": 128.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令进度 [14:36]/Border",
+        "x": 287.0,
+        "y": 128.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令图标 [14:32]",
+        "x": 246.0,
+        "y": 85.99997,
+        "w": 62.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场进度条 [27:69]",
+        "x": 103.999992,
+        "y": 554.6667,
+        "w": 194.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场进度条 [27:69]/Border",
+        "x": 103.999992,
+        "y": 554.6667,
+        "w": 194.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场 [26:57]",
+        "x": 65.0,
+        "y": 293.6667,
+        "w": 271.0,
+        "h": 311.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯竞技场进度图标 [27:68]",
+        "x": 93.0,
+        "y": 549.6667,
+        "w": 25.0,
+        "h": 29.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示底板 [27:63]",
+        "x": 9.0,
+        "y": 193.0,
+        "w": 198.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示底板 [27:63]/Border",
+        "x": 9.0,
+        "y": 193.0,
+        "w": 198.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示板 [7:17]",
+        "x": -1.52587891E-05,
+        "y": 65.00003,
+        "w": 220.0,
+        "h": 133.0,
+        "active": true
+      },
+      {
+        "path": "/Content/Mafty [27:64]",
+        "x": 33.0,
+        "y": 195.000015,
+        "w": 42.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯框 [27:66]",
+        "x": 129.0,
+        "y": 196.999985,
+        "w": 70.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯框 [27:66]/Border",
+        "x": 129.0,
+        "y": 196.999985,
+        "w": 70.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯图标 [27:65]",
+        "x": 122.0,
+        "y": 196.999985,
+        "w": 18.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/6245 [27:67]",
+        "x": 144.0,
+        "y": 195.000015,
+        "w": 39.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/×7 [71:209]",
+        "x": 201.0,
+        "y": 642.3334,
+        "w": 64.0,
+        "h": 26.0,
+        "active": true
+      },
+      {
+        "path": "/Content/接取任务图标 [71:210]",
+        "x": 150.0,
+        "y": 642.3334,
+        "w": 30.0,
+        "h": 27.0,
+        "active": true
+      },
+      {
+        "path": "/Border",
+        "x": -1.52587891E-05,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 893.3334,
+        "active": true
+      },
+      {
+        "path": "/Header",
+        "x": -1.52587891E-05,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 893.3334,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单底板 [6:7]",
+        "x": 351.0,
+        "y": 17.99997,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单底板 [6:7]/Border",
+        "x": 351.0,
+        "y": 17.99997,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单图标 [16:49]",
+        "x": 349.0,
+        "y": 16.0,
+        "w": 44.0,
+        "h": 45.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知底板 [7:14]",
+        "x": 302.0,
+        "y": 17.99997,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知底板 [7:14]/Border",
+        "x": 302.0,
+        "y": 17.99997,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知图标 [16:48]",
+        "x": 294.9909,
+        "y": 19.5676575,
+        "w": 45.2891,
+        "h": 43.6954,
+        "active": true
+      },
+      {
+        "path": "/Header/金币框 [6:8]",
+        "x": 35.0,
+        "y": 25.999939,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币框 [6:8]/Border",
+        "x": 35.0,
+        "y": 25.999939,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币 [6:3]",
+        "x": 2.99998474,
+        "y": 13.999939,
+        "w": 48.0,
+        "h": 48.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石框 [6:9]",
+        "x": 180.0,
+        "y": 25.999939,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石框 [6:9]/Border",
+        "x": 180.0,
+        "y": 25.999939,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石 [6:4]",
+        "x": 149.0,
+        "y": 16.0,
+        "w": 41.0,
+        "h": 43.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币栏加号 [7:15]",
+        "x": 119.999992,
+        "y": 25.999939,
+        "w": 24.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石栏加号 [7:16]",
+        "x": 265.0,
+        "y": 25.999939,
+        "w": 24.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/16545 [16:45]",
+        "x": 58.0,
+        "y": 28.0,
+        "w": 46.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Header/16545 [16:47]",
+        "x": 201.0,
+        "y": 28.0,
+        "w": 46.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation",
+        "x": -1.52587891E-05,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 893.3334,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/底边栏背景板 [1:5]",
+        "x": -1.52587891E-05,
+        "y": 825.3334,
+        "w": 402.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店底板 [1:6]",
+        "x": 1.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店底板 [1:6]/Border",
+        "x": 1.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店图标 [16:42]",
+        "x": 1.0,
+        "y": 826.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组底板 [1:7]",
+        "x": 72.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组底板 [1:7]/Border",
+        "x": 72.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组图标 [16:41]",
+        "x": 72.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落底板 [1:8]",
+        "x": 262.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落底板 [1:8]/Border",
+        "x": 262.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落图标 [16:39]",
+        "x": 262.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页底板 [1:14]",
+        "x": 143.0,
+        "y": 824.3334,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页底板 [1:14]/Border",
+        "x": 143.0,
+        "y": 824.3334,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页图标 [16:38]",
+        "x": 143.0,
+        "y": 825.3334,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛底板 [1:13]",
+        "x": 333.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛底板 [1:13]/Border",
+        "x": 333.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛图标 [16:40]",
+        "x": 333.0,
+        "y": 825.3334,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown",
+        "x": -1.52587891E-05,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 893.3334,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/任务底板 [148:3]",
+        "x": 139.0,
+        "y": 676.3334,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/×4 [148:4]",
+        "x": 188.0,
+        "y": 680.3334,
+        "w": 43.0,
+        "h": 26.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/激活任务图标 [148:5]",
+        "x": 150.0,
+        "y": 680.3334,
+        "w": 30.0,
+        "h": 27.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/ExpandArrow",
+        "x": 234.000015,
+        "y": 683.3334,
+        "w": 14.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup",
+        "x": -1.52587891E-05,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 893.3334,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OutsideClickToClose",
+        "x": -1.52587891E-05,
+        "y": 0.0,
+        "w": 402.0,
+        "h": 893.3334,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel",
+        "x": 91.99999,
+        "y": 714.3334,
+        "w": 164.0,
+        "h": 106.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Border",
+        "x": 91.99999,
+        "y": 714.3334,
+        "w": 164.0,
+        "h": 106.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options",
+        "x": 96.99999,
+        "y": 719.3334,
+        "w": 154.0,
+        "h": 96.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelAscending",
+        "x": 96.99999,
+        "y": 719.3334,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelAscending/Label",
+        "x": 108.999992,
+        "y": 719.3334,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelDescending",
+        "x": 96.99999,
+        "y": 751.3334,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelDescending/Label",
+        "x": 108.999992,
+        "y": 751.3334,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/CompletionDescending",
+        "x": 96.99999,
+        "y": 783.3334,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/CompletionDescending/Label",
+        "x": 108.999992,
+        "y": 783.3334,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      }
+    ]
+  },
+  {
+    "resolution": "1080x2640",
+    "screen": "BattleHome",
+    "screenWidth": 395,
+    "screenHeight": 896,
+    "rootWidth": 402.0,
+    "rootHeight": 982.6667,
+    "rects": [
+      {
+        "path": "",
+        "x": -1.52587891E-05,
+        "y": -3.05175781E-05,
+        "w": 402.0,
+        "h": 982.6667,
+        "active": true
+      },
+      {
+        "path": "/Content",
+        "x": -1.52587891E-05,
+        "y": -3.05175781E-05,
+        "w": 402.0,
+        "h": 982.6667,
+        "active": true
+      },
+      {
+        "path": "/Content/任务信息底板 [27:62]",
+        "x": 98.0,
+        "y": 683.6667,
+        "w": 199.0,
+        "h": 146.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务信息底板 [27:62]/Border",
+        "x": 98.0,
+        "y": 683.6667,
+        "w": 199.0,
+        "h": 146.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务底板 [71:211]",
+        "x": 139.0,
+        "y": 727.6667,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务底板 [71:212]",
+        "x": 139.0,
+        "y": 689.6667,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/行动点 [70:188]",
+        "x": 147.0,
+        "y": 690.6667,
+        "w": 34.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/Content/16·24 [71:208]",
+        "x": 180.0,
+        "y": 693.6667,
+        "w": 78.0,
+        "h": 32.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配底板 [27:58]",
+        "x": 122.0,
+        "y": 800.666748,
+        "w": 153.0,
+        "h": 89.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配底板 [27:58]/Border",
+        "x": 122.0,
+        "y": 800.666748,
+        "w": 153.0,
+        "h": 89.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度条 [27:61]",
+        "x": 163.0,
+        "y": 874.6667,
+        "w": 96.0,
+        "h": 9.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度条 [27:61]/Border",
+        "x": 163.0,
+        "y": 874.6667,
+        "w": 96.0,
+        "h": 9.0,
+        "active": true
+      },
+      {
+        "path": "/Content/皇冠进度图标 [27:60]",
+        "x": 128.0,
+        "y": 849.666748,
+        "w": 47.0,
+        "h": 47.0,
+        "active": true
+      },
+      {
+        "path": "/Content/匹配图标 [27:59]",
+        "x": 160.0,
+        "y": 800.666748,
+        "w": 76.0,
+        "h": 74.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱待领取底板 [16:44]",
+        "x": 287.0,
+        "y": 230.999969,
+        "w": 110.0,
+        "h": 64.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱待领取底板 [16:44]/Border",
+        "x": 287.0,
+        "y": 230.999969,
+        "w": 110.0,
+        "h": 64.0,
+        "active": true
+      },
+      {
+        "path": "/Content/宝箱队列图标 [23:55]",
+        "x": 328.0,
+        "y": 226.0,
+        "w": 74.0,
+        "h": 74.0,
+        "active": true
+      },
+      {
+        "path": "/Content/包厢通知红点 [23:56]",
+        "x": 302.0,
+        "y": 251.999985,
+        "w": 22.0,
+        "h": 22.0,
+        "active": true
+      },
+      {
+        "path": "/Content/活动底板 [7:25]",
+        "x": 9.0,
+        "y": 232.0,
+        "w": 58.0,
+        "h": 58.0,
+        "active": true
+      },
+      {
+        "path": "/Content/活动图标 [16:43]",
+        "x": -1.52587891E-05,
+        "y": 223.0,
+        "w": 76.0,
+        "h": 76.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务 [7:19]",
+        "x": 237.0,
+        "y": 156.999969,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务 [7:19]/Border",
+        "x": 237.0,
+        "y": 156.999969,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务进度 [14:37]",
+        "x": 287.0,
+        "y": 195.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务进度 [14:37]/Border",
+        "x": 287.0,
+        "y": 195.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/任务图标 [14:33]",
+        "x": 246.0,
+        "y": 156.999969,
+        "w": 62.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令 [7:23]",
+        "x": 237.0,
+        "y": 86.00003,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令 [7:23]/Border",
+        "x": 237.0,
+        "y": 86.00003,
+        "w": 158.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令进度 [14:36]",
+        "x": 287.0,
+        "y": 128.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令进度 [14:36]/Border",
+        "x": 287.0,
+        "y": 128.0,
+        "w": 91.0,
+        "h": 10.0,
+        "active": true
+      },
+      {
+        "path": "/Content/战令图标 [14:32]",
+        "x": 246.0,
+        "y": 86.00003,
+        "w": 62.0,
+        "h": 62.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场进度条 [27:69]",
+        "x": 103.999992,
+        "y": 599.3334,
+        "w": 194.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场进度条 [27:69]/Border",
+        "x": 103.999992,
+        "y": 599.3334,
+        "w": 194.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/竞技场 [26:57]",
+        "x": 65.0,
+        "y": 338.3333,
+        "w": 271.0,
+        "h": 311.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯竞技场进度图标 [27:68]",
+        "x": 93.0,
+        "y": 594.3334,
+        "w": 25.0,
+        "h": 29.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示底板 [27:63]",
+        "x": 9.0,
+        "y": 192.999939,
+        "w": 198.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示底板 [27:63]/Border",
+        "x": 9.0,
+        "y": 192.999939,
+        "w": 198.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Content/玩家展示板 [7:17]",
+        "x": -1.52587891E-05,
+        "y": 65.00003,
+        "w": 220.0,
+        "h": 133.0,
+        "active": true
+      },
+      {
+        "path": "/Content/Mafty [27:64]",
+        "x": 33.0,
+        "y": 195.0,
+        "w": 42.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯框 [27:66]",
+        "x": 129.0,
+        "y": 196.999969,
+        "w": 70.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯框 [27:66]/Border",
+        "x": 129.0,
+        "y": 196.999969,
+        "w": 70.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/奖杯图标 [27:65]",
+        "x": 122.0,
+        "y": 196.999969,
+        "w": 18.0,
+        "h": 16.0,
+        "active": true
+      },
+      {
+        "path": "/Content/6245 [27:67]",
+        "x": 144.0,
+        "y": 195.0,
+        "w": 39.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Content/×7 [71:209]",
+        "x": 201.0,
+        "y": 731.6667,
+        "w": 64.0,
+        "h": 26.0,
+        "active": true
+      },
+      {
+        "path": "/Content/接取任务图标 [71:210]",
+        "x": 150.0,
+        "y": 731.6667,
+        "w": 30.0,
+        "h": 27.0,
+        "active": true
+      },
+      {
+        "path": "/Border",
+        "x": -1.52587891E-05,
+        "y": -3.05175781E-05,
+        "w": 402.0,
+        "h": 982.6667,
+        "active": true
+      },
+      {
+        "path": "/Header",
+        "x": -1.52587891E-05,
+        "y": -3.05175781E-05,
+        "w": 402.0,
+        "h": 982.6667,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单底板 [6:7]",
+        "x": 351.0,
+        "y": 18.000061,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单底板 [6:7]/Border",
+        "x": 351.0,
+        "y": 18.000061,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/菜单图标 [16:49]",
+        "x": 349.0,
+        "y": 16.0,
+        "w": 44.0,
+        "h": 45.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知底板 [7:14]",
+        "x": 302.0,
+        "y": 18.000061,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知底板 [7:14]/Border",
+        "x": 302.0,
+        "y": 18.000061,
+        "w": 39.0,
+        "h": 39.0,
+        "active": true
+      },
+      {
+        "path": "/Header/通知图标 [16:48]",
+        "x": 294.9909,
+        "y": 19.567627,
+        "w": 45.2891,
+        "h": 43.6954,
+        "active": true
+      },
+      {
+        "path": "/Header/金币框 [6:8]",
+        "x": 35.0,
+        "y": 25.9999084,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币框 [6:8]/Border",
+        "x": 35.0,
+        "y": 25.9999084,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币 [6:3]",
+        "x": 2.99998474,
+        "y": 13.999939,
+        "w": 48.0,
+        "h": 48.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石框 [6:9]",
+        "x": 180.0,
+        "y": 25.9999084,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石框 [6:9]/Border",
+        "x": 180.0,
+        "y": 25.9999084,
+        "w": 109.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石 [6:4]",
+        "x": 149.0,
+        "y": 16.0,
+        "w": 41.0,
+        "h": 43.0,
+        "active": true
+      },
+      {
+        "path": "/Header/金币栏加号 [7:15]",
+        "x": 119.999992,
+        "y": 25.9999084,
+        "w": 24.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/钻石栏加号 [7:16]",
+        "x": 265.0,
+        "y": 25.9999084,
+        "w": 24.0,
+        "h": 24.0,
+        "active": true
+      },
+      {
+        "path": "/Header/16545 [16:45]",
+        "x": 58.0,
+        "y": 27.99997,
+        "w": 46.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/Header/16545 [16:47]",
+        "x": 201.0,
+        "y": 27.99997,
+        "w": 46.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation",
+        "x": -1.52587891E-05,
+        "y": -3.05175781E-05,
+        "w": 402.0,
+        "h": 982.6667,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/底边栏背景板 [1:5]",
+        "x": -1.52587891E-05,
+        "y": 914.666748,
+        "w": 402.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店底板 [1:6]",
+        "x": 1.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店底板 [1:6]/Border",
+        "x": 1.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/商店图标 [16:42]",
+        "x": 1.0,
+        "y": 915.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组底板 [1:7]",
+        "x": 72.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组底板 [1:7]/Border",
+        "x": 72.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/卡组图标 [16:41]",
+        "x": 72.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落底板 [1:8]",
+        "x": 262.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落底板 [1:8]/Border",
+        "x": 262.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/部落图标 [16:39]",
+        "x": 262.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页底板 [1:14]",
+        "x": 143.0,
+        "y": 913.6667,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页底板 [1:14]/Border",
+        "x": 143.0,
+        "y": 913.6667,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/主页图标 [16:38]",
+        "x": 143.0,
+        "y": 914.666748,
+        "w": 116.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛底板 [1:13]",
+        "x": 333.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛底板 [1:13]/Border",
+        "x": 333.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/BottomNavigation/锦标赛图标 [16:40]",
+        "x": 333.0,
+        "y": 914.666748,
+        "w": 68.0,
+        "h": 68.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown",
+        "x": -1.52587891E-05,
+        "y": -3.05175781E-05,
+        "w": 402.0,
+        "h": 982.6667,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/任务底板 [148:3]",
+        "x": 139.0,
+        "y": 765.666748,
+        "w": 117.0,
+        "h": 34.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/×4 [148:4]",
+        "x": 188.0,
+        "y": 769.6667,
+        "w": 43.0,
+        "h": 26.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/激活任务图标 [148:5]",
+        "x": 150.0,
+        "y": 769.6667,
+        "w": 30.0,
+        "h": 27.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/ExpandArrow",
+        "x": 234.000015,
+        "y": 772.666748,
+        "w": 14.0,
+        "h": 20.0,
+        "active": true
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup",
+        "x": -1.52587891E-05,
+        "y": -3.05175781E-05,
+        "w": 402.0,
+        "h": 982.6667,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OutsideClickToClose",
+        "x": -1.52587891E-05,
+        "y": -3.05175781E-05,
+        "w": 402.0,
+        "h": 982.6667,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel",
+        "x": 91.99999,
+        "y": 803.6667,
+        "w": 164.0,
+        "h": 106.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Border",
+        "x": 91.99999,
+        "y": 803.6667,
+        "w": 164.0,
+        "h": 106.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options",
+        "x": 96.99999,
+        "y": 808.6667,
+        "w": 154.0,
+        "h": 96.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelAscending",
+        "x": 96.99999,
+        "y": 808.6667,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelAscending/Label",
+        "x": 108.999992,
+        "y": 808.6667,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelDescending",
+        "x": 96.99999,
+        "y": 840.6667,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/LevelDescending/Label",
+        "x": 108.999992,
+        "y": 840.6667,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/CompletionDescending",
+        "x": 96.99999,
+        "y": 872.666748,
+        "w": 154.0,
+        "h": 30.0,
+        "active": false
+      },
+      {
+        "path": "/TaskActivationDropdown/Popup/OptionsPanel/Options/CompletionDescending/Label",
+        "x": 108.999992,
+        "y": 872.666748,
+        "w": 130.0,
+        "h": 30.0,
+        "active": false
+      }
+    ]
+  }
+]

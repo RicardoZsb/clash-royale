@@ -1,0 +1,83 @@
+{
+  "referenceSize": [
+    402,
+    874
+  ],
+  "changedPixelBounds": [
+    154,
+    583,
+    244,
+    615
+  ],
+  "outsideActionPointEntryUnchanged": true,
+  "mainSceneFileUnchanged": true,
+  "tallScreenshot": [
+    1080,
+    2640
+  ],
+  "checks": {
+    "navigation-test": {
+      "closedOnNavigation": true,
+      "balanceRetained": true,
+      "otherDropdownCloses": true
+    },
+    "short-test": {
+      "width": 1080,
+      "height": 1920,
+      "panelVisible": true,
+      "blocker": [
+        [
+          1.42085482e-05,
+          3.270863e-05
+        ],
+        [
+          1.42085482e-05,
+          1920.0
+        ],
+        [
+          1080.0,
+          1920.0
+        ],
+        [
+          1080.0,
+          3.270863e-05
+        ]
+      ],
+      "cornerHit": "OutsideClickToClose"
+    },
+    "tall-test": {
+      "width": 1080.0,
+      "height": 2640.0,
+      "panelVisible": true,
+      "blocker": [
+        [
+          1.93119049e-05,
+          1.98777052e-05
+        ],
+        [
+          1.93119049e-05,
+          2640.0
+        ],
+        [
+          1080.0,
+          2640.0
+        ],
+        [
+          1080.0,
+          1.98777052e-05
+        ]
+      ],
+      "cornerHit": "OutsideClickToClose"
+    },
+    "withdraw-test": {
+      "hit": "WithdrawButton",
+      "first": {
+        "ActionPoints": 24,
+        "ReservePoints": 8,
+        "button": false
+      },
+      "repeatedWithdrawalUnchanged": true,
+      "conserved": true
+    }
+  }
+}

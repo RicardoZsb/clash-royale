@@ -1,0 +1,9 @@
+{
+  "mouseHit": "Viewport",
+  "dragHandler": "RewardScrollView",
+  "contentOffset": 330.0,
+  "axisMovesWithRewards": true,
+  "headerFixed": true,
+  "claimFixed": true,
+  "scrollFraction": 0.9047619
+}

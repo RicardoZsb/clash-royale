@@ -1,0 +1,35 @@
+{
+  "arrowPixelsIdentical": true,
+  "arrowContainer": [
+    22,
+    22
+  ],
+  "closedScreenChangedBounds": [
+    229,
+    668,
+    248,
+    683
+  ],
+  "figmaNodes": [
+    "216:119",
+    "216:120",
+    "216:122",
+    "216:123",
+    "216:124",
+    "216:125"
+  ],
+  "checks": {
+    "activation-arrow-test": {
+      "hit": "任务底板 [148:3]",
+      "IsOpen": true
+    },
+    "withdraw-test": {
+      "hit": "WithdrawButton",
+      "ActionPoints": 24,
+      "ReservePoints": 8,
+      "reserve": "8/16",
+      "button": "行动点已满",
+      "disabled": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "screen": "BattleHome",
+    "identical": true,
+    "differenceBounds": null
+  },
+  {
+    "screen": "BattlePass",
+    "identical": true,
+    "differenceBounds": null
+  },
+  {
+    "screen": "ChestQueue",
+    "identical": true,
+    "differenceBounds": null
+  },
+  {
+    "screen": "ChestReveal",
+    "identical": true,
+    "differenceBounds": null
+  },
+  {
+    "screen": "ClanChat",
+    "identical": true,
+    "differenceBounds": null
+  },
+  {
+    "screen": "ClanChatInput",
+    "identical": true,
+    "differenceBounds": null
+  },
+  {
+    "screen": "ClanCompetition",
+    "identical": true,
+    "differenceBounds": null
+  },
+  {
+    "screen": "ClanHome",
+    "identical": true,
+    "differenceBounds": null
+  },
+  {
+    "screen": "ClanShop",
+    "identical": true,
+    "differenceBounds": null
+  },
+  {
+    "screen": "Tasks",
+    "identical": true,
+    "differenceBounds": null
+  }
+]

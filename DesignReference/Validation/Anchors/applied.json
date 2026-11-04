@@ -1,0 +1,70 @@
+[
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Components/BottomNavigation.prefab",
+    "rects": 12
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Components/RewardTabBar.prefab",
+    "rects": 5
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Components/PassOverview.prefab",
+    "rects": 1
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Components/ChestMergePair.prefab",
+    "rects": 1
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Components/ClanChatInputField.prefab",
+    "rects": 3
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Components/TaskSortDropdown.prefab",
+    "rects": 7
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Components/TaskActivationDropdown.prefab",
+    "rects": 8
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Screens/BattleHome.prefab",
+    "rects": 47
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Screens/ClanHome.prefab",
+    "rects": 34
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Screens/Tasks.prefab",
+    "rects": 38
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Screens/BattlePass.prefab",
+    "rects": 12
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Screens/ChestQueue.prefab",
+    "rects": 25
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Screens/ChestReveal.prefab",
+    "rects": 10
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Screens/ClanShop.prefab",
+    "rects": 32
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Screens/ClanCompetition.prefab",
+    "rects": 32
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Screens/ClanChat.prefab",
+    "rects": 32
+  },
+  {
+    "asset": "Assets/ClashRoyaleUI/Prefabs/Screens/ClanChatInput.prefab",
+    "rects": 25
+  }
+]

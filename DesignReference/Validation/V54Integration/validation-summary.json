@@ -1,0 +1,60 @@
+{
+  "verified_local_date": "2026-11-02",
+  "project": "C:/Users/Administrator/Desktop/Unity/Clash Royale",
+  "asset_layout": {
+    "wrapper_removed": true,
+    "code": "Assets/Scripts",
+    "tables": "Assets/Tables",
+    "scene": "Assets/Scenes/ClashRoyaleUI.unity",
+    "missing_scripts": 0,
+    "saved_clean": true,
+    "default_screen": "BattleHome",
+    "game_view": [402, 874],
+    "reference_resolution": [402, 874]
+  },
+  "workbook": {
+    "file": "Assets/Tables/ClashRoyale_V5.4.xlsx",
+    "sheets": 13,
+    "task_tiers": [25, 20, 16, 1],
+    "total_tasks": 62,
+    "pass_levels": 40,
+    "native_xlsx_roundtrip": "passed",
+    "all_sheets_rendered_and_reviewed": true
+  },
+  "backend": {
+    "automated_tests_passed": 17,
+    "test_report": "Backend/Validation/backend-tests.txt",
+    "health": "http://127.0.0.1:18765/health",
+    "health_check": "passed",
+    "persistence_after_restart": "passed",
+    "live_settlement_record": "live-settlement.json"
+  },
+  "unity_interactions": {
+    "method": "Unity EventSystem raycast, pointerClickHandler and ScrollRect drag handlers in Play mode",
+    "native_serialized_task_cards": 62,
+    "expand_triangle_raycast": "passed",
+    "accept_button_raycast": "passed",
+    "collapsed_brief_and_hidden_help": "passed",
+    "unaccepted_expanded_help_hidden": "passed",
+    "accepted_expanded_help_visible": "passed",
+    "accept_activate_help_start_battle": "passed",
+    "server_simulated_battle_settlement_updates_ui": "passed",
+    "task_scroll_drag": "passed",
+    "last_task_accessible": "passed",
+    "chest_slot_raycast_after_fix": "passed",
+    "pass_server_values_visual_review": "passed",
+    "console_errors": 0,
+    "compilation_failed": false
+  },
+  "limitations": [
+    "Battle outcomes use the editor administration simulator; no real combat server is connected.",
+    "Desktop mouse automation and mobile-device networking were not counted as tested.",
+    "Account login, payments, clan transfers, competition grouping and season settlement scheduling are not connected to external systems."
+  ],
+  "screenshots": [
+    "task-unaccepted-final.png",
+    "task-accepted-final.png",
+    "pass-data-final.png",
+    "chest-reveal-final.png"
+  ]
+}

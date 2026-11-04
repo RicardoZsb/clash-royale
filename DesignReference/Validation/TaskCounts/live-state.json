@@ -1,0 +1,1312 @@
+{
+  "battle_id": "",
+  "bundle_id": "V5.4-local-001-a0e07c6d10",
+  "chests": [],
+  "clan_help": [
+    {
+      "help_id": "Heb67cbafc75644e981fc4fe7e7d0e2f9",
+      "message": "请求协助：试用卡组累计摧毁3塔",
+      "player_id": "P001"
+    },
+    {
+      "help_id": "H31fce57ce7d14510b9cb2e2bb2b49220",
+      "message": "请求协助：用近期最少使用的卡组对局",
+      "player_id": "P001"
+    }
+  ],
+  "items": [
+    {
+      "amount": 250,
+      "resource": "common"
+    },
+    {
+      "amount": 25,
+      "resource": "rare"
+    }
+  ],
+  "ok": true,
+  "pass_claims": [
+    {
+      "level": 1,
+      "track": "FREE"
+    },
+    {
+      "level": 1,
+      "track": "PREMIUM"
+    },
+    {
+      "level": 2,
+      "track": "FREE"
+    },
+    {
+      "level": 2,
+      "track": "PREMIUM"
+    }
+  ],
+  "pass_levels": [
+    {
+      "free_reward_id": "PASS_FREE_01",
+      "level": 1,
+      "premium_reward_id": "PASS_PREMIUM_01",
+      "required_xp": 5
+    },
+    {
+      "free_reward_id": "PASS_FREE_02",
+      "level": 2,
+      "premium_reward_id": "PASS_PREMIUM_02",
+      "required_xp": 10
+    },
+    {
+      "free_reward_id": "PASS_FREE_03",
+      "level": 3,
+      "premium_reward_id": "PASS_PREMIUM_03",
+      "required_xp": 15
+    },
+    {
+      "free_reward_id": "PASS_FREE_04",
+      "level": 4,
+      "premium_reward_id": "PASS_PREMIUM_04",
+      "required_xp": 20
+    },
+    {
+      "free_reward_id": "PASS_FREE_05",
+      "level": 5,
+      "premium_reward_id": "PASS_PREMIUM_05",
+      "required_xp": 25
+    },
+    {
+      "free_reward_id": "PASS_FREE_06",
+      "level": 6,
+      "premium_reward_id": "PASS_PREMIUM_06",
+      "required_xp": 30
+    },
+    {
+      "free_reward_id": "PASS_FREE_07",
+      "level": 7,
+      "premium_reward_id": "PASS_PREMIUM_07",
+      "required_xp": 35
+    },
+    {
+      "free_reward_id": "PASS_FREE_08",
+      "level": 8,
+      "premium_reward_id": "PASS_PREMIUM_08",
+      "required_xp": 40
+    },
+    {
+      "free_reward_id": "PASS_FREE_09",
+      "level": 9,
+      "premium_reward_id": "PASS_PREMIUM_09",
+      "required_xp": 45
+    },
+    {
+      "free_reward_id": "PASS_FREE_10",
+      "level": 10,
+      "premium_reward_id": "PASS_PREMIUM_10",
+      "required_xp": 50
+    },
+    {
+      "free_reward_id": "PASS_FREE_11",
+      "level": 11,
+      "premium_reward_id": "PASS_PREMIUM_11",
+      "required_xp": 55
+    },
+    {
+      "free_reward_id": "PASS_FREE_12",
+      "level": 12,
+      "premium_reward_id": "PASS_PREMIUM_12",
+      "required_xp": 60
+    },
+    {
+      "free_reward_id": "PASS_FREE_13",
+      "level": 13,
+      "premium_reward_id": "PASS_PREMIUM_13",
+      "required_xp": 65
+    },
+    {
+      "free_reward_id": "PASS_FREE_14",
+      "level": 14,
+      "premium_reward_id": "PASS_PREMIUM_14",
+      "required_xp": 70
+    },
+    {
+      "free_reward_id": "PASS_FREE_15",
+      "level": 15,
+      "premium_reward_id": "PASS_PREMIUM_15",
+      "required_xp": 75
+    },
+    {
+      "free_reward_id": "PASS_FREE_16",
+      "level": 16,
+      "premium_reward_id": "PASS_PREMIUM_16",
+      "required_xp": 80
+    },
+    {
+      "free_reward_id": "PASS_FREE_17",
+      "level": 17,
+      "premium_reward_id": "PASS_PREMIUM_17",
+      "required_xp": 85
+    },
+    {
+      "free_reward_id": "PASS_FREE_18",
+      "level": 18,
+      "premium_reward_id": "PASS_PREMIUM_18",
+      "required_xp": 90
+    },
+    {
+      "free_reward_id": "PASS_FREE_19",
+      "level": 19,
+      "premium_reward_id": "PASS_PREMIUM_19",
+      "required_xp": 95
+    },
+    {
+      "free_reward_id": "PASS_FREE_20",
+      "level": 20,
+      "premium_reward_id": "PASS_PREMIUM_20",
+      "required_xp": 100
+    },
+    {
+      "free_reward_id": "PASS_FREE_21",
+      "level": 21,
+      "premium_reward_id": "PASS_PREMIUM_21",
+      "required_xp": 105
+    },
+    {
+      "free_reward_id": "PASS_FREE_22",
+      "level": 22,
+      "premium_reward_id": "PASS_PREMIUM_22",
+      "required_xp": 110
+    },
+    {
+      "free_reward_id": "PASS_FREE_23",
+      "level": 23,
+      "premium_reward_id": "PASS_PREMIUM_23",
+      "required_xp": 115
+    },
+    {
+      "free_reward_id": "PASS_FREE_24",
+      "level": 24,
+      "premium_reward_id": "PASS_PREMIUM_24",
+      "required_xp": 120
+    },
+    {
+      "free_reward_id": "PASS_FREE_25",
+      "level": 25,
+      "premium_reward_id": "PASS_PREMIUM_25",
+      "required_xp": 125
+    },
+    {
+      "free_reward_id": "PASS_FREE_26",
+      "level": 26,
+      "premium_reward_id": "PASS_PREMIUM_26",
+      "required_xp": 130
+    },
+    {
+      "free_reward_id": "PASS_FREE_27",
+      "level": 27,
+      "premium_reward_id": "PASS_PREMIUM_27",
+      "required_xp": 135
+    },
+    {
+      "free_reward_id": "PASS_FREE_28",
+      "level": 28,
+      "premium_reward_id": "PASS_PREMIUM_28",
+      "required_xp": 140
+    },
+    {
+      "free_reward_id": "PASS_FREE_29",
+      "level": 29,
+      "premium_reward_id": "PASS_PREMIUM_29",
+      "required_xp": 145
+    },
+    {
+      "free_reward_id": "PASS_FREE_30",
+      "level": 30,
+      "premium_reward_id": "PASS_PREMIUM_30",
+      "required_xp": 150
+    },
+    {
+      "free_reward_id": "PASS_FREE_31",
+      "level": 31,
+      "premium_reward_id": "PASS_PREMIUM_31",
+      "required_xp": 155
+    },
+    {
+      "free_reward_id": "PASS_FREE_32",
+      "level": 32,
+      "premium_reward_id": "PASS_PREMIUM_32",
+      "required_xp": 160
+    },
+    {
+      "free_reward_id": "PASS_FREE_33",
+      "level": 33,
+      "premium_reward_id": "PASS_PREMIUM_33",
+      "required_xp": 165
+    },
+    {
+      "free_reward_id": "PASS_FREE_34",
+      "level": 34,
+      "premium_reward_id": "PASS_PREMIUM_34",
+      "required_xp": 170
+    },
+    {
+      "free_reward_id": "PASS_FREE_35",
+      "level": 35,
+      "premium_reward_id": "PASS_PREMIUM_35",
+      "required_xp": 175
+    },
+    {
+      "free_reward_id": "PASS_FREE_36",
+      "level": 36,
+      "premium_reward_id": "PASS_PREMIUM_36",
+      "required_xp": 180
+    },
+    {
+      "free_reward_id": "PASS_FREE_37",
+      "level": 37,
+      "premium_reward_id": "PASS_PREMIUM_37",
+      "required_xp": 185
+    },
+    {
+      "free_reward_id": "PASS_FREE_38",
+      "level": 38,
+      "premium_reward_id": "PASS_PREMIUM_38",
+      "required_xp": 190
+    },
+    {
+      "free_reward_id": "PASS_FREE_39",
+      "level": 39,
+      "premium_reward_id": "PASS_PREMIUM_39",
+      "required_xp": 195
+    },
+    {
+      "free_reward_id": "PASS_FREE_40",
+      "level": 40,
+      "premium_reward_id": "PASS_PREMIUM_40",
+      "required_xp": 200
+    }
+  ],
+  "player": {
+    "accepted_count": 5,
+    "activation_order": 0,
+    "active_count": 5,
+    "audience": "NORMAL",
+    "available_ap": 12,
+    "cards": 167,
+    "clan_id": "C001",
+    "clan_score": 155.0,
+    "extra_ap_used": 0,
+    "forced_instance_id": "",
+    "gems": 16555,
+    "gold": 21295,
+    "joined_at": 1793202019,
+    "normal_ap": 24,
+    "normal_cap": 24,
+    "pass_level": 2,
+    "pass_xp": 14,
+    "pending_chests": 0,
+    "player_id": "P001",
+    "premium": 1,
+    "queue_capacity": 20,
+    "recovery_at": 1793612419,
+    "reserve_ap": 0,
+    "reserve_cap": 16,
+    "reserved_ap": 12,
+    "reserved_slots": 5,
+    "season_contribution": 155.0,
+    "season_id": "202610",
+    "shop_ap_bought": 0,
+    "tokens": 155.0,
+    "tower_level": 10
+  },
+  "rewards": [
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 100,
+      "resource": null,
+      "reward_id": "700001"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 5,
+      "chest_star": 0,
+      "gold": 100,
+      "resource": null,
+      "reward_id": "700002"
+    },
+    {
+      "amount": 0,
+      "ap": 1,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "700004"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 2,
+      "chest_star": 0,
+      "gold": 50,
+      "resource": null,
+      "reward_id": "710001"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 10,
+      "chest_star": 0,
+      "gold": 200,
+      "resource": null,
+      "reward_id": "710003"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 20,
+      "chest_star": 0,
+      "gold": 400,
+      "resource": null,
+      "reward_id": "710004"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 40,
+      "chest_star": 0,
+      "gold": 800,
+      "resource": null,
+      "reward_id": "710005"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 25,
+      "chest_star": 0,
+      "gold": 500,
+      "resource": null,
+      "reward_id": "720001"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 500,
+      "resource": null,
+      "reward_id": "PASS_FREE_01"
+    },
+    {
+      "amount": 250,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "common",
+      "reward_id": "PASS_PREMIUM_01"
+    },
+    {
+      "amount": 10,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_FREE_02"
+    },
+    {
+      "amount": 25,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_PREMIUM_02"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 2,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_03"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 4,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_03"
+    },
+    {
+      "amount": 5,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "epic",
+      "reward_id": "PASS_FREE_04"
+    },
+    {
+      "amount": 25,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_PREMIUM_04"
+    },
+    {
+      "amount": 1,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "legendary",
+      "reward_id": "PASS_FREE_05"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 5,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_05"
+    },
+    {
+      "amount": 0,
+      "ap": 1,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_06"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 1500,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_06"
+    },
+    {
+      "amount": 100,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "common",
+      "reward_id": "PASS_FREE_07"
+    },
+    {
+      "amount": 40,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_PREMIUM_07"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 750,
+      "resource": null,
+      "reward_id": "PASS_FREE_08"
+    },
+    {
+      "amount": 350,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "common",
+      "reward_id": "PASS_PREMIUM_08"
+    },
+    {
+      "amount": 20,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_FREE_09"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 2000,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_09"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 3,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_10"
+    },
+    {
+      "amount": 2,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "legendary",
+      "reward_id": "PASS_PREMIUM_10"
+    },
+    {
+      "amount": 15,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_FREE_11"
+    },
+    {
+      "amount": 15,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "epic",
+      "reward_id": "PASS_PREMIUM_11"
+    },
+    {
+      "amount": 150,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "common",
+      "reward_id": "PASS_FREE_12"
+    },
+    {
+      "amount": 35,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_PREMIUM_12"
+    },
+    {
+      "amount": 0,
+      "ap": 1,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_13"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 2500,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_13"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 1000,
+      "resource": null,
+      "reward_id": "PASS_FREE_14"
+    },
+    {
+      "amount": 50,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_PREMIUM_14"
+    },
+    {
+      "amount": 8,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "epic",
+      "reward_id": "PASS_FREE_15"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 4,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_15"
+    },
+    {
+      "amount": 25,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_FREE_16"
+    },
+    {
+      "amount": 450,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "common",
+      "reward_id": "PASS_PREMIUM_16"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 1250,
+      "resource": null,
+      "reward_id": "PASS_FREE_17"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 3000,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_17"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 2,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_18"
+    },
+    {
+      "amount": 20,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "epic",
+      "reward_id": "PASS_PREMIUM_18"
+    },
+    {
+      "amount": 20,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_FREE_19"
+    },
+    {
+      "amount": 40,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_PREMIUM_19"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 4,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_20"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 5,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_20"
+    },
+    {
+      "amount": 0,
+      "ap": 1,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_21"
+    },
+    {
+      "amount": 60,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_PREMIUM_21"
+    },
+    {
+      "amount": 200,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "common",
+      "reward_id": "PASS_FREE_22"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 3500,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_22"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 1500,
+      "resource": null,
+      "reward_id": "PASS_FREE_23"
+    },
+    {
+      "amount": 550,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "common",
+      "reward_id": "PASS_PREMIUM_23"
+    },
+    {
+      "amount": 30,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_FREE_24"
+    },
+    {
+      "amount": 50,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_PREMIUM_24"
+    },
+    {
+      "amount": 1,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "legendary",
+      "reward_id": "PASS_FREE_25"
+    },
+    {
+      "amount": 3,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "legendary",
+      "reward_id": "PASS_PREMIUM_25"
+    },
+    {
+      "amount": 25,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_FREE_26"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 4000,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_26"
+    },
+    {
+      "amount": 10,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "epic",
+      "reward_id": "PASS_FREE_27"
+    },
+    {
+      "amount": 25,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "epic",
+      "reward_id": "PASS_PREMIUM_27"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 1750,
+      "resource": null,
+      "reward_id": "PASS_FREE_28"
+    },
+    {
+      "amount": 75,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_PREMIUM_28"
+    },
+    {
+      "amount": 0,
+      "ap": 1,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_29"
+    },
+    {
+      "amount": 650,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "common",
+      "reward_id": "PASS_PREMIUM_29"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 4,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_30"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 5,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_30"
+    },
+    {
+      "amount": 40,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_FREE_31"
+    },
+    {
+      "amount": 60,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_PREMIUM_31"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 2000,
+      "resource": null,
+      "reward_id": "PASS_FREE_32"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 4500,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_32"
+    },
+    {
+      "amount": 250,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "common",
+      "reward_id": "PASS_FREE_33"
+    },
+    {
+      "amount": 90,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_PREMIUM_33"
+    },
+    {
+      "amount": 30,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_FREE_34"
+    },
+    {
+      "amount": 30,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "epic",
+      "reward_id": "PASS_PREMIUM_34"
+    },
+    {
+      "amount": 15,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "epic",
+      "reward_id": "PASS_FREE_35"
+    },
+    {
+      "amount": 4,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "legendary",
+      "reward_id": "PASS_PREMIUM_35"
+    },
+    {
+      "amount": 0,
+      "ap": 1,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_36"
+    },
+    {
+      "amount": 750,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "common",
+      "reward_id": "PASS_PREMIUM_36"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 2500,
+      "resource": null,
+      "reward_id": "PASS_FREE_37"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 5000,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_37"
+    },
+    {
+      "amount": 50,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "rare",
+      "reward_id": "PASS_FREE_38"
+    },
+    {
+      "amount": 75,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "gems",
+      "reward_id": "PASS_PREMIUM_38"
+    },
+    {
+      "amount": 2,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "legendary",
+      "reward_id": "PASS_FREE_39"
+    },
+    {
+      "amount": 40,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 0,
+      "gold": 0,
+      "resource": "epic",
+      "reward_id": "PASS_PREMIUM_39"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 5,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_FREE_40"
+    },
+    {
+      "amount": 0,
+      "ap": 0,
+      "cards": 0,
+      "chest_star": 5,
+      "gold": 0,
+      "resource": null,
+      "reward_id": "PASS_PREMIUM_40"
+    }
+  ],
+  "tasks": [
+    {
+      "action_cost": 3,
+      "audience": "NORMAL",
+      "base_contribution": 45,
+      "brief": "双法术卡组累计赢3场",
+      "chest_id": "600003",
+      "condition_json": "{\"saved\":true,\"spells_min\":2}",
+      "description": "使用至少含2张法术卡的已保存卡组累计赢得3场有效对局。",
+      "enabled": true,
+      "first_reward_id": "700001",
+      "forced": false,
+      "help_requested": false,
+      "instance_id": "A9c87335daaaa4872826e9f0534e23a05",
+      "max_attempts": 0,
+      "metric": "wins",
+      "progress": 0,
+      "status": "active",
+      "target_count": 3,
+      "task_id": "113003",
+      "tier": 3,
+      "title": "双法术进阶"
+    },
+    {
+      "action_cost": 2,
+      "audience": "NORMAL",
+      "base_contribution": 25,
+      "brief": "非主力卡组赢得1场",
+      "chest_id": "600002",
+      "condition_json": "{\"non_main\":true}",
+      "description": "使用非主力卡组赢得1场有效对局。",
+      "enabled": true,
+      "first_reward_id": "700001",
+      "forced": false,
+      "help_requested": false,
+      "instance_id": "Afa20d67fc2f0437eabef021a68a24b1c",
+      "max_attempts": 0,
+      "metric": "wins",
+      "progress": 0,
+      "status": "active",
+      "target_count": 1,
+      "task_id": "112014",
+      "tier": 2,
+      "title": "备用卡组首胜"
+    },
+    {
+      "action_cost": 2,
+      "audience": "NORMAL",
+      "base_contribution": 25,
+      "brief": "近期最少用的卡组获胜",
+      "chest_id": "600002",
+      "condition_json": "{\"least_used\":true,\"saved\":true}",
+      "description": "使用最近30场出场最少的已保存卡组赢得1场有效对局。",
+      "enabled": true,
+      "first_reward_id": "700001",
+      "forced": false,
+      "help_requested": false,
+      "instance_id": "A95efe5ed06c648b2b75a96f7cf327cdc",
+      "max_attempts": 0,
+      "metric": "wins",
+      "progress": 0,
+      "status": "active",
+      "target_count": 1,
+      "task_id": "112016",
+      "tier": 2,
+      "title": "低频卡组首胜"
+    },
+    {
+      "action_cost": 3,
+      "audience": "NORMAL",
+      "base_contribution": 60,
+      "brief": "5场内试用卡组赢3场",
+      "chest_id": "600004",
+      "condition_json": "{\"trial\":true,\"theme_trial\":true}",
+      "description": "从3套主题试用卡组中选择1套，在5场有效对局内赢得3场；未达成时重置本轮进度。",
+      "enabled": true,
+      "first_reward_id": "700001",
+      "forced": false,
+      "help_requested": false,
+      "instance_id": "A680511e6608f4f1e8f5e8cb91489f016",
+      "max_attempts": 5,
+      "metric": "wins",
+      "progress": 0,
+      "status": "active",
+      "target_count": 3,
+      "task_id": "114001",
+      "tier": 4,
+      "title": "主题试用挑战"
+    },
+    {
+      "action_cost": 2,
+      "audience": "NORMAL",
+      "base_contribution": 25,
+      "brief": "试用卡组累计摧毁3塔",
+      "chest_id": "600002",
+      "condition_json": "{\"trial\":true}",
+      "description": "使用等级统一试用卡组在有效对局中累计摧毁3座公主塔。",
+      "enabled": true,
+      "first_reward_id": "700001",
+      "forced": false,
+      "help_requested": true,
+      "instance_id": "A85e30e680e2c4b8d8ac36e1a2dee4775",
+      "max_attempts": 0,
+      "metric": "towers",
+      "progress": 0,
+      "status": "active",
+      "target_count": 3,
+      "task_id": "112018",
+      "tier": 2,
+      "title": "试用攻塔"
+    },
+    {
+      "action_cost": 3,
+      "audience": "NORMAL",
+      "base_contribution": 45,
+      "brief": "推荐卡组累计赢3场",
+      "chest_id": "600003",
+      "condition_json": "{\"recommended\":true}",
+      "description": "使用当前版本推荐卡组累计赢得3场有效对局。",
+      "enabled": true,
+      "first_reward_id": "700001",
+      "help_requested": false,
+      "instance_id": "",
+      "max_attempts": 0,
+      "metric": "wins",
+      "progress": 0,
+      "status": "available",
+      "target_count": 3,
+      "task_id": "113016",
+      "tier": 3,
+      "title": "版本推荐进阶"
+    },
+    {
+      "action_cost": 3,
+      "audience": "NORMAL",
+      "base_contribution": 45,
+      "brief": "轻费卡组累计赢3场",
+      "chest_id": "600003",
+      "condition_json": "{\"elixir_max\":3.0}",
+      "description": "使用均费不超过3.0的卡组累计赢得3场有效对局。",
+      "enabled": true,
+      "first_reward_id": "700001",
+      "help_requested": false,
+      "instance_id": "",
+      "max_attempts": 0,
+      "metric": "wins",
+      "progress": 0,
+      "status": "available",
+      "target_count": 3,
+      "task_id": "113005",
+      "tier": 3,
+      "title": "轻费体系进阶"
+    },
+    {
+      "action_cost": 3,
+      "audience": "NORMAL",
+      "base_contribution": 45,
+      "brief": "三套不同卡组各获胜",
+      "chest_id": "600003",
+      "condition_json": "{}",
+      "description": "使用3套不同卡组各赢得1场有效对局。",
+      "enabled": true,
+      "first_reward_id": "700001",
+      "help_requested": false,
+      "instance_id": "",
+      "max_attempts": 0,
+      "metric": "distinct_win_decks",
+      "progress": 0,
+      "status": "available",
+      "target_count": 3,
+      "task_id": "113007",
+      "tier": 3,
+      "title": "三卡组挑战"
+    },
+    {
+      "action_cost": 3,
+      "audience": "NORMAL",
+      "base_contribution": 45,
+      "brief": "替换3张主力卡赢2场",
+      "chest_id": "600003",
+      "condition_json": "{\"replaced_min\":3}",
+      "description": "在主力卡组中替换至少3张卡牌后累计赢得2场有效对局。",
+      "enabled": true,
+      "first_reward_id": "700001",
+      "help_requested": false,
+      "instance_id": "",
+      "max_attempts": 0,
+      "metric": "wins",
+      "progress": 0,
+      "status": "available",
+      "target_count": 2,
+      "task_id": "113012",
+      "tier": 3,
+      "title": "大幅调整挑战"
+    }
+  ],
+  "week_id": "2026-W45"
+}

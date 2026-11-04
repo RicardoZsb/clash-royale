@@ -1,0 +1,8 @@
+{
+  "active_bundle": "V5.4-local-001-a0e07c6d10",
+  "live_api_equals_excel": true,
+  "task_count": 62,
+  "pass_levels": 40,
+  "database_integrity": "ok",
+  "foreign_key_errors": []
+}

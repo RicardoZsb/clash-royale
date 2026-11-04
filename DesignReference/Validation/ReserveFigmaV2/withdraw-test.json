@@ -1,0 +1,8 @@
+{
+  "hit": "WithdrawButton",
+  "ActionPoints": 24,
+  "ReservePoints": 8,
+  "reserve": "8/16",
+  "button": "行动点已满",
+  "disabled": true
+}

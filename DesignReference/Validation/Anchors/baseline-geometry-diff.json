@@ -1,0 +1,1775 @@
+[
+  {
+    "screen": "BattleHome",
+    "path": "/Header/通知图标 [16:48]",
+    "x": 294.9909,
+    "y": 11.9303589,
+    "w": 52.0090332,
+    "h": 50.70691,
+    "error": 7.36853027
+  },
+  {
+    "screen": "BattleHome",
+    "path": "/TaskActivationDropdown",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 402.0,
+    "h": 874.0,
+    "error": 840.0
+  },
+  {
+    "screen": "BattleHome",
+    "path": "/TaskActivationDropdown/Popup",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 402.0,
+    "h": 874.0,
+    "error": 840.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 0.0,
+    "error": 492.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 359.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/用户1 [30:121]",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/用户1 [30:121]/Border",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/头像1 [40:35]",
+    "x": 56.0,
+    "y": 260.0,
+    "w": 74.0,
+    "h": 74.0,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/玩家天体段位底板 [48:7]",
+    "x": 247.0,
+    "y": 269.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/玩家天体段位底板 [48:7]/Border",
+    "x": 247.0,
+    "y": 269.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/玩家个人贡献底板        [48:8]",
+    "x": 247.0,
+    "y": 301.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/玩家个人贡献底板        [48:8]/Border",
+    "x": 247.0,
+    "y": 301.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/部落个人贡献图标 [47:2]",
+    "x": 234.0,
+    "y": 299.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/个人奖杯图标 [47:6]",
+    "x": 234.0,
+    "y": 268.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/1 [145:9]",
+    "x": 27.0,
+    "y": 283.0,
+    "w": 22.0,
+    "h": 22.4000244,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/Mafty [145:10]",
+    "x": 133.0,
+    "y": 270.0,
+    "w": 96.0,
+    "h": 22.4000244,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/首领 · 在线 [145:11]",
+    "x": 133.0,
+    "y": 301.0,
+    "w": 96.0,
+    "h": 14.0,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/6,245 [145:12]",
+    "x": 263.0,
+    "y": 269.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_1/340 [145:13]",
+    "x": 263.0,
+    "y": 301.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 258.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 359.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/用户2 [38:5]",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/用户2 [38:5]/Border",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/头像2 [40:36]",
+    "x": 56.0,
+    "y": 259.0,
+    "w": 74.0,
+    "h": 74.0,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/玩家天体段位底板 [48:9]",
+    "x": 247.0,
+    "y": 268.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/玩家天体段位底板 [48:9]/Border",
+    "x": 247.0,
+    "y": 268.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/玩家个人贡献底板        [48:10]",
+    "x": 247.0,
+    "y": 300.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/玩家个人贡献底板        [48:10]/Border",
+    "x": 247.0,
+    "y": 300.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/部落个人贡献图标 [48:11]",
+    "x": 234.0,
+    "y": 298.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/个人奖杯图标 [48:12]",
+    "x": 234.0,
+    "y": 267.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/2 [145:14]",
+    "x": 27.0,
+    "y": 283.0,
+    "w": 22.0,
+    "h": 22.4000244,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/小白 [145:15]",
+    "x": 133.0,
+    "y": 270.0,
+    "w": 96.0,
+    "h": 22.4000244,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/成员 · 在线 [145:16]",
+    "x": 133.0,
+    "y": 301.0,
+    "w": 96.0,
+    "h": 14.0,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/6,180 [145:17]",
+    "x": 263.0,
+    "y": 269.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_2/320 [145:18]",
+    "x": 263.0,
+    "y": 301.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 340.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/用户3 [38:6]",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/用户3 [38:6]/Border",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/头像3 [40:37]",
+    "x": 56.0,
+    "y": 260.0,
+    "w": 74.0,
+    "h": 74.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/玩家天体段位底板 [48:13]",
+    "x": 247.0,
+    "y": 268.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/玩家天体段位底板 [48:13]/Border",
+    "x": 247.0,
+    "y": 268.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/玩家个人贡献底板        [48:14]",
+    "x": 247.0,
+    "y": 300.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/玩家个人贡献底板        [48:14]/Border",
+    "x": 247.0,
+    "y": 300.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/部落个人贡献图标 [48:15]",
+    "x": 234.0,
+    "y": 298.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/个人奖杯图标 [48:16]",
+    "x": 234.0,
+    "y": 267.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/3 [145:19]",
+    "x": 27.0,
+    "y": 283.0,
+    "w": 22.0,
+    "h": 22.4000244,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/晓风 [145:20]",
+    "x": 133.0,
+    "y": 270.0,
+    "w": 96.0,
+    "h": 22.4000244,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/成员 · 在线 [145:21]",
+    "x": 133.0,
+    "y": 301.0,
+    "w": 96.0,
+    "h": 14.0,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/5,960 [145:22]",
+    "x": 263.0,
+    "y": 269.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_3/280 [145:23]",
+    "x": 263.0,
+    "y": 301.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 422.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/用户4 [38:8]",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/用户4 [38:8]/Border",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/头像4 [40:38]",
+    "x": 56.0,
+    "y": 260.0,
+    "w": 74.0,
+    "h": 74.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/玩家天体段位底板 [48:17]",
+    "x": 247.0,
+    "y": 268.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/玩家天体段位底板 [48:17]/Border",
+    "x": 247.0,
+    "y": 268.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/玩家个人贡献底板        [48:18]",
+    "x": 247.0,
+    "y": 300.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/玩家个人贡献底板        [48:18]/Border",
+    "x": 247.0,
+    "y": 300.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/部落个人贡献图标 [48:19]",
+    "x": 234.0,
+    "y": 298.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/个人奖杯图标 [48:20]",
+    "x": 234.0,
+    "y": 267.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/4 [145:24]",
+    "x": 27.0,
+    "y": 283.0,
+    "w": 22.0,
+    "h": 22.4000244,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/远山 [145:25]",
+    "x": 133.0,
+    "y": 270.0,
+    "w": 96.0,
+    "h": 22.4000244,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/成员 · 离线 [145:26]",
+    "x": 133.0,
+    "y": 301.0,
+    "w": 96.0,
+    "h": 14.0,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/5,780 [145:27]",
+    "x": 263.0,
+    "y": 269.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_4/240 [145:28]",
+    "x": 263.0,
+    "y": 301.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 504.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/用户5 [38:9]",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/用户5 [38:9]/Border",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/头像5 [40:39]",
+    "x": 56.0,
+    "y": 260.0,
+    "w": 74.0,
+    "h": 74.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/玩家天体段位底板 [48:21]",
+    "x": 247.0,
+    "y": 268.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/玩家天体段位底板 [48:21]/Border",
+    "x": 247.0,
+    "y": 268.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/玩家个人贡献底板        [48:22]",
+    "x": 247.0,
+    "y": 300.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/玩家个人贡献底板        [48:22]/Border",
+    "x": 247.0,
+    "y": 300.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/部落个人贡献图标 [48:23]",
+    "x": 234.0,
+    "y": 298.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/个人奖杯图标 [48:24]",
+    "x": 234.0,
+    "y": 267.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/5 [145:29]",
+    "x": 27.0,
+    "y": 283.0,
+    "w": 22.0,
+    "h": 22.4000244,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/柠檬 [145:30]",
+    "x": 133.0,
+    "y": 270.0,
+    "w": 96.0,
+    "h": 22.4000244,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/成员 · 离线 [145:31]",
+    "x": 133.0,
+    "y": 301.0,
+    "w": 96.0,
+    "h": 14.0,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/5,520 [145:32]",
+    "x": 263.0,
+    "y": 269.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_5/220 [145:33]",
+    "x": 263.0,
+    "y": 301.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 586.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/用户6 [38:10]",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/用户6 [38:10]/Border",
+    "x": 21.0,
+    "y": 258.0,
+    "w": 359.0,
+    "h": 77.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/头像6 [40:40]",
+    "x": 56.0,
+    "y": 260.0,
+    "w": 74.0,
+    "h": 74.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/玩家天体段位底板 [48:25]",
+    "x": 247.0,
+    "y": 268.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/玩家天体段位底板 [48:25]/Border",
+    "x": 247.0,
+    "y": 268.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/玩家个人贡献底板        [48:26]",
+    "x": 247.0,
+    "y": 300.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/玩家个人贡献底板        [48:26]/Border",
+    "x": 247.0,
+    "y": 300.0,
+    "w": 99.0,
+    "h": 23.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/部落个人贡献图标 [48:27]",
+    "x": 234.0,
+    "y": 298.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/个人奖杯图标 [48:28]",
+    "x": 234.0,
+    "y": 267.0,
+    "w": 26.0,
+    "h": 26.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/6 [145:34]",
+    "x": 27.0,
+    "y": 283.0,
+    "w": 22.0,
+    "h": 22.4000244,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/Rico [145:35]",
+    "x": 133.0,
+    "y": 270.0,
+    "w": 96.0,
+    "h": 22.4000244,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/成员 · 离线 [145:36]",
+    "x": 133.0,
+    "y": 301.0,
+    "w": 96.0,
+    "h": 14.0,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/5,400 [145:37]",
+    "x": 263.0,
+    "y": 269.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 668.0
+  },
+  {
+    "screen": "ClanHome",
+    "path": "/MemberScrollView/Viewport/Content/MemberRow_6/180 [145:38]",
+    "x": 263.0,
+    "y": 301.0,
+    "w": 73.0,
+    "h": 18.2000122,
+    "error": 668.0
+  },
+  {
+    "screen": "Tasks",
+    "path": "/TaskScrollView/Viewport/Content/Polygon 1 [130:13]",
+    "x": 348.005951,
+    "y": 386.013733,
+    "w": 18.9933472,
+    "h": 17.26001,
+    "error": 0.0712089539
+  },
+  {
+    "screen": "Tasks",
+    "path": "/TaskScrollView/Viewport/Content/Polygon 2 [130:14]",
+    "x": 348.029724,
+    "y": 498.759125,
+    "w": 18.96936,
+    "h": 17.233551,
+    "error": 18.92868
+  },
+  {
+    "screen": "Tasks",
+    "path": "/TaskScrollView/Viewport/Content/Polygon 3 [130:15]",
+    "x": 349.0111,
+    "y": 609.740356,
+    "w": 18.96936,
+    "h": 17.23352,
+    "error": 18.92862
+  },
+  {
+    "screen": "Tasks",
+    "path": "/TaskSortDropdown",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 402.0,
+    "h": 874.0,
+    "error": 829.0
+  },
+  {
+    "screen": "Tasks",
+    "path": "/TaskSortDropdown/Popup",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 402.0,
+    "h": 874.0,
+    "error": 829.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 361.0,
+    "h": 0.0,
+    "error": 495.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 361.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 底板 [59:99]",
+    "x": 195.0,
+    "y": 243.0,
+    "w": 186.0,
+    "h": 92.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 底板 [59:99]/Border",
+    "x": 195.0,
+    "y": 243.0,
+    "w": 186.0,
+    "h": 92.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 底板 [59:100]",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 168.0,
+    "h": 92.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 底板 [59:100]/Border",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 168.0,
+    "h": 92.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 金币 ×500 [158:2]",
+    "x": 32.0,
+    "y": 247.0,
+    "w": 144.0,
+    "h": 92.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 金币 ×500 [158:2]/图标与标记 [I158:2;157:71]",
+    "x": 32.0,
+    "y": 248.0,
+    "w": 144.0,
+    "h": 72.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 金币 ×500 [158:2]/图标与标记 [I158:2;157:71]/奖励图标 [I158:2;157:72]",
+    "x": 72.0,
+    "y": 256.0,
+    "w": 64.0,
+    "h": 64.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 金币 ×500 [158:2]/图标与标记 [I158:2;157:71]/战令·领取标记·green [I158:2;157:73]",
+    "x": 88.0,
+    "y": 248.0,
+    "w": 32.0,
+    "h": 24.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/免费奖励 · Lv1 · 金币 ×500 [158:2]/奖励名称与数量 [I158:2;157:74]",
+    "x": 34.0,
+    "y": 320.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]",
+    "x": 216.0,
+    "y": 244.0,
+    "w": 144.0,
+    "h": 92.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]/图标与标记 [I158:7;157:71]",
+    "x": 216.0,
+    "y": 245.0,
+    "w": 144.0,
+    "h": 72.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]/图标与标记 [I158:7;157:71]/战令·图标·普通卡 [I158:7;157:72]",
+    "x": 256.0,
+    "y": 253.0,
+    "w": 64.0,
+    "h": 64.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]/图标与标记 [I158:7;157:71]/领取标记 [I158:7;157:73]",
+    "x": 272.0,
+    "y": 245.0,
+    "w": 32.0,
+    "h": 24.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]/图标与标记 [I158:7;157:71]/领取标记 [I158:7;157:73]/锁 [I158:7;157:73;157:64]",
+    "x": 279.0,
+    "y": 246.0,
+    "w": 18.0,
+    "h": 18.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/战令奖励 · Lv1 · 普通卡 ×250 [158:7]/奖励名称与数量 [I158:7;157:74]",
+    "x": 218.0,
+    "y": 317.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/奖励数量 · ×500 [167:47]",
+    "x": 34.0,
+    "y": 311.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv1 · 已完成 [158:13]/奖励数量 · ×250 [167:48]",
+    "x": 218.0,
+    "y": 311.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 25.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 361.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 底板 [59:102]",
+    "x": 195.0,
+    "y": 243.0,
+    "w": 186.0,
+    "h": 92.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 底板 [59:102]/Border",
+    "x": 195.0,
+    "y": 243.0,
+    "w": 186.0,
+    "h": 92.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 底板 [59:103]",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 168.0,
+    "h": 92.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 底板 [59:103]/Border",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 168.0,
+    "h": 92.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 钻石 ×10 [158:14]",
+    "x": 32.0,
+    "y": 245.0,
+    "w": 144.0,
+    "h": 92.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 钻石 ×10 [158:14]/图标与标记 [I158:14;157:71]",
+    "x": 32.0,
+    "y": 246.0,
+    "w": 144.0,
+    "h": 72.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 钻石 ×10 [158:14]/图标与标记 [I158:14;157:71]/奖励图标 [I158:14;157:72]",
+    "x": 72.0,
+    "y": 254.0,
+    "w": 64.0,
+    "h": 64.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 钻石 ×10 [158:14]/图标与标记 [I158:14;157:71]/战令·领取标记·green [I158:14;157:73]",
+    "x": 88.0,
+    "y": 246.0,
+    "w": 32.0,
+    "h": 24.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/免费奖励 · Lv2 · 钻石 ×10 [158:14]/奖励名称与数量 [I158:14;157:74]",
+    "x": 34.0,
+    "y": 318.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]",
+    "x": 218.0,
+    "y": 246.0,
+    "w": 144.0,
+    "h": 92.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]/图标与标记 [I158:19;157:71]",
+    "x": 218.0,
+    "y": 247.0,
+    "w": 144.0,
+    "h": 72.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]/图标与标记 [I158:19;157:71]/奖励图标 [I158:19;157:72]",
+    "x": 258.0,
+    "y": 255.0,
+    "w": 64.0,
+    "h": 64.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]/图标与标记 [I158:19;157:71]/领取标记 [I158:19;157:73]",
+    "x": 274.0,
+    "y": 247.0,
+    "w": 32.0,
+    "h": 24.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]/图标与标记 [I158:19;157:71]/领取标记 [I158:19;157:73]/锁 [I158:19;157:73;157:64]",
+    "x": 281.0,
+    "y": 248.0,
+    "w": 18.0,
+    "h": 18.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/战令奖励 · Lv2 · 稀有卡 ×25 [158:19]/奖励名称与数量 [I158:19;157:74]",
+    "x": 220.0,
+    "y": 319.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/奖励数量 · ×10 [167:49]",
+    "x": 34.0,
+    "y": 311.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv2 · 已完成 [158:25]/奖励数量 · ×25 [167:50]",
+    "x": 220.0,
+    "y": 311.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 124.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 361.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 底板 [59:105]",
+    "x": 195.0,
+    "y": 243.0,
+    "w": 186.0,
+    "h": 92.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 底板 [59:105]/Border",
+    "x": 195.0,
+    "y": 243.0,
+    "w": 186.0,
+    "h": 92.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 底板 [59:106]",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 168.0,
+    "h": 92.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 底板 [59:106]/Border",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 168.0,
+    "h": 92.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 二星宝箱 ×1 [158:26]",
+    "x": 32.0,
+    "y": 254.0,
+    "w": 144.0,
+    "h": 92.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 二星宝箱 ×1 [158:26]/图标与标记 [I158:26;157:71]",
+    "x": 32.0,
+    "y": 255.0,
+    "w": 144.0,
+    "h": 72.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 二星宝箱 ×1 [158:26]/图标与标记 [I158:26;157:71]/奖励图标 [I158:26;157:72]",
+    "x": 72.0,
+    "y": 263.0,
+    "w": 64.0,
+    "h": 64.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 二星宝箱 ×1 [158:26]/图标与标记 [I158:26;157:71]/战令·领取标记·green [I158:26;157:73]",
+    "x": 88.0,
+    "y": 255.0,
+    "w": 32.0,
+    "h": 24.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/免费奖励 · Lv3 · 二星宝箱 ×1 [158:26]/奖励名称与数量 [I158:26;157:74]",
+    "x": 34.0,
+    "y": 327.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]",
+    "x": 216.0,
+    "y": 252.0,
+    "w": 144.0,
+    "h": 92.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]/图标与标记 [I158:31;157:71]",
+    "x": 216.0,
+    "y": 253.0,
+    "w": 144.0,
+    "h": 72.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]/图标与标记 [I158:31;157:71]/奖励图标 [I158:31;157:72]",
+    "x": 256.0,
+    "y": 261.0,
+    "w": 64.0,
+    "h": 64.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]/图标与标记 [I158:31;157:71]/领取标记 [I158:31;157:73]",
+    "x": 272.0,
+    "y": 253.0,
+    "w": 32.0,
+    "h": 24.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]/图标与标记 [I158:31;157:71]/领取标记 [I158:31;157:73]/锁 [I158:31;157:73;157:64]",
+    "x": 279.0,
+    "y": 254.0,
+    "w": 18.0,
+    "h": 18.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv3 · 已完成 [158:37]/战令奖励 · Lv3 · 四星宝箱 ×1 [158:31]/奖励名称与数量 [I158:31;157:74]",
+    "x": 218.0,
+    "y": 325.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 223.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 361.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 底板 [59:108]",
+    "x": 195.0,
+    "y": 243.0,
+    "w": 186.0,
+    "h": 92.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 底板 [59:108]/Border",
+    "x": 195.0,
+    "y": 243.0,
+    "w": 186.0,
+    "h": 92.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 底板 [59:109]",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 168.0,
+    "h": 92.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 底板 [59:109]/Border",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 168.0,
+    "h": 92.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 史诗卡 ×5 [158:38]",
+    "x": 32.0,
+    "y": 243.0,
+    "w": 144.0,
+    "h": 92.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 史诗卡 ×5 [158:38]/图标与标记 [I158:38;157:71]",
+    "x": 32.0,
+    "y": 244.0,
+    "w": 144.0,
+    "h": 72.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 史诗卡 ×5 [158:38]/图标与标记 [I158:38;157:71]/奖励图标 [I158:38;157:72]",
+    "x": 72.0,
+    "y": 252.0,
+    "w": 64.0,
+    "h": 64.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/免费奖励 · Lv4 · 史诗卡 ×5 [158:38]/奖励名称与数量 [I158:38;157:74]",
+    "x": 34.0,
+    "y": 316.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]",
+    "x": 216.0,
+    "y": 245.0,
+    "w": 144.0,
+    "h": 92.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]/图标与标记 [I158:43;157:71]",
+    "x": 216.0,
+    "y": 246.0,
+    "w": 144.0,
+    "h": 72.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]/图标与标记 [I158:43;157:71]/奖励图标 [I158:43;157:72]",
+    "x": 256.0,
+    "y": 254.0,
+    "w": 64.0,
+    "h": 64.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]/图标与标记 [I158:43;157:71]/领取标记 [I158:43;157:73]",
+    "x": 272.0,
+    "y": 246.0,
+    "w": 32.0,
+    "h": 24.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]/图标与标记 [I158:43;157:71]/领取标记 [I158:43;157:73]/锁 [I158:43;157:73;157:64]",
+    "x": 279.0,
+    "y": 247.0,
+    "w": 18.0,
+    "h": 18.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/战令奖励 · Lv4 · 钻石 ×25 [158:43]/奖励名称与数量 [I158:43;157:74]",
+    "x": 218.0,
+    "y": 318.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/奖励数量 · ×5 [167:51]",
+    "x": 34.0,
+    "y": 311.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv4 · 未完成 [158:49]/奖励数量 · ×25 [167:52]",
+    "x": 218.0,
+    "y": 311.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 322.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 0.0,
+    "h": 0.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 底板 [59:111]",
+    "x": 195.0,
+    "y": 243.0,
+    "w": 186.0,
+    "h": 92.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 底板 [59:111]/Border",
+    "x": 195.0,
+    "y": 243.0,
+    "w": 186.0,
+    "h": 92.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 底板 [59:112]",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 168.0,
+    "h": 92.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 底板 [59:112]/Border",
+    "x": 20.0,
+    "y": 243.0,
+    "w": 168.0,
+    "h": 92.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 传奇卡 ×1 [158:50]",
+    "x": 32.0,
+    "y": 243.0,
+    "w": 144.0,
+    "h": 92.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 传奇卡 ×1 [158:50]/图标与标记 [I158:50;157:71]",
+    "x": 32.0,
+    "y": 244.0,
+    "w": 144.0,
+    "h": 72.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 传奇卡 ×1 [158:50]/图标与标记 [I158:50;157:71]/奖励图标 [I158:50;157:72]",
+    "x": 72.0,
+    "y": 252.0,
+    "w": 64.0,
+    "h": 64.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/免费奖励 · Lv5 · 传奇卡 ×1 [158:50]/奖励名称与数量 [I158:50;157:74]",
+    "x": 34.0,
+    "y": 316.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]",
+    "x": 216.0,
+    "y": 252.0,
+    "w": 144.0,
+    "h": 92.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]/图标与标记 [I158:55;157:71]",
+    "x": 216.0,
+    "y": 253.0,
+    "w": 144.0,
+    "h": 72.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]/图标与标记 [I158:55;157:71]/奖励图标 [I158:55;157:72]",
+    "x": 256.0,
+    "y": 261.0,
+    "w": 64.0,
+    "h": 64.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]/图标与标记 [I158:55;157:71]/领取标记 [I158:55;157:73]",
+    "x": 272.0,
+    "y": 253.0,
+    "w": 32.0,
+    "h": 24.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]/图标与标记 [I158:55;157:71]/领取标记 [I158:55;157:73]/锁 [I158:55;157:73;157:64]",
+    "x": 279.0,
+    "y": 254.0,
+    "w": 18.0,
+    "h": 18.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/战令奖励 · Lv5 · 五星宝箱 ×1 [158:55]/奖励名称与数量 [I158:55;157:74]",
+    "x": 218.0,
+    "y": 325.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/RewardScrollView/Viewport/Content/Lv5 · 未完成 [158:61]/奖励数量 · ×1 [167:53]",
+    "x": 34.0,
+    "y": 311.0,
+    "w": 140.0,
+    "h": 18.0,
+    "error": 421.0
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 1 · 已完成·金 [59:101]",
+    "x": 166.0,
+    "y": 265.000061,
+    "w": 48.991333,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 1 · 已完成·金 [59:101]/Border",
+    "x": 166.0,
+    "y": 265.000061,
+    "w": 48.991333,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 2 · 已完成·金 [59:104]",
+    "x": 166.0,
+    "y": 364.000031,
+    "w": 48.991333,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 2 · 已完成·金 [59:104]/Border",
+    "x": 166.0,
+    "y": 364.000031,
+    "w": 48.991333,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 3 · 已完成·金 [59:107]",
+    "x": 166.0,
+    "y": 463.000031,
+    "w": 48.991333,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 3 · 已完成·金 [59:107]/Border",
+    "x": 166.0,
+    "y": 463.000031,
+    "w": 48.991333,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 4 · 未完成·灰 [59:110]",
+    "x": 166.0,
+    "y": 562.000061,
+    "w": 48.991333,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 4 · 未完成·灰 [59:110]/Border",
+    "x": 166.0,
+    "y": 562.000061,
+    "w": 48.991333,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 5 · 未完成·灰 [59:113]",
+    "x": 166.0,
+    "y": 661.000061,
+    "w": 48.991333,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/奖励列表 · Lv1-Lv5 [158:73]/等级轴与进度 · 从上到下递增 [158:68]/等级 5 · 未完成·灰 [59:113]/Border",
+    "x": 166.0,
+    "y": 661.000061,
+    "w": 48.991333,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/Rectangle 30 [59:119]",
+    "x": 32.0,
+    "y": 137.000061,
+    "w": 48.9913254,
+    "h": 48.991333,
+    "error": 24.4956665
+  },
+  {
+    "screen": "BattlePass",
+    "path": "/Content/战令概览 · 等级、进度与开通入口 [158:79]/Rectangle 30 [59:119]/Border",
+    "x": 32.0,
+    "y": 137.000061,
+    "w": 48.9913254,
+    "h": 48.991333,
+    "error": 24.4956665
+  }
+]

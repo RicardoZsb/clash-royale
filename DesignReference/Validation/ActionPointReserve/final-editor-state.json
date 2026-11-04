@@ -1,0 +1,10 @@
+{
+  "playing": false,
+  "dirty": false,
+  "screen": "BattleHome",
+  "ActionPoints": 16,
+  "ReservePoints": 16,
+  "IsOpen": false,
+  "gameViewIndex": 7,
+  "gameViewSize": "(402.00, 874.00)"
+}

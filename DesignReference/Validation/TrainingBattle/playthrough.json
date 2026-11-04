@@ -1,0 +1,53 @@
+{
+  "MatchId": "B7572dc58747c40e29c3fe5972d723fa4",
+  "Elapsed": 180.789246,
+  "result": "惜败",
+  "reward": "任务宝箱 ×2",
+  "played": [
+    "archer",
+    "arrows",
+    "dragon",
+    "fireball",
+    "giant",
+    "knight",
+    "witch",
+    "zap"
+  ],
+  "states": [
+    "archer:Attack",
+    "archer:Idle",
+    "archer:Move",
+    "archer:Spawn",
+    "dragon:Attack",
+    "dragon:Idle",
+    "dragon:Move",
+    "dragon:Spawn",
+    "giant:Attack",
+    "giant:Idle",
+    "giant:Move",
+    "giant:Spawn",
+    "knight:Attack",
+    "knight:Idle",
+    "knight:Move",
+    "knight:Spawn",
+    "skeleton:Attack",
+    "skeleton:Idle",
+    "skeleton:Move",
+    "skeleton:Spawn",
+    "witch:Attack",
+    "witch:Idle",
+    "witch:Move",
+    "witch:Spawn",
+    "witch:Summon"
+  ],
+  "summonedSkeletonSamples": 6964,
+  "towerHealth": [
+    703.0,
+    0.0,
+    0.0,
+    0.0,
+    499.0,
+    2256.0
+  ],
+  "backendError": null
+}

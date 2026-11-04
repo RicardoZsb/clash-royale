@@ -1,0 +1,10 @@
+{
+  "hit": "WithdrawButton",
+  "first": {
+    "ActionPoints": 24,
+    "ReservePoints": 8,
+    "button": false
+  },
+  "repeatedWithdrawalUnchanged": true,
+  "conserved": true
+}

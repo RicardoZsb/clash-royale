@@ -1,0 +1,19 @@
+{
+  "referenceResolution": [
+    402,
+    874
+  ],
+  "referencePixelIdenticalPages": 10,
+  "testedResolutions": [
+    "1080x1920",
+    "1080x2400",
+    "1080x2640",
+    "402x874"
+  ],
+  "screensPerResolution": 10,
+  "allPageRootsFillCanvas": true,
+  "allDropdownBlockersFillPage": true,
+  "nextFramePopupRaycastsPassed": true,
+  "defaultScreen": "BattleHome",
+  "scope": "RectTransform anchors and compensating position/size offsets; initial screen only"
+}
